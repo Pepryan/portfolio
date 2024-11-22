@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiChevronDown, FiAward } from 'react-icons/fi';
+import Image from 'next/image';
 
 const certificationGroups = {
   'Cloud & DevOps': [
@@ -123,10 +124,12 @@ const CertificationCard = ({ cert }) => {
             )}
           </div>
           {cert.badge && (
-            <img 
+            <Image 
               src={cert.badge} 
               alt={`${cert.title} badge`} 
-              className="w-16 h-16 object-contain transform group-hover:scale-110 transition-transform duration-300"
+              width={64}
+              height={64}
+              className="object-contain transform group-hover:scale-110 transition-transform duration-300"
             />
           )}
         </div>

@@ -124,7 +124,7 @@ export default function BlogList({ initialPosts }) {
         {searchQuery && (
           <p className="mb-4 text-gray-600 dark:text-gray-400">
             Found {filteredPosts.length} result{filteredPosts.length !== 1 ? 's' : ''} 
-            for "{searchQuery}"
+            for &quot;{searchQuery}&quot;
           </p>
         )}
 

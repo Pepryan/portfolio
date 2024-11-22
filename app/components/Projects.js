@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const projects = [
   {
@@ -43,10 +44,11 @@ const ProjectCard = ({ project, index }) => {
     >
       {project.image && (
         <div className="relative h-48 overflow-hidden">
-          <img
+          <Image
             src={project.image}
             alt={project.title}
-            className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
+            fill
+            className="object-cover transform group-hover:scale-110 transition-transform duration-300"
           />
         </div>
       )}
