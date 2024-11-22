@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Code block styles */
+pre {
+  margin: 1em 0;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+pre code {
+  padding: 0;
+  background: none;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Inline code */
+:not(pre) > code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  white-space: normal;
+}
+
+/* Dark mode transitions */
+.dark pre,
+.dark code {
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
