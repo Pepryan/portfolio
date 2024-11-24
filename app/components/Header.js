@@ -16,6 +16,7 @@ export default function Header({ setActiveSection, showSearch, onSearch, isPost 
               <Link
                 href="/"
                 className="flex items-center gap-2 text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+                onClick={() => setActiveSection?.('hero')}
               >
                 <FiHome className="w-5 h-5" />
                 <span className="font-bold hidden sm:inline">FR</span>
