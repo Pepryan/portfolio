@@ -10,7 +10,8 @@ import Contact from './components/Contact';
 import Certifications from "./components/Certifications";
 import Experience from './components/Experience';
 import Education from './components/Education';
-import { FiUser, FiBook, FiBriefcase, FiCode, FiAward, FiFolder, FiMail, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import { FiUser, FiBook, FiBriefcase, FiCode, FiAward, FiFolder, FiMail } from 'react-icons/fi';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6';
 import { motion, AnimatePresence } from 'framer-motion';
 import Footer from './components/Footer';
 
@@ -65,7 +66,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900">
-      <Header setActiveSection={setActiveSection} />
+      <Header setActiveSection={setActiveSection} showSearch={false} />
       <div className="flex flex-1 overflow-hidden pt-14">
         {activeSection !== 'hero' && (
           <>
@@ -100,7 +101,7 @@ export default function Home() {
                 className="absolute -right-4 top-6 bg-blue-500 text-white p-2 rounded-full shadow-lg hover:bg-blue-600 transition-colors z-10"
                 style={{ transform: 'translateX(100%)' }}
               >
-                {isNavbarCollapsed ? <FiChevronRight size={16} /> : <FiChevronLeft size={16} />}
+                {isNavbarCollapsed ? <FaChevronRight size={16} /> : <FaChevronLeft size={16} />}
               </button>
             </motion.nav>
           </>

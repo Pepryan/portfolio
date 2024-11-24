@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiArrowRight } from 'react-icons/fi';
+import Link from 'next/link';
+import { FiGithub, FiLinkedin, FiMail, FiArrowRight, FiGitlab, FiInstagram } from 'react-icons/fi';
+import {FaXTwitter} from 'react-icons/fa6';
 
 const Hero = ({ onExplore }) => {
   return (
@@ -24,7 +26,7 @@ const Hero = ({ onExplore }) => {
           transition={{ delay: 0.3 }}
           className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
         >
-          Cloud Engineer & DevOps Specialist
+          Cloud Engineer | DevSecOps | Web
         </motion.p>
 
         <motion.div 
@@ -34,7 +36,10 @@ const Hero = ({ onExplore }) => {
           className="flex justify-center gap-6 mb-12"
         >
           <SocialLink href="https://github.com/Pepryan" icon={<FiGithub />} />
+          <SocialLink href="https://gitlab.com/Pepryan" icon={<FiGitlab />} />
           <SocialLink href="https://linkedin.com/in/febryanramadhan" icon={<FiLinkedin />} />
+          <SocialLink href="https://instagram.com/nayrbef" icon={<FiInstagram />} />
+          <SocialLink href="https://x.com/pepryan" icon={<FaXTwitter />} />
           <SocialLink href="mailto:febryanramadhan@gmail.com" icon={<FiMail />} />
         </motion.div>
 
@@ -47,6 +52,17 @@ const Hero = ({ onExplore }) => {
         >
           Explore Portfolio
           <FiArrowRight className="group-hover:translate-x-1 transition" />
+        </motion.button>
+         <motion.button
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          className="group flex items-center gap-2 mx-auto px-6 py-3 mt-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+        >
+          <Link href="blog/" className="flex items-center gap-2">
+            Blog
+            <FiArrowRight className="group-hover:translate-x-1 transition" />
+          </Link>
         </motion.button>
       </div>
     </motion.section>

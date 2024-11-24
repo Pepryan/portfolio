@@ -2,8 +2,8 @@
 import { useState, useMemo } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import BlogCard from './BlogCard';
-import { FiHome, FiSearch, FiSun, FiMoon, FiCalendar } from 'react-icons/fi';
 import Link from 'next/link';
+import Header from './Header';
 
 const PaginationButton = ({ onClick, disabled, children, active }) => {
   const { darkMode } = useTheme();
@@ -32,7 +32,7 @@ const PaginationButton = ({ onClick, disabled, children, active }) => {
 };
 
 export default function BlogList({ initialPosts }) {
-  const { darkMode, toggleDarkMode } = useTheme();
+  const { darkMode } = useTheme();
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 5;
@@ -67,45 +67,12 @@ export default function BlogList({ initialPosts }) {
 
   return (
     <div className={`min-h-screen ${darkMode ? 'dark bg-gray-900' : 'bg-white'}`}>
-      <nav className="bg-white dark:bg-gray-800 shadow-md mb-8">
-        <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <Link href="/" className="inline-flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-500">
-                <FiHome className="mr-2" /> Home
-              </Link>
-              <Link href="/blog/archive" className="inline-flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-500">
-                <FiCalendar className="mr-2" /> Archive
-              </Link>
-            </div>
-            <div className="flex items-center space-x-4">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Search posts..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10 pr-4 py-2 rounded-lg border dark:border-gray-700 dark:bg-gray-800 dark:text-white w-64
-                    focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400"
-                />
-                <FiSearch className="absolute left-3 top-3 text-gray-400" />
-              </div>
-              <button
-                onClick={toggleDarkMode}
-                className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-                aria-label="Toggle theme"
-              >
-                {darkMode ? 
-                  <FiSun className="w-5 h-5 text-gray-600 dark:text-gray-300" /> : 
-                  <FiMoon className="w-5 h-5 text-gray-600 dark:text-gray-300" />
-                }
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      <div className="max-w-4xl mx-auto p-4">
+      <Header 
+        showSearch={true} 
+        onSearch={setSearchQuery}
+      />
+      
+      <div className="max-w-4xl mx-auto p-4 pt-24">
         {/* Tags filter */}
         <div className="mb-8 flex flex-wrap gap-2">
           {allTags.map(tag => (

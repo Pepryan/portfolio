@@ -3,40 +3,35 @@ import Link from 'next/link';
 import { FiArrowLeft, FiHome, FiSun, FiMoon } from 'react-icons/fi';
 import { useTheme } from '../../context/ThemeContext';
 import TableOfContents from '../../components/TableOfContents';
-import { memo } from 'react';
+import { memo, useEffect, useState } from 'react';
+import Header from '../../components/Header';
 
 // Memoize the entire component
 export default memo(function BlogPostLayout({ children, data, readingTime, wordCount, content }) {
   const { darkMode, toggleDarkMode } = useTheme();
+  const [showScrollButton, setShowScrollButton] = useState(false);
+
+  // Effect to show/hide the scroll button based on scroll position
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) { // Show button after scrolling down 300px
+        setShowScrollButton(true);
+      } else {
+        setShowScrollButton(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <div className={`min-h-screen ${darkMode ? 'dark bg-gray-900' : 'bg-white'}`}>
-      <nav className="bg-white dark:bg-gray-800 shadow-md mb-8">
-        <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <Link href="/" className="inline-flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-500">
-                <FiHome className="mr-2" /> Home
-              </Link>
-              <Link href="/blog" className="inline-flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-500">
-                <FiArrowLeft className="mr-2" /> Back to Blog
-              </Link>
-            </div>
-            <button
-              onClick={toggleDarkMode}
-              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-              aria-label="Toggle theme"
-            >
-              {darkMode ? 
-                <FiSun className="w-5 h-5 text-gray-600 dark:text-gray-300" /> : 
-                <FiMoon className="w-5 h-5 text-gray-600 dark:text-gray-300" />
-              }
-            </button>
-          </div>
-        </div>
-      </nav>
+      <Header showSearch={false} isPost={true} />
 
-      <div className="max-w-4xl mx-auto p-4">
+      <div className="max-w-4xl mx-auto p-4 mt-20">
         <article>
           <h1 className="text-4xl font-bold mb-4 dark:text-white">{data.title}</h1>
 

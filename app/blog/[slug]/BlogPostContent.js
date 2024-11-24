@@ -1,12 +1,13 @@
 "use client";
 import Link from 'next/link';
-import { FiArrowLeft, FiHome } from 'react-icons/fi';
+import Image from 'next/image';
 import { useTheme } from '../../context/ThemeContext';
 import TableOfContents from '../../components/TableOfContents';
 import { useMemo } from 'react';
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote } from 'next-mdx-remote';
 import rehypeHighlight from 'rehype-highlight';
+import Header from '../../components/Header';
 
 export default function BlogPostContent({ content, data }) {
   const { darkMode } = useTheme();
@@ -28,29 +29,46 @@ export default function BlogPostContent({ content, data }) {
     });
   }, [content]);
 
+  const components = {
+    img: ({ src, alt }) => {
+      // Pastikan path dimulai dengan '/'
+      const imageSrc = src.startsWith('/') ? src : `/${src}`;
+      
+      return (
+        <div className="my-8">
+          <img
+            src={imageSrc}
+            alt={alt}
+            className="rounded-lg w-full"
+            loading="lazy"
+            onError={(e) => {
+              console.error('Image failed to load:', imageSrc);
+            }}
+          />
+        </div>
+      );
+    },
+    pre: ({ children }) => (
+      <div className="relative">
+        <button
+          onClick={() => {
+            navigator.clipboard.writeText(children.props.children);
+          }}
+          className="absolute top-2 right-2 px-2 py-1 text-sm bg-gray-700 text-white rounded hover:bg-gray-600"
+        >
+          Copy
+        </button>
+        <pre>{children}</pre>
+      </div>
+    ),
+  };
+
   return (
     <div className={`min-h-screen ${darkMode ? 'dark bg-gray-900' : 'bg-white'}`}>
-      <nav className="bg-white dark:bg-gray-800 shadow-md mb-8">
-        <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center space-x-4">
-            <Link 
-              href="/" 
-              className="inline-flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-500"
-            >
-              <FiHome className="mr-2" /> Home
-            </Link>
-            <Link 
-              href="/blog" 
-              className="inline-flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-500"
-            >
-              <FiArrowLeft className="mr-2" /> Back to Blog
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <Header showSearch={false} />
 
-      <div className="max-w-4xl mx-auto p-4">
-        <article>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article className="pt-32">
           <h1 className="text-4xl font-bold mb-4 dark:text-white">{data.title}</h1>
           
           {/* Table of Contents */}
@@ -60,7 +78,7 @@ export default function BlogPostContent({ content, data }) {
           </div>
 
           <div className="text-gray-600 dark:text-gray-300 mb-4">
-            <div className="flex items-center gap-4 mb-2">
+            <div className="flex flex-wrap items-center gap-4 mb-2">
               <time>Created: {new Date(data.date).toLocaleDateString()}</time>
               {data.updated && (
                 <time>Updated: {new Date(data.updated).toLocaleDateString()}</time>
@@ -70,7 +88,7 @@ export default function BlogPostContent({ content, data }) {
               <span>·</span>
               <span>{wordCount} words</span>
             </div>
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               {data.tags.map((tag) => (
                 <Link
                   key={tag}
@@ -87,21 +105,7 @@ export default function BlogPostContent({ content, data }) {
             {mdxSource && (
               <MDXRemote 
                 {...mdxSource}
-                components={{
-                  pre: ({ children }) => (
-                    <div className="relative">
-                      <button
-                        onClick={() => {
-                          navigator.clipboard.writeText(children.props.children);
-                        }}
-                        className="absolute top-2 right-2 px-2 py-1 text-sm bg-gray-700 text-white rounded hover:bg-gray-600"
-                      >
-                        Copy
-                      </button>
-                      <pre>{children}</pre>
-                    </div>
-                  ),
-                }}
+                components={components}
               />
             )}
           </div>
