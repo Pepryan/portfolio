@@ -12,6 +12,8 @@ import Header from '../../components/Header';
 export default function BlogPostContent({ content, data }) {
   const { darkMode } = useTheme();
 
+  console.log('Content:', content); // Debugging
+
   // Calculate reading time
   const { readingTime, wordCount } = useMemo(() => {
     const wordsPerMinute = 200;
@@ -31,8 +33,10 @@ export default function BlogPostContent({ content, data }) {
 
   const components = {
     img: ({ src, alt }) => {
-      // Pastikan path dimulai dengan '/'
-      const imageSrc = src.startsWith('/') ? src : `/${src}`;
+      const imageSrc = `/portfolio${src.startsWith('/') ? src : `/${src}`}`;
+      
+      console.log('Original src:', src);
+      console.log('Final image path:', imageSrc);
       
       return (
         <div className="my-8">

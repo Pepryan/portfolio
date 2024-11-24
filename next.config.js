@@ -5,6 +5,7 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    path: '/portfolio',
   },
   experimental: {
     mdxRs: true,
