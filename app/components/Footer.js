@@ -1,29 +1,15 @@
 import { FiCoffee } from 'react-icons/fi';
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 py-6">
-        <div className="flex flex-col items-center justify-center space-y-2 text-sm text-gray-600 dark:text-gray-400">
-          <p className="flex items-center gap-2">
-            <span>© 2024 Febryan Ramadhan. All rights reserved.</span>
-          </p>
-          <p className="flex items-center gap-2">
-            <FiCoffee className="text-blue-500" />
-            <span>Built with Next.js, Tailwind CSS, and</span>
-            <a 
-              href="https://www.anthropic.com/claude" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-600 dark:hover:text-blue-400"
-            >
-              Claude AI
-            </a>
-          </p>
-        </div>
+    <footer className="border-t border-neutral-200 dark:border-neutral-800 py-6 text-sm text-neutral-600 dark:text-neutral-400">
+      <div className="max-w-3xl mx-auto px-4 text-center">
+        <p>© 2024 Febryan Ramadhan. All rights reserved.</p>
+        <p className="flex items-center justify-center gap-1 mt-1">
+          <FiCoffee />
+          <span>Built with Next.js and Claude AI</span>
+        </p>
       </div>
     </footer>
   );
-};
-
-export default Footer; 
+} 

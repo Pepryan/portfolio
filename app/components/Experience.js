@@ -1,77 +1,82 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const experiences = [
   {
     role: 'Cloud Engineer',
     company: 'PT. Boer Technology (Btech)',
     period: 'February 2022 - Present',
-    location: 'DKI Jakarta, Indonesia',
-    responsibilities: [
-      'Troubleshoot, reconfigure, tuning and manage OpenStack instances with Linux-based operating systems',
-      'Manage Kubernetes cluster and assist in troubleshooting',
-      'Revolutionizing tasks using bash and python scripting for productivity',
-      'Ensuring optimal performance through monitoring using Grafana, Prometheus, alert, victoria metrics, uptime kuma'
-    ]
+    location: 'Jakarta, Indonesia',
+    tools: ['OpenStack', 'Kubernetes', 'Python', 'Bash', 'Grafana', 'Prometheus', 'Linux']
   },
   {
     role: 'Web Developer',
     company: 'PT. Ciptadra Softindo',
     period: 'March 2020 - February 2021',
     location: 'Depok, West Java, Indonesia',
-    responsibilities: [
-      'Developed Onebox CRM using Phalcon, CodeIgniter, Javascript',
-      'Used Jira as project tools and Docker as container',
-      'Handled client support and problem resolution',
-      'Worked in hybrid setup (office & remote)'
-    ]
+    tools: ['PHP', 'JavaScript', 'Docker', 'Jira', 'Git', 'MySQL']
   },
   {
     role: 'Instructor HTML, CSS, Javascript',
     company: 'Progate (Digitalent Kominfo & Event Ready Set Code!)',
     period: 'June 2020 - November 2020',
     location: 'Bogor, West Java, Indonesia',
-    responsibilities: [
-      'Mentored students in Online Coding Bootcamp via Discord',
-      'Instructed Digital Talent Scholarship Online Academy',
-      'Reviewed and graded student projects',
-      'Collaborated with other instructors'
-    ]
+    tools: ['HTML', 'CSS', 'JavaScript', 'Discord']
   }
 ];
 
 const Experience = () => {
   return (
-    <section className="min-h-full bg-white dark:bg-gray-900 py-16 px-5">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-8 text-gray-900 dark:text-white">
-          Experience
-        </h2>
-        <div className="space-y-8">
-          {experiences.map((experience, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
-            >
-              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
-                {experience.role}
-              </h3>
-              <p className="text-blue-600 dark:text-blue-400 mb-2">{experience.company}</p>
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{experience.period}</p>
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{experience.location}</p>
-              <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-                {experience.responsibilities.map((responsibility, idx) => (
-                  <li key={idx}>{responsibility}</li>
-                ))}
-              </ul>
-            </motion.div>
-          ))}
-        </div>
+    <div className="relative">
+      {/* Timeline line */}
+      <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b 
+        from-neutral-300 dark:from-neutral-700 to-transparent" />
+      
+      <div className="space-y-12">
+        {experiences.map((exp, index) => (
+          <div key={index} className="relative pl-24">
+            {/* Timeline dot */}
+            <div className="absolute left-7 top-3 w-3 h-3 rounded-full 
+              bg-neutral-300 dark:bg-neutral-700 
+              ring-4 ring-white dark:ring-neutral-900" />
+            
+            {/* Date badge */}
+            <div className="absolute left-0 top-2 text-sm font-medium 
+              text-neutral-600 dark:text-neutral-400">
+              {exp.period.split(' - ')[0]}
+            </div>
+            
+            <div className="hover-card">
+              <div className="card-padding space-y-3">
+                <div>
+                  <h3 className="font-medium text-lg text-neutral-900 dark:text-neutral-100">
+                    {exp.role}
+                  </h3>
+                  <p className="text-base text-neutral-600 dark:text-neutral-400">
+                    {exp.company}
+                  </p>
+                  <p className="text-sm text-neutral-500 dark:text-neutral-500">
+                    {exp.location}
+                  </p>
+                </div>
+                
+                <div className="flex flex-wrap gap-2">
+                  {exp.tools.map((tool) => (
+                    <span
+                      key={tool}
+                      className="px-2.5 py-1 text-xs font-medium bg-neutral-100 
+                        dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 
+                        rounded-full"
+                    >
+                      {tool}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
   );
 };
 

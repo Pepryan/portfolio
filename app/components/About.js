@@ -1,36 +1,42 @@
 export default function About() {
   return (
-    <section className="min-h-full bg-white dark:bg-gray-900 py-16 px-5">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-semibold mb-6 text-center text-gray-900 dark:text-white">
-          About Me
-        </h2>
-        <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-          A motivated, adaptable, fast self-led learner, and problem solver based in Bogor, Indonesia. 
-          Passionate about all types of jobs in the IT field, with extensive experience in Web Development 
-          and Cloud Computing.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-          <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Expertise</h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-              <li>System Administration</li>
-              <li>Cloud Computing</li>
-              <li>DevOps</li>
-            </ul>
-          </div>
-          <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Other Skills</h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-              <li>Web Development</li>
-              <li>Troubleshooting</li>
-              <li>Task Management</li>
-              <li>Network Administration</li>
-              <li>Network Configuration</li>
-            </ul>
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 py-16">
+      <div className="lg:col-span-2 space-y-6">
+        <div className="prose dark:prose-invert max-w-none">
+          <p className="text-lg leading-relaxed text-neutral-600 dark:text-neutral-400">
+            A motivated Cloud Engineer with expertise in DevSecOps and web development. 
+            Experienced in managing cloud infrastructure, implementing security best practices, 
+            and developing scalable solutions.
+          </p>
+          
+          <p className="text-lg leading-relaxed text-neutral-600 dark:text-neutral-400">
+            Currently focused on cloud architecture, infrastructure automation, and 
+            helping organizations build secure and efficient cloud-native applications.
+          </p>
+        </div>
+      </div>
+
+      <div className="space-y-8">
+        <div>
+          <h3 className="text-lg font-medium mb-4 text-neutral-800 dark:text-neutral-300">Current Focus</h3>
+          <div className="flex flex-wrap gap-2">
+            {[
+              'Cloud Architecture',
+              'Infrastructure Automation',
+              'Security Practices',
+              'Cloud-Native Apps'
+            ].map((focus) => (
+              <span 
+                key={focus}
+                className="px-3 py-1 bg-neutral-100 dark:bg-neutral-800 
+                  text-neutral-600 dark:text-neutral-400 rounded-full text-sm"
+              >
+                {focus}
+              </span>
+            ))}
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

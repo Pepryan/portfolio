@@ -1,0 +1,92 @@
+/* Code block base styles */
+pre {
+  overflow-x: auto;
+  padding: 0;
+  margin: 0;
+}
+
+/* Line number styles */
+.line-number {
+  text-align: right;
+  padding-right: 1rem;
+  width: 1rem;
+  color: rgb(156 163 175);
+  user-select: none;
+}
+
+/* Line highlight */
+.highlighted {
+  background: rgba(200, 200, 255, 0.1);
+  border-left: 2px solid #60A5FA;
+  padding-left: calc(1rem - 2px);
+}
+
+/* Word highlight */
+.word {
+  background-color: rgba(200, 200, 255, 0.1);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* Inline code */
+:not(pre) > code {
+  background: rgba(200, 200, 255, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 0.3em;
+  font-size: 0.9em;
+  font-family: var(--font-mono);
+}
+
+/* Code block title */
+.code-title {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: rgb(156 163 175);
+  padding: 0.5rem 1rem;
+  background: rgba(200, 200, 255, 0.1);
+  border-bottom: 1px solid rgba(200, 200, 255, 0.1);
+}
+
+/* Code block container */
+.code-container {
+  position: relative;
+  background: rgb(17 24 39);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+/* Copy button */
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  color: rgb(156 163 175);
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.code-container:hover .copy-button {
+  opacity: 1;
+}
+
+.copy-button:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Language badge */
+.language-badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  color: rgb(156 163 175);
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+} 

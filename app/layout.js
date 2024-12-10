@@ -1,14 +1,12 @@
-import { ThemeProvider } from './context/ThemeContext';
 import './globals.css';
+import { ThemeProvider } from './context/ThemeContext';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning className="bg-white dark:bg-gray-900 transition-colors duration-200">
+      <body suppressHydrationWarning className="bg-white dark:bg-neutral-900">
         <ThemeProvider>
-          <div className="min-h-screen">
-            {children}
-          </div>
+          {children}
         </ThemeProvider>
       </body>
     </html>

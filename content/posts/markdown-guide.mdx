@@ -1,0 +1,126 @@
+---
+title: "Complete Markdown and MDX Guide"
+date: "2024-03-25"
+tags: ["markdown", "mdx", "guide", "tutorial"]
+excerpt: "A comprehensive guide to using Markdown and MDX features including code blocks, tables, and more"
+---
+
+# Markdown and MDX Guide
+
+This guide demonstrates the various features available in Markdown and MDX.
+
+## Code Blocks
+
+### Basic Code Block with Syntax Highlighting
+
+```javascript
+const greeting = "Hello World";
+console.log(greeting);
+
+// Object example
+const user = {
+  name: "John Doe",
+  age: 30,
+  isAdmin: true
+};
+```
+
+### Code Block with Title and Line Numbers
+
+```bash
+# Install dependencies
+npm install next@latest
+npm install @tailwindcss/typography
+npm install gray-matter
+```
+
+### Code Block with Line Highlighting
+
+```python
+def calculate_sum(numbers):
+    total = 0  # Initialize total
+    for num in numbers:  
+        total += num     
+        print(f"Current sum: {total}")
+    return total
+
+numbers = [1, 2, 3, 4, 5]
+result = calculate_sum(numbers)
+```
+
+## Tables
+
+| Feature | Description | Status |
+|---------|------------|--------|
+| Tables | Basic table support | ✅ |
+| Lists | Ordered and unordered lists | ✅ |
+| Code Blocks | Syntax highlighting | ✅ |
+| Images | Image embedding | ✅ |
+
+## Text Formatting
+
+### Basic Formatting
+
+This is **bold text**, and this is *italic text*.
+You can also use ***bold and italic*** together.
+
+### Blockquotes
+
+> This is a blockquote. You can use it to emphasize important information or quotes.
+>
+> You can have multiple paragraphs in a blockquote.
+
+### Lists
+
+#### Unordered List
+- First item
+  - Nested item
+  - Another nested item
+- Second item
+- Third item
+
+#### Ordered List
+1. First step
+   1. Sub-step one
+   2. Sub-step two
+2. Second step
+3. Third step
+
+## Links and Images
+
+### Links
+[Visit OpenAI](https://openai.com)
+[Internal Link to Blog](/blog)
+
+### Images
+![Example Image](/images/example.png)
+
+## Advanced Features
+
+### Task Lists
+
+- [x] Write the introduction
+- [x] Add code examples
+- [ ] Review content
+- [ ] Publish post
+
+### Custom Components
+
+<CodeBlock language="json" title="package.json">
+{`{
+  "name": "my-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest"
+  }
+}`}
+</CodeBlock>
+
+## Conclusion
+
+This post demonstrates the main features available in Markdown and MDX. You can use these elements to create rich, well-formatted content for your blog.
+
+---
+
+*Last updated: March 25, 2024*

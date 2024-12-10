@@ -1,79 +1,69 @@
-import { motion } from 'framer-motion';
-import { FiMail, FiPhone, FiMapPin, FiGithub, FiGitlab, FiLinkedin } from 'react-icons/fi';
+import { useState } from 'react';
+import { FiMail, FiMapPin, FiX, FiMessageSquare } from 'react-icons/fi';
+import { componentConfig } from '../config/components';
 
-const Contact = () => {
+export default function Contact() {
+  const [isVisible, setIsVisible] = useState(true);
+  
   const contactInfo = {
-    phone: '08888024148',
-    email: 'febryanramadhan@gmail.com',
-    location: 'Jl. Parkit VII, Ciluar Asri Blok B9 No. 26, Bogor, Indonesia',
-    social: {
-      linkedin: 'www.linkedin.com/in/febryanramadhan',
-      github: 'github.com/Pepryan',
-      gitlab: 'gitlab.com/Pepryan',
-      blog: 'ryan13-pc.blogspot.com'
-    }
+    email: componentConfig.contact.email,
+    location: componentConfig.contact.location
   };
 
   return (
-    <section className="min-h-full bg-white dark:bg-gray-900 py-16 px-5">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-8 text-gray-900 dark:text-white">
-          Contact Me
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
-          >
-            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
+    <>
+      {/* Hidden Contact Button */}
+      {!isVisible && (
+        <button
+          onClick={() => setIsVisible(true)}
+          className="fixed bottom-4 right-8 z-50 bg-neutral-800 dark:bg-neutral-700 
+            text-white px-4 py-2 rounded-t-lg shadow-lg hover:bg-neutral-700 
+            dark:hover:bg-neutral-600 transition-all duration-200"
+        >
+          <div className="flex items-center gap-2">
+            <FiMessageSquare className="w-4 h-4" />
+            <span className="text-sm">Contact Info</span>
+          </div>
+        </button>
+      )}
+
+      {/* Contact Card */}
+      <div className={`
+        fixed bottom-0 right-8 z-50 transition-all duration-300 ease-in-out
+        ${isVisible ? 'translate-y-0' : 'translate-y-full'}
+      `}>
+        <div className="bg-white dark:bg-neutral-800 rounded-t-lg shadow-lg p-4 
+          border border-neutral-200 dark:border-neutral-700 max-w-sm">
+          
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="font-medium text-neutral-900 dark:text-neutral-100">
               Contact Information
             </h3>
-            <div className="space-y-4">
-              <p className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
-                <FiPhone className="text-blue-500" />
-                {contactInfo.phone}
-              </p>
-              <p className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
-                <FiMail className="text-blue-500" />
-                {contactInfo.email}
-              </p>
-              <p className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
-                <FiMapPin className="text-blue-500" />
-                {contactInfo.location}
-              </p>
-            </div>
-          </motion.div>
+            <button 
+              onClick={() => setIsVisible(false)}
+              className="text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 
+                dark:hover:text-neutral-200 p-1"
+            >
+              <FiX className="w-4 h-4" />
+            </button>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg"
-          >
-            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
-              Social Links
-            </h3>
-            <div className="space-y-4">
-              {Object.entries(contactInfo.social).map(([platform, url]) => (
-                <a
-                  key={platform}
-                  href={`https://${url}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
-                >
-                  {platform === 'linkedin' && <FiLinkedin className="text-blue-500" />}
-                  {platform === 'github' && <FiGithub className="text-blue-500" />}
-                  {platform === 'gitlab' && <FiGitlab className="text-blue-500" />}
-                  {url}
-                </a>
-              ))}
+          <div className="space-y-3">
+            <div className="flex items-center gap-3 text-sm text-neutral-600 dark:text-neutral-400">
+              <FiMail className="flex-shrink-0 w-4 h-4" />
+              <a href={`mailto:${contactInfo.email}`} 
+                className="hover:text-neutral-900 dark:hover:text-neutral-100">
+                {contactInfo.email}
+              </a>
             </div>
-          </motion.div>
+
+            <div className="flex items-center gap-3 text-sm text-neutral-600 dark:text-neutral-400">
+              <FiMapPin className="flex-shrink-0 w-4 h-4" />
+              <span>{contactInfo.location}</span>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </>
   );
-};
-
-export default Contact;
+}

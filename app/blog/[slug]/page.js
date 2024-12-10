@@ -2,9 +2,12 @@ import { cache } from 'react';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { MDXRemote } from 'next-mdx-remote/rsc';
-import BlogPostLayout from './BlogPostLayout';
+import BlogPostClient from './BlogPostClient';
 import { getPosts } from '../../lib/getPosts';
+import { serialize } from 'next-mdx-remote/serialize';
+import remarkGfm from 'remark-gfm';
+import rehypePrettyCode from 'rehype-pretty-code';
+import { rehypePrettyCodeConfig } from '../../lib/rehypePrettyCodeConfig';
 
 const getPost = cache(async (slug) => {
   const filePath = path.join(process.cwd(), 'content/posts', `${slug}.mdx`);
@@ -31,29 +34,48 @@ export default async function BlogPost({ params }) {
       return <div>Post not found</div>;
     }
 
-    const { data, content } = post;
-    const wordsPerMinute = 200;
-    const wordCount = content.trim().split(/\s+/).length;
-    const readingTime = Math.ceil(wordCount / wordsPerMinute);
+    const words = post.content.trim().split(/\s+/).length;
+    const readingTime = Math.ceil(words / 200);
 
-    const MdxContent = () => (
-      <article className="prose dark:prose-invert max-w-none">
-        <MDXRemote source={content} />
-      </article>
-    );
+    const mdxSource = await serialize(post.content, {
+      mdxOptions: {
+        remarkPlugins: [
+          remarkGfm,
+        ],
+        rehypePlugins: [
+          [rehypePrettyCode, rehypePrettyCodeConfig],
+        ],
+        format: 'mdx',
+        development: process.env.NODE_ENV === 'development',
+      },
+      scope: {},
+      parseFrontmatter: true,
+    });
+    
+    const enhancedFrontmatter = {
+      ...post.data,
+      readingTime,
+      wordCount: words,
+      rawContent: post.content,
+      slug,
+    };
 
     return (
-      <BlogPostLayout 
-        data={data} 
-        readingTime={readingTime} 
-        wordCount={wordCount}
-        content={content}
-      >
-        <MdxContent />
-      </BlogPostLayout>
+      <BlogPostClient 
+        content={mdxSource} 
+        frontmatter={enhancedFrontmatter}
+      />
     );
   } catch (error) {
     console.error('Error in BlogPost:', error);
+    if (process.env.NODE_ENV === 'development') {
+      return (
+        <div className="p-4 bg-red-50 text-red-900 rounded-lg">
+          <h2 className="text-lg font-bold mb-2">Error loading post</h2>
+          <pre className="whitespace-pre-wrap">{error.message}</pre>
+        </div>
+      );
+    }
     return <div>Error loading post</div>;
   }
 }

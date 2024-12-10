@@ -13,6 +13,7 @@ Here are some useful Bash scripts that I frequently use in my daily DevOps tasks
 ## 1. System Resource Monitor
 
 This script monitors CPU, Memory, and Disk usage: 
+
 ```bash
 #!/bin/bash
 echo System Resource Monitor
@@ -22,6 +23,18 @@ echo "Memory Usage:"
 free | grep Mem | awk '{print $3/$2 100.0}'%
 echo "Disk Usage:"
 df -h | awk '$NF=="/"{print $5}'
+```
+
+## Test Python Code
+
+```python
+print("hello-world")
+```
+
+## Plain Text Example
+
+```text
+test
 ```
 
 ## 2. Backup Script
@@ -75,7 +88,7 @@ ping -c 4 google.com
 
 ## Features of This Document
 
-- **Code Blocks**: Shown above for various scripts.
+- **Code Blocks**: `Shown above for various scripts.`
 - **Lists**: 
   - Item 1
   - Item 2

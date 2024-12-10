@@ -42,11 +42,13 @@ export default function BlogList({ initialPosts }) {
     if (!searchQuery.trim()) return initialPosts;
 
     const query = searchQuery.toLowerCase();
-    return initialPosts.filter(post => 
-      post.title.toLowerCase().includes(query) ||
-      post.excerpt.toLowerCase().includes(query) ||
-      post.tags.some(tag => tag.toLowerCase().includes(query))
-    );
+    return initialPosts.filter(post => {
+      const titleMatch = post.title?.toLowerCase().includes(query);
+      const excerptMatch = post.excerpt?.toLowerCase().includes(query);
+      const tagsMatch = post.tags?.some(tag => tag.toLowerCase().includes(query));
+      
+      return titleMatch || excerptMatch || tagsMatch;
+    });
   }, [initialPosts, searchQuery]);
 
   const paginatedPosts = useMemo(() => {

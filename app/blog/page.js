@@ -1,10 +1,7 @@
 import { getPosts } from '../lib/getPosts';
-import BlogList from '../components/BlogList';
+import BlogList from './BlogList';
 
-export default async function BlogPage() {
+export default function BlogPage() {
   const posts = getPosts();
-  
-  return (
-    <BlogList initialPosts={posts} />
-  );
+  return <BlogList posts={posts} />;
 } 
