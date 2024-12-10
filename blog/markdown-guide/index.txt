@@ -1,0 +1,867 @@
+2:"$Sreact.fragment"
+3:I[6931,["177","static/chunks/app/layout-5f151de770a73f0a.js"],"ThemeProvider"]
+4:I[5244,[],""]
+5:I[3866,[],""]
+7:I[6213,[],"OutletBoundary"]
+9:I[6213,[],"MetadataBoundary"]
+b:I[6213,[],"ViewportBoundary"]
+d:I[4835,[],""]
+1:HL["/portfolio/_next/static/css/be0781800a4dbb33.css","style"]
+0:{"P":null,"b":"hyTkcSSO0YgLLk7G8CyvK","p":"/portfolio","c":["","blog","markdown-guide",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","markdown-guide","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/be0781800a4dbb33.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","markdown-guide","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","EnqjqiFam31bF6ZZBteq1",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","link","1",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+8:null
+e:I[3319,["844","static/chunks/ee560e2c-91bd962c8db0c4f9.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-14e4e5f03b651fd8.js","565","static/chunks/565-357565a8f7f1cf3d.js","953","static/chunks/app/blog/%5Bslug%5D/page-fa22e7d39a922d32.js"],"default"]
+f:T5813,"use strict";
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    blockquote: "blockquote",
+    code: "code",
+    em: "em",
+    figure: "figure",
+    h1: "h1",
+    h2: "h2",
+    h3: "h3",
+    h4: "h4",
+    hr: "hr",
+    img: "img",
+    input: "input",
+    li: "li",
+    ol: "ol",
+    p: "p",
+    pre: "pre",
+    span: "span",
+    strong: "strong",
+    table: "table",
+    tbody: "tbody",
+    td: "td",
+    th: "th",
+    thead: "thead",
+    tr: "tr",
+    ul: "ul",
+    ..._provideComponents(),
+    ...props.components
+  }, {CodeBlock} = _components;
+  if (!CodeBlock) _missingMdxReference("CodeBlock", true);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h1, {
+      children: "Markdown and MDX Guide"
+    }), "\n", _jsx(_components.p, {
+      children: "This guide demonstrates the various features available in Markdown and MDX."
+    }), "\n", _jsx(_components.h2, {
+      children: "Code Blocks"
+    }), "\n", _jsx(_components.h3, {
+      children: "Basic Code Block with Syntax Highlighting"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "javascript",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "javascript",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "const"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " greeting"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: " ="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " \"Hello World\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ";"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "console."
+            }), _jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "log"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "(greeting);"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "// Object example"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "const"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " user"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: " ="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " {"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "  name: "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "\"John Doe\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ","
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "  age: "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "30"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ","
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "  isAdmin: "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "true"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "};"
+            })
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "Code Block with Title and Line Numbers"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "# Install dependencies"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "npm"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " install"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " next@latest"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "npm"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " install"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " @tailwindcss/typography"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: "npm"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " install"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: " gray-matter"
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: "Code Block with Line Highlighting"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          backgroundColor: "#24292e",
+          color: "#e1e4e8"
+        },
+        tabIndex: "0",
+        "data-language": "python",
+        "data-theme": "github-dark",
+        children: _jsxs(_components.code, {
+          "data-language": "python",
+          "data-theme": "github-dark",
+          style: {
+            display: "grid"
+          },
+          children: [_jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "def"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#B392F0"
+              },
+              children: " calculate_sum"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "(numbers):"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "    total "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: " 0"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#6A737D"
+              },
+              children: "  # Initialize total"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "    for"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " num "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "in"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " numbers:  "
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "        total "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "+="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " num     "
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "        print"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "("
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "f"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "\"Current sum: "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "{"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "total"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "}"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#9ECBFF"
+              },
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ")"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "    return"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " total"
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: " "
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "numbers "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " ["
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "1"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ", "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "2"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ", "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "3"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ", "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "4"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: ", "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#79B8FF"
+              },
+              children: "5"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "]"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: "result "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#F97583"
+              },
+              children: "="
+            }), _jsx(_components.span, {
+              style: {
+                color: "#E1E4E8"
+              },
+              children: " calculate_sum(numbers)"
+            })]
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Tables"
+    }), "\n", _jsxs(_components.table, {
+      children: [_jsx(_components.thead, {
+        children: _jsxs(_components.tr, {
+          children: [_jsx(_components.th, {
+            children: "Feature"
+          }), _jsx(_components.th, {
+            children: "Description"
+          }), _jsx(_components.th, {
+            children: "Status"
+          })]
+        })
+      }), _jsxs(_components.tbody, {
+        children: [_jsxs(_components.tr, {
+          children: [_jsx(_components.td, {
+            children: "Tables"
+          }), _jsx(_components.td, {
+            children: "Basic table support"
+          }), _jsx(_components.td, {
+            children: "✅"
+          })]
+        }), _jsxs(_components.tr, {
+          children: [_jsx(_components.td, {
+            children: "Lists"
+          }), _jsx(_components.td, {
+            children: "Ordered and unordered lists"
+          }), _jsx(_components.td, {
+            children: "✅"
+          })]
+        }), _jsxs(_components.tr, {
+          children: [_jsx(_components.td, {
+            children: "Code Blocks"
+          }), _jsx(_components.td, {
+            children: "Syntax highlighting"
+          }), _jsx(_components.td, {
+            children: "✅"
+          })]
+        }), _jsxs(_components.tr, {
+          children: [_jsx(_components.td, {
+            children: "Images"
+          }), _jsx(_components.td, {
+            children: "Image embedding"
+          }), _jsx(_components.td, {
+            children: "✅"
+          })]
+        })]
+      })]
+    }), "\n", _jsx(_components.h2, {
+      children: "Text Formatting"
+    }), "\n", _jsx(_components.h3, {
+      children: "Basic Formatting"
+    }), "\n", _jsxs(_components.p, {
+      children: ["This is ", _jsx(_components.strong, {
+        children: "bold text"
+      }), ", and this is ", _jsx(_components.em, {
+        children: "italic text"
+      }), ".\nYou can also use ", _jsx(_components.em, {
+        children: _jsx(_components.strong, {
+          children: "bold and italic"
+        })
+      }), " together."]
+    }), "\n", _jsx(_components.h3, {
+      children: "Blockquotes"
+    }), "\n", _jsxs(_components.blockquote, {
+      children: ["\n", _jsx(_components.p, {
+        children: "This is a blockquote. You can use it to emphasize important information or quotes."
+      }), "\n", _jsx(_components.p, {
+        children: "You can have multiple paragraphs in a blockquote."
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Lists"
+    }), "\n", _jsx(_components.h4, {
+      children: "Unordered List"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["First item", "\n", _jsxs(_components.ul, {
+          children: ["\n", _jsx(_components.li, {
+            children: "Nested item"
+          }), "\n", _jsx(_components.li, {
+            children: "Another nested item"
+          }), "\n"]
+        }), "\n"]
+      }), "\n", _jsx(_components.li, {
+        children: "Second item"
+      }), "\n", _jsx(_components.li, {
+        children: "Third item"
+      }), "\n"]
+    }), "\n", _jsx(_components.h4, {
+      children: "Ordered List"
+    }), "\n", _jsxs(_components.ol, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["First step", "\n", _jsxs(_components.ol, {
+          children: ["\n", _jsx(_components.li, {
+            children: "Sub-step one"
+          }), "\n", _jsx(_components.li, {
+            children: "Sub-step two"
+          }), "\n"]
+        }), "\n"]
+      }), "\n", _jsx(_components.li, {
+        children: "Second step"
+      }), "\n", _jsx(_components.li, {
+        children: "Third step"
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "Links and Images"
+    }), "\n", _jsx(_components.h3, {
+      children: "Links"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.a, {
+        href: "https://openai.com",
+        children: "Visit OpenAI"
+      }), "\n", _jsx(_components.a, {
+        href: "/blog",
+        children: "Internal Link to Blog"
+      })]
+    }), "\n", _jsx(_components.h3, {
+      children: "Images"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.img, {
+        src: "/images/example.png",
+        alt: "Example Image"
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Advanced Features"
+    }), "\n", _jsx(_components.h3, {
+      children: "Task Lists"
+    }), "\n", _jsxs(_components.ul, {
+      className: "contains-task-list",
+      children: ["\n", _jsxs(_components.li, {
+        className: "task-list-item",
+        children: [_jsx(_components.input, {
+          type: "checkbox",
+          checked: true,
+          disabled: true
+        }), " ", "Write the introduction"]
+      }), "\n", _jsxs(_components.li, {
+        className: "task-list-item",
+        children: [_jsx(_components.input, {
+          type: "checkbox",
+          checked: true,
+          disabled: true
+        }), " ", "Add code examples"]
+      }), "\n", _jsxs(_components.li, {
+        className: "task-list-item",
+        children: [_jsx(_components.input, {
+          type: "checkbox",
+          disabled: true
+        }), " ", "Review content"]
+      }), "\n", _jsxs(_components.li, {
+        className: "task-list-item",
+        children: [_jsx(_components.input, {
+          type: "checkbox",
+          disabled: true
+        }), " ", "Publish post"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "Custom Components"
+    }), "\n", _jsx(CodeBlock, {
+      language: "json",
+      title: "package.json",
+      children: `{
+"name": "my-project",
+"version": "1.0.0",
+"dependencies": {
+  "next": "latest",
+  "react": "latest"
+}
+}`
+    }), "\n", _jsx(_components.h2, {
+      children: "Conclusion"
+    }), "\n", _jsx(_components.p, {
+      children: "This post demonstrates the main features available in Markdown and MDX. You can use these elements to create rich, well-formatted content for your blog."
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.em, {
+        children: "Last updated: March 25, 2024"
+      })
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ..._provideComponents(),
+    ...props.components
+  };
+  return MDXLayout ? _jsx(MDXLayout, {
+    ...props,
+    children: _jsx(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+10:T8ac,
+# Markdown and MDX Guide
+
+This guide demonstrates the various features available in Markdown and MDX.
+
+## Code Blocks
+
+### Basic Code Block with Syntax Highlighting
+
+```javascript
+const greeting = "Hello World";
+console.log(greeting);
+
+// Object example
+const user = {
+  name: "John Doe",
+  age: 30,
+  isAdmin: true
+};
+```
+
+### Code Block with Title and Line Numbers
+
+```bash
+# Install dependencies
+npm install next@latest
+npm install @tailwindcss/typography
+npm install gray-matter
+```
+
+### Code Block with Line Highlighting
+
+```python
+def calculate_sum(numbers):
+    total = 0  # Initialize total
+    for num in numbers:  
+        total += num     
+        print(f"Current sum: {total}")
+    return total
+
+numbers = [1, 2, 3, 4, 5]
+result = calculate_sum(numbers)
+```
+
+## Tables
+
+| Feature | Description | Status |
+|---------|------------|--------|
+| Tables | Basic table support | ✅ |
+| Lists | Ordered and unordered lists | ✅ |
+| Code Blocks | Syntax highlighting | ✅ |
+| Images | Image embedding | ✅ |
+
+## Text Formatting
+
+### Basic Formatting
+
+This is **bold text**, and this is *italic text*.
+You can also use ***bold and italic*** together.
+
+### Blockquotes
+
+> This is a blockquote. You can use it to emphasize important information or quotes.
+>
+> You can have multiple paragraphs in a blockquote.
+
+### Lists
+
+#### Unordered List
+- First item
+  - Nested item
+  - Another nested item
+- Second item
+- Third item
+
+#### Ordered List
+1. First step
+   1. Sub-step one
+   2. Sub-step two
+2. Second step
+3. Third step
+
+## Links and Images
+
+### Links
+[Visit OpenAI](https://openai.com)
+[Internal Link to Blog](/blog)
+
+### Images
+![Example Image](/images/example.png)
+
+## Advanced Features
+
+### Task Lists
+
+- [x] Write the introduction
+- [x] Add code examples
+- [ ] Review content
+- [ ] Publish post
+
+### Custom Components
+
+<CodeBlock language="json" title="package.json">
+{`{
+  "name": "my-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest"
+  }
+}`}
+</CodeBlock>
+
+## Conclusion
+
+This post demonstrates the main features available in Markdown and MDX. You can use these elements to create rich, well-formatted content for your blog.
+
+---
+
+*Last updated: March 25, 2024*6:["$","$Le",null,{"content":{"compiledSource":"$f","frontmatter":{},"scope":{}},"frontmatter":{"title":"Complete Markdown and MDX Guide","date":"2024-03-25","tags":["markdown","mdx","guide","tutorial"],"excerpt":"A comprehensive guide to using Markdown and MDX features including code blocks, tables, and more","readingTime":2,"wordCount":338,"rawContent":"$10","slug":"markdown-guide"}}]
