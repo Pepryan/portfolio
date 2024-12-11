@@ -6,13 +6,13 @@
 9:I[6213,[],"MetadataBoundary"]
 b:I[6213,[],"ViewportBoundary"]
 d:I[4835,[],""]
-1:HL["/portfolio/_next/static/css/900078344ef18086.css","style"]
-0:{"P":null,"b":"oPdIzUr7rMHAm2RTSw6fl","p":"/portfolio","c":["","blog","test",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/900078344ef18086.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","test","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","UQkte-OrB6iKq3x1vLpy7",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+1:HL["/portfolio/_next/static/css/9dbb35b6eef8287a.css","style"]
+0:{"P":null,"b":"yUxWWPInExJQxbvafP_Tz","p":"/portfolio","c":["","blog","test",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/9dbb35b6eef8287a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","test","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","sr0KoNH5RogiS-kZQjNna",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","link","1",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
 8:null
-e:I[9532,["844","static/chunks/ee560e2c-91bd962c8db0c4f9.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-209c1c53050a3415.js","565","static/chunks/565-c6e4e06838d5312c.js","953","static/chunks/app/blog/%5Bslug%5D/page-dbc413b443337c94.js"],"default",1]
-f:T4c73,"use strict";
+e:I[9532,["844","static/chunks/ee560e2c-91bd962c8db0c4f9.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-637152ce4e7e419a.js","565","static/chunks/565-e2ee1a50a4fe8a30.js","953","static/chunks/app/blog/%5Bslug%5D/page-648488368598451d.js"],"default",1]
+f:T3e0c,"use strict";
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -36,17 +36,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          "--shiki-dark": "#e1e4e8",
-          "--shiki-light": "#24292e",
-          "--shiki-dark-bg": "#24292e",
-          "--shiki-light-bg": "#fff"
+          backgroundColor: "#22272e",
+          color: "#adbac7"
         },
         tabIndex: "0",
         "data-language": "javascript",
-        "data-theme": "github-dark github-light",
+        "data-theme": "github-dark-dimmed",
         children: _jsxs(_components.code, {
           "data-language": "javascript",
-          "data-theme": "github-dark github-light",
+          "data-theme": "github-dark-dimmed",
           style: {
             display: "grid"
           },
@@ -54,32 +52,27 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#F97583",
-                "--shiki-light": "#D73A49"
+                color: "#F47067"
               },
               children: "const"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#6CB6FF"
               },
               children: " greeting"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#F97583",
-                "--shiki-light": "#D73A49"
+                color: "#F47067"
               },
               children: " ="
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: " \"Hello World\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ";"
             })]
@@ -87,20 +80,17 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "console."
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#B392F0",
-                "--shiki-light": "#6F42C1"
+                color: "#DCBDFB"
               },
               children: "log"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "(greeting);"
             })]
@@ -111,8 +101,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#6A737D",
-                "--shiki-light": "#6A737D"
+                color: "#768390"
               },
               children: "// Object example"
             })
@@ -120,26 +109,22 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#F97583",
-                "--shiki-light": "#D73A49"
+                color: "#F47067"
               },
               children: "const"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#6CB6FF"
               },
               children: " user"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#F97583",
-                "--shiki-light": "#D73A49"
+                color: "#F47067"
               },
               children: " ="
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: " {"
             })]
@@ -147,20 +132,17 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "  name: "
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: "\"John\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ","
             })]
@@ -168,14 +150,12 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "  age: "
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#6CB6FF"
               },
               children: "30"
             })]
@@ -183,8 +163,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "};"
             })
@@ -198,21 +177,19 @@ function _createMdxContent(props) {
       children: [_jsx(_components.figcaption, {
         "data-rehype-pretty-code-title": "",
         "data-language": "javascript",
-        "data-theme": "github-dark github-light",
+        "data-theme": "github-dark-dimmed",
         children: "example.js"
       }), _jsx(_components.pre, {
         style: {
-          "--shiki-dark": "#e1e4e8",
-          "--shiki-light": "#24292e",
-          "--shiki-dark-bg": "#24292e",
-          "--shiki-light-bg": "#fff"
+          backgroundColor: "#22272e",
+          color: "#adbac7"
         },
         tabIndex: "0",
         "data-language": "javascript",
-        "data-theme": "github-dark github-light",
+        "data-theme": "github-dark-dimmed",
         children: _jsxs(_components.code, {
           "data-language": "javascript",
-          "data-theme": "github-dark github-light",
+          "data-theme": "github-dark-dimmed",
           style: {
             display: "grid"
           },
@@ -220,20 +197,17 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#F97583",
-                "--shiki-light": "#D73A49"
+                color: "#F47067"
               },
               children: "function"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#B392F0",
-                "--shiki-light": "#6F42C1"
+                color: "#DCBDFB"
               },
               children: " sayHello"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "() {"
             })]
@@ -241,20 +215,17 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#F97583",
-                "--shiki-light": "#D73A49"
+                color: "#F47067"
               },
               children: "  return"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: " \"Hello!\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ";"
             })]
@@ -262,8 +233,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "}"
             })
@@ -276,17 +246,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          "--shiki-dark": "#e1e4e8",
-          "--shiki-light": "#24292e",
-          "--shiki-dark-bg": "#24292e",
-          "--shiki-light-bg": "#fff"
+          backgroundColor: "#22272e",
+          color: "#adbac7"
         },
         tabIndex: "0",
         "data-language": "python",
-        "data-theme": "github-dark github-light",
+        "data-theme": "github-dark-dimmed",
         children: _jsxs(_components.code, {
           "data-language": "python",
-          "data-theme": "github-dark github-light",
+          "data-theme": "github-dark-dimmed",
           style: {
             display: "grid"
           },
@@ -296,20 +264,17 @@ function _createMdxContent(props) {
             "data-highlighted-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#F97583",
-                "--shiki-light": "#D73A49"
+                color: "#F47067"
               },
               children: "def"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#B392F0",
-                "--shiki-light": "#6F42C1"
+                color: "#DCBDFB"
               },
               children: " example"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "():"
             })]
@@ -317,8 +282,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#6A737D",
-                "--shiki-light": "#6A737D"
+                color: "#768390"
               },
               children: "    # This line won't be highlighted"
             })
@@ -328,8 +292,7 @@ function _createMdxContent(props) {
             "data-highlighted-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#6A737D",
-                "--shiki-light": "#6A737D"
+                color: "#768390"
               },
               children: "    # These lines will be highlighted"
             })
@@ -339,26 +302,22 @@ function _createMdxContent(props) {
             "data-highlighted-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#6CB6FF"
               },
               children: "    print"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "("
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: "\"Hello World\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ")"
             })]
@@ -371,17 +330,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          "--shiki-dark": "#e1e4e8",
-          "--shiki-light": "#24292e",
-          "--shiki-dark-bg": "#24292e",
-          "--shiki-light-bg": "#fff"
+          backgroundColor: "#22272e",
+          color: "#adbac7"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark github-light",
+        "data-theme": "github-dark-dimmed",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark github-light",
+          "data-theme": "github-dark-dimmed",
           style: {
             display: "grid"
           },
@@ -389,14 +346,12 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#B392F0",
-                "--shiki-light": "#6F42C1"
+                color: "#F69D50"
               },
               children: "npm"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: " install"
             })]
@@ -404,20 +359,17 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#B392F0",
-                "--shiki-light": "#6F42C1"
+                color: "#F69D50"
               },
               children: "npm"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: " run"
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: " dev"
             })]
@@ -431,21 +383,19 @@ function _createMdxContent(props) {
       children: [_jsx(_components.figcaption, {
         "data-rehype-pretty-code-title": "",
         "data-language": "json",
-        "data-theme": "github-dark github-light",
+        "data-theme": "github-dark-dimmed",
         children: "package.json"
       }), _jsx(_components.pre, {
         style: {
-          "--shiki-dark": "#e1e4e8",
-          "--shiki-light": "#24292e",
-          "--shiki-dark-bg": "#24292e",
-          "--shiki-light-bg": "#fff"
+          backgroundColor: "#22272e",
+          color: "#adbac7"
         },
         tabIndex: "0",
         "data-language": "json",
-        "data-theme": "github-dark github-light",
+        "data-theme": "github-dark-dimmed",
         children: _jsxs(_components.code, {
           "data-language": "json",
-          "data-theme": "github-dark github-light",
+          "data-theme": "github-dark-dimmed",
           style: {
             display: "grid"
           },
@@ -453,8 +403,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "{"
             })
@@ -462,26 +411,22 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#8DDB8C"
               },
               children: "  \"name\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ": "
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: "\"my-project\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ","
             })]
@@ -489,26 +434,22 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#8DDB8C"
               },
               children: "  \"version\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ": "
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: "\"1.0.0\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ","
             })]
@@ -516,14 +457,12 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#8DDB8C"
               },
               children: "  \"dependencies\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ": {"
             })]
@@ -531,26 +470,22 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#8DDB8C"
               },
               children: "    \"next\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ": "
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: "\"latest\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ","
             })]
@@ -558,20 +493,17 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
+                color: "#8DDB8C"
               },
               children: "    \"react\""
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: ": "
             }), _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
+                color: "#96D0FF"
               },
               children: "\"latest\""
             })]
@@ -579,8 +511,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "  }"
             })
@@ -588,8 +519,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
+                color: "#ADBAC7"
               },
               children: "}"
             })
