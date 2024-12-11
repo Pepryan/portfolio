@@ -14,7 +14,14 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: false
-  }
+  },
+  productionBrowserSourceMaps: false,
+  webpack: (config, { dev, isServer }) => {
+    if (!dev && !isServer) {
+      config.devtool = false;
+    }
+    return config;
+  },
 };
 
 export default nextConfig;

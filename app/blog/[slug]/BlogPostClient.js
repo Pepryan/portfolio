@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import Link from 'next/link';
 import { useTheme } from '../../context/ThemeContext';
-import { FiCalendar, FiClock, FiTag, FiArrowLeft } from 'react-icons/fi';
+import { FiCalendar, FiClock, FiTag, FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import TableOfContents from '../../components/TableOfContents';
 import Header from '../../components/Header';
 import PostMetadata from '../../components/PostMetadata';
@@ -18,12 +18,17 @@ export default function BlogPostClient({ content, frontmatter, allPosts }) {
   
   const { readingTime, wordCount } = frontmatter;
 
+  // Get current post index and adjacent posts
+  const currentIndex = allPosts.findIndex(post => post.slug === frontmatter.slug);
+  const prevPost = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
+  const nextPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
+
   return (
     <div className={`min-h-screen ${darkMode ? 'dark bg-neutral-900' : 'bg-white'}`}>
       <Header />
       <ReadingProgress />
       
-      <main className="max-w-7xl mx-auto px-4 pt-24">
+      <main className="max-w-7xl mx-auto px-4 pt-24 pb-16">
         {/* Back to blog */}
         <Link 
           href="/blog"
@@ -91,10 +96,54 @@ export default function BlogPostClient({ content, frontmatter, allPosts }) {
         </div>
 
         {/* Related Posts */}
-        <RelatedPosts 
-          currentPost={frontmatter}
-          posts={allPosts}
-        />
+        <div className="mt-16 mb-16">
+          <RelatedPosts 
+            currentPost={frontmatter}
+            posts={allPosts}
+          />
+        </div>
+
+        {/* Post Navigation */}
+        <nav className="border-t border-neutral-200 dark:border-neutral-800">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-8">
+            {prevPost && (
+              <Link
+                href={`/blog/${prevPost.slug}`}
+                data-prev-post
+                className="group p-4 bg-neutral-50 dark:bg-neutral-800/50 rounded-xl 
+                  hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+              >
+                <div className="flex items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400 mb-2">
+                  <FiArrowLeft className="w-4 h-4" />
+                  <span>Previous Post</span>
+                </div>
+                <h4 className="font-medium text-neutral-900 dark:text-neutral-100 
+                  line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                  {prevPost.title}
+                </h4>
+              </Link>
+            )}
+            
+            {nextPost && (
+              <Link
+                href={`/blog/${nextPost.slug}`}
+                data-next-post
+                className={`group p-4 bg-neutral-50 dark:bg-neutral-800/50 rounded-xl 
+                  hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors
+                  ${!prevPost ? 'sm:col-start-2' : ''}`}
+              >
+                <div className="flex items-center justify-end gap-2 text-sm text-neutral-600 dark:text-neutral-400 mb-2">
+                  <span>Next Post</span>
+                  <FiArrowRight className="w-4 h-4" />
+                </div>
+                <h4 className="font-medium text-neutral-900 dark:text-neutral-100 text-right
+                  line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                  {nextPost.title}
+                </h4>
+              </Link>
+            )}
+          </div>
+        </nav>
       </main>
     </div>
   );

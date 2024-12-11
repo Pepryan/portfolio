@@ -24,26 +24,29 @@ export async function generateStaticParams() {
   }));
 }
 
+const shikiConfig = {
+  keepBackground: true,
+  defaultLang: 'plaintext',
+  grid: true,
+  theme: 'vitesse-black',
+  onVisitLine(node) {
+    if (node.children.length === 0) {
+      node.children = [{type: 'text', value: ' '}];
+    }
+  },
+  onVisitHighlightedLine(node) {
+    node.properties.className = ['highlighted'];
+  },
+  onVisitHighlightedWord(node) {
+    node.properties.className = ['word'];
+  },
+  cacheDir: path.join(process.cwd(), '.cache/rehype-pretty-code'),
+};
+
 const mdxOptions = {
   remarkPlugins: [remarkGfm],
   rehypePlugins: [
-    [rehypePrettyCode, {
-      keepBackground: true,
-      defaultLang: 'plaintext',
-      grid: true,
-      onVisitLine(node) {
-        if (node.children.length === 0) {
-          node.children = [{type: 'text', value: ' '}];
-        }
-      },
-      onVisitHighlightedLine(node) {
-        node.properties.className = ['highlighted'];
-      },
-      onVisitHighlightedWord(node) {
-        node.properties.className = ['word'];
-      },
-      cacheDir: path.join(process.cwd(), 'node_modules/.cache/rehype-pretty-code'),
-    }],
+    [rehypePrettyCode, shikiConfig],
   ],
   format: 'mdx',
 };

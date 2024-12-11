@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
+    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles",
+    "prebuild": "mkdir -p .cache/rehype-pretty-code"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.0",
