@@ -28,10 +28,6 @@ const mdxOptions = {
   remarkPlugins: [remarkGfm],
   rehypePlugins: [
     [rehypePrettyCode, {
-      theme: {
-        dark: 'github-dark',
-        light: 'github-light',
-      },
       keepBackground: true,
       defaultLang: 'plaintext',
       grid: true,
