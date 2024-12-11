@@ -6,15 +6,16 @@
 9:I[6213,[],"MetadataBoundary"]
 b:I[6213,[],"ViewportBoundary"]
 d:I[4835,[],""]
-1:HL["/portfolio/_next/static/css/be0781800a4dbb33.css","style"]
-0:{"P":null,"b":"hyTkcSSO0YgLLk7G8CyvK","p":"/portfolio","c":["","blog","useful-bash-scripts",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","useful-bash-scripts","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/be0781800a4dbb33.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","useful-bash-scripts","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","r__DyQGe8N1MU0wUyV-Hm",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
-e:I[3319,["844","static/chunks/ee560e2c-91bd962c8db0c4f9.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-14e4e5f03b651fd8.js","565","static/chunks/565-357565a8f7f1cf3d.js","953","static/chunks/app/blog/%5Bslug%5D/page-fa22e7d39a922d32.js"],"default"]
-f:T640b,"use strict";
+1:HL["/portfolio/_next/static/css/b4d6a17ae8fb1670.css","style"]
+0:{"P":null,"b":"NCmaq06hGAsQukjNU_YtK","p":"/portfolio","c":["","blog","useful-bash-scripts",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","useful-bash-scripts","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/b4d6a17ae8fb1670.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","useful-bash-scripts","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","aUkB_c5pJAtSn7CqlOTJB",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[9532,["844","static/chunks/ee560e2c-c9630c264a018ee4.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-14e4e5f03b651fd8.js","565","static/chunks/565-357565a8f7f1cf3d.js","953","static/chunks/app/blog/%5Bslug%5D/page-8a3cc775d08c24ec.js"],"default",1]
+f:Tc4b7,"use strict";
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = {
     blockquote: "blockquote",
+    button: "button",
     code: "code",
     em: "em",
     figure: "figure",
@@ -25,6 +26,7 @@ function _createMdxContent(props) {
     pre: "pre",
     span: "span",
     strong: "strong",
+    style: "style",
     ul: "ul",
     ..._provideComponents(),
     ...props.components
@@ -42,15 +44,17 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#24292e",
-          color: "#e1e4e8"
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark",
+        "data-theme": "github-dark github-light",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark",
+          "data-theme": "github-dark github-light",
           style: {
             display: "grid"
           },
@@ -58,7 +62,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "#!/bin/bash"
             })
@@ -66,22 +71,26 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " System"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " Resource"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " Monitor"
             })]
@@ -89,12 +98,14 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"CPU Usage:\""
             })]
@@ -102,57 +113,68 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: "top"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -bn1"
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: " grep"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"Cpu(s)\""
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: " sed"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"s/.,[0−9.]∗[0−9.]∗% id./\\1/\""
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: " awk"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " '{print 100 - $1}'%"
             })]
@@ -160,12 +182,14 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"Memory Usage:\""
             })]
@@ -173,37 +197,44 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: "free"
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: " grep"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " Mem"
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: " awk"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " '{print $3/$2 100.0}'%"
             })]
@@ -211,12 +242,14 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"Disk Usage:\""
             })]
@@ -224,30 +257,49 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: "df"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -h"
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: " awk"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " '$NF==\"/\"{print $5}'"
             })]
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "#!/bin/bash\necho System Resource Monitor\necho \"CPU Usage:\"\ntop -bn1 | grep \"Cpu(s)\" | sed \"s/.,[0−9.]∗[0−9.]∗% id./\\1/\" | awk '{print 100 - $1}'%\necho \"Memory Usage:\"\nfree | grep Mem | awk '{print $3/$2 100.0}'%\necho \"Disk Usage:\"\ndf -h | awk '$NF==\"/\"{print $5}'",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
           })]
         })
       })
@@ -257,42 +309,62 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#24292e",
-          color: "#e1e4e8"
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
         },
         tabIndex: "0",
         "data-language": "python",
-        "data-theme": "github-dark",
-        children: _jsx(_components.code, {
+        "data-theme": "github-dark github-light",
+        children: _jsxs(_components.code, {
           "data-language": "python",
-          "data-theme": "github-dark",
+          "data-theme": "github-dark github-light",
           style: {
             display: "grid"
           },
-          children: _jsxs(_components.span, {
+          children: [_jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "print"
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "("
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: "\"hello-world\""
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: ")"
             })]
-          })
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "print(\"hello-world\")",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
+          })]
         })
       })
     }), "\n", _jsx(_components.h2, {
@@ -301,24 +373,40 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#24292e",
-          color: "#e1e4e8"
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
         },
         tabIndex: "0",
         "data-language": "text",
-        "data-theme": "github-dark",
-        children: _jsx(_components.code, {
+        "data-theme": "github-dark github-light",
+        children: _jsxs(_components.code, {
           "data-language": "text",
-          "data-theme": "github-dark",
+          "data-theme": "github-dark github-light",
           style: {
             display: "grid"
           },
-          children: _jsx(_components.span, {
+          children: [_jsx(_components.span, {
             "data-line": "",
             children: _jsx(_components.span, {
               children: "test"
             })
-          })
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "test",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
+          })]
         })
       })
     }), "\n", _jsx(_components.h2, {
@@ -329,15 +417,17 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#24292e",
-          color: "#e1e4e8"
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark",
+        "data-theme": "github-dark github-light",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark",
+          "data-theme": "github-dark github-light",
           style: {
             display: "grid"
           },
@@ -345,7 +435,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "#!/bin/bash"
             })
@@ -353,7 +444,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "# Backup Script"
             })
@@ -361,17 +453,20 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "SOURCE"
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: "="
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: "\"/path/to/source\""
             })]
@@ -379,17 +474,20 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "DESTINATION"
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: "="
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: "\"/path/to/backup\""
             })]
@@ -397,32 +495,38 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "TIMESTAMP"
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: "="
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "$("
             }), _jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: "date"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " +\"%Y%m%d%H%M\""
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: ")"
             })]
@@ -430,37 +534,44 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "BACKUP_FILE"
             }), _jsx(_components.span, {
               style: {
-                color: "#F97583"
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
               },
               children: "="
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: "\""
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "$DESTINATION"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: "/backup-"
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "$TIMESTAMP"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: ".tar.gz\""
             })]
@@ -471,17 +582,20 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: "tar"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -czf"
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: " $BACKUP_FILE $SOURCE"
             })]
@@ -489,25 +603,43 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"Backup created at "
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "$BACKUP_FILE"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: "\""
             })]
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "#!/bin/bash\n# Backup Script\nSOURCE=\"/path/to/source\"\nDESTINATION=\"/path/to/backup\"\nTIMESTAMP=$(date +\"%Y%m%d%H%M\")\nBACKUP_FILE=\"$DESTINATION/backup-$TIMESTAMP.tar.gz\"\n\ntar -czf $BACKUP_FILE $SOURCE\necho \"Backup created at $BACKUP_FILE\"",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
           })]
         })
       })
@@ -519,15 +651,17 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#24292e",
-          color: "#e1e4e8"
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark",
+        "data-theme": "github-dark github-light",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark",
+          "data-theme": "github-dark github-light",
           style: {
             display: "grid"
           },
@@ -535,7 +669,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "#!/bin/bash"
             })
@@ -543,7 +678,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "# Log Cleanup Script"
             })
@@ -551,62 +687,74 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: "find"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " /var/log"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -type"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " f"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -name"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"*.log\""
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -mtime"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " +30"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -exec"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " rm"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " {}"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " \\;"
             })]
@@ -614,15 +762,31 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"Old log files deleted.\""
             })]
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "#!/bin/bash\n# Log Cleanup Script\nfind /var/log -type f -name \"*.log\" -mtime +30 -exec rm {} \\;\necho \"Old log files deleted.\"",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
           })]
         })
       })
@@ -634,15 +798,17 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#24292e",
-          color: "#e1e4e8"
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark",
+        "data-theme": "github-dark github-light",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark",
+          "data-theme": "github-dark github-light",
           style: {
             display: "grid"
           },
@@ -650,7 +816,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "#!/bin/bash"
             })
@@ -658,7 +825,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "# User Management Script"
             })
@@ -666,22 +834,26 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "read"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -p"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"Enter username: \""
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " USERNAME"
             })]
@@ -689,17 +861,20 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: "sudo"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " adduser"
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: " $USERNAME"
             })]
@@ -707,25 +882,43 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " \"User "
             }), _jsx(_components.span, {
               style: {
-                color: "#E1E4E8"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
               children: "$USERNAME"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " added.\""
             })]
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "#!/bin/bash\n# User Management Script\nread -p \"Enter username: \" USERNAME\nsudo adduser $USERNAME\necho \"User $USERNAME added.\"",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
           })]
         })
       })
@@ -737,15 +930,17 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#24292e",
-          color: "#e1e4e8"
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark",
+        "data-theme": "github-dark github-light",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark",
+          "data-theme": "github-dark github-light",
           style: {
             display: "grid"
           },
@@ -753,7 +948,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "#!/bin/bash"
             })
@@ -761,7 +957,8 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#6A737D"
+                "--shiki-dark": "#6A737D",
+                "--shiki-light": "#6A737D"
               },
               children: "# Network Status Check Script"
             })
@@ -769,25 +966,43 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#B392F0"
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
               },
               children: "ping"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " -c"
             }), _jsx(_components.span, {
               style: {
-                color: "#79B8FF"
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
               },
               children: " 4"
             }), _jsx(_components.span, {
               style: {
-                color: "#9ECBFF"
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
               },
               children: " google.com"
             })]
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "#!/bin/bash\n# Network Status Check Script\nping -c 4 google.com",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
           })]
         })
       })
@@ -797,8 +1012,38 @@ function _createMdxContent(props) {
       children: ["\n", _jsxs(_components.li, {
         children: [_jsx(_components.strong, {
           children: "Code Blocks"
-        }), ": ", _jsx(_components.code, {
-          children: "Shown above for various scripts."
+        }), ": ", _jsx(_components.span, {
+          "data-rehype-pretty-code-figure": "",
+          children: _jsxs(_components.code, {
+            "data-language": "plaintext",
+            "data-theme": "github-dark github-light",
+            style: {
+              "--shiki-dark": "#e1e4e8",
+              "--shiki-light": "#24292e",
+              "--shiki-dark-bg": "#24292e",
+              "--shiki-light-bg": "#fff"
+            },
+            children: [_jsx(_components.span, {
+              "data-line": "",
+              children: _jsx(_components.span, {
+                children: "Shown above for various scripts."
+              })
+            }), _jsxs(_components.button, {
+              type: "button",
+              title: "Copy code",
+              "aria-label": "Copy code",
+              data: "Shown above for various scripts.",
+              className: "rehype-pretty-copy",
+              onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+              children: [_jsx(_components.span, {
+                className: "ready"
+              }), _jsx(_components.span, {
+                className: "success"
+              })]
+            }), _jsx(_components.style, {
+              children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
+            })]
+          })
         })]
       }), "\n", _jsxs(_components.li, {
         children: [_jsx(_components.strong, {

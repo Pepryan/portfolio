@@ -7,56 +7,34 @@
 b:I[6213,[],"ViewportBoundary"]
 d:I[4835,[],""]
 1:HL["/portfolio/_next/static/css/b4d6a17ae8fb1670.css","style"]
-0:{"P":null,"b":"NCmaq06hGAsQukjNU_YtK","p":"/portfolio","c":["","blog","markdown-guide",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","markdown-guide","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/b4d6a17ae8fb1670.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","markdown-guide","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","rsWDc9XYs_pVQHlkMRnpd",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"NCmaq06hGAsQukjNU_YtK","p":"/portfolio","c":["","blog","test",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/b4d6a17ae8fb1670.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","test","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","Cl3BEWNwt82s9kA8mMWaU",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","link","1",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
 8:null
 e:I[9532,["844","static/chunks/ee560e2c-c9630c264a018ee4.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-14e4e5f03b651fd8.js","565","static/chunks/565-357565a8f7f1cf3d.js","953","static/chunks/app/blog/%5Bslug%5D/page-8a3cc775d08c24ec.js"],"default",1]
-f:Tb12f,"use strict";
+f:T985c,"use strict";
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = {
-    a: "a",
-    blockquote: "blockquote",
     button: "button",
     code: "code",
-    em: "em",
+    figcaption: "figcaption",
     figure: "figure",
     h1: "h1",
     h2: "h2",
-    h3: "h3",
-    h4: "h4",
-    hr: "hr",
-    img: "img",
-    input: "input",
-    li: "li",
     mark: "mark",
-    ol: "ol",
-    p: "p",
     pre: "pre",
     span: "span",
-    strong: "strong",
     style: "style",
-    table: "table",
-    tbody: "tbody",
-    td: "td",
-    th: "th",
-    thead: "thead",
-    tr: "tr",
-    ul: "ul",
     ..._provideComponents(),
     ...props.components
   };
   return _jsxs(_Fragment, {
     children: [_jsx(_components.h1, {
-      children: "Markdown and MDX Guide"
-    }), "\n", _jsx(_components.p, {
-      children: "This guide demonstrates the various features available in Markdown and MDX."
+      children: "Test Code Blocks"
     }), "\n", _jsx(_components.h2, {
-      children: "Code Blocks"
-    }), "\n", _jsx(_components.h3, {
-      children: "Basic Code Block (3 backticks)"
+      children: "Basic Code Block"
     }), "\n", _jsx(_components.figure, {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
@@ -181,7 +159,7 @@ function _createMdxContent(props) {
                 "--shiki-dark": "#9ECBFF",
                 "--shiki-light": "#032F62"
               },
-              children: "\"John Doe\""
+              children: "\"John\""
             }), _jsx(_components.span, {
               style: {
                 "--shiki-dark": "#E1E4E8",
@@ -203,27 +181,6 @@ function _createMdxContent(props) {
                 "--shiki-light": "#005CC5"
               },
               children: "30"
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ","
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: "  isAdmin: "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "true"
             })]
           }), "\n", _jsx(_components.span, {
             "data-line": "",
@@ -238,7 +195,7 @@ function _createMdxContent(props) {
             type: "button",
             title: "Copy code",
             "aria-label": "Copy code",
-            data: "const greeting = \"Hello World\";\nconsole.log(greeting);\n\n// Object example\nconst user = {\n  name: \"John Doe\",\n  age: 30,\n  isAdmin: true\n};",
+            data: "const greeting = \"Hello World\";\nconsole.log(greeting);\n\n// Object example\nconst user = {\n  name: \"John\",\n  age: 30\n};",
             className: "rehype-pretty-copy",
             onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
             children: [_jsx(_components.span, {
@@ -251,11 +208,16 @@ function _createMdxContent(props) {
           })]
         })
       })
-    }), "\n", _jsx(_components.h3, {
-      children: "Code Block with Title and Line Numbers"
-    }), "\n", _jsx(_components.figure, {
+    }), "\n", _jsx(_components.h2, {
+      children: "Code Block with Title"
+    }), "\n", _jsxs(_components.figure, {
       "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
+      children: [_jsx(_components.figcaption, {
+        "data-rehype-pretty-code-title": "",
+        "data-language": "javascript",
+        "data-theme": "github-dark github-light",
+        children: "example.js"
+      }), _jsx(_components.pre, {
         style: {
           "--shiki-dark": "#e1e4e8",
           "--shiki-light": "#24292e",
@@ -263,91 +225,70 @@ function _createMdxContent(props) {
           "--shiki-light-bg": "#fff"
         },
         tabIndex: "0",
-        "data-language": "bash",
+        "data-language": "javascript",
         "data-theme": "github-dark github-light",
         children: _jsxs(_components.code, {
-          "data-language": "bash",
+          "data-language": "javascript",
           "data-theme": "github-dark github-light",
           style: {
             display: "grid"
           },
-          children: [_jsx(_components.span, {
+          children: [_jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
+              },
+              children: "function"
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
+              },
+              children: " sayHello"
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: "() {"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#F97583",
+                "--shiki-light": "#D73A49"
+              },
+              children: "  return"
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
+              },
+              children: " \"Hello!\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ";"
+            })]
+          }), "\n", _jsx(_components.span, {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                "--shiki-dark": "#6A737D",
-                "--shiki-light": "#6A737D"
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
               },
-              children: "# Install dependencies"
+              children: "}"
             })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#B392F0",
-                "--shiki-light": "#6F42C1"
-              },
-              children: "npm"
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: " install"
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: " next@latest"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#B392F0",
-                "--shiki-light": "#6F42C1"
-              },
-              children: "npm"
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: " install"
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: " @tailwindcss/typography"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#B392F0",
-                "--shiki-light": "#6F42C1"
-              },
-              children: "npm"
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: " install"
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: " gray-matter"
-            })]
           }), _jsxs(_components.button, {
             type: "button",
             title: "Copy code",
             "aria-label": "Copy code",
-            data: "# Install dependencies\nnpm install next@latest\nnpm install @tailwindcss/typography\nnpm install gray-matter",
+            data: "function sayHello() {\n  return \"Hello!\";\n}",
             className: "rehype-pretty-copy",
             onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
             children: [_jsx(_components.span, {
@@ -359,8 +300,8 @@ function _createMdxContent(props) {
             children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
           })]
         })
-      })
-    }), "\n", _jsx(_components.h3, {
+      })]
+    }), "\n", _jsx(_components.h2, {
       children: "Code Block with Line Highlighting"
     }), "\n", _jsx(_components.figure, {
       "data-rehype-pretty-code-figure": "",
@@ -470,7 +411,266 @@ function _createMdxContent(props) {
         })
       })
     }), "\n", _jsx(_components.h2, {
-      children: "Word highlighted Example"
+      children: "Code Block without Line Numbers"
+    }), "\n", _jsx(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: _jsx(_components.pre, {
+        style: {
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
+        },
+        tabIndex: "0",
+        "data-language": "bash",
+        "data-theme": "github-dark github-light",
+        children: _jsxs(_components.code, {
+          "data-language": "bash",
+          "data-theme": "github-dark github-light",
+          style: {
+            display: "grid"
+          },
+          children: [_jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
+              },
+              children: "npm"
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
+              },
+              children: " install"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#B392F0",
+                "--shiki-light": "#6F42C1"
+              },
+              children: "npm"
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
+              },
+              children: " run"
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
+              },
+              children: " dev"
+            })]
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "npm install\nnpm run dev",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
+          })]
+        })
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Package.json Example"
+    }), "\n", _jsxs(_components.figure, {
+      "data-rehype-pretty-code-figure": "",
+      children: [_jsx(_components.figcaption, {
+        "data-rehype-pretty-code-title": "",
+        "data-language": "json",
+        "data-theme": "github-dark github-light",
+        children: "package.json"
+      }), _jsx(_components.pre, {
+        style: {
+          "--shiki-dark": "#e1e4e8",
+          "--shiki-light": "#24292e",
+          "--shiki-dark-bg": "#24292e",
+          "--shiki-light-bg": "#fff"
+        },
+        tabIndex: "0",
+        "data-language": "json",
+        "data-theme": "github-dark github-light",
+        children: _jsxs(_components.code, {
+          "data-language": "json",
+          "data-theme": "github-dark github-light",
+          style: {
+            display: "grid"
+          },
+          children: [_jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: "{"
+            })
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
+              },
+              children: "  \"name\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ": "
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
+              },
+              children: "\"my-project\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ","
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
+              },
+              children: "  \"version\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ": "
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
+              },
+              children: "\"1.0.0\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ","
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
+              },
+              children: "  \"dependencies\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ": {"
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
+              },
+              children: "    \"next\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ": "
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
+              },
+              children: "\"latest\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ","
+            })]
+          }), "\n", _jsxs(_components.span, {
+            "data-line": "",
+            children: [_jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#79B8FF",
+                "--shiki-light": "#005CC5"
+              },
+              children: "    \"react\""
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: ": "
+            }), _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#9ECBFF",
+                "--shiki-light": "#032F62"
+              },
+              children: "\"latest\""
+            })]
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: "  }"
+            })
+          }), "\n", _jsx(_components.span, {
+            "data-line": "",
+            children: _jsx(_components.span, {
+              style: {
+                "--shiki-dark": "#E1E4E8",
+                "--shiki-light": "#24292E"
+              },
+              children: "}"
+            })
+          }), _jsxs(_components.button, {
+            type: "button",
+            title: "Copy code",
+            "aria-label": "Copy code",
+            data: "{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}",
+            className: "rehype-pretty-copy",
+            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
+            children: [_jsx(_components.span, {
+              className: "ready"
+            }), _jsx(_components.span, {
+              className: "success"
+            })]
+          }), _jsx(_components.style, {
+            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
+          })]
+        })
+      })]
+    }), "\n", _jsx(_components.h2, {
+      children: "Package.json Example"
     }), "\n", _jsx(_components.figure, {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
@@ -665,387 +865,6 @@ function _createMdxContent(props) {
           })]
         })
       })
-    }), "\n", _jsx(_components.h2, {
-      children: "Tables"
-    }), "\n", _jsxs(_components.table, {
-      children: [_jsx(_components.thead, {
-        children: _jsxs(_components.tr, {
-          children: [_jsx(_components.th, {
-            children: "Feature"
-          }), _jsx(_components.th, {
-            children: "Description"
-          }), _jsx(_components.th, {
-            children: "Status"
-          })]
-        })
-      }), _jsxs(_components.tbody, {
-        children: [_jsxs(_components.tr, {
-          children: [_jsx(_components.td, {
-            children: "Tables"
-          }), _jsx(_components.td, {
-            children: "Basic table support"
-          }), _jsx(_components.td, {
-            children: "✅"
-          })]
-        }), _jsxs(_components.tr, {
-          children: [_jsx(_components.td, {
-            children: "Lists"
-          }), _jsx(_components.td, {
-            children: "Ordered and unordered lists"
-          }), _jsx(_components.td, {
-            children: "✅"
-          })]
-        }), _jsxs(_components.tr, {
-          children: [_jsx(_components.td, {
-            children: "Code Blocks"
-          }), _jsx(_components.td, {
-            children: "Syntax highlighting"
-          }), _jsx(_components.td, {
-            children: "✅"
-          })]
-        }), _jsxs(_components.tr, {
-          children: [_jsx(_components.td, {
-            children: "Images"
-          }), _jsx(_components.td, {
-            children: "Image embedding"
-          }), _jsx(_components.td, {
-            children: "✅"
-          })]
-        })]
-      })]
-    }), "\n", _jsx(_components.h2, {
-      children: "Text Formatting"
-    }), "\n", _jsx(_components.h3, {
-      children: "Basic Formatting"
-    }), "\n", _jsxs(_components.p, {
-      children: ["This is ", _jsx(_components.strong, {
-        children: "bold text"
-      }), ", and this is ", _jsx(_components.em, {
-        children: "italic text"
-      }), ".\nYou can also use ", _jsx(_components.em, {
-        children: _jsx(_components.strong, {
-          children: "bold and italic"
-        })
-      }), " together."]
-    }), "\n", _jsx(_components.h3, {
-      children: "Blockquotes"
-    }), "\n", _jsxs(_components.blockquote, {
-      children: ["\n", _jsx(_components.p, {
-        children: "This is a blockquote. You can use it to emphasize important information or quotes."
-      }), "\n", _jsx(_components.p, {
-        children: "You can have multiple paragraphs in a blockquote."
-      }), "\n"]
-    }), "\n", _jsx(_components.h3, {
-      children: "Lists"
-    }), "\n", _jsx(_components.h4, {
-      children: "Unordered List"
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsxs(_components.li, {
-        children: ["First item", "\n", _jsxs(_components.ul, {
-          children: ["\n", _jsx(_components.li, {
-            children: "Nested item"
-          }), "\n", _jsx(_components.li, {
-            children: "Another nested item"
-          }), "\n"]
-        }), "\n"]
-      }), "\n", _jsx(_components.li, {
-        children: "Second item"
-      }), "\n", _jsx(_components.li, {
-        children: "Third item"
-      }), "\n"]
-    }), "\n", _jsx(_components.h4, {
-      children: "Ordered List"
-    }), "\n", _jsxs(_components.ol, {
-      children: ["\n", _jsxs(_components.li, {
-        children: ["First step", "\n", _jsxs(_components.ol, {
-          children: ["\n", _jsx(_components.li, {
-            children: "Sub-step one"
-          }), "\n", _jsx(_components.li, {
-            children: "Sub-step two"
-          }), "\n"]
-        }), "\n"]
-      }), "\n", _jsx(_components.li, {
-        children: "Second step"
-      }), "\n", _jsx(_components.li, {
-        children: "Third step"
-      }), "\n"]
-    }), "\n", _jsx(_components.h2, {
-      children: "Links and Images"
-    }), "\n", _jsx(_components.h3, {
-      children: "Links"
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.a, {
-        href: "https://openai.com",
-        children: "Visit OpenAI"
-      }), "\n", _jsx(_components.a, {
-        href: "/blog",
-        children: "Internal Link to Blog"
-      })]
-    }), "\n", _jsx(_components.h3, {
-      children: "Images"
-    }), "\n", _jsx(_components.p, {
-      children: _jsx(_components.img, {
-        src: "/images/example.png",
-        alt: "Example Image"
-      })
-    }), "\n", _jsx(_components.h2, {
-      children: "Advanced Features"
-    }), "\n", _jsx(_components.h3, {
-      children: "Task Lists"
-    }), "\n", _jsxs(_components.ul, {
-      className: "contains-task-list",
-      children: ["\n", _jsxs(_components.li, {
-        className: "task-list-item",
-        children: [_jsx(_components.input, {
-          type: "checkbox",
-          checked: true,
-          disabled: true
-        }), " ", "Write the introduction"]
-      }), "\n", _jsxs(_components.li, {
-        className: "task-list-item",
-        children: [_jsx(_components.input, {
-          type: "checkbox",
-          checked: true,
-          disabled: true
-        }), " ", "Add code examples"]
-      }), "\n", _jsxs(_components.li, {
-        className: "task-list-item",
-        children: [_jsx(_components.input, {
-          type: "checkbox",
-          disabled: true
-        }), " ", "Review content"]
-      }), "\n", _jsxs(_components.li, {
-        className: "task-list-item",
-        children: [_jsx(_components.input, {
-          type: "checkbox",
-          disabled: true
-        }), " ", "Publish post"]
-      }), "\n"]
-    }), "\n", _jsx(_components.h3, {
-      children: "Custom Components"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          "--shiki-dark": "#e1e4e8",
-          "--shiki-light": "#24292e",
-          "--shiki-dark-bg": "#24292e",
-          "--shiki-light-bg": "#fff"
-        },
-        tabIndex: "0",
-        "data-language": "json",
-        "data-theme": "github-dark github-light",
-        children: _jsxs(_components.code, {
-          "data-language": "json",
-          "data-theme": "github-dark github-light",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: "{"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "  \"name\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: "\"my-project\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ","
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "  \"version\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: "\"1.0.0\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ","
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "  \"dependencies\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": {"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "    \"next\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: "\"latest\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ","
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "    \"react\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: "\"latest\""
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: "  }"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: "}"
-            })
-          }), _jsxs(_components.button, {
-            type: "button",
-            title: "Copy code",
-            "aria-label": "Copy code",
-            data: "{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}",
-            className: "rehype-pretty-copy",
-            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
-            children: [_jsx(_components.span, {
-              className: "ready"
-            }), _jsx(_components.span, {
-              className: "success"
-            })]
-          }), _jsx(_components.style, {
-            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.h3, {
-      children: "One backtick"
-    }), "\n", _jsx(_components.p, {
-      children: _jsx(_components.span, {
-        "data-rehype-pretty-code-figure": "",
-        children: _jsxs(_components.code, {
-          "data-language": "plaintext",
-          "data-theme": "github-dark github-light",
-          style: {
-            "--shiki-dark": "#e1e4e8",
-            "--shiki-light": "#24292e",
-            "--shiki-dark-bg": "#24292e",
-            "--shiki-light-bg": "#fff"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              children: "this text is use one bactick"
-            })
-          }), _jsxs(_components.button, {
-            type: "button",
-            title: "Copy code",
-            "aria-label": "Copy code",
-            data: "this text is use one bactick",
-            className: "rehype-pretty-copy",
-            onClick: "navigator.clipboard.writeText(this.attributes.data.value);this.classList.add('rehype-pretty-copied');window.setTimeout(() => this.classList.remove('rehype-pretty-copied'), 2000);",
-            children: [_jsx(_components.span, {
-              className: "ready"
-            }), _jsx(_components.span, {
-              className: "success"
-            })]
-          }), _jsx(_components.style, {
-            children: ":root {--copy-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23adadad' d='M16.187 9.5H12.25a1.75 1.75 0 0 0-1.75 1.75v28.5c0 .967.784 1.75 1.75 1.75h23.5a1.75 1.75 0 0 0 1.75-1.75v-28.5a1.75 1.75 0 0 0-1.75-1.75h-3.937a4.25 4.25 0 0 1-4.063 3h-7.5a4.25 4.25 0 0 1-4.063-3M31.813 7h3.937A4.25 4.25 0 0 1 40 11.25v28.5A4.25 4.25 0 0 1 35.75 44h-23.5A4.25 4.25 0 0 1 8 39.75v-28.5A4.25 4.25 0 0 1 12.25 7h3.937a4.25 4.25 0 0 1 4.063-3h7.5a4.25 4.25 0 0 1 4.063 3M18.5 8.25c0 .966.784 1.75 1.75 1.75h7.5a1.75 1.75 0 1 0 0-3.5h-7.5a1.75 1.75 0 0 0-1.75 1.75'/%3E%3C/svg%3E\");--success-icon: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2366ff85' d='M9 16.17L5.53 12.7a.996.996 0 1 0-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 1 0-1.41-1.41z'/%3E%3C/svg%3E\");}pre:has(code) {position: relative;}pre button.rehype-pretty-copy {right: 1px;padding: 0;width: 24px;height: 24px;display: flex;margin-top: 2px;margin-right: 8px;position: absolute;border-radius: 25%;backdrop-filter: blur(3px);& span {width: 100%;aspect-ratio: 1 / 1;}& .ready {background-image: var(--copy-icon);}& .success {display: none; background-image: var(--success-icon);}}&.rehype-pretty-copied {& .success {display: block;} & .ready {display: none;}}pre button.rehype-pretty-copy.rehype-pretty-copied {opacity: 1;& .ready { display: none; }& .success { display: block; }}"
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.h2, {
-      children: "Conclusion"
-    }), "\n", _jsx(_components.p, {
-      children: "This post demonstrates the main features available in Markdown and MDX. You can use these elements to create rich, well-formatted content for your blog."
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
-      children: _jsx(_components.em, {
-        children: "Last updated: March 25, 2024"
-      })
     })]
   });
 }
@@ -1064,134 +883,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-10:T8df,
-# Markdown and MDX Guide
-
-This guide demonstrates the various features available in Markdown and MDX.
-
-## Code Blocks
-
-### Basic Code Block (3 backticks)
-
-```javascript
-const greeting = "Hello World";
-console.log(greeting);
-
-// Object example
-const user = {
-  name: "John Doe",
-  age: 30,
-  isAdmin: true
-};
-```
-
-### Code Block with Title and Line Numbers
-
-```bash
-# Install dependencies
-npm install next@latest
-npm install @tailwindcss/typography
-npm install gray-matter
-```
-
-### Code Block with Line Highlighting
-
-```python {1,3-4}
-def example():
-    # This line won't be highlighted
-    # These lines will be highlighted
-    print("Hello World")
-```
-
-## Word highlighted Example
-
-```json word="name"
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "dependencies": {
-    "next": "latest",
-    "react": "latest"
-  }
-}
-``` 
-
-## Tables
-
-| Feature | Description | Status |
-|---------|------------|--------|
-| Tables | Basic table support | ✅ |
-| Lists | Ordered and unordered lists | ✅ |
-| Code Blocks | Syntax highlighting | ✅ |
-| Images | Image embedding | ✅ |
-
-## Text Formatting
-
-### Basic Formatting
-
-This is **bold text**, and this is *italic text*.
-You can also use ***bold and italic*** together.
-
-### Blockquotes
-
-> This is a blockquote. You can use it to emphasize important information or quotes.
->
-> You can have multiple paragraphs in a blockquote.
-
-### Lists
-
-#### Unordered List
-- First item
-  - Nested item
-  - Another nested item
-- Second item
-- Third item
-
-#### Ordered List
-1. First step
-   1. Sub-step one
-   2. Sub-step two
-2. Second step
-3. Third step
-
-## Links and Images
-
-### Links
-[Visit OpenAI](https://openai.com)
-[Internal Link to Blog](/blog)
-
-### Images
-![Example Image](/images/example.png)
-
-## Advanced Features
-
-### Task Lists
-
-- [x] Write the introduction
-- [x] Add code examples
-- [ ] Review content
-- [ ] Publish post
-
-### Custom Components
-
-```json
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "dependencies": {
-    "next": "latest",
-    "react": "latest"
-  }
-}
-```
-
-### One backtick
-`this text is use one bactick`
-
-## Conclusion
-
-This post demonstrates the main features available in Markdown and MDX. You can use these elements to create rich, well-formatted content for your blog.
-
----
-
-*Last updated: March 25, 2024*6:["$","$Le",null,{"content":{"compiledSource":"$f","frontmatter":{},"scope":{}},"frontmatter":{"title":"Complete Markdown and MDX Guide","date":"2024-03-25","tags":["markdown","mdx","guide","tutorial"],"excerpt":"A comprehensive guide to using Markdown and MDX features including code blocks, tables, and more","readingTime":2,"wordCount":351,"rawContent":"$10","slug":"markdown-guide"}}]
+6:["$","$Le",null,{"content":{"compiledSource":"$f","frontmatter":{},"scope":{}},"frontmatter":{"title":"Test Code Blocks","date":"2024-03-26","tags":["code","test"],"readingTime":1,"wordCount":118,"rawContent":"\n# Test Code Blocks\n\n## Basic Code Block\n\n```javascript\nconst greeting = \"Hello World\";\nconsole.log(greeting);\n\n// Object example\nconst user = {\n  name: \"John\",\n  age: 30\n};\n```\n\n## Code Block with Title\n\n```javascript title=\"example.js\"\nfunction sayHello() {\n  return \"Hello!\";\n}\n```\n\n## Code Block with Line Highlighting\n\n```python {1,3-4}\ndef example():\n    # This line won't be highlighted\n    # These lines will be highlighted\n    print(\"Hello World\")\n```\n\n## Code Block without Line Numbers\n\n```bash\nnpm install\nnpm run dev\n```\n\n## Package.json Example\n\n```json title=\"package.json\"\n{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}\n``` \n\n## Package.json Example\n\n```json word=\"name\"\n{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}\n``` ","slug":"test"}}]
