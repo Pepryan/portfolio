@@ -10,16 +10,17 @@ export function getPosts() {
     const slug = fileName.replace('.mdx', '');
     const filePath = path.join(postsDirectory, fileName);
     const fileContents = fs.readFileSync(filePath, 'utf8');
-    const { data } = matter(fileContents);
+    const { data, content } = matter(fileContents);
 
     return {
       slug,
+      content,
       ...data,
       tags: Array.isArray(data.tags) ? data.tags : [],
     };
   })
   // Filter out hidden posts and sort by date
-  .filter(post => !post.hidden)
+  .filter(post => !post.hidden || process.env.NODE_ENV !== 'production')
   .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   return posts;

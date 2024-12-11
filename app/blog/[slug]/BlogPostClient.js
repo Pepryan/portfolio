@@ -9,8 +9,11 @@ import PostMetadata from '../../components/PostMetadata';
 import TagList from '../../components/TagList';
 import ShareButtons from '../../components/ShareButtons';
 import BlogPostContent from './BlogPostContent';
+import RelatedPosts from '../../components/RelatedPosts';
+import ReadingProgress from '../../components/ReadingProgress';
+// import DisqusComments from '../../components/DisqusComments';
 
-export default function BlogPostClient({ content, frontmatter }) {
+export default function BlogPostClient({ content, frontmatter, allPosts }) {
   const { darkMode } = useTheme();
   
   const { readingTime, wordCount } = frontmatter;
@@ -18,8 +21,9 @@ export default function BlogPostClient({ content, frontmatter }) {
   return (
     <div className={`min-h-screen ${darkMode ? 'dark bg-neutral-900' : 'bg-white'}`}>
       <Header />
+      <ReadingProgress />
       
-      <main className="max-w-7xl mx-auto px-4 pt-24 pb-16">
+      <main className="max-w-7xl mx-auto px-4 pt-24">
         {/* Back to blog */}
         <Link 
           href="/blog"
@@ -85,6 +89,12 @@ export default function BlogPostClient({ content, frontmatter }) {
             </div>
           </aside>
         </div>
+
+        {/* Related Posts */}
+        <RelatedPosts 
+          currentPost={frontmatter}
+          posts={allPosts}
+        />
       </main>
     </div>
   );

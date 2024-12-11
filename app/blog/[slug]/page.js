@@ -51,17 +51,18 @@ const mdxOptions = {
 export default async function BlogPost({ params }) {
   try {
     const { slug } = await params;
-    const post = await getPost(slug);
+    const allPosts = getPosts();
+    const post = allPosts.find(post => post.slug === slug);
     
     if (!post) {
       return <div>Post not found</div>;
     }
 
-    if (post.data.hidden && process.env.NODE_ENV === 'production') {
+    if (post.hidden && process.env.NODE_ENV === 'production') {
       return <div>Post not found</div>;
     }
 
-    const words = post.content.trim().split(/\s+/).length;
+    const words = post.content ? post.content.trim().split(/\s+/).length : 0;
     const readingTime = Math.ceil(words / 200);
 
     const mdxSource = await serialize(post.content, {
@@ -70,7 +71,7 @@ export default async function BlogPost({ params }) {
     });
     
     const enhancedFrontmatter = {
-      ...post.data,
+      ...post,
       readingTime,
       wordCount: words,
       rawContent: post.content,
@@ -81,6 +82,7 @@ export default async function BlogPost({ params }) {
       <BlogPostClient 
         content={mdxSource} 
         frontmatter={enhancedFrontmatter}
+        allPosts={allPosts}
       />
     );
   } catch (error) {
