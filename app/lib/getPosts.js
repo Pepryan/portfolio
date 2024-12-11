@@ -17,7 +17,10 @@ export function getPosts() {
       ...data,
       tags: Array.isArray(data.tags) ? data.tags : [],
     };
-  }).sort((a, b) => new Date(b.date) - new Date(a.date));
+  })
+  // Filter out hidden posts and sort by date
+  .filter(post => !post.hidden)
+  .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   return posts;
 }
@@ -41,4 +44,25 @@ export async function getPost(slug) {
     console.error('Error in getPost:', error);
     return null;
   }
+}
+
+// Add a new function to get all posts including hidden ones (useful for admin/preview purposes)
+export function getAllPosts() {
+  const postsDirectory = path.join(process.cwd(), 'content/posts');
+  const files = fs.readdirSync(postsDirectory);
+
+  const posts = files.map((fileName) => {
+    const slug = fileName.replace('.mdx', '');
+    const filePath = path.join(postsDirectory, fileName);
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const { data } = matter(fileContents);
+
+    return {
+      slug,
+      ...data,
+      tags: Array.isArray(data.tags) ? data.tags : [],
+    };
+  }).sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  return posts;
 }

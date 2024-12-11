@@ -61,6 +61,10 @@ export default async function BlogPost({ params }) {
       return <div>Post not found</div>;
     }
 
+    if (post.data.hidden && process.env.NODE_ENV === 'production') {
+      return <div>Post not found</div>;
+    }
+
     const words = post.content.trim().split(/\s+/).length;
     const readingTime = Math.ceil(words / 200);
 
