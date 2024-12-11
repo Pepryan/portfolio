@@ -11,7 +11,7 @@ This guide demonstrates the various features available in Markdown and MDX.
 
 ## Code Blocks
 
-### Basic Code Block with Syntax Highlighting
+### Basic Code Block (3 backticks)
 
 ```javascript
 const greeting = "Hello World";
@@ -36,17 +36,25 @@ npm install gray-matter
 
 ### Code Block with Line Highlighting
 
-```python
-def calculate_sum(numbers):
-    total = 0  # Initialize total
-    for num in numbers:  
-        total += num     
-        print(f"Current sum: {total}")
-    return total
-
-numbers = [1, 2, 3, 4, 5]
-result = calculate_sum(numbers)
+```python {1,3-4}
+def example():
+    # This line won't be highlighted
+    # These lines will be highlighted
+    print("Hello World")
 ```
+
+## Word highlighted Example
+
+```json word="name"
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest"
+  }
+}
+``` 
 
 ## Tables
 
@@ -106,16 +114,19 @@ You can also use ***bold and italic*** together.
 
 ### Custom Components
 
-<CodeBlock language="json" title="package.json">
-{`{
+```json
+{
   "name": "my-project",
   "version": "1.0.0",
   "dependencies": {
     "next": "latest",
     "react": "latest"
   }
-}`}
-</CodeBlock>
+}
+```
+
+### One backtick
+`this text is use one bactick`
 
 ## Conclusion
 

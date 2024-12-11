@@ -57,10 +57,14 @@ export default function BlogList({ posts }) {
 
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
 
+  // Add safety check for tags
   const allTags = useMemo(() => {
     const tags = new Set();
     posts.forEach(post => {
-      post.tags.forEach(tag => tags.add(tag));
+      // Check if post.tags exists before iterating
+      if (Array.isArray(post.tags)) {
+        post.tags.forEach(tag => tags.add(tag));
+      }
     });
     return Array.from(tags);
   }, [posts]);

@@ -2,7 +2,12 @@
 import Link from 'next/link';
 import { FiTag } from 'react-icons/fi';
 
-export default function TagList({ tags, className = '' }) {
+export default function TagList({ tags = [], className = '' }) {
+  // Return null if tags is not an array or empty
+  if (!Array.isArray(tags) || tags.length === 0) {
+    return null;
+  }
+
   return (
     <div className={`flex flex-wrap gap-2 ${className}`}>
       {tags.map(tag => (

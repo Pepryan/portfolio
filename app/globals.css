@@ -2,172 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Reset Tailwind typography untuk code blocks */
-.prose pre {
-  margin: 0 !important;
-  padding: 0 !important;
-  background: #1e1f22 !important;
-  color: #e5e7eb !important;
+/* Code block styling */
+pre {
+  @apply relative my-6 rounded-lg overflow-hidden;
+  background-color: transparent !important;
 }
 
-/* Code block styling similar to Hugo's Chroma */
-.chroma {
-  background: #282a36;
-  border-radius: 0.5rem;
-  margin: 1em 0;
-  padding: 1em;
-  overflow-x: auto;
+/* Code block header with language */
+pre[data-language]:before {
+  @apply absolute top-5 right-0 px-3 py-1 text-[10px] 
+    text-neutral-400 font-mono uppercase;
+  content: attr(data-language);
+}
+
+/* Code content */
+pre > code {
+  @apply grid min-w-full break-words rounded-none border-0 bg-transparent p-0 text-sm;
+  counter-reset: line;
+  box-decoration-break: clone;
 }
 
 /* Line styling */
-.chroma .line {
-  display: block;
-  padding-left: 1.5em;
-  position: relative;
+[data-line] {
+  @apply border-l-2 border-l-transparent px-4 leading-5;
 }
 
-.chroma .line::before {
-  content: attr(data-line);
-  position: absolute;
-  left: 0;
-  color: #666;
-  opacity: 0.5;
-  padding-right: 1em;
-}
-
-/* Token colors (similar to dracula theme) */
-.chroma .k { color: #ff79c6 } /* Keyword */
-.chroma .s { color: #f1fa8c } /* String */
-.chroma .c1 { color: #6272a4 } /* Comment */
-.chroma .nb { color: #8be9fd; font-style: italic } /* Built-in */
-.chroma .nf { color: #50fa7b } /* Function */
-.chroma .o { color: #ff79c6 } /* Operator */
-.chroma .p { color: #f8f8f2 } /* Punctuation */
-.chroma .cl { color: #f8f8f2 } /* Code line */
-
-/* Grid background */
-.chroma[data-lang]::before {
-  content: attr(data-lang);
-  position: absolute;
-  top: 0;
-  right: 1em;
-  color: #666;
-  font-size: 0.8em;
-  padding: 0.3em 0.5em;
-}
-
-/* Line numbers */
-.chroma .line {
+[data-line]:before {
+  @apply text-neutral-500 mr-3 inline-block w-4 text-right text-xs;
   counter-increment: line;
-}
-
-.chroma .line::before {
   content: counter(line);
-  display: inline-block;
-  width: 1.5em;
-  margin-right: 1em;
-  text-align: right;
-  color: #666;
 }
 
-/* Line number styling */
-.line-number {
-  color: #6b7280;
-  user-select: none;
+/* Highlighted line */
+.highlighted {
+  @apply border-l-blue-400 bg-blue-400/10;
 }
 
-/* Code block container */
-.code-container {
-  background: #1e1f22;
-  border-radius: 0.75rem;
-  overflow: hidden;
+/* Word highlight */
+.word {
+  @apply rounded-md bg-blue-400/10 p-1;
 }
 
-/* Code block header */
-.code-header {
-  background: #2a2b2e !important;
-  border-bottom: 1px solid #374151 !important;
+/* Inline code */
+:not(pre) > code {
+  @apply rounded bg-neutral-100 px-1.5 py-0.5 text-sm dark:bg-neutral-800;
 }
 
-/* Light mode overrides */
-:root:not(.dark) .prose pre {
-  background: #1e1f22 !important;
-  color: #e5e7eb !important;
+/* Dark mode adjustments */
+.dark pre {
+  @apply bg-neutral-900/70;
 }
 
-:root:not(.dark) .prose pre code {
-  color: #e5e7eb !important;
+.dark [data-line] {
+  @apply border-l-neutral-700;
 }
 
-/* Language badge and copy button - always dark */
-.language-badge,
-.copy-button {
-  color: #9ca3af !important;
-  background: rgba(0, 0, 0, 0.3) !important;
-}
-
-/* Hover states */
-.copy-button:hover {
-  color: #f3f4f6 !important;
-  background: rgba(0, 0, 0, 0.5) !important;
-}
-
-/* Add some animations */
-@keyframes fade-in {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.animate-fade-in {
-  animation: fade-in 0.5s ease-out;
-}
-
-/* Smooth transitions */
-* {
-  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
-}
-
-/* Improved card and hover effects */
-.hover-card {
-  @apply relative border border-neutral-200 dark:border-neutral-800 
-    bg-white dark:bg-neutral-900 rounded-lg 
-    transition-all duration-200 ease-in-out;
-}
-
-.hover-card:hover {
-  @apply border-neutral-300 dark:border-neutral-700 
-    transform translate-y-[-2px]
-    shadow-[0_4px_12px_rgba(0,0,0,0.05)]
-    dark:shadow-[0_4px_12px_rgba(0,0,0,0.3)];
-}
-
-/* Consistent card padding */
-.card-padding {
-  @apply p-4 md:p-5;
-}
-
-/* Update contact info styling */
-.contact-info-fixed {
-  @apply fixed bottom-8 right-8 z-[9999] p-4 rounded-lg 
-    bg-white/95 dark:bg-neutral-900/95 backdrop-blur-md
-    border border-neutral-200 dark:border-neutral-800
-    shadow-lg;
-  min-width: 200px;
-  max-width: 90vw;
-  margin-bottom: env(safe-area-inset-bottom, 0px); /* Untuk devices dengan notch */
-}
-
-.contact-info-fixed:hover {
-  transform: translateY(-2px);
-  @apply shadow-xl;
-}
-
-/* Optional: Tambahkan margin bottom pada main content */
-main {
-  @apply mb-40; /* Tambah margin bottom global */
-}
-
-/* Optional: Tambahkan container untuk content */
-.content-container {
-  @apply relative min-h-screen pb-40;
+.dark .highlighted {
+  @apply border-l-blue-400 bg-blue-400/10;
 }
