@@ -6,13 +6,13 @@
 9:I[6213,[],"MetadataBoundary"]
 b:I[6213,[],"ViewportBoundary"]
 d:I[4835,[],""]
-1:HL["/portfolio/_next/static/css/2f5703fb6ef5fe9f.css","style"]
-0:{"P":null,"b":"VlTo_nXxSudJixcQSibz1","p":"/portfolio","c":["","blog","test",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/2f5703fb6ef5fe9f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","test","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","iuYnXiVYg3AHu9pio-eSX",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+1:HL["/portfolio/_next/static/css/900078344ef18086.css","style"]
+0:{"P":null,"b":"oPdIzUr7rMHAm2RTSw6fl","p":"/portfolio","c":["","blog","test",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/900078344ef18086.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","test","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","UQkte-OrB6iKq3x1vLpy7",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","link","1",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
 8:null
-e:I[9532,["844","static/chunks/ee560e2c-91bd962c8db0c4f9.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-209c1c53050a3415.js","565","static/chunks/565-a1e5db3fd98e29fe.js","953","static/chunks/app/blog/%5Bslug%5D/page-42b8a3796ef125ea.js"],"default",1]
-f:T63f9,"use strict";
+e:I[9532,["844","static/chunks/ee560e2c-91bd962c8db0c4f9.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-209c1c53050a3415.js","565","static/chunks/565-c6e4e06838d5312c.js","953","static/chunks/app/blog/%5Bslug%5D/page-dbc413b443337c94.js"],"default",1]
+f:T4c73,"use strict";
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -22,7 +22,6 @@ function _createMdxContent(props) {
     figure: "figure",
     h1: "h1",
     h2: "h2",
-    mark: "mark",
     pre: "pre",
     span: "span",
     ..._provideComponents(),
@@ -597,188 +596,6 @@ function _createMdxContent(props) {
           })]
         })
       })]
-    }), "\n", _jsx(_components.h2, {
-      children: "Package.json Example"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          "--shiki-dark": "#e1e4e8",
-          "--shiki-light": "#24292e",
-          "--shiki-dark-bg": "#24292e",
-          "--shiki-light-bg": "#fff"
-        },
-        tabIndex: "0",
-        "data-language": "json",
-        "data-theme": "github-dark github-light",
-        children: _jsxs(_components.code, {
-          "data-language": "json",
-          "data-theme": "github-dark github-light",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: "{"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "  \""
-            }), _jsx(_components.mark, {
-              "data-highlighted-chars": "",
-              children: _jsx(_components.span, {
-                style: {
-                  "--shiki-dark": "#79B8FF",
-                  "--shiki-light": "#005CC5"
-                },
-                children: "name"
-              })
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: "\"my-project\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ","
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "  \"version\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: "\"1.0.0\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ","
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "  \"dependencies\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": {"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "    \"next\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: "\"latest\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ","
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#79B8FF",
-                "--shiki-light": "#005CC5"
-              },
-              children: "    \"react\""
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: ": "
-            }), _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#9ECBFF",
-                "--shiki-light": "#032F62"
-              },
-              children: "\"latest\""
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: "  }"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                "--shiki-dark": "#E1E4E8",
-                "--shiki-light": "#24292E"
-              },
-              children: "}"
-            })
-          })]
-        })
-      })
     })]
   });
 }
@@ -797,4 +614,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-6:["$","$Le",null,{"content":{"compiledSource":"$f","frontmatter":{},"scope":{}},"frontmatter":{"title":"Test Code Blocks","date":"2024-03-26","tags":["code","test"],"readingTime":1,"wordCount":118,"rawContent":"\n# Test Code Blocks\n\n## Basic Code Block\n\n```javascript\nconst greeting = \"Hello World\";\nconsole.log(greeting);\n\n// Object example\nconst user = {\n  name: \"John\",\n  age: 30\n};\n```\n\n## Code Block with Title\n\n```javascript title=\"example.js\"\nfunction sayHello() {\n  return \"Hello!\";\n}\n```\n\n## Code Block with Line Highlighting\n\n```python {1,3-4}\ndef example():\n    # This line won't be highlighted\n    # These lines will be highlighted\n    print(\"Hello World\")\n```\n\n## Code Block without Line Numbers\n\n```bash\nnpm install\nnpm run dev\n```\n\n## Package.json Example\n\n```json title=\"package.json\"\n{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}\n``` \n\n## Package.json Example\n\n```json word=\"name\"\n{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}\n``` ","slug":"test"}}]
+6:["$","$Le",null,{"content":{"compiledSource":"$f","frontmatter":{},"scope":{}},"frontmatter":{"title":"Test Code Blocks","date":"2024-03-26","tags":["code","test"],"readingTime":1,"wordCount":99,"rawContent":"\n# Test Code Blocks\n\n## Basic Code Block\n\n```javascript\nconst greeting = \"Hello World\";\nconsole.log(greeting);\n\n// Object example\nconst user = {\n  name: \"John\",\n  age: 30\n};\n```\n\n## Code Block with Title\n\n```javascript title=\"example.js\"\nfunction sayHello() {\n  return \"Hello!\";\n}\n```\n\n## Code Block with Line Highlighting\n\n```python {1,3-4}\ndef example():\n    # This line won't be highlighted\n    # These lines will be highlighted\n    print(\"Hello World\")\n```\n\n## Code Block without Line Numbers\n\n```bash\nnpm install\nnpm run dev\n```\n\n## Package.json Example\n\n```json title=\"package.json\"\n{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}\n``` \n","slug":"test"}}]
