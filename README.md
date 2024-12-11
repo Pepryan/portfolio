@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio and blog built with Next.js, TailwindCSS, and MDX. Features dark mode, code syntax highlighting, and a fully responsive design.
 
-🌐 [Live Demo](https://pepryan.github.io/portfolio/)
+🌐 [Live](https://pepryan.github.io/portfolio/)
 
 ![Portfolio Preview](public/images/preview.png)
 
@@ -137,7 +137,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Personal License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
