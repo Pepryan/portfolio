@@ -1,18 +1,19 @@
 2:"$Sreact.fragment"
-3:I[6931,["177","static/chunks/app/layout-8a5f6f8b7e26a0eb.js"],"ThemeProvider"]
-4:I[5244,[],""]
-5:I[3866,[],""]
-7:I[6213,[],"OutletBoundary"]
-9:I[6213,[],"MetadataBoundary"]
-b:I[6213,[],"ViewportBoundary"]
-d:I[4835,[],""]
-1:HL["/portfolio/_next/static/css/d56affbde7d06c4e.css","style"]
-0:{"P":null,"b":"P9n1_5IiakVWN2GN6OOzH","p":"/portfolio","c":["","blog","useful-bash-scripts",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","useful-bash-scripts","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/d56affbde7d06c4e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","useful-bash-scripts","d"],["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","9ai0ZyRoeEEhjjsmmfYcc",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],null]}]]}]]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
-c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-a:[["$","meta","0",{"charSet":"utf-8"}],["$","link","1",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
-8:null
-e:I[2813,["844","static/chunks/ee560e2c-d94db3fb96a603be.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-637152ce4e7e419a.js","565","static/chunks/565-e2ee1a50a4fe8a30.js","953","static/chunks/app/blog/%5Bslug%5D/page-209f7ecb91f8c4ae.js"],"default",1]
-f:T6643,"use strict";
+3:I[6931,["844","static/chunks/ee560e2c-a315ef450ff1230d.js","177","static/chunks/app/layout-004bde74d4a66dc4.js"],"ThemeProvider"]
+4:I[8388,["844","static/chunks/ee560e2c-a315ef450ff1230d.js","177","static/chunks/app/layout-004bde74d4a66dc4.js"],"default"]
+5:I[5244,[],""]
+6:I[3866,[],""]
+8:I[6213,[],"OutletBoundary"]
+a:I[6213,[],"MetadataBoundary"]
+c:I[6213,[],"ViewportBoundary"]
+e:I[4835,[],""]
+1:HL["/portfolio/_next/static/css/4b46c524157b4ed2.css","style"]
+0:{"P":null,"b":"3qrrS5e-LPqR-0Z80SGQG","p":"/portfolio","c":["","blog","useful-bash-scripts",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","useful-bash-scripts","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/4b46c524157b4ed2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","useful-bash-scripts","d"],["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L7",null,["$","$L8",null,{"children":"$L9"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","bWwu3v5nSAY9Zq73OEYzw",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],null]}]]}]]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
+d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","link","1",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+9:null
+f:I[2813,["844","static/chunks/ee560e2c-a315ef450ff1230d.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-637152ce4e7e419a.js","565","static/chunks/565-e2ee1a50a4fe8a30.js","953","static/chunks/app/blog/%5Bslug%5D/page-ba50ee4a7f765120.js"],"default",1]
+10:T775d,"use strict";
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -45,15 +46,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#22272e",
-          color: "#adbac7"
+          backgroundColor: "#000",
+          color: "#dbd7cacc"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark-dimmed",
+        "data-theme": "vitesse-black",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark-dimmed",
+          "data-theme": "vitesse-black",
           style: {
             display: "grid"
           },
@@ -61,7 +62,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "#!/bin/bash"
             })
@@ -69,22 +70,22 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " System"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " Resource"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " Monitor"
             })]
@@ -92,164 +93,254 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"CPU Usage:\""
+              children: " \""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "CPU Usage:"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
             })]
           }), "\n", _jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: "top"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C99076"
               },
               children: " -bn1"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#CB7676"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: " grep"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"Cpu(s)\""
+              children: " \""
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#C98A7D"
+              },
+              children: "Cpu(s)"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#CB7676"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: " sed"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"s/.,[0−9.]∗[0−9.]∗% id./\\1/\""
+              children: " \""
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#C98A7D"
+              },
+              children: "s/.,[0−9.]∗[0−9.]∗% id./\\1/"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#CB7676"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: " awk"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " '{print 100 - $1}'%"
+              children: " '"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "{print 100 - $1}"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "'"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "%"
             })]
           }), "\n", _jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"Memory Usage:\""
+              children: " \""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "Memory Usage:"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
             })]
           }), "\n", _jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: "free"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#CB7676"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: " grep"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " Mem"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#CB7676"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: " awk"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " '{print $3/$2 100.0}'%"
+              children: " '"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "{print $3/$2 100.0}"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "'"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "%"
             })]
           }), "\n", _jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"Disk Usage:\""
+              children: " \""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "Disk Usage:"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
             })]
           }), "\n", _jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: "df"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C99076"
               },
               children: " -h"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#CB7676"
               },
               children: " |"
             }), _jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: " awk"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " '$NF==\"/\"{print $5}'"
+              children: " '"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "$NF==\"/\"{print $5}"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "'"
             })]
           })]
         })
@@ -260,15 +351,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#22272e",
-          color: "#adbac7"
+          backgroundColor: "#000",
+          color: "#dbd7cacc"
         },
         tabIndex: "0",
         "data-language": "python",
-        "data-theme": "github-dark-dimmed",
+        "data-theme": "vitesse-black",
         children: _jsx(_components.code, {
           "data-language": "python",
-          "data-theme": "github-dark-dimmed",
+          "data-theme": "vitesse-black",
           style: {
             display: "grid"
           },
@@ -276,22 +367,32 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "print"
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#444444"
               },
               children: "("
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: "\"hello-world\""
+              children: "\""
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#C98A7D"
+              },
+              children: "hello-world"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#444444"
               },
               children: ")"
             })]
@@ -304,15 +405,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#22272e",
-          color: "#adbac7"
+          backgroundColor: "#000",
+          color: "#dbd7cacc"
         },
         tabIndex: "0",
         "data-language": "text",
-        "data-theme": "github-dark-dimmed",
+        "data-theme": "vitesse-black",
         children: _jsx(_components.code, {
           "data-language": "text",
-          "data-theme": "github-dark-dimmed",
+          "data-theme": "vitesse-black",
           style: {
             display: "grid"
           },
@@ -332,15 +433,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#22272e",
-          color: "#adbac7"
+          backgroundColor: "#000",
+          color: "#dbd7cacc"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark-dimmed",
+        "data-theme": "vitesse-black",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark-dimmed",
+          "data-theme": "vitesse-black",
           style: {
             display: "grid"
           },
@@ -348,7 +449,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "#!/bin/bash"
             })
@@ -356,7 +457,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "# Backup Script"
             })
@@ -364,68 +465,98 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#BD976A"
               },
               children: "SOURCE"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#444444"
               },
               children: "="
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: "\"/path/to/source\""
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "/path/to/source"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
             })]
           }), "\n", _jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#BD976A"
               },
               children: "DESTINATION"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#444444"
               },
               children: "="
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: "\"/path/to/backup\""
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "/path/to/backup"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
             })]
           }), "\n", _jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#BD976A"
               },
               children: "TIMESTAMP"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#444444"
               },
-              children: "="
+              children: "=$("
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
-              },
-              children: "$("
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: "date"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
-              children: " +\"%Y%m%d%H%M\""
+              children: " +"
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#C98A7D77"
+              },
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "%Y%m%d%H%M"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#444444"
               },
               children: ")"
             })]
@@ -433,39 +564,29 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#BD976A"
               },
               children: "BACKUP_FILE"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#444444"
               },
               children: "="
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
               children: "\""
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#C98A7D"
               },
-              children: "$DESTINATION"
+              children: "$DESTINATION/backup-$TIMESTAMP.tar.gz"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: "/backup-"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ADBAC7"
-              },
-              children: "$TIMESTAMP"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#96D0FF"
-              },
-              children: ".tar.gz\""
+              children: "\""
             })]
           }), "\n", _jsx(_components.span, {
             "data-line": "",
@@ -474,40 +595,45 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: "tar"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C99076"
               },
               children: " -czf"
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#BD976A"
               },
-              children: " $BACKUP_FILE $SOURCE"
+              children: " $BACKUP_FILE"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#BD976A"
+              },
+              children: " $SOURCE"
             })]
           }), "\n", _jsxs(_components.span, {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"Backup created at "
+              children: " \""
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#C98A7D"
               },
-              children: "$BACKUP_FILE"
+              children: "Backup created at $BACKUP_FILE"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
               children: "\""
             })]
@@ -522,15 +648,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#22272e",
-          color: "#adbac7"
+          backgroundColor: "#000",
+          color: "#dbd7cacc"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark-dimmed",
+        "data-theme": "vitesse-black",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark-dimmed",
+          "data-theme": "vitesse-black",
           style: {
             display: "grid"
           },
@@ -538,7 +664,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "#!/bin/bash"
             })
@@ -546,7 +672,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "# Log Cleanup Script"
             })
@@ -554,62 +680,72 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: "find"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " /var/log"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C99076"
               },
               children: " -type"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " f"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C99076"
               },
               children: " -name"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"*.log\""
+              children: " \""
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C98A7D"
+              },
+              children: "*.log"
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C99076"
               },
               children: " -mtime"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " +30"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C99076"
               },
               children: " -exec"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " rm"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " {}"
             }), _jsx(_components.span, {
               style: {
-                color: "#F47067"
+                color: "#C99076"
               },
               children: " \\;"
             })]
@@ -617,14 +753,24 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"Old log files deleted.\""
+              children: " \""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
+              },
+              children: "Old log files deleted."
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
             })]
           })]
         })
@@ -637,15 +783,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#22272e",
-          color: "#adbac7"
+          backgroundColor: "#000",
+          color: "#dbd7cacc"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark-dimmed",
+        "data-theme": "vitesse-black",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark-dimmed",
+          "data-theme": "vitesse-black",
           style: {
             display: "grid"
           },
@@ -653,7 +799,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "#!/bin/bash"
             })
@@ -661,7 +807,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "# User Management Script"
             })
@@ -669,22 +815,32 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "read"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C99076"
               },
               children: " -p"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"Enter username: \""
+              children: " \""
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
+              },
+              children: "Enter username: "
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D77"
+              },
+              children: "\""
+            }), _jsx(_components.span, {
+              style: {
+                color: "#C98A7D"
               },
               children: " USERNAME"
             })]
@@ -692,17 +848,17 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: "sudo"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " adduser"
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#BD976A"
               },
               children: " $USERNAME"
             })]
@@ -710,24 +866,24 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#B8A965"
               },
               children: "echo"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " \"User "
+              children: " \""
             }), _jsx(_components.span, {
               style: {
-                color: "#ADBAC7"
+                color: "#C98A7D"
               },
-              children: "$USERNAME"
+              children: "User $USERNAME added."
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D77"
               },
-              children: " added.\""
+              children: "\""
             })]
           })]
         })
@@ -740,15 +896,15 @@ function _createMdxContent(props) {
       "data-rehype-pretty-code-figure": "",
       children: _jsx(_components.pre, {
         style: {
-          backgroundColor: "#22272e",
-          color: "#adbac7"
+          backgroundColor: "#000",
+          color: "#dbd7cacc"
         },
         tabIndex: "0",
         "data-language": "bash",
-        "data-theme": "github-dark-dimmed",
+        "data-theme": "vitesse-black",
         children: _jsxs(_components.code, {
           "data-language": "bash",
-          "data-theme": "github-dark-dimmed",
+          "data-theme": "vitesse-black",
           style: {
             display: "grid"
           },
@@ -756,7 +912,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "#!/bin/bash"
             })
@@ -764,7 +920,7 @@ function _createMdxContent(props) {
             "data-line": "",
             children: _jsx(_components.span, {
               style: {
-                color: "#768390"
+                color: "#758575DD"
               },
               children: "# Network Status Check Script"
             })
@@ -772,22 +928,22 @@ function _createMdxContent(props) {
             "data-line": "",
             children: [_jsx(_components.span, {
               style: {
-                color: "#F69D50"
+                color: "#80A665"
               },
               children: "ping"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#C99076"
               },
               children: " -c"
             }), _jsx(_components.span, {
               style: {
-                color: "#6CB6FF"
+                color: "#4C9A91"
               },
               children: " 4"
             }), _jsx(_components.span, {
               style: {
-                color: "#96D0FF"
+                color: "#C98A7D"
               },
               children: " google.com"
             })]
@@ -804,10 +960,10 @@ function _createMdxContent(props) {
           "data-rehype-pretty-code-figure": "",
           children: _jsx(_components.code, {
             "data-language": "plaintext",
-            "data-theme": "github-dark-dimmed",
+            "data-theme": "vitesse-black",
             style: {
-              backgroundColor: "#22272e",
-              color: "#adbac7"
+              backgroundColor: "#000",
+              color: "#dbd7cacc"
             },
             children: _jsx(_components.span, {
               "data-line": "",
@@ -868,7 +1024,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-10:T76a,
+11:T76a,
 # Useful Bash Scripts for DevOps
 
 Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
@@ -963,7 +1119,7 @@ ping -c 4 google.com
 
 ## Conclusion
 
-These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!11:T76a,
+These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!12:T76a,
 # Useful Bash Scripts for DevOps
 
 Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
@@ -1058,7 +1214,7 @@ ping -c 4 google.com
 
 ## Conclusion
 
-These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!12:T92e,
+These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!13:T92e,
 # Markdown and MDX Guide
 
 This guide demonstrates the various features available in Markdown and MDX.
@@ -1188,7 +1344,7 @@ This post demonstrates the main features available in Markdown and MDX. You can 
 
 ---
 
-*Last updated: March 25, 2024*13:T76a,
+*Last updated: March 25, 2024*14:T76a,
 # Useful Bash Scripts for DevOps
 
 Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
@@ -1283,4 +1439,4 @@ ping -c 4 google.com
 
 ## Conclusion
 
-These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!6:["$","$Le",null,{"content":{"compiledSource":"$f","frontmatter":{},"scope":{}},"frontmatter":{"slug":"useful-bash-scripts","content":"$10","title":"Useful Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":["bash","devops","linux","automation"],"excerpt":"Collection of useful Bash scripts for daily DevOps tasks","readingTime":2,"wordCount":290,"rawContent":"$11"},"allPosts":[{"slug":"example-post","content":"\n# Menggunakan Gambar di MDX\n\n## Cara Pertama: Menggunakan Markdown Standard\n\nBerikut adalah contoh penggunaan gambar menggunakan syntax markdown standard:\n\n![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)\n\n\n  ","title":"Menggunakan Gambar di Blog Post","date":"2024-11-24","tags":["nextjs","mdx","images"],"excerpt":"Panduan menggunakan gambar dalam blog post menggunakan MDX"},{"slug":"test","content":"\n# Test Code Blocks\n\n## Basic Code Block\n\n```javascript\nconst greeting = \"Hello World\";\nconsole.log(greeting);\n\n// Object example\nconst user = {\n  name: \"John\",\n  age: 30\n};\n```\n\n## Code Block with Title\n\n```javascript title=\"example.js\"\nfunction sayHello() {\n  return \"Hello!\";\n}\n```\n\n## Code Block with Line Highlighting\n\n```python {1,3-4}\ndef example():\n    # This line won't be highlighted\n    # These lines will be highlighted\n    print(\"Hello World\")\n```\n\n## Code Block without Line Numbers\n\n```bash\nnpm install\nnpm run dev\n```\n\n## Package.json Example\n\n```json title=\"package.json\"\n{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}\n``` \n","title":"Test Code Blocks","date":"2024-03-26","tags":["code","test"],"excerpt":"Just a code test"},{"slug":"markdown-guide","content":"$12","title":"Complete Markdown and MDX Guide","date":"2024-03-25","tags":["markdown","mdx","guide","tutorial"],"excerpt":"A comprehensive guide to using Markdown and MDX features including code blocks, tables, and more"},{"slug":"useful-bash-scripts","content":"$13","title":"Useful Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":"$6:props:frontmatter:tags","excerpt":"Collection of useful Bash scripts for daily DevOps tasks"}]}]
+These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!7:["$","$Lf",null,{"content":{"compiledSource":"$10","frontmatter":{},"scope":{}},"frontmatter":{"slug":"useful-bash-scripts","content":"$11","title":"Useful Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":["bash","devops","linux","automation"],"excerpt":"Collection of useful Bash scripts for daily DevOps tasks","readingTime":2,"wordCount":290,"rawContent":"$12"},"allPosts":[{"slug":"example-post","content":"\n# Menggunakan Gambar di MDX\n\n## Cara Pertama: Menggunakan Markdown Standard\n\nBerikut adalah contoh penggunaan gambar menggunakan syntax markdown standard:\n\n![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)\n\n\n  ","title":"Menggunakan Gambar di Blog Post","date":"2024-11-24","tags":["nextjs","mdx","images"],"excerpt":"Panduan menggunakan gambar dalam blog post menggunakan MDX"},{"slug":"test","content":"\n# Test Code Blocks\n\n## Basic Code Block\n\n```javascript\nconst greeting = \"Hello World\";\nconsole.log(greeting);\n\n// Object example\nconst user = {\n  name: \"John\",\n  age: 30\n};\n```\n\n## Code Block with Title\n\n```javascript title=\"example.js\"\nfunction sayHello() {\n  return \"Hello!\";\n}\n```\n\n## Code Block with Line Highlighting\n\n```python {1,3-4}\ndef example():\n    # This line won't be highlighted\n    # These lines will be highlighted\n    print(\"Hello World\")\n```\n\n## Code Block without Line Numbers\n\n```bash\nnpm install\nnpm run dev\n```\n\n## Package.json Example\n\n```json title=\"package.json\"\n{\n  \"name\": \"my-project\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"next\": \"latest\",\n    \"react\": \"latest\"\n  }\n}\n``` \n","title":"Test Code Blocks","date":"2024-03-26","tags":["code","test"],"excerpt":"Just a code test"},{"slug":"markdown-guide","content":"$13","title":"Complete Markdown and MDX Guide","date":"2024-03-25","tags":["markdown","mdx","guide","tutorial"],"excerpt":"A comprehensive guide to using Markdown and MDX features including code blocks, tables, and more"},{"slug":"useful-bash-scripts","content":"$14","title":"Useful Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":"$7:props:frontmatter:tags","excerpt":"Collection of useful Bash scripts for daily DevOps tasks"}]}]
