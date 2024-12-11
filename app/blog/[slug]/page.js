@@ -7,7 +7,6 @@ import { getPosts } from '../../lib/getPosts';
 import { serialize } from 'next-mdx-remote/serialize';
 import remarkGfm from 'remark-gfm';
 import rehypePrettyCode from 'rehype-pretty-code';
-import { transformerCopyButton } from '@rehype-pretty/transformers';
 
 const getPost = cache(async (slug) => {
   const filePath = path.join(process.cwd(), 'content/posts', `${slug}.mdx`);
@@ -25,6 +24,34 @@ export async function generateStaticParams() {
   }));
 }
 
+const mdxOptions = {
+  remarkPlugins: [remarkGfm],
+  rehypePlugins: [
+    [rehypePrettyCode, {
+      theme: {
+        dark: 'github-dark',
+        light: 'github-light',
+      },
+      keepBackground: true,
+      defaultLang: 'plaintext',
+      grid: true,
+      onVisitLine(node) {
+        if (node.children.length === 0) {
+          node.children = [{type: 'text', value: ' '}];
+        }
+      },
+      onVisitHighlightedLine(node) {
+        node.properties.className = ['highlighted'];
+      },
+      onVisitHighlightedWord(node) {
+        node.properties.className = ['word'];
+      },
+      cacheDir: path.join(process.cwd(), 'node_modules/.cache/rehype-pretty-code'),
+    }],
+  ],
+  format: 'mdx',
+};
+
 export default async function BlogPost({ params }) {
   try {
     const { slug } = await params;
@@ -38,38 +65,7 @@ export default async function BlogPost({ params }) {
     const readingTime = Math.ceil(words / 200);
 
     const mdxSource = await serialize(post.content, {
-      mdxOptions: {
-        remarkPlugins: [remarkGfm],
-        rehypePlugins: [
-          [rehypePrettyCode, {
-            theme: {
-              dark: 'github-dark',
-              light: 'github-light',
-            },
-            keepBackground: true,
-            defaultLang: 'plaintext',
-            grid: true,
-            onVisitLine(node) {
-              if (node.children.length === 0) {
-                node.children = [{type: 'text', value: ' '}];
-              }
-            },
-            onVisitHighlightedLine(node) {
-              node.properties.className = ['highlighted'];
-            },
-            onVisitHighlightedWord(node) {
-              node.properties.className = ['word'];
-            },
-            transformers: [
-              transformerCopyButton({
-                visibility: true,
-                feedbackDuration: 2000,
-              }),
-            ],
-          }],
-        ],
-        format: 'mdx',
-      },
+      mdxOptions,
       parseFrontmatter: true,
     });
     

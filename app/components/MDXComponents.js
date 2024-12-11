@@ -1,33 +1,44 @@
 "use client";
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useState, useRef } from 'react';
+import { FiCopy, FiCheck } from 'react-icons/fi';
 
 // Create a proper React component for pre
 const PreBlock = ({ children, ...props }) => {
   const [copied, setCopied] = useState(false);
+  const preRef = useRef(null);
 
   const handleCopy = async () => {
-    const code = children.props.children;
+    // Gunakan ref untuk mengakses elemen pre yang spesifik
+    const codeElement = preRef.current?.querySelector('code');
+    const textToCopy = codeElement?.textContent || '';
+    
     try {
-      await navigator.clipboard.writeText(code);
+      await navigator.clipboard.writeText(textToCopy);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      console.error('Failed to copy code:', err);
+      console.error('Failed to copy:', err);
     }
   };
 
   return (
     <div className="relative group">
-      <pre {...props}>{children}</pre>
+      <pre ref={preRef} {...props}>{children}</pre>
       <button
         onClick={handleCopy}
-        className="absolute right-2 top-2 p-2 rounded bg-neutral-800/30 
+        className="absolute right-2 top-2 p-2 rounded-md 
+          bg-neutral-100 dark:bg-neutral-800 
+          text-neutral-600 dark:text-neutral-400
           opacity-0 group-hover:opacity-100 transition-opacity"
         aria-label="Copy code"
       >
-        {copied ? 'Copied!' : 'Copy'}
+        {copied ? (
+          <FiCheck className="w-4 h-4 text-green-500" />
+        ) : (
+          <FiCopy className="w-4 h-4" />
+        )}
       </button>
     </div>
   );

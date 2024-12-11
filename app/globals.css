@@ -8,16 +8,35 @@ pre {
   background-color: transparent !important;
 }
 
-/* Code block header with language */
-pre[data-language]:before {
-  @apply absolute top-5 right-0 px-3 py-1 text-[10px] 
-    text-neutral-400 font-mono uppercase;
+/* Code block header - unified styling */
+[data-rehype-pretty-code-title] {
+  @apply block w-full px-4 py-2 text-xs font-mono
+    text-neutral-500 dark:text-neutral-400 bg-neutral-100 dark:bg-neutral-800/80
+    border-b border-neutral-200 dark:border-neutral-700;
+}
+
+/* Add language badge to title */
+[data-rehype-pretty-code-title]:after {
   content: attr(data-language);
+  @apply ml-2 px-2 py-0.5 rounded-md 
+    bg-neutral-200 dark:bg-neutral-700
+    text-neutral-600 dark:text-neutral-300
+    uppercase text-[10px] tracking-wider;
+}
+
+/* Language-only header (when no title) */
+pre:not([data-rehype-pretty-code-title]) > pre[data-language]:before {
+  @apply block w-full px-4 py-2 text-xs font-mono
+    text-neutral-500 dark:text-neutral-400 bg-neutral-100 dark:bg-neutral-800/80
+    border-b border-neutral-200 dark:border-neutral-700;
+  content: attr(data-language);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 /* Code content */
 pre > code {
-  @apply grid min-w-full break-words rounded-none border-0 bg-transparent p-0 text-sm;
+  @apply grid min-w-full break-words rounded-none border-0 bg-transparent p-0 text-sm pt-2;
   counter-reset: line;
   box-decoration-break: clone;
 }
