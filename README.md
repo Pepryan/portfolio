@@ -2,6 +2,8 @@
 
 A modern, responsive personal portfolio and blog built with Next.js, TailwindCSS, and MDX. Features dark mode, code syntax highlighting, and a fully responsive design.
 
+🌐 [Live](https://pepryan.github.io/portfolio/)
+
 ![Portfolio Preview](public/images/preview.png)
 
 ## ✨ Features
