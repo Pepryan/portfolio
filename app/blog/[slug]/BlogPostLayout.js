@@ -5,6 +5,7 @@ import { useTheme } from '../../context/ThemeContext';
 import TableOfContents from '../../components/TableOfContents';
 import { memo, useEffect, useState } from 'react';
 import Header from '../../components/Header';
+import Head from 'next/head';
 
 // Memoize the entire component
 export default memo(function BlogPostLayout({ children, data, readingTime, wordCount, content }) {
@@ -28,45 +29,64 @@ export default memo(function BlogPostLayout({ children, data, readingTime, wordC
   }, []);
 
   return (
-    <div className={`min-h-screen ${darkMode ? 'dark bg-neutral-900' : 'bg-white'}`}>
-      <Header showSearch={false} isPost={true} />
+    <>
+      <Head>
+        <title>{`${data.title} | Febryan Portfolio`}</title>
+        <meta name="description" content={data.excerpt || data.title} />
+        <meta name="keywords" content={data.tags.join(', ')} />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content={data.title} />
+        <meta property="og:description" content={data.excerpt || data.title} />
+        <meta property="og:type" content="article" />
+        <meta property="article:published_time" content={data.date} />
+        {data.updated && (
+          <meta property="article:modified_time" content={data.updated} />
+        )}
+        {data.tags.map((tag) => (
+          <meta key={tag} property="article:tag" content={tag} />
+        ))}
+      </Head>
+      <div className={`min-h-screen ${darkMode ? 'dark bg-neutral-900' : 'bg-white'}`}>
+        <Header showSearch={false} isPost={true} />
 
-      <div className="max-w-4xl mx-auto p-4 mt-20">
-        <article className="prose dark:prose-invert">
-          <h1 className="text-4xl font-bold mb-4 text-neutral-900 dark:text-neutral-100">{data.title}</h1>
+        <div className="max-w-4xl mx-auto p-4 mt-20">
+          <article className="prose dark:prose-invert">
+            <h1 className="text-4xl font-bold mb-4 text-neutral-900 dark:text-neutral-100">{data.title}</h1>
 
-          <div className="text-neutral-600 dark:text-neutral-400 mb-4">
-            <div className="flex items-center gap-4 mb-2">
-              <time>Created: {new Date(data.date).toLocaleDateString()}</time>
-              {data.updated && (
-                <time>Updated: {new Date(data.updated).toLocaleDateString()}</time>
-              )}
-              <span>·</span>
-              <span>{readingTime} min read</span>
-              <span>·</span>
-              <span>{wordCount} words</span>
+            <div className="text-neutral-600 dark:text-neutral-400 mb-4">
+              <div className="flex items-center gap-4 mb-2">
+                <time>Created: {new Date(data.date).toLocaleDateString()}</time>
+                {data.updated && (
+                  <time>Updated: {new Date(data.updated).toLocaleDateString()}</time>
+                )}
+                <span>·</span>
+                <span>{readingTime} min read</span>
+                <span>·</span>
+                <span>{wordCount} words</span>
+              </div>
+              <div className="flex gap-2">
+                {data.tags.map((tag) => (
+                  <Link
+                    key={tag}
+                    href={`/blog/tags/${tag}`}
+                    className="text-sm bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                  >
+                    #{tag}
+                  </Link>
+                ))}
+              </div>
             </div>
-            <div className="flex gap-2">
-              {data.tags.map((tag) => (
-                <Link
-                  key={tag}
-                  href={`/blog/tags/${tag}`}
-                  className="text-sm bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-                >
-                  #{tag}
-                </Link>
-              ))}
+
+            <div className="mb-8 inline-block">
+              <TableOfContents content={content} />
             </div>
-          </div>
 
-          <div className="mb-8 inline-block">
-            <TableOfContents content={content} />
-          </div>
-
-          {children}
-        </article>
+            {children}
+          </article>
+        </div>
       </div>
-    </div>
+    </>
   );
 }, (prevProps, nextProps) => {
   // Custom comparison function
