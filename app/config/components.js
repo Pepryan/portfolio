@@ -85,8 +85,8 @@ export const componentConfig = {
       github: 'github.com/Pepryan',
       gitlab: 'gitlab.com/Pepryan',
       twitter: 'x.com/pepryan',
-      instagram: 'instagram.com/nayrbef',
-      telegram: 't.me/febryanramadhan'
+      // instagram: 'instagram.com/nayrbef',
+      // telegram: 't.me/febryanramadhan'
       // youtube: 'youtube.com/febryanramadhan',
       // tiktok: 'tiktok.com/febryanramadhan',
       // discord: 'discord.gg/febryanramadhan',

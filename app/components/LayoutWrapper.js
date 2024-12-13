@@ -19,7 +19,7 @@ export default function LayoutWrapper({ children }) {
   ];
 
   return (
-    <div className={darkMode ? 'dark' : ''}>
+    <div className="relative">
       <KeyboardShortcuts onToggleShortcuts={() => setShowShortcuts(prev => !prev)} />
       
       {/* Shortcuts Help Modal */}
@@ -56,13 +56,14 @@ export default function LayoutWrapper({ children }) {
         </div>
       )}
 
-      {/* Shortcuts Button - Hidden on Mobile */}
+      {/* Shortcuts Button - di kiri bawah */}
       <button
         onClick={() => setShowShortcuts(true)}
-        className="fixed bottom-4 left-4 p-2.5 rounded-full bg-white dark:bg-neutral-800 
-          shadow-lg hover:bg-neutral-50 dark:hover:bg-neutral-700 transition-colors
-          border border-neutral-200 dark:border-neutral-700 z-40
-          hidden sm:block"
+        className="fixed bottom-6 left-6 p-2.5 rounded-full 
+          bg-white/50 dark:bg-neutral-800/50 backdrop-blur-sm
+          shadow-lg hover:bg-neutral-50 dark:hover:bg-neutral-700 
+          transition-colors border border-neutral-200 dark:border-neutral-700 
+          z-40"
         aria-label="Keyboard shortcuts"
       >
         <FiCommand className="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
