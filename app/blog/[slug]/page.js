@@ -7,6 +7,7 @@ import { getPosts } from '../../lib/getPosts';
 import { serialize } from 'next-mdx-remote/serialize';
 import remarkGfm from 'remark-gfm';
 import rehypePrettyCode from 'rehype-pretty-code';
+// import { transformerCopyButton } from '@rehype-pretty/transformers';
 
 const getPost = cache(async (slug) => {
   const filePath = path.join(process.cwd(), 'content/posts', `${slug}.mdx`);
@@ -28,7 +29,19 @@ const shikiConfig = {
   keepBackground: true,
   defaultLang: 'plaintext',
   grid: true,
-  theme: 'vitesse-black',
+  // theme: {
+  //   dark: "github-dark-dimmed",
+  //   light: "github-light",
+  // },
+  // theme: 'material-theme',
+  theme: 'night-owl',
+  // theme:'vitesse-black',
+  // transformers: [
+  //   transformerCopyButton({
+  //     visibility: 'always',
+  //     feedbackDuration: 3_000,
+  //   }),
+  // ],
   onVisitLine(node) {
     if (node.children.length === 0) {
       node.children = [{type: 'text', value: ' '}];

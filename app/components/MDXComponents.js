@@ -11,7 +11,6 @@ const PreBlock = ({ children, ...props }) => {
   const preRef = useRef(null);
 
   const handleCopy = async () => {
-    // Gunakan ref untuk mengakses elemen pre yang spesifik
     const codeElement = preRef.current?.querySelector('code');
     const textToCopy = codeElement?.textContent || '';
     
@@ -120,13 +119,20 @@ const MDXComponents = {
     </Link>
   ),
   pre: PreBlock,
-  code: ({ children, className }) => {
-    return (
-      <code className={className}>
-        {children}
-      </code>
-    );
-  }
+  // Add a custom component for code blocks with titles
+  // codeBlock: ({ title, children }) => (
+  //   <figure className="my-4">
+  //     {title && <h3 className="text-lg font-semibold mb-1">{title}</h3>}
+  //     <pre className="bg-gray-100 p-4 rounded-md">{children}</pre>
+  //   </figure>
+  // ),
+  // code: ({ children, className }) => {
+  //   return (
+  //     <code className={className}>
+  //       {children}
+  //     </code>
+  //   );
+  // }
 };
 
 export default MDXComponents; 
