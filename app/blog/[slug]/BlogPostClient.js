@@ -28,7 +28,7 @@ export default function BlogPostClient({ content, frontmatter, allPosts }) {
       <Header />
       <ReadingProgress />
       
-      <main className="max-w-7xl mx-auto px-4 pt-24 pb-16">
+      <main className="max-w-7xl mx-auto px-4 pt-24 pb-16 mt-8">
         {/* Back to blog */}
         <Link 
           href="/blog"

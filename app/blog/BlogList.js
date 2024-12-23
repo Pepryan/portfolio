@@ -4,6 +4,7 @@ import { useTheme } from '../context/ThemeContext';
 import Link from 'next/link';
 import { FiCalendar, FiClock, FiTag, FiArrowLeft } from 'react-icons/fi';
 import Header from '../components/Header';
+import Image from 'next/image';
 
 // Add PaginationButton component
 const PaginationButton = ({ onClick, disabled, children, active }) => {
@@ -117,6 +118,19 @@ export default function BlogList({ posts }) {
                 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
             >
               <Link href={`/blog/${post.slug}`} className="block">
+                {/* Add image preview */}
+                {post.thumbnail && (
+                  <div className="relative w-full h-48 mb-4 rounded-lg overflow-hidden">
+                    <Image
+                      src={post.thumbnail}
+                      alt={post.title}
+                      fill={true}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      priority={false}
+                    />
+                  </div>
+                )}
                 <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-2 
                   group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                   {post.title}
@@ -139,9 +153,16 @@ export default function BlogList({ posts }) {
                   </div>
 
                   {post.readingTime && (
+                    <div className="flex items-center gap-1">
+                      <FiClock className="w-4 h-4" />
+                      <span>{post.readingTime} min read</span>
+                    </div>
+                  )}
+
+                  {post.wordCount && (
                     <>
                       <span>·</span>
-                      <span>{post.readingTime} min read</span>
+                      <span>{post.wordCount.toLocaleString()} words</span>
                     </>
                   )}
                   

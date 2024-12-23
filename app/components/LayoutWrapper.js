@@ -59,7 +59,7 @@ export default function LayoutWrapper({ children }) {
       {/* Shortcuts Button - di kiri bawah */}
       <button
         onClick={() => setShowShortcuts(true)}
-        className="fixed bottom-6 left-6 p-2.5 rounded-full 
+        className="hidden sm:block fixed bottom-6 left-6 p-2.5 rounded-full 
           bg-white/50 dark:bg-neutral-800/50 backdrop-blur-sm
           shadow-lg hover:bg-neutral-50 dark:hover:bg-neutral-700 
           transition-colors border border-neutral-200 dark:border-neutral-700 

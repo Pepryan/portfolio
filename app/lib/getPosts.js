@@ -12,10 +12,16 @@ export function getPosts() {
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContents);
 
+    // Calculate word count and reading time
+    const words = content.trim().split(/\s+/).length;
+    const readingTime = Math.ceil(words / 200); // Assuming average reading speed of 200 words per minute
+
     return {
       slug,
       content,
       ...data,
+      wordCount: words,
+      readingTime,
       tags: Array.isArray(data.tags) ? data.tags : [],
     };
   })

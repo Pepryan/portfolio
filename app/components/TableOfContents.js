@@ -80,14 +80,31 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
   const scrollToHeading = (slug) => {
     const element = document.getElementById(slug);
     if (element) {
-      const headerOffset = 100;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      // Jika di mobile, collapse dulu baru scroll
+      if (window.innerWidth < 1024) {
+        setIsExpanded(false);
+        // Tunggu animasi collapse selesai baru scroll
+        setTimeout(() => {
+          const headerOffset = 80; // Kurangi offset karena ToC sudah collapse
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.scrollY - headerOffset;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }, 100); // Delay 100ms untuk animasi collapse
+      } else {
+        // Di desktop langsung scroll
+        const headerOffset = 100;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
       
       setActiveId(slug);
     }
@@ -96,12 +113,23 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
   if (headings.length === 0) return null;
 
   return (
-    <nav className="not-prose rounded-lg border border-neutral-200/70 dark:border-neutral-800/80 
-      bg-white/50 dark:bg-neutral-900/50 backdrop-blur-sm shadow-sm">
-      <div className="px-3 py-2 border-b border-neutral-200/70 dark:border-neutral-800/80">
+    <nav className={`not-prose 
+      lg:static lg:border lg:border-neutral-200/70 lg:dark:border-neutral-800/80 lg:rounded-lg
+      lg:bg-white/50 lg:dark:bg-neutral-900/50 lg:backdrop-blur-sm lg:shadow-sm
+      
+      max-lg:fixed max-lg:top-16 max-lg:left-0 max-lg:right-0
+      max-lg:z-10 max-lg:bg-gradient-to-b max-lg:from-white/95 max-lg:to-white/90
+      max-lg:dark:from-neutral-900/95 max-lg:dark:to-neutral-900/90
+      max-lg:backdrop-blur-sm max-lg:shadow-md
+      max-lg:border-b max-lg:border-neutral-200/10 max-lg:dark:border-neutral-800/10
+      `}>
+      <div className={`
+        lg:px-3 lg:py-2 lg:border-b lg:border-neutral-200/70 lg:dark:border-neutral-800/80
+        max-lg:container max-lg:mx-auto max-lg:px-4
+        `}>
         <button 
           onClick={() => setIsExpanded(!isExpanded)}
-          className="flex items-center justify-between w-full py-1"
+          className="flex items-center justify-between w-full py-1.5"
         >
           <h2 className="text-sm font-medium text-neutral-700 dark:text-neutral-300">
             On this page
@@ -120,7 +148,11 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
       </div>
       
       {isExpanded && (
-        <div className="px-3 py-2 max-h-[calc(100vh-16rem)] lg:max-h-[calc(100vh-8rem)] overflow-y-auto">
+        <div className={`
+          overflow-y-auto
+          lg:px-3 lg:py-2 lg:max-h-[calc(100vh-8rem)]
+          max-lg:container max-lg:mx-auto max-lg:px-4 max-lg:py-2 max-lg:max-h-[40vh]
+          `}>
           <ul className="space-y-1 text-sm">
             {headings.map((heading, index) => (
               <li 

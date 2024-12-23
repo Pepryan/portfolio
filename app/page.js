@@ -153,16 +153,17 @@ export default function Home() {
               onClick={() => scrollToSection(id)}
               className={`p-2 rounded-full transition-all duration-300 group relative
                 ${activeSection === id 
-                  ? 'bg-neutral-200/80 dark:bg-neutral-700/80 text-neutral-900 dark:text-neutral-100' 
-                  : 'text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100/80 dark:hover:bg-neutral-700/80'
+                  ? 'text-neutral-900 dark:text-neutral-100' 
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200'
                 }`}
             >
               <Icon className="w-5 h-5" />
               
-              {/* Tooltip */}
+              {/* Tooltip - Hidden on mobile */}
               <span className="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 
                 bg-neutral-800/90 dark:bg-neutral-700/90 text-white text-xs rounded 
-                opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap
+                hidden sm:block">
                 {label}
               </span>
             </button>
