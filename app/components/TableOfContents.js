@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState, memo } from 'react';
-import { FiChevronRight, FiChevronDown } from 'react-icons/fi';
+import { FiChevronRight, FiChevronDown, FiList } from 'react-icons/fi';
 
 const TableOfContents = memo(function TableOfContents({ content, defaultExpanded = true }) {
   const [headings, setHeadings] = useState([]);
@@ -113,37 +113,29 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
   if (headings.length === 0) return null;
 
   return (
-    <nav className={`not-prose 
+    <nav className={`not-prose
       lg:static lg:border lg:border-neutral-200/70 lg:dark:border-neutral-800/80 lg:rounded-lg
       lg:bg-white/50 lg:dark:bg-neutral-900/50 lg:backdrop-blur-sm lg:shadow-sm
       
-      max-lg:fixed max-lg:top-16 max-lg:left-0 max-lg:right-0
-      max-lg:z-10 max-lg:bg-gradient-to-b max-lg:from-white/95 max-lg:to-white/90
-      max-lg:dark:from-neutral-900/95 max-lg:dark:to-neutral-900/90
-      max-lg:backdrop-blur-sm max-lg:shadow-md
-      max-lg:border-b max-lg:border-neutral-200/10 max-lg:dark:border-neutral-800/10
+      max-lg:fixed max-lg:bottom-4 max-lg:left-4
+      max-lg:z-50 max-lg:shadow-lg max-lg:rounded-lg
+      max-lg:bg-white/90 max-lg:dark:bg-neutral-900/90
+      max-lg:backdrop-blur-sm max-lg:border max-lg:border-neutral-200/20 max-lg:dark:border-neutral-800/20
       `}>
       <div className={`
         lg:px-3 lg:py-2 lg:border-b lg:border-neutral-200/70 lg:dark:border-neutral-800/80
         max-lg:container max-lg:mx-auto max-lg:px-4
         `}>
-        <button 
+        <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className="flex items-center justify-between w-full py-1.5"
+          className="flex items-center justify-center w-full p-2.5"
         >
-          <h2 className="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+          <div className="lg:hidden">
+            <FiList className="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
+          </div>
+          <h2 className="hidden lg:block text-sm font-medium text-neutral-700 dark:text-neutral-300">
             On this page
           </h2>
-          <div className="flex items-center gap-2">
-            <span className="text-xs text-neutral-500">
-              {isExpanded ? 'Collapse' : 'Expand'}
-            </span>
-            <FiChevronDown 
-              className={`w-4 h-4 text-neutral-400 transition-transform duration-200 ${
-                isExpanded ? 'transform rotate-180' : ''
-              }`}
-            />
-          </div>
         </button>
       </div>
       
@@ -151,7 +143,8 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
         <div className={`
           overflow-y-auto
           lg:px-3 lg:py-2 lg:max-h-[calc(100vh-8rem)]
-          max-lg:container max-lg:mx-auto max-lg:px-4 max-lg:py-2 max-lg:max-h-[40vh]
+          max-lg:px-3 max-lg:py-2 max-lg:max-h-[50vh]
+          max-lg:w-[280px] max-lg:overflow-y-auto
           `}>
           <ul className="space-y-1 text-sm">
             {headings.map((heading, index) => (
@@ -162,9 +155,7 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
                 <button
                   onClick={() => {
                     scrollToHeading(heading.slug);
-                    if (window.innerWidth < 1024) {
-                      setIsExpanded(false);
-                    }
+                    // Collapse handled only by button click
                   }}
                   className={`
                     group flex items-center gap-1 w-full text-left py-1 px-2 rounded-md
