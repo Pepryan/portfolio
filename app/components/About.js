@@ -31,7 +31,7 @@ In my free time, I enjoy:<br/>
 
 I believe in <b>growth</b>, both <b>personal</b> and <b>professional</b>, and in creating <b>solutions</b> that will actually bring a change.<br/><br/>
 
-Thanks for visiting—feel free to connect or check out my projects here. Let's <b>innovate</b> and <b>grow together</b>!
+Thanks for visiting—feel free to connect or check out my projects here. Let&apos;s <b>innovate</b> and <b>grow together</b>!
           </p>
         </div>
       </div>
