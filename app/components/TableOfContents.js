@@ -1,6 +1,39 @@
 "use client";
 import { useEffect, useState, memo } from 'react';
 import { FiChevronRight, FiChevronDown, FiList } from 'react-icons/fi';
+import { AnimatePresence, motion } from 'framer-motion';
+
+// Mobile TOC Button
+const MobileTOCButton = ({ onClick, isExpanded }) => (
+  <motion.button
+    onClick={onClick}
+    className="fixed lg:hidden z-50 bottom-0 left-0 p-3 rounded-full shadow-lg bg-white/90 dark:bg-neutral-900/90 backdrop-blur-sm border border-neutral-200/20 dark:border-neutral-800/20"
+    whileTap={{ scale: 0.95 }}
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    exit={{ opacity: 0, y: 20 }}
+    transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+  >
+    <FiList className="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
+  </motion.button>
+);
+
+// Mobile TOC Content
+const MobileTOCContent = ({ isExpanded, children }) => (
+  <AnimatePresence>
+    {isExpanded && (
+      <motion.div
+        className="fixed lg:hidden z-40 bottom-16 left-4 w-[280px] max-h-[50vh] bg-white/90 dark:bg-neutral-900/90 backdrop-blur-sm rounded-lg shadow-lg border border-neutral-200/20 dark:border-neutral-800/20 overflow-y-auto"
+        initial={{ opacity: 0, y: 20, scale: 0.95 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        exit={{ opacity: 0, y: 20, scale: 0.95 }}
+        transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+      >
+        {children}
+      </motion.div>
+    )}
+  </AnimatePresence>
+);
 
 const TableOfContents = memo(function TableOfContents({ content, defaultExpanded = true }) {
   const [headings, setHeadings] = useState([]);
@@ -122,34 +155,28 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
       max-lg:bg-white/90 max-lg:dark:bg-neutral-900/90
       max-lg:backdrop-blur-sm max-lg:border max-lg:border-neutral-200/20 max-lg:dark:border-neutral-800/20
       `}>
-      <div className={`
-        lg:px-3 lg:py-2 lg:border-b lg:border-neutral-200/70 lg:dark:border-neutral-800/80
-        max-lg:container max-lg:mx-auto max-lg:px-4
-        `}>
+      <div className="lg:px-3 lg:py-2 lg:border-b lg:border-neutral-200/70 lg:dark:border-neutral-800/80">
         <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className="flex items-center justify-center w-full p-2.5"
+          className="hidden lg:flex items-center justify-center w-full p-2.5"
         >
-          <div className="lg:hidden">
-            <FiList className="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
-          </div>
-          <h2 className="hidden lg:block text-sm font-medium text-neutral-700 dark:text-neutral-300">
+          <h2 className="text-sm font-medium text-neutral-700 dark:text-neutral-300">
             On this page
           </h2>
+          <FiChevronDown
+            className={`w-4 h-4 ml-2 transition-transform duration-150 ${
+              isExpanded ? 'rotate-180' : ''
+            }`}
+          />
         </button>
       </div>
       
       {isExpanded && (
-        <div className={`
-          overflow-y-auto
-          lg:px-3 lg:py-2 lg:max-h-[calc(100vh-8rem)]
-          max-lg:px-3 max-lg:py-2 max-lg:max-h-[50vh]
-          max-lg:w-[280px] max-lg:overflow-y-auto
-          `}>
+        <div className="overflow-y-auto lg:px-3 lg:py-2 lg:max-h-[calc(100vh-8rem)] hidden lg:block">
           <ul className="space-y-1 text-sm">
             {headings.map((heading, index) => (
-              <li 
-                key={index} 
+              <li
+                key={index}
                 style={{ paddingLeft: `${(heading.level - 2) * 0.75}rem` }}
               >
                 <button
@@ -159,14 +186,14 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
                   }}
                   className={`
                     group flex items-center gap-1 w-full text-left py-1 px-2 rounded-md
-                    ${activeId === heading.slug 
-                      ? 'text-blue-600 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-500/5' 
+                    ${activeId === heading.slug
+                      ? 'text-blue-600 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-500/5'
                       : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200'
                     }
                     transition-colors duration-150 text-[13px] leading-tight
                   `}
                 >
-                  <FiChevronRight 
+                  <FiChevronRight
                     className={`w-3 h-3 flex-shrink-0 transition-transform duration-150 opacity-60
                       ${activeId === heading.slug ? 'rotate-90' : 'group-hover:rotate-90'}
                     `}
@@ -178,6 +205,45 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
           </ul>
         </div>
       )}
+      
+      {/* Mobile Components */}
+      <MobileTOCButton
+        onClick={() => setIsExpanded(!isExpanded)}
+        isExpanded={isExpanded}
+      />
+      
+      <MobileTOCContent isExpanded={isExpanded}>
+        <ul className="space-y-1 text-sm p-3">
+          {headings.map((heading, index) => (
+            <li
+              key={index}
+              style={{ paddingLeft: `${(heading.level - 2) * 0.75}rem` }}
+            >
+              <button
+                onClick={() => {
+                  scrollToHeading(heading.slug);
+                  setIsExpanded(false);
+                }}
+                className={`
+                  group flex items-center gap-1 w-full text-left py-1 px-2 rounded-md
+                  ${activeId === heading.slug
+                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-500/5'
+                    : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200'
+                  }
+                  transition-colors duration-150 text-[13px] leading-tight
+                `}
+              >
+                <FiChevronRight
+                  className={`w-3 h-3 flex-shrink-0 transition-transform duration-150 opacity-60
+                    ${activeId === heading.slug ? 'rotate-90' : 'group-hover:rotate-90'}
+                  `}
+                />
+                <span className="truncate">{heading.text}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      </MobileTOCContent>
     </nav>
   );
 });
