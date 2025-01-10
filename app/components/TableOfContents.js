@@ -164,7 +164,7 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
             On this page
           </h2>
           <FiChevronDown
-            className={`w-4 h-4 ml-2 transition-transform duration-150 ${
+            className={`w-4 h-4 ml-2 text-neutral-700 dark:text-neutral-300 transition-transform duration-150 ${
               isExpanded ? 'rotate-180' : ''
             }`}
           />
