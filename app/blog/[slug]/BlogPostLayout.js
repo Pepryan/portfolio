@@ -70,7 +70,7 @@ export default memo(function BlogPostLayout({ children, data, readingTime, wordC
                   <Link
                     key={tag}
                     href={`/blog/tags/${tag}`}
-                    className="text-sm bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                    className="text-sm bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-100 px-2 py-1 rounded hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
                   >
                     #{tag}
                   </Link>

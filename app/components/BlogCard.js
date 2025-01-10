@@ -55,7 +55,7 @@ export default function BlogCard({ post }) {
           {post.tags.map(tag => (
             <span
               key={tag}
-              className="px-2 py-1 text-xs bg-[#1a1f2e] dark:bg-[#1a1f2e] text-neutral-400 rounded-full"
+              className="px-2 py-1 text-xs bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-100 rounded-full"
             >
               #{tag}
             </span>
