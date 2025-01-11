@@ -39,33 +39,35 @@ export default function TabAccordion() {
       <div className="hidden md:block">
         <div className="max-w-7xl mx-auto px-4">
           {/* Section Tabs */}
-          <div className="grid grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-3 gap-6 mb-16">
             {sections.map((section) => (
               <motion.div
                 key={section.id}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
               >
                 <button
                   onClick={() => handleNavigation(section.id)}
                   className={`
-                    w-full h-32 flex flex-col items-center justify-center
-                    text-xl font-medium text-center rounded-2xl
-                    transition-all duration-300
+                    w-full h-40 flex flex-col items-center justify-center
+                    text-2xl font-semibold text-center rounded-3xl
+                    transition-all duration-200
                     border-2
                     ${
                       activeSection === section.id
-                        ? 'border-neutral-900 dark:border-neutral-100 bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 shadow-xl'
-                        : 'border-neutral-200 dark:border-neutral-700 bg-white/50 dark:bg-neutral-800/50 text-neutral-900 dark:text-neutral-200 hover:bg-neutral-100 dark:hover:bg-neutral-700/50 backdrop-blur-sm'
+                        ? 'border-blue-600 dark:border-blue-400 bg-blue-600/10 dark:bg-blue-400/10 text-blue-600 dark:text-blue-400 shadow-lg'
+                        : 'border-neutral-200/50 dark:border-neutral-700/50 bg-white/30 dark:bg-neutral-800/30 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100/50 dark:hover:bg-neutral-700/30 backdrop-blur-sm'
                     }
                   `}
                 >
-                  <span className="text-3xl mb-2">
+                  <span className="text-4xl mb-3">
                     {section.id === 'skills' && '💻'}
                     {section.id === 'projects' && '🚀'}
                     {section.id === 'certifications' && '🏅'}
                   </span>
-                  {section.label}
+                  <span className="text-lg font-medium">
+                    {section.label}
+                  </span>
                 </button>
               </motion.div>
             ))}
@@ -124,20 +126,20 @@ export default function TabAccordion() {
     return (
       <div className="md:hidden">
         {/* Section Selector */}
-        <div className="flex justify-between items-center mb-8 px-4">
+        <div className="flex justify-between items-center mb-10 px-6">
           <button
             onClick={() => {
               const prevIndex = (currentIndex - 1 + sections.length) % sections.length;
               handleNavigation(sections[prevIndex].id);
             }}
-            className="p-3 rounded-xl hover:bg-neutral-100 dark:hover:bg-neutral-700 text-neutral-900 dark:text-neutral-200 transition-colors"
+            className="p-3 rounded-xl hover:bg-neutral-100/50 dark:hover:bg-neutral-700/30 text-neutral-700 dark:text-neutral-300 transition-colors"
           >
             <FiChevronLeft className="w-6 h-6" />
           </button>
           
-          <div className="flex-1 mx-4">
-            <div className="bg-white/50 dark:bg-neutral-800/50 backdrop-blur-sm rounded-xl p-3">
-              <h2 className="text-xl font-semibold text-neutral-900 dark:text-neutral-100 text-center">
+          <div className="flex-1 mx-6">
+            <div className="bg-white/60 dark:bg-neutral-800/60 backdrop-blur-sm rounded-xl p-3 border border-neutral-100/50 dark:border-neutral-700/50">
+              <h2 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 text-center">
                 {sections[currentIndex].label}
               </h2>
             </div>
@@ -148,7 +150,7 @@ export default function TabAccordion() {
               const nextIndex = (currentIndex + 1) % sections.length;
               handleNavigation(sections[nextIndex].id);
             }}
-            className="p-3 rounded-xl hover:bg-neutral-100 dark:hover:bg-neutral-700 text-neutral-900 dark:text-neutral-200 transition-colors"
+            className="p-3 rounded-xl hover:bg-neutral-100/50 dark:hover:bg-neutral-700/30 text-neutral-700 dark:text-neutral-300 transition-colors"
           >
             <FiChevronRight className="w-6 h-6" />
           </button>
@@ -185,8 +187,8 @@ export default function TabAccordion() {
   };
 
   return (
-    <div className="py-8 md:py-12">
-      <div className="max-w-7xl mx-auto px-4">
+    <div className="py-12 md:py-16">
+      <div className="max-w-7xl mx-auto px-6">
         {isMobile ? <MobileNavigation /> : <DesktopNavigation />}
       </div>
     </div>
