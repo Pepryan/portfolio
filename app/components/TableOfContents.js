@@ -5,17 +5,31 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 // Mobile TOC Button
 const MobileTOCButton = ({ onClick, isExpanded }) => (
-  <motion.button
-    onClick={onClick}
-    className="fixed lg:hidden z-50 bottom-0 left-0 p-3 rounded-full shadow-lg bg-white/90 dark:bg-neutral-900/90 backdrop-blur-sm border border-neutral-200/20 dark:border-neutral-800/20"
-    whileTap={{ scale: 0.95 }}
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    exit={{ opacity: 0, y: 20 }}
-    transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-  >
-    <FiList className="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
-  </motion.button>
+    <motion.button
+      onClick={onClick}
+      className="fixed lg:hidden z-50 bottom-0 left-0 p-3 rounded-full shadow-lg bg-white dark:bg-neutral-900/90 backdrop-blur-sm border border-neutral-200/20 dark:border-neutral-800/20"
+      whileTap={{ scale: 0.95 }}
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ 
+        opacity: 1, 
+        y: 0,
+        rotate: isExpanded ? 90 : 0
+      }}
+      exit={{ opacity: 0, y: 20 }}
+      transition={{ 
+        type: 'spring', 
+        stiffness: 300, 
+        damping: 20,
+        rotate: {
+          type: 'spring',
+          stiffness: 300,
+          damping: 20,
+          duration: 0.2
+        }
+      }}
+    >
+      <FiList className="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
+    </motion.button>
 );
 
 // Mobile TOC Content
@@ -23,7 +37,7 @@ const MobileTOCContent = ({ isExpanded, children }) => (
   <AnimatePresence>
     {isExpanded && (
       <motion.div
-        className="fixed lg:hidden z-40 bottom-16 left-4 w-[280px] max-h-[50vh] bg-white/90 dark:bg-neutral-900/90 backdrop-blur-sm rounded-lg shadow-lg border border-neutral-200/20 dark:border-neutral-800/20 overflow-y-auto"
+        className="fixed lg:hidden z-40 bottom-16 left-4 w-[280px] max-h-[50vh] bg-white dark:bg-neutral-900/90 backdrop-blur-sm rounded-lg shadow-lg border border-neutral-200/20 dark:border-neutral-800/20 overflow-y-auto"
         initial={{ opacity: 0, y: 20, scale: 0.95 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 20, scale: 0.95 }}

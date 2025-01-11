@@ -26,16 +26,23 @@ const certificationGroups = {
 
 const Certifications = () => {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 max-h-[70vh] overflow-y-auto">
       {Object.entries(certificationGroups).map(([category, certs]) => (
-        <div key={category} className="border-b border-neutral-200 dark:border-neutral-800 pb-6 last:border-0">
-          <h3 className="font-medium text-neutral-900 dark:text-neutral-100 mb-4">{category}</h3>
-          <div className="space-y-3">
+        <div key={category} className="bg-white dark:bg-neutral-900 rounded-xl p-6 shadow-sm border border-neutral-100 dark:border-neutral-800">
+          <h3 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100 mb-4">
+            {category}
+          </h3>
+          <div className="space-y-4">
             {certs.map((cert, index) => (
               <div key={index} className="text-sm">
-                <div className="text-neutral-900 dark:text-neutral-100">{cert.title}</div>
-                <div className="text-neutral-600 dark:text-neutral-400">
-                  {cert.provider} • {cert.year}
+                <div className="text-neutral-900 dark:text-neutral-100 font-medium">
+                  {cert.title}
+                </div>
+                <div className="text-neutral-600 dark:text-neutral-400 mt-1">
+                  <span className="inline-flex items-center">
+                    <FiAward className="w-4 h-4 mr-1.5" />
+                    {cert.provider} • {cert.year}
+                  </span>
                 </div>
               </div>
             ))}
