@@ -24,15 +24,15 @@ const certificationGroups = {
   ]
 };
 
-const Certifications = () => {
+export default function Certifications() {
   return (
-    <div className="space-y-8 max-h-[70vh] overflow-y-auto">
+    <div className="space-y-4">
       {Object.entries(certificationGroups).map(([category, certs]) => (
-        <div key={category} className="bg-white dark:bg-neutral-900 rounded-xl p-6 shadow-sm border border-neutral-100 dark:border-neutral-800">
-          <h3 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100 mb-4">
+        <div key={category} className="bg-white/80 dark:bg-neutral-800/80 backdrop-blur-sm rounded-xl p-4 md:p-6 shadow-sm border border-neutral-200 dark:border-neutral-700">
+          <h3 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100 mb-3">
             {category}
           </h3>
-          <div className="space-y-4">
+          <div className="space-y-3">
             {certs.map((cert, index) => (
               <div key={index} className="text-sm">
                 <div className="text-neutral-900 dark:text-neutral-100 font-medium">
@@ -51,6 +51,5 @@ const Certifications = () => {
       ))}
     </div>
   );
-};
+}
 
-export default Certifications;

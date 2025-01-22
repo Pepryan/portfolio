@@ -61,7 +61,7 @@ export default function Home() {
     <div className="min-h-screen bg-white dark:bg-neutral-900">
       <Header />
       
-      <main className="max-w-7xl mx-auto px-4 py-8 mb-20">
+      <main className="max-w-7xl mx-auto px-4 py-4 mb-10">
         {/* Hero Section - full height */}
         <section id="home" className="min-h-screen flex items-center justify-center -mt-16">
           <div className="w-full max-w-3xl mx-auto text-center">
@@ -125,14 +125,14 @@ export default function Home() {
         </div>
 
         {/* Skills & Certifications */}
-        <section id="skills" className="py-16">
-          <div className="mt-4 mb-8">
+        <section id="skills">
+          <div className="mt-20 mb-8">
             <TabAccordion />
           </div>
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-16">
+        <section id="contact">
           <Contact />
         </section>
       </main>

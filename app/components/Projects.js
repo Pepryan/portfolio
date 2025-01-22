@@ -1,8 +1,7 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight, FiGithub, FiExternalLink } from 'react-icons/fi';
 
 export default function Projects() {
   const projects = [
@@ -45,52 +44,62 @@ export default function Projects() {
   ];
 
   return (
-    <div className="pb-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-h-[70vh] overflow-y-auto">
+    <div className="space-y-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-6">
         {projects.map((project, index) => (
-          <div key={index} className="border border-neutral-200 dark:border-neutral-800
-            rounded-xl bg-white dark:bg-neutral-900 p-6 hover:shadow-lg transition-all
-            duration-300">
-            <div className="flex flex-col h-full">
-              <div className="flex-1 space-y-4">
-                <h3 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100">
-                  {project.title}
-                </h3>
-                <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  {project.description}
-                </p>
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: index * 0.1 }}
+            className="group relative bg-white/80 dark:bg-neutral-800/80 backdrop-blur-sm rounded-lg
+              border border-neutral-200 dark:border-neutral-700 hover:border-blue-500 dark:hover:border-blue-400
+              transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
+          >
+            <div className="p-4 md:p-8">
+              <div className="flex flex-col h-full">
+                <div className="flex-1 space-y-3">
+                  <h3 className="text-lg md:text-xl font-semibold text-neutral-900 dark:text-neutral-100
+                    group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors">
+                    {project.title}
+                  </h3>
+                  <p className="text-sm md:text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                    {project.description}
+                  </p>
+                  
+                  <div className="flex flex-wrap gap-1.5 pt-3">
+                    {project.technologies.map((tech, idx) => (
+                      <span
+                        key={idx}
+                        className="px-2 py-1 text-xs md:text-sm font-medium bg-neutral-100/70
+                          dark:bg-neutral-700/70 text-neutral-700 dark:text-neutral-300
+                          rounded-full border border-neutral-200 dark:border-neutral-600"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
                 
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech, idx) => (
-                    <span
-                      key={idx}
-                      className="px-2.5 py-1 text-xs font-medium bg-neutral-100
-                        dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400
-                        rounded-full"
+                {project.link && (
+                  <div className="mt-4 pt-3 border-t border-neutral-200 dark:border-neutral-700">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-sm md:text-base font-medium
+                        text-neutral-700 dark:text-neutral-300 hover:text-blue-500
+                        dark:hover:text-blue-400 transition-colors"
                     >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
+                      <FiGithub className="mr-2 w-4 h-4 md:w-5 md:h-5" />
+                      View Project
+                      <FiExternalLink className="ml-2 w-4 h-4 md:w-5 md:h-5" />
+                    </a>
+                  </div>
+                )}
               </div>
-              
-              {project.link && (
-                <div className="mt-4">
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-sm font-medium
-                      text-neutral-600 dark:text-neutral-400 hover:text-neutral-900
-                      dark:hover:text-neutral-200 transition-colors"
-                  >
-                    View Project
-                    <FiArrowRight className="ml-1.5 w-4 h-4" />
-                  </a>
-                </div>
-              )}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

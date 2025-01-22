@@ -38,34 +38,34 @@ export default function TabAccordion() {
     return (
       <div className="hidden md:block">
         <div className="max-w-7xl mx-auto px-4">
-          {/* Section Tabs */}
-          <div className="grid grid-cols-3 gap-6 mb-16">
+          {/* Section Tabs with improved spacing */}
+          <div className="grid grid-cols-3 gap-8 mb-12">
             {sections.map((section) => (
               <motion.div
                 key={section.id}
-                whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.97 }}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
               >
                 <button
                   onClick={() => handleNavigation(section.id)}
                   className={`
-                    w-full h-40 flex flex-col items-center justify-center
-                    text-2xl font-semibold text-center rounded-3xl
-                    transition-all duration-200
-                    border-2
+                    w-full h-48 flex flex-col items-center justify-center
+                    text-2xl font-semibold text-center rounded-2xl
+                    transition-all duration-300 ease-in-out
+                    border-2 hover:shadow-lg
                     ${
                       activeSection === section.id
-                        ? 'border-blue-600 dark:border-blue-400 bg-blue-600/10 dark:bg-blue-400/10 text-blue-600 dark:text-blue-400 shadow-lg'
-                        : 'border-neutral-200/50 dark:border-neutral-700/50 bg-white/30 dark:bg-neutral-800/30 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100/50 dark:hover:bg-neutral-700/30 backdrop-blur-sm'
+                        ? 'border-blue-500 dark:border-blue-400 bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 shadow-lg'
+                        : 'border-neutral-200 dark:border-neutral-700 bg-white/80 dark:bg-neutral-800/80 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-700/50'
                     }
                   `}
                 >
-                  <span className="text-4xl mb-3">
+                  <span className="text-5xl mb-4">
                     {section.id === 'skills' && '💻'}
                     {section.id === 'projects' && '🚀'}
                     {section.id === 'certifications' && '🏅'}
                   </span>
-                  <span className="text-lg font-medium">
+                  <span className="text-xl font-medium">
                     {section.label}
                   </span>
                 </button>
@@ -73,21 +73,21 @@ export default function TabAccordion() {
             ))}
           </div>
 
-          {/* Content Area */}
-          <AnimatePresence mode="wait">
+          {/* Content Area with improved container */}
+            <AnimatePresence mode="wait">
             <motion.div
               key={activeSection}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="bg-white dark:bg-neutral-900 rounded-2xl shadow-lg border border-neutral-100 dark:border-neutral-800 p-8"
+                className="bg-white/90 dark:bg-neutral-900/90 backdrop-blur-sm rounded-2xl shadow-xl 
+                border border-neutral-200 dark:border-neutral-800 p-8"
             >
-              <div className="h-[60vh] overflow-y-auto">
-                {sections.find(s => s.id === activeSection)?.component}
-              </div>
+              {sections.find(s => s.id === activeSection)?.component}
             </motion.div>
-          </AnimatePresence>
+            </AnimatePresence>
+
         </div>
       </div>
     );
@@ -124,21 +124,24 @@ export default function TabAccordion() {
     };
 
     return (
-      <div className="md:hidden">
-        {/* Section Selector */}
-        <div className="flex justify-between items-center mb-10 px-6">
+      <div className="md:hidden px-2">
+        {/* Static navigation controls - removed from AnimatePresence */}
+        <div className="flex justify-between items-center mb-8 px-4 relative z-10">
           <button
             onClick={() => {
               const prevIndex = (currentIndex - 1 + sections.length) % sections.length;
               handleNavigation(sections[prevIndex].id);
             }}
-            className="p-3 rounded-xl hover:bg-neutral-100/50 dark:hover:bg-neutral-700/30 text-neutral-700 dark:text-neutral-300 transition-colors"
+            className="p-3 rounded-xl bg-white/80 dark:bg-neutral-800/80 backdrop-blur-sm shadow-md
+              hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-colors
+              border border-neutral-200 dark:border-neutral-700"
           >
-            <FiChevronLeft className="w-6 h-6" />
+            <FiChevronLeft className="w-6 h-6 text-neutral-700 dark:text-neutral-200" />
           </button>
           
-          <div className="flex-1 mx-6">
-            <div className="bg-white/60 dark:bg-neutral-800/60 backdrop-blur-sm rounded-xl p-3 border border-neutral-100/50 dark:border-neutral-700/50">
+          <div className="flex-1 mx-4">
+            <div className="bg-white/90 dark:bg-neutral-800/90 backdrop-blur-sm rounded-xl p-4
+              border border-neutral-200 dark:border-neutral-700 shadow-md">
               <h2 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 text-center">
                 {sections[currentIndex].label}
               </h2>
@@ -150,20 +153,23 @@ export default function TabAccordion() {
               const nextIndex = (currentIndex + 1) % sections.length;
               handleNavigation(sections[nextIndex].id);
             }}
-            className="p-3 rounded-xl hover:bg-neutral-100/50 dark:hover:bg-neutral-700/30 text-neutral-700 dark:text-neutral-300 transition-colors"
+            className="p-3 rounded-xl bg-white/80 dark:bg-neutral-800/80 backdrop-blur-sm shadow-md
+              hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-colors
+              border border-neutral-200 dark:border-neutral-700"
           >
-            <FiChevronRight className="w-6 h-6" />
+            <FiChevronRight className="w-6 h-6 text-neutral-700 dark:text-neutral-200" />
           </button>
         </div>
 
-        {/* Content Area */}
+        {/* Animated content area */}
         <div
-          className="relative rounded-2xl bg-white dark:bg-neutral-900 shadow-lg border border-neutral-100 dark:border-neutral-700 mx-4 mb-4"
+          className="relative rounded-2xl bg-white/90 dark:bg-neutral-900/90 backdrop-blur-sm 
+            shadow-lg border border-neutral-200 dark:border-neutral-700 mx-2 mb-8"
           onTouchStart={onTouchStart}
           onTouchMove={onTouchMove}
           onTouchEnd={onTouchEnd}
         >
-          <AnimatePresence custom={direction}>
+          <AnimatePresence mode="wait" initial={false}>
             <motion.div
               key={activeSection}
               custom={direction}
@@ -171,12 +177,11 @@ export default function TabAccordion() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: direction * -100 }}
               transition={{
-                type: 'tween',
-                ease: 'easeInOut',
-                duration: 0.3
+                type: 'spring',
+                stiffness: 300,
+                damping: 30
               }}
               className="p-6"
-              style={{ willChange: 'transform, opacity' }}
             >
               {sections.find(s => s.id === activeSection)?.component}
             </motion.div>
@@ -186,9 +191,29 @@ export default function TabAccordion() {
     );
   };
 
+  // Add custom scrollbar styles
+  const styles = `
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background-color: rgba(156, 163, 175, 0.5);
+      border-radius: 4px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background-color: rgba(156, 163, 175, 0.7);
+    }
+  `;
+
   return (
-    <div className="py-12 md:py-16">
-      <div className="max-w-7xl mx-auto px-6">
+    <div className="py-4 md:py-12">
+      <div className="max-w-7xl mx-auto px-2 md:px-6">
         {isMobile ? <MobileNavigation /> : <DesktopNavigation />}
       </div>
     </div>
