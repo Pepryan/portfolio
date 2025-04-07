@@ -1,31 +1,38 @@
 "use client";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FiLinkedin, FiLink, FiCheck } from 'react-icons/fi';
 import { FaXTwitter } from 'react-icons/fa6';
 
-export default function ShareButtons({ title, url }) {
+export default function ShareButtons({ title, slug }) {
   const [isCopied, setIsCopied] = useState(false);
+  const [currentUrl, setCurrentUrl] = useState('');
+
+  useEffect(() => {
+    // Construct the full URL with the post slug
+    const baseUrl = window.location.origin;
+    const fullUrl = `${baseUrl}/portfolio/blog/${slug}/`;
+    setCurrentUrl(fullUrl);
+  }, [slug]);
+
   const shareOnTwitter = () => {
-    const fullUrl = new URL(url, window.location.origin).toString();
     window.open(
-      `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(fullUrl)}`,
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(currentUrl)}`,
       '_blank'
     );
   };
 
   const shareOnLinkedIn = () => {
-    const fullUrl = new URL(url, window.location.origin).toString();
     window.open(
-      `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(fullUrl)}`,
+      `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`,
       '_blank'
     );
   };
 
   const copyLink = async () => {
     try {
-      await navigator.clipboard.writeText(url);
+      await navigator.clipboard.writeText(currentUrl);
       setIsCopied(true);
-      setTimeout(() => setIsCopied(false), 2000); // Reset after 2 seconds
+      setTimeout(() => setIsCopied(false), 2000);
     } catch (err) {
       console.error('Failed to copy:', err);
     }

@@ -65,8 +65,8 @@ export default function BlogPostClient({ content, frontmatter, allPosts }) {
             {/* Share buttons */}
             <div className="mb-8">
               <ShareButtons 
-                title={frontmatter.title} 
-                url={typeof window !== 'undefined' ? window.location.href : ''}
+                title={frontmatter.title}
+                slug={frontmatter.slug}
               />
             </div>
 
