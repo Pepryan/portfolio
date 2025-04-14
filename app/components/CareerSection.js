@@ -1,28 +1,15 @@
 "use client";
 import { useState, useEffect, useRef } from 'react';
-import { motion, useInView, useAnimation, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { FiBriefcase, FiAward, FiChevronDown, FiChevronUp } from 'react-icons/fi';
 import ExperienceTimeline from './ExperienceTimeline';
 import EducationCards from './EducationCards';
 
 export default function CareerSection() {
   const [activeTab, setActiveTab] = useState('experience');
-  const [isMobile, setIsMobile] = useState(false);
-  const [isExpanded, setIsExpanded] = useState(false);
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.1 });
-  const controls = useAnimation();
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const handleResize = () => {
-        setIsMobile(window.innerWidth < 768);
-      };
-      handleResize();
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }
-  }, []);
+  // We're now handling mobile/desktop view directly in the render function
 
   // Set default to mobile for SSR
   const [mounted, setMounted] = useState(false);
@@ -31,11 +18,7 @@ export default function CareerSection() {
     setMounted(true);
   }, []);
 
-  useEffect(() => {
-    if (isInView) {
-      controls.start("visible");
-    }
-  }, [controls, isInView]);
+  // Removed animation control effect since we're using static opacity now
 
   // For mobile, we'll show a collapsible section
   // For desktop, we'll show a tabbed interface
@@ -103,12 +86,9 @@ export default function CareerSection() {
     <div className="space-y-8">
       <motion.div
         ref={ref}
-        initial="hidden"
-        animate={controls}
-        variants={{
-          hidden: { opacity: 0, y: 20 },
-          visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
-        }}
+        initial={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
       >
         <h2 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-4 text-center">
           Professional Journey
