@@ -66,7 +66,7 @@ export default function Projects() {
                   <p className="text-sm md:text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
                     {project.description}
                   </p>
-                  
+
                   <div className="flex flex-wrap gap-1.5 pt-3">
                     {project.technologies.map((tech, idx) => (
                       <span
@@ -80,7 +80,7 @@ export default function Projects() {
                     ))}
                   </div>
                 </div>
-                
+
                 {project.link && (
                   <div className="mt-4 pt-3 border-t border-neutral-200 dark:border-neutral-700">
                     <a

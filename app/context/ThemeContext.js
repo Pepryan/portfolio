@@ -8,9 +8,12 @@ export function ThemeProvider({ children }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const isDark = localStorage.getItem('darkMode') === 'true';
-    setDarkMode(isDark);
-    document.documentElement.classList.toggle('dark', isDark);
+    // Safely access localStorage (only in browser)
+    if (typeof window !== 'undefined') {
+      const isDark = localStorage.getItem('darkMode') === 'true';
+      setDarkMode(isDark);
+      document.documentElement.classList.toggle('dark', isDark);
+    }
     setMounted(true);
   }, []);
 
@@ -19,7 +22,9 @@ export function ThemeProvider({ children }) {
     toggleDarkMode: () => {
       const newMode = !darkMode;
       setDarkMode(newMode);
-      localStorage.setItem('darkMode', String(newMode));
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('darkMode', String(newMode));
+      }
       document.documentElement.classList.toggle('dark', newMode);
     }
   }), [darkMode]);
@@ -33,4 +38,4 @@ export function ThemeProvider({ children }) {
   );
 }
 
-export const useTheme = () => useContext(ThemeContext); 
+export const useTheme = () => useContext(ThemeContext);
