@@ -170,7 +170,7 @@ export default function About() {
             I believe in <span className="font-semibold text-blue-600 dark:text-blue-400">growth</span>, both personal and professional, and in creating <span className="font-semibold text-purple-600 dark:text-purple-400">solutions</span> that will actually bring a change.
           </p>
           <p className="text-neutral-700 dark:text-neutral-300 text-center mt-4">
-            Let's <span className="font-semibold text-blue-600 dark:text-blue-400">innovate</span> and <span className="font-semibold text-purple-600 dark:text-purple-400">grow together</span>!
+            Let&apos;s <span className="font-semibold text-blue-600 dark:text-blue-400">innovate</span> and <span className="font-semibold text-purple-600 dark:text-purple-400">grow together</span>!
           </p>
         </motion.div>
       </motion.div>
