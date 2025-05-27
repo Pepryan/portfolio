@@ -8,12 +8,9 @@ a:I[6213,[],"MetadataBoundary"]
 c:I[6213,[],"ViewportBoundary"]
 e:I[4835,[],""]
 1:HL["/portfolio/_next/static/css/9cbba50295c74a15.css","style"]
-0:{"P":null,"b":"BPW4SWY3QDR7Kp0Ljgg8P","p":"/portfolio","c":["","blog","tags","lowcode",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","lowcode","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/9cbba50295c74a15.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["tags",["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["tag","lowcode","d"],["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L7",null,["$","$L8",null,{"children":"$L9"}]]}],{},null]},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","11pJCzzm-xECkIjjvx521",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],null]}]]}]]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"n-U_-22hKsRsXqBSMrQM-","p":"/portfolio","c":["","blog","tags","lowcode",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","lowcode","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/9cbba50295c74a15.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["tags",["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["tag","lowcode","d"],["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","tags","children","$0:f:0:1:2:children:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L7",null,["$","$L8",null,{"children":"$L9"}]]}],{},null]},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","wQw3nM79OXHxJBRYu5YR1",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],null]}]]}]]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
 f:I[6710,["844","static/chunks/ee560e2c-b395463f5da0e521.js","234","static/chunks/234-d4d59589f0f93f8b.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-5e874cbae1a0ead5.js"],"default"]
-10:Tfec,
-# Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! Buatnya Pakai n8n, Google Gemini, dan Notion 🤖💰
-
-Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
+10:Tf4d,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
 
 - Nerima teks/foto struk/screenshot via bot Telegram  
 - AI ekstrak info penting (jumlah, kategori, dll)  
@@ -22,7 +19,7 @@ Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram
 
 Bayangin, kita cuma perlu kirim pesan "Beli kopi 25rb" atau foto struk belanja, dan semua data langsung tercatat rapi! ✨
 
-## Apa Itu n8n dan kenapa powerful banget? 🚀
+# Apa Itu n8n dan kenapa powerful banget? 🚀
 
 Cerita dikit tentang n8n. Ini tuh platform otomatisasi workflow yang powerful banget! Kita bisa menghubungkan berbagai aplikasi dan layanan tanpa perlu jago coding. 💻
 
@@ -37,7 +34,6 @@ Yang penting paham flow datanya: input → proses → output. Gak perlu jago cod
 Semua bisa kita buat tanpa coding rumit. Cuma drag-and-drop di n8n dan paham alur data aja. Simpel, fleksibel, powerful.
 
 # Cara Bikinnya 🛠️
-
 Kalau tertarik bikin juga, ini yang dibutuhkan:
 
 1. **Internal Integration Secret Notion** 🔑 - Didapatkan dari [https://www.notion.so/profile/integrations](https://www.notion.so/profile/integrations)
@@ -45,7 +41,7 @@ Kalau tertarik bikin juga, ini yang dibutuhkan:
 3. **API Bot Telegram** 💬 - Dibuat melalui BotFather di Telegram
 4. **Template Notion** 📋 - Duplikat dari [template ini](https://battle-option-f5f.notion.site/200241ec407a80b4818ad5a1052d2b3d?v=200241ec407a81358320000cf264c9ae)
 
-# Template n8n 👇
+## Template n8n 👇
 Awalnya pakai template yang cuma bisa kirim image, tapi kemudian diimprove supaya bisa nerima berbagai jenis input termasuk teks biasa 🔄
 
 - Template base (thanks to Rizqi Pratama Ramadhani): [Finance Tracker Template](https://n8n.io/workflows/3960-automated-financial-tracker-telegram-invoices-to-notion-with-gemini-ai-reports/)
@@ -71,24 +67,23 @@ https://drive.google.com/file/d/1tXEibyZChlPpIT8cK2rTpw3sY8D9msgq/view?usp=shari
 
 - Set active workflow
 
-## Hasilnya 👀
+# Hasilnya 👀
 ![hasil tele 1](/portfolio/images/hasil1.png)
 ![hasil tele 2](/portfolio/images/hasil2.png)
-![hasil notion](/portfolio/images/hasil2.png)
+![hasil notion](/portfolio/images/hasil-notion.png)
 
-### Next yang bisa diimprove🚀
+# Next yang bisa diimprove🚀
 - Bikin inputan voice message
 - Bikin report yang lebih detail
 - Bikin fitur untuk update, delete atau nyari data
 - Insights dari AI
 
-## Kesimpulan 🎯
+# Kesimpulan 🎯
 
 Buat kita yang gak pengen capek sama manual, automation ini bisa jadi game-changer! 🎮 Yang keren, gak perlu jago coding buat bikin ini. Cukup paham logika dasar aja.
 
 Dengan n8n, dan AI, tracking keuangan jadi semudah kirim chat. Gak ada lagi alasan buat gak ngatur keuangan dengan baik! 💪
-
-#### Screenshot dan detail implementasi 📸7:["$","$Lf",null,{"tag":"lowcode","posts":[{"slug":"automated-finance-tracker-with-ai","content":"$10","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Buatnya Pakai n8n, Google Gemini, dan Notion","date":"2025-05-27","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","wordCount":506,"readingTime":3}]}]
+7:["$","$Lf",null,{"tag":"lowcode","posts":[{"slug":"automated-finance-tracker-with-ai","content":"$10","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Buatnya Pakai n8n, Google Gemini, dan Notion","date":"2025-05-27","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","wordCount":483,"readingTime":3}]}]
 d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 b:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Febryan Portfolio"}],["$","meta","2",{"name":"description","content":"Personal portfolio and blog by Febryan"}],["$","meta","3",{"name":"author","content":"Febryan"}],["$","meta","4",{"name":"keywords","content":"portfolio,blog,web development,javascript,react,next.js"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Febryan Portfolio"}],["$","meta","7",{"property":"og:description","content":"Personal portfolio and blog by Febryan"}],["$","meta","8",{"property":"og:url","content":"https://pepryan.github.io/portfolio/"}],["$","meta","9",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"Febryan Portfolio"}],["$","meta","14",{"name":"twitter:description","content":"Personal portfolio and blog by Febryan"}],["$","link","15",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
 9:null
