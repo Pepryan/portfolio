@@ -1,9 +1,9 @@
 ---
-title: "Useful Bash Scripts for DevOps"
+title: "Another Bash Scripts for DevOps"
 date: "2024-03-20"
 updated: "2024-03-21"
 tags: ["bash", "devops", "linux", "automation"]
-excerpt: "Collection of useful Bash scripts for daily DevOps tasks"
+excerpt: "A Small Collection of Bash scripts for daily DevOps tasks"
 ---
 
 # Useful Bash Scripts for DevOps
@@ -23,8 +23,6 @@ echo "Memory Usage:"
 free | grep Mem | awk '{print $3/$2 100.0}'%
 echo "Disk Usage:"
 df -h | awk '$NF=="/"{print $5}'
-```
-
 ```
 
 ## 2. Backup Script
