@@ -35,8 +35,8 @@
   }
   
   pre {
-    margin-left: -1rem;
-    margin-right: -1rem;
+    /* margin-left: -1rem; */
+    /* margin-right: -1rem; */
     border-radius: 0;
   }
 }
@@ -80,7 +80,8 @@ pre:not([data-rehype-pretty-code-title]) > pre[data-language]:before {
 
 /* Code content */
 pre > code {
-  @apply block min-w-full rounded-none border-0 bg-transparent p-0 text-sm pt-2;
+  /* @apply block min-w-full rounded-none border-0 bg-transparent p-0 text-sm pt-2; */
+  @apply grid min-w-full break-words rounded-none border-0 bg-transparent p-0 text-sm pt-2;
   counter-reset: line;
   box-decoration-break: clone;
   white-space: pre;

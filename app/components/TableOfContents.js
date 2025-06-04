@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 const MobileTOCButton = ({ onClick, isExpanded }) => (
     <motion.button
       onClick={onClick}
-      className="fixed lg:hidden z-50 bottom-0 left-0 p-3 rounded-full shadow-lg bg-white dark:bg-neutral-900/90 backdrop-blur-sm border border-neutral-200/20 dark:border-neutral-800/20"
+      className="fixed z-50 bottom-4 left-4 p-3 rounded-full shadow-lg bg-white dark:bg-neutral-900/95 backdrop-blur-sm border border-neutral-200/30 dark:border-neutral-800/30 hover:bg-neutral-50 dark:hover:bg-neutral-800/90 transition-colors"
       whileTap={{ scale: 0.95 }}
       initial={{ opacity: 0, y: 20 }}
       animate={{ 
@@ -37,7 +37,7 @@ const MobileTOCContent = ({ isExpanded, children }) => (
   <AnimatePresence>
     {isExpanded && (
       <motion.div
-        className="fixed lg:hidden z-40 bottom-16 left-4 w-[280px] max-h-[50vh] bg-white dark:bg-neutral-900/90 backdrop-blur-sm rounded-lg shadow-lg border border-neutral-200/20 dark:border-neutral-800/20 overflow-y-auto"
+        className="fixed z-40 bottom-16 left-4 right-4 sm:left-4 sm:right-auto sm:w-[320px] max-h-[60vh] bg-white dark:bg-neutral-900/95 backdrop-blur-sm rounded-lg shadow-xl border border-neutral-200/30 dark:border-neutral-800/30 overflow-y-auto"
         initial={{ opacity: 0, y: 20, scale: 0.95 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 20, scale: 0.95 }}
@@ -163,16 +163,12 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
     <nav className={`not-prose
       lg:static lg:border lg:border-neutral-200/70 lg:dark:border-neutral-800/80 lg:rounded-lg
       lg:bg-white/50 lg:dark:bg-neutral-900/50 lg:backdrop-blur-sm lg:shadow-sm
-      
-      max-lg:fixed max-lg:bottom-4 max-lg:left-4
-      max-lg:z-50 max-lg:shadow-lg max-lg:rounded-lg
-      max-lg:bg-white/90 max-lg:dark:bg-neutral-900/90
-      max-lg:backdrop-blur-sm max-lg:border max-lg:border-neutral-200/20 max-lg:dark:border-neutral-800/20
       `}>
-      <div className="lg:px-3 lg:py-2 lg:border-b lg:border-neutral-200/70 lg:dark:border-neutral-800/80">
+      {/* Desktop Header */}
+      <div className="hidden lg:block px-3 py-2 border-b border-neutral-200/70 dark:border-neutral-800/80">
         <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className="hidden lg:flex items-center justify-center w-full p-2.5"
+          className="flex items-center justify-center w-full p-2.5 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 rounded-md transition-colors"
         >
           <h2 className="text-sm font-medium text-neutral-700 dark:text-neutral-300">
             On this page
@@ -185,6 +181,7 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
         </button>
       </div>
       
+      {/* Desktop TOC Content */}
       {isExpanded && (
         <div className="overflow-y-auto lg:px-3 lg:py-2 lg:max-h-[calc(100vh-8rem)] hidden lg:block">
           <ul className="space-y-1 text-sm">
@@ -221,45 +218,52 @@ const TableOfContents = memo(function TableOfContents({ content, defaultExpanded
       )}
       
       {/* Mobile Components */}
-      <MobileTOCButton
-        onClick={() => setIsExpanded(!isExpanded)}
-        isExpanded={isExpanded}
-      />
-      
-      <MobileTOCContent isExpanded={isExpanded}>
-        <ul className="space-y-1 text-sm p-3">
-          {headings.map((heading, index) => (
-            <li
-              key={index}
-              style={{ paddingLeft: `${(heading.level - 2) * 0.75}rem` }}
-            >
-              <button
-                onClick={() => {
-                  scrollToHeading(heading.slug);
-                  setIsExpanded(false);
-                }}
-                className={`
-                  group flex items-center gap-1 w-full text-left py-1 px-2 rounded-md
-                  ${activeId === heading.slug
-                    ? 'text-blue-600 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-500/5'
-                    : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200'
-                  }
-                  transition-colors duration-150 text-[13px] leading-tight
-                `}
-              >
-                <FiChevronRight
-                  className={`w-3 h-3 flex-shrink-0 transition-transform duration-150 opacity-60
-                    ${activeId === heading.slug ? 'rotate-90' : 'group-hover:rotate-90'}
-                  `}
-                />
-                <span className="truncate">{heading.text}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      </MobileTOCContent>
+      <div className="lg:hidden">
+        <MobileTOCButton
+          onClick={() => setIsExpanded(!isExpanded)}
+          isExpanded={isExpanded}
+        />
+        
+        <MobileTOCContent isExpanded={isExpanded}>
+          <div className="p-3">
+            <h3 className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-3 border-b border-neutral-200 dark:border-neutral-700 pb-2">
+              On this page
+            </h3>
+            <ul className="space-y-1 text-sm">
+              {headings.map((heading, index) => (
+                <li
+                  key={index}
+                  style={{ paddingLeft: `${(heading.level - 2) * 0.75}rem` }}
+                >
+                  <button
+                    onClick={() => {
+                      scrollToHeading(heading.slug);
+                      setIsExpanded(false);
+                    }}
+                    className={`
+                      group flex items-center gap-1 w-full text-left py-1.5 px-2 rounded-md
+                      ${activeId === heading.slug
+                        ? 'text-blue-600 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-500/5'
+                        : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200'
+                      }
+                      transition-colors duration-150 text-[13px] leading-tight
+                    `}
+                  >
+                    <FiChevronRight
+                      className={`w-3 h-3 flex-shrink-0 transition-transform duration-150 opacity-60
+                        ${activeId === heading.slug ? 'rotate-90' : 'group-hover:rotate-90'}
+                      `}
+                    />
+                    <span className="truncate">{heading.text}</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </MobileTOCContent>
+      </div>
     </nav>
   );
 });
 
-export default TableOfContents; 
+export default TableOfContents;
