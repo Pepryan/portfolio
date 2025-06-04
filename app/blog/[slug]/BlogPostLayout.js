@@ -50,22 +50,22 @@ export default memo(function BlogPostLayout({ children, data, readingTime, wordC
       <div className={`min-h-screen ${darkMode ? 'dark bg-neutral-900' : 'bg-white'}`}>
         <Header showSearch={false} isPost={true} />
 
-        <div className="max-w-4xl mx-auto p-4 mt-20">
-          <article className="prose dark:prose-invert">
-            <h1 className="text-4xl font-bold mb-4 text-neutral-900 dark:text-neutral-100">{data.title}</h1>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 overflow-x-hidden">
+          <article className="prose dark:prose-invert max-w-none w-full">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-neutral-900 dark:text-neutral-100 break-words">{data.title}</h1>
 
             <div className="text-neutral-600 dark:text-neutral-400 mb-4">
-              <div className="flex items-center gap-4 mb-2">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-4 mb-2 text-sm sm:text-base">
                 <time>Created: {new Date(data.date).toLocaleDateString()}</time>
                 {data.updated && (
                   <time>Updated: {new Date(data.updated).toLocaleDateString()}</time>
                 )}
-                <span>·</span>
+                <span className="hidden sm:inline">·</span>
                 <span>{readingTime} min read</span>
-                <span>·</span>
+                <span className="hidden sm:inline">·</span>
                 <span>{wordCount} words</span>
               </div>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {data.tags.map((tag) => (
                   <Link
                     key={tag}
@@ -95,4 +95,4 @@ export default memo(function BlogPostLayout({ children, data, readingTime, wordC
     prevProps.darkMode === nextProps.darkMode &&
     prevProps.data === nextProps.data
   );
-}); 
+});

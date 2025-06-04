@@ -2,11 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Responsive container untuk mencegah overflow */
+.prose {
+  max-width: 100% !important;
+  overflow-x: hidden;
+}
+
+/* Responsive styling untuk semua elemen dalam prose */
+.prose * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive images */
+.prose img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive tables */
+.prose table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .prose {
+    font-size: 14px;
+  }
+  
+  pre {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    border-radius: 0;
+  }
+}
+
 /* Code block styling */
 pre {
   @apply relative rounded-lg overflow-hidden;
   overflow-x: auto;
   padding: 1rem;
+  max-width: 100%;
+  width: 100%;
   /* margin-bottom: 1.5rem; */
   /* background-color: transparent !important; */
 }
@@ -39,9 +80,12 @@ pre:not([data-rehype-pretty-code-title]) > pre[data-language]:before {
 
 /* Code content */
 pre > code {
-  @apply grid min-w-full break-words rounded-none border-0 bg-transparent p-0 text-sm pt-2;
+  @apply block min-w-full rounded-none border-0 bg-transparent p-0 text-sm pt-2;
   counter-reset: line;
   box-decoration-break: clone;
+  white-space: pre;
+  overflow-x: auto;
+  word-wrap: normal;
 }
 
 /* Line styling */
@@ -96,6 +140,8 @@ code[data-line-numbers-max-digits="4"] > [data-line]::before {
 /* Inline code */
 :not(pre) > code {
   @apply rounded bg-neutral-100 px-1.5 py-0.5 text-sm dark:bg-neutral-800;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Dark mode adjustments */
