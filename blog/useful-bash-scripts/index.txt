@@ -1,16 +1,21 @@
-2:"$Sreact.fragment"
-3:I[6931,["844","static/chunks/ee560e2c-b395463f5da0e521.js","177","static/chunks/app/layout-9a1b5f3ee7f8751b.js"],"ThemeProvider"]
-4:I[8388,["844","static/chunks/ee560e2c-b395463f5da0e521.js","177","static/chunks/app/layout-9a1b5f3ee7f8751b.js"],"default"]
-5:I[5244,[],""]
-6:I[3866,[],""]
-8:I[6213,[],"OutletBoundary"]
-a:I[6213,[],"MetadataBoundary"]
-c:I[6213,[],"ViewportBoundary"]
-e:I[4835,[],""]
-1:HL["/portfolio/_next/static/css/c2fbd554aeb4ced9.css","style"]
-0:{"P":null,"b":"YcnQodtu3A9sZf6dgVKhL","p":"/portfolio","c":["","blog","useful-bash-scripts",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","useful-bash-scripts","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/c2fbd554aeb4ced9.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]}]}]]}]]}],{"children":["blog",["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":[["slug","useful-bash-scripts","d"],["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":["$L7",null,["$","$L8",null,{"children":"$L9"}]]}],{},null]},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","pEj1cj5vTJHKLN5UapCz5",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],null]}]]}]]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
-f:I[2813,["844","static/chunks/ee560e2c-b395463f5da0e521.js","446","static/chunks/53c13509-6ce59f6d1b2fed79.js","234","static/chunks/234-d4d59589f0f93f8b.js","96","static/chunks/96-8ce2979d077cfd91.js","565","static/chunks/565-18f0eb7054b970ae.js","953","static/chunks/app/blog/%5Bslug%5D/page-652b9b9057ff505e.js"],"default",1]
-10:T6e32,"use strict";
+1:"$Sreact.fragment"
+2:I[3932,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-0d0a563897e93ac4.js"],"ThemeProvider"]
+3:I[4662,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-0d0a563897e93ac4.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+7:I[9665,[],"MetadataBoundary"]
+9:I[9665,[],"OutletBoundary"]
+c:I[4911,[],"AsyncMetadataOutlet"]
+e:I[9665,[],"ViewportBoundary"]
+10:I[6614,[],""]
+:HL["/portfolio/_next/static/css/7d0079240ba2f425.css","style"]
+0:{"P":null,"b":"-I6uDIvfGuYVrQ7A4d0rj","p":"/portfolio","c":["","blog","useful-bash-scripts",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","useful-bash-scripts","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/7d0079240ba2f425.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","useful-bash-scripts","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",["$","$L7",null,{"children":"$L8"}],null,["$","$L9",null,{"children":["$La","$Lb",["$","$Lc",null,{"promise":"$@d"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","50KXHru0_bgJlJFqIbjOA",{"children":[["$","$Le",null,{"children":"$Lf"}],null]}],null]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+11:"$Sreact.suspense"
+12:I[4911,[],"AsyncMetadata"]
+8:["$","$11",null,{"fallback":null,"children":["$","$L12",null,{"promise":"$@13"}]}]
+b:null
+14:I[975,["844","static/chunks/ee560e2c-464c506caba219a9.js","446","static/chunks/53c13509-a7b9549d354fe68a.js","995","static/chunks/995-13f8338a587aba69.js","249","static/chunks/249-176d17846ce088ea.js","766","static/chunks/766-20746dcd73957b95.js","953","static/chunks/app/blog/%5Bslug%5D/page-6b300fb73acbfbb4.js"],"default",1]
+15:T6e32,"use strict";
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -950,7 +955,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-11:T5d9,
+16:T5d9,
 # Useful Bash Scripts for DevOps
 
 Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
@@ -1021,7 +1026,7 @@ ping -c 4 google.com
 
 ## Conclusion
 
-These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!12:T5d9,
+These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!17:T5d9,
 # Useful Bash Scripts for DevOps
 
 Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
@@ -1092,7 +1097,7 @@ ping -c 4 google.com
 
 ## Conclusion
 
-These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!13:T3906,
+These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!18:T3906,
 # Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀
 
 > **Prerequisites**: Pastikan sudah setup KVM di WSL2 dari [tutorial sebelumnya](https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/). Kita bakal build on top of that setup!
@@ -1662,7 +1667,7 @@ Remember: **Kubernetes is a journey, not a destination**. Keep experimenting, br
 
 *Questions atau stuck di step manapun? Reach out ke febryanramadhan@gmail.com mari troubleshoot together! Building strong Kubernetes community starts with helping each other 💪*
 
-**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀14:T229c,
+**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀19:T229c,
 
 > **TL;DR**: Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀
 
@@ -1970,7 +1975,7 @@ Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn
 
 *Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
 
-**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀15:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀1a:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
 
 - Nerima teks/foto struk/screenshot via bot Telegram  
 - AI ekstrak info penting (jumlah, kategori, dll)  
@@ -2043,7 +2048,7 @@ https://drive.google.com/file/d/1tXEibyZChlPpIT8cK2rTpw3sY8D9msgq/view?usp=shari
 Buat kita yang gak pengen capek sama manual, automation ini bisa jadi game-changer! 🎮 Yang keren, gak perlu jago coding buat bikin ini. Cukup paham logika dasar aja.
 
 Dengan n8n, dan AI, tracking keuangan jadi semudah kirim chat. Gak ada lagi alasan buat gak ngatur keuangan dengan baik! 💪
-16:T15d4,
+1b:T15d4,
 **Artikel Test. Artikel ini dihasilkan oleh ChatGPT.**
 
 # Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!
@@ -2210,7 +2215,7 @@ console.log(`${APP_NAME} allows up to ${MAX_USERS} users.`);
 
 Sudah paham perbedaannya? Mulai sekarang, buat kode JavaScript-mu lebih aman dan mudah dibaca dengan memilih deklarasi variabel yang tepat!
 
-17:T5d9,
+1c:T5d9,
 # Useful Bash Scripts for DevOps
 
 Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
@@ -2281,7 +2286,8 @@ ping -c 4 google.com
 
 ## Conclusion
 
-These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!7:["$","$Lf",null,{"content":{"compiledSource":"$10","frontmatter":{},"scope":{}},"frontmatter":{"slug":"useful-bash-scripts","content":"$11","title":"Another Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":["bash","devops","linux","automation"],"excerpt":"A Small Collection of Bash scripts for daily DevOps tasks","wordCount":227,"readingTime":2,"rawContent":"$12"},"allPosts":[{"slug":"install-kubernetes-kvm2-wsl2","content":"$13","title":"Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀","date":"2025-06-04","tags":["kubernetes","k8s","kvm","homelab","container-orchestration","kubeadm","calico"],"excerpt":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","wordCount":1735,"readingTime":9},{"slug":"install-kvm-wsl2-virtualization","content":"$14","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":["kvm","wsl2","virtualization","homelab","infrastructure","terraform","libvirt"],"excerpt":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","wordCount":1171,"readingTime":6},{"slug":"automated-finance-tracker-with-ai","content":"$15","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","wordCount":486,"readingTime":3},{"slug":"javascript-variables","content":"$16","title":"Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!","date":"2024-12-13","tags":["javascript","programming","coding-tips"],"excerpt":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan `let` dan `const` untuk kode yang lebih aman dan modern!","wordCount":779,"readingTime":4},{"slug":"useful-bash-scripts","content":"$17","title":"Another Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":"$7:props:frontmatter:tags","excerpt":"A Small Collection of Bash scripts for daily DevOps tasks","wordCount":227,"readingTime":2}]}]
-d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-b:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Febryan Portfolio"}],["$","meta","2",{"name":"description","content":"Personal portfolio and blog by Febryan"}],["$","meta","3",{"name":"author","content":"Febryan"}],["$","meta","4",{"name":"keywords","content":"portfolio,blog,web development,javascript,react,next.js"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"property":"og:title","content":"Febryan Portfolio"}],["$","meta","7",{"property":"og:description","content":"Personal portfolio and blog by Febryan"}],["$","meta","8",{"property":"og:url","content":"https://pepryan.github.io/portfolio/"}],["$","meta","9",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"Febryan Portfolio"}],["$","meta","14",{"name":"twitter:description","content":"Personal portfolio and blog by Febryan"}],["$","link","15",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
-9:null
+These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!6:["$","$L14",null,{"content":{"compiledSource":"$15","frontmatter":{},"scope":{}},"frontmatter":{"slug":"useful-bash-scripts","content":"$16","title":"Another Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":["bash","devops","linux","automation"],"excerpt":"A Small Collection of Bash scripts for daily DevOps tasks","wordCount":227,"readingTime":2,"rawContent":"$17"},"allPosts":[{"slug":"install-kubernetes-kvm2-wsl2","content":"$18","title":"Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀","date":"2025-06-04","tags":["kubernetes","k8s","kvm","homelab","container-orchestration","kubeadm","calico"],"excerpt":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","wordCount":1735,"readingTime":9},{"slug":"install-kvm-wsl2-virtualization","content":"$19","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":["kvm","wsl2","virtualization","homelab","infrastructure","terraform","libvirt"],"excerpt":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","wordCount":1171,"readingTime":6},{"slug":"automated-finance-tracker-with-ai","content":"$1a","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","wordCount":486,"readingTime":3},{"slug":"javascript-variables","content":"$1b","title":"Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!","date":"2024-12-13","tags":["javascript","programming","coding-tips"],"excerpt":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan `let` dan `const` untuk kode yang lebih aman dan modern!","wordCount":779,"readingTime":4},{"slug":"useful-bash-scripts","content":"$1c","title":"Another Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":"$6:props:frontmatter:tags","excerpt":"A Small Collection of Bash scripts for daily DevOps tasks","wordCount":227,"readingTime":2}]}]
+f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:null
+13:{"metadata":[["$","title","0",{"children":"Febryan Portfolio"}],["$","meta","1",{"name":"description","content":"Personal portfolio and blog by Febryan"}],["$","meta","2",{"name":"author","content":"Febryan"}],["$","meta","3",{"name":"keywords","content":"portfolio,blog,web development,javascript,react,next.js"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"property":"og:title","content":"Febryan Portfolio"}],["$","meta","6",{"property":"og:description","content":"Personal portfolio and blog by Febryan"}],["$","meta","7",{"property":"og:url","content":"https://pepryan.github.io/portfolio/"}],["$","meta","8",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Febryan Portfolio"}],["$","meta","13",{"name":"twitter:description","content":"Personal portfolio and blog by Febryan"}],["$","link","14",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+d:{"metadata":"$13:metadata","error":null,"digest":"$undefined"}
