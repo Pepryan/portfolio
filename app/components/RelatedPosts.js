@@ -63,7 +63,7 @@ export default function RelatedPosts({ currentPost, posts }) {
 
                 {/* Excerpt */}
                 <p className="text-sm text-neutral-600 dark:text-neutral-400 line-clamp-2 mb-4">
-                  {post.excerpt}
+                  {post.summary}
                 </p>
 
                 {/* Add image if post has one */}
@@ -110,4 +110,4 @@ export default function RelatedPosts({ currentPost, posts }) {
       </div>
     </section>
   );
-} 
+}

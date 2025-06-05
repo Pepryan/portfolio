@@ -137,7 +137,7 @@ export default function BlogList({ posts }) {
                 </h2>
                 
                 <p className="text-neutral-600 dark:text-neutral-400 mb-4">
-                  {post.excerpt}
+                  {post.summary || post.excerpt}
                 </p>
 
                 <div className="flex flex-wrap gap-4 text-sm text-neutral-500 dark:text-neutral-400">
@@ -215,4 +215,4 @@ export default function BlogList({ posts }) {
       </main>
     </div>
   );
-} 
+}

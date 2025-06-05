@@ -32,12 +32,12 @@ export default memo(function BlogPostLayout({ children, data, readingTime, wordC
     <>
       <Head>
         <title>{`${data.title} | Febryan Portfolio`}</title>
-        <meta name="description" content={data.excerpt || data.title} />
+        <meta name="description" content={data.summary || data.title} />
         <meta name="keywords" content={data.tags.join(', ')} />
         
         {/* Open Graph */}
         <meta property="og:title" content={data.title} />
-        <meta property="og:description" content={data.excerpt || data.title} />
+        <meta property="og:description" content={data.summary || data.title} />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content={data.date} />
         {data.updated && (

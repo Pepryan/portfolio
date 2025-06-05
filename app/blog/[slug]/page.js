@@ -18,6 +18,118 @@ const getPost = cache(async (slug) => {
   return matter(fileContents);
 });
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const allPosts = getPosts();
+  const post = allPosts.find(post => post.slug === slug);
+  
+  if (!post) {
+    return {
+      title: 'Post Not Found',
+      description: 'The requested blog post could not be found.'
+    };
+  }
+
+  const baseUrl = 'https://pepryan.github.io/portfolio';
+  const postUrl = `${baseUrl}/blog/${slug}`;
+  const defaultImage = `${baseUrl}/portfolio/images/preview.png`;
+  
+  // Extract metadata from frontmatter
+  const {
+    title,
+    summary,
+    excerpt,
+    description,
+    thumbnail,
+    author = 'Febryan Ramadhan',
+    date,
+    updated,
+    tags = [],
+    keywords = [],
+    category,
+    difficulty,
+    openGraph = {},
+    twitter = {},
+    schema = {}
+  } = post;
+
+  // Use summary first, then excerpt, then description as fallback
+  const metaDescription = summary || excerpt || description || `Read ${title} by ${author}`;
+  const metaImage = thumbnail ? `${baseUrl}${thumbnail}` : defaultImage;
+  const metaKeywords = [...tags, ...keywords, 'blog', 'tutorial', 'febryan portfolio'];
+
+  return {
+    title,
+    description: metaDescription,
+    keywords: metaKeywords,
+    authors: [{ name: author, url: baseUrl }],
+    creator: author,
+    publisher: 'Febryan Portfolio',
+    category: category || 'Blog',
+    
+    // Open Graph
+    openGraph: {
+      title: openGraph.title || title,
+      description: openGraph.description || metaDescription,
+      url: openGraph.url || postUrl,
+      siteName: 'Febryan Portfolio',
+      images: [
+        {
+          url: openGraph.image || metaImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        }
+      ],
+      locale: 'id_ID',
+      type: 'article',
+      publishedTime: date,
+      modifiedTime: updated || date,
+      authors: [author],
+      tags: tags,
+    },
+    
+    // Twitter
+    twitter: {
+      card: twitter.card || 'summary_large_image',
+      title: twitter.title || title,
+      description: twitter.description || metaDescription,
+      images: [twitter.image || metaImage],
+      creator: '@pepryan',
+       site: '@pepryan',
+    },
+    
+    // Additional meta tags
+    other: {
+      'article:author': author,
+      'article:published_time': date,
+      'article:modified_time': updated || date,
+      'article:section': category || 'Technology',
+      'article:tag': tags.join(', '),
+      'difficulty': difficulty,
+      'reading-time': `${Math.ceil((post.content?.split(' ').length || 0) / 200)} minutes`,
+    },
+    
+    // Robots
+    robots: {
+      index: !post.draft,
+      follow: !post.draft,
+      googleBot: {
+        index: !post.draft,
+        follow: !post.draft,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    
+    // Canonical URL
+    alternates: {
+      canonical: postUrl,
+    },
+  };
+}
+
 export async function generateStaticParams() {
   const posts = getPosts();
   return posts.map((post) => ({
@@ -74,7 +186,7 @@ export default async function BlogPost({ params }) {
       return <div>Post not found</div>;
     }
 
-    if (post.hidden && process.env.NODE_ENV === 'production') {
+    if (post.draft && process.env.NODE_ENV === 'production') {
       return <div>Post not found</div>;
     }
 

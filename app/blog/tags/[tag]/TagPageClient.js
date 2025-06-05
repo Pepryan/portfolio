@@ -42,7 +42,7 @@ export default function TagPageClient({ tag, posts }) {
                 </h2>
                 
                 <p className="text-neutral-600 dark:text-neutral-400 mb-4 line-clamp-2">
-                  {post.description || post.excerpt}
+                  {post.summary}
                 </p>
 
                 <div className="flex items-center gap-4 text-sm text-neutral-500 dark:text-neutral-500">
@@ -86,4 +86,4 @@ export default function TagPageClient({ tag, posts }) {
       </main>
     </div>
   );
-} 
+}

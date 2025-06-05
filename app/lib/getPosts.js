@@ -25,8 +25,8 @@ export function getPosts() {
       tags: Array.isArray(data.tags) ? data.tags : [],
     };
   })
-  // Filter out hidden posts and sort by date
-  .filter(post => !post.hidden || process.env.NODE_ENV !== 'production')
+  // Filter out draft posts and sort by date
+  .filter(post => !post.draft || process.env.NODE_ENV !== 'production')
   .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   return posts;
@@ -53,7 +53,7 @@ export async function getPost(slug) {
   }
 }
 
-// Add a new function to get all posts including hidden ones (useful for admin/preview purposes)
+// Add a new function to get all posts including draft ones (useful for admin/preview purposes)
 export function getAllPosts() {
   const postsDirectory = path.join(process.cwd(), 'content/posts');
   const files = fs.readdirSync(postsDirectory);

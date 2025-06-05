@@ -20,7 +20,7 @@ export default function BlogCard({ post }) {
         <h2 className="text-2xl font-bold mb-2 text-neutral-900 dark:text-neutral-100">
           {post.title}
         </h2>
-        <p className="text-neutral-600 dark:text-neutral-400 mb-4">{post.excerpt}</p>
+        <p className="text-neutral-600 dark:text-neutral-400 mb-4">{post.summary}</p>
         
         <div className="flex flex-wrap items-center gap-4 text-sm text-neutral-500 dark:text-neutral-400">
           <div className="flex items-center gap-2">
@@ -64,4 +64,4 @@ export default function BlogCard({ post }) {
       </article>
     </Link>
   );
-} 
+}

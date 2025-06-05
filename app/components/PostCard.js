@@ -18,7 +18,7 @@ export default function PostCard({ post }) {
         </h2>
         
         <p className="text-neutral-600 dark:text-neutral-400 mb-4 line-clamp-2">
-          {post.excerpt}
+          {post.summary}
         </p>
 
         <PostMetadata

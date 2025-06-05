@@ -7,8 +7,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "deploy": "next build && next-sitemap && touch out/.nojekyll && gh-pages -d out --dotfiles",
-    "prebuild": "mkdir -p .cache/rehype-pretty-code",
+    "postbuild": "next-sitemap",
+    "validate-seo": "node scripts/validate-seo.js",
+    "check-seo": "node scripts/validate-seo.js || true",
     "dev:sitemap": "next build && next-sitemap && next dev"
   },
   "dependencies": {
