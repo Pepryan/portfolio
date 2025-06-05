@@ -132,7 +132,11 @@ export async function generateMetadata({ params }) {
 
 export async function generateStaticParams() {
   const posts = getPosts();
-  return posts.map((post) => ({
+  // Filter out draft posts, hidden posts, and template files in production
+  const filteredPosts = process.env.NODE_ENV === 'production' 
+    ? posts.filter(post => !post.draft && !post.hidden && !post.slug.startsWith('_'))
+    : posts.filter(post => !post.slug.startsWith('_')); // Always filter template files
+  return filteredPosts.map((post) => ({
     slug: post.slug,
   }));
 }
@@ -186,7 +190,7 @@ export default async function BlogPost({ params }) {
       return <div>Post not found</div>;
     }
 
-    if (post.draft && process.env.NODE_ENV === 'production') {
+    if ((post.draft || post.hidden) && process.env.NODE_ENV === 'production') {
       return <div>Post not found</div>;
     }
 

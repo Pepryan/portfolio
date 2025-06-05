@@ -25,8 +25,8 @@ export function getPosts() {
       tags: Array.isArray(data.tags) ? data.tags : [],
     };
   })
-  // Filter out draft posts and sort by date
-  .filter(post => !post.draft || process.env.NODE_ENV !== 'production')
+  // Filter out draft posts and hidden posts in production, then sort by date
+  .filter(post => process.env.NODE_ENV === 'production' ? (!post.draft && !post.hidden) : true)
   .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   return posts;
