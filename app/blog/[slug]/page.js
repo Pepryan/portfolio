@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
 
   const baseUrl = 'https://pepryan.github.io/portfolio';
   const postUrl = `${baseUrl}/blog/${slug}`;
-  const defaultImage = `${baseUrl}/portfolio/images/preview.png`;
+  const defaultImage = `${baseUrl}/images/default-og-image.svg`;
   
   // Extract metadata from frontmatter
   const {
@@ -55,7 +55,9 @@ export async function generateMetadata({ params }) {
 
   // Use summary first, then excerpt, then description as fallback
   const metaDescription = summary || excerpt || description || `Read ${title} by ${author}`;
-  const metaImage = thumbnail ? `${baseUrl}${thumbnail}` : defaultImage;
+  // Fix thumbnail path - remove /portfolio prefix if it exists
+  const cleanThumbnail = thumbnail ? thumbnail.replace('/portfolio', '') : null;
+  const metaImage = cleanThumbnail ? `${baseUrl}${cleanThumbnail}` : defaultImage;
   const metaKeywords = [...tags, ...keywords, 'blog', 'tutorial', 'febryan portfolio'];
 
   return {
@@ -75,10 +77,10 @@ export async function generateMetadata({ params }) {
       siteName: 'Febryan Portfolio',
       images: [
         {
-          url: openGraph.image || metaImage,
+          url: openGraph.image ? (openGraph.image.startsWith('http') ? openGraph.image : `${baseUrl}${openGraph.image.replace('/portfolio', '')}`) : metaImage,
           width: 1200,
           height: 630,
-          alt: title,
+          alt: openGraph.title || title,
         }
       ],
       locale: 'id_ID',
@@ -94,9 +96,9 @@ export async function generateMetadata({ params }) {
       card: twitter.card || 'summary_large_image',
       title: twitter.title || title,
       description: twitter.description || metaDescription,
-      images: [twitter.image || metaImage],
+      images: [twitter.image ? (twitter.image.startsWith('http') ? twitter.image : `${baseUrl}${twitter.image.replace('/portfolio', '')}`) : metaImage],
       creator: '@pepryan',
-       site: '@pepryan',
+      site: '@pepryan',
     },
     
     // Additional meta tags

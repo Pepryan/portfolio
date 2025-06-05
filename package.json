@@ -12,7 +12,8 @@
     "postbuild": "next-sitemap",
     "validate-seo": "node scripts/validate-seo.js",
     "check-seo": "node scripts/validate-seo.js || true",
-    "dev:sitemap": "next build && next-sitemap && next dev"
+    "dev:sitemap": "next build && next-sitemap && next dev",
+    "test-social": "node scripts/test-social-preview.js"
   },
   "dependencies": {
     "@giscus/react": "^3.1.0",

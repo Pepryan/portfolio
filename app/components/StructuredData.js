@@ -23,7 +23,9 @@ export default function StructuredData({ post, baseUrl }) {
 
   const postUrl = `${baseUrl}/blog/${slug}`;
   const authorUrl = baseUrl;
-  const imageUrl = thumbnail ? `${baseUrl}${thumbnail}` : `${baseUrl}/portfolio/images/preview.png`;
+  // Fix thumbnail path - remove /portfolio prefix if it exists
+  const cleanThumbnail = thumbnail ? thumbnail.replace('/portfolio', '') : null;
+  const imageUrl = cleanThumbnail ? `${baseUrl}${cleanThumbnail}` : `${baseUrl}/images/default-og-image.svg`;
   // Use summary first, then excerpt, then description as fallback
   const metaDescription = summary || excerpt || description || `Read ${title} by ${author}`;
 
