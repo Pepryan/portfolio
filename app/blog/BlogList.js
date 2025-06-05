@@ -179,7 +179,7 @@ export default function BlogList({ posts }) {
             <div className="flex items-center gap-2 mb-1">
               <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
               <span className="text-blue-700 dark:text-blue-300 font-medium">
-                Showing posts tagged with "{selectedTag}"
+                Showing posts tagged with &ldquo;{selectedTag}&rdquo;
               </span>
             </div>
             <span className="text-blue-600 dark:text-blue-400 text-sm">
