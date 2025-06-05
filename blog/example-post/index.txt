@@ -1,0 +1,1885 @@
+1:"$Sreact.fragment"
+2:I[3932,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-0d0a563897e93ac4.js"],"ThemeProvider"]
+3:I[4662,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-0d0a563897e93ac4.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+7:I[9665,[],"MetadataBoundary"]
+9:I[9665,[],"OutletBoundary"]
+c:I[4911,[],"AsyncMetadataOutlet"]
+e:I[9665,[],"ViewportBoundary"]
+10:I[6614,[],""]
+:HL["/portfolio/_next/static/css/7d0079240ba2f425.css","style"]
+0:{"P":null,"b":"5PWdhhx-29crMTsTBeL1S","p":"/portfolio","c":["","blog","example-post",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","example-post","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/7d0079240ba2f425.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","example-post","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",["$","$L7",null,{"children":"$L8"}],null,["$","$L9",null,{"children":["$La","$Lb",["$","$Lc",null,{"promise":"$@d"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","i-PNJD2jyAIBH2FKLbpms",{"children":[["$","$Le",null,{"children":"$Lf"}],null]}],null]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+11:"$Sreact.suspense"
+12:I[4911,[],"AsyncMetadata"]
+8:["$","$11",null,{"fallback":null,"children":["$","$L12",null,{"promise":"$@13"}]}]
+b:null
+14:I[926,["844","static/chunks/ee560e2c-464c506caba219a9.js","446","static/chunks/53c13509-a7b9549d354fe68a.js","995","static/chunks/995-13f8338a587aba69.js","249","static/chunks/249-176d17846ce088ea.js","766","static/chunks/766-20746dcd73957b95.js","953","static/chunks/app/blog/%5Bslug%5D/page-2773381f5cb7e839.js"],"default",1]
+15:T486,"use strict";
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = {
+    h1: "h1",
+    h2: "h2",
+    img: "img",
+    p: "p",
+    ..._provideComponents(),
+    ...props.components
+  };
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h1, {
+      children: "Menggunakan Gambar di MDX"
+    }), "\n", _jsx(_components.h2, {
+      children: "Cara Pertama: Menggunakan Markdown Standard"
+    }), "\n", _jsx(_components.p, {
+      children: "Berikut adalah contoh penggunaan gambar menggunakan syntax markdown standard:"
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.img, {
+        src: "/portfolio/images/image_2024-11-18_15-10-17.png",
+        alt: "Screenshot"
+      })
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ..._provideComponents(),
+    ...props.components
+  };
+  return MDXLayout ? _jsx(MDXLayout, {
+    ...props,
+    children: _jsx(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+16:T2d67,
+# Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)
+
+## Pendahuluan
+
+Setelah menggunakan GCP selama 12 bulan dengan $300 credit, sekarang saatnya memanfaatkan **Always Free Tier** untuk menjalankan n8n secara permanen tanpa biaya. Tutorial ini akan memandu Anda step-by-step untuk setup n8n menggunakan resource yang tersedia gratis selamanya di GCP.
+
+## GCP Always Free Tier Specifications
+
+### Compute Engine Always Free
+- **Instance Type**: e2-micro 
+- **vCPU**: 1 shared core
+- **Memory**: 1 GB RAM
+- **Storage**: 30 GB HDD persistent disk
+- **Network**: 1 GB egress per bulan (ke luar region US)
+- **Region**: Terbatas di US regions (us-west1, us-central1, us-east1)
+- **Limitation**: Maksimal 1 instance per akun
+
+### Additional Always Free Resources
+- **Cloud Storage**: 5 GB regional storage
+- **Cloud Functions**: 2 juta invocations per bulan
+- **BigQuery**: 1 TB query per bulan
+- **Cloud Build**: 120 build-minutes per hari
+
+## Prerequisites
+
+1. Akun Google Cloud yang sudah terverifikasi
+2. Credit card untuk verifikasi (tidak akan dicharge untuk free tier)
+3. Akses SSH (bisa pakai browser atau terminal)
+4. Domain atau siap pakai IP public langsung
+
+## Step 1: Setup Project dan Enable APIs
+
+### 1.1 Create New Project
+```bash
+# Via gcloud CLI (optional)
+gcloud projects create n8n-automation-project --name="n8n Automation"
+gcloud config set project n8n-automation-project
+```
+
+**Via Console:**
+1. Masuk ke [Google Cloud Console](https://console.cloud.google.com)
+2. Klik dropdown project → "New Project"
+3. Nama project: `n8n-automation`
+4. Klik "Create"
+
+### 1.2 Enable Required APIs
+```bash
+gcloud services enable compute.googleapis.com
+gcloud services enable cloudbuild.googleapis.com
+```
+
+**Via Console:**
+1. Navigation menu → APIs & Services → Library
+2. Search dan enable:
+   - Compute Engine API
+   - Cloud Resource Manager API
+
+## Step 2: Create VM Instance (Always Free)
+
+### 2.1 Instance Configuration
+
+**Via Console (Recommended):**
+1. Navigation menu → Compute Engine → VM instances
+2. Klik "Create Instance"
+
+**Instance Details:**
+- **Name**: `n8n-server`
+- **Region**: `us-central1` (Iowa) - Always Free eligible
+- **Zone**: `us-central1-a`
+
+**Machine Configuration:**
+- **Machine family**: General-purpose
+- **Series**: E2
+- **Machine type**: `e2-micro` (1 vCPU, 1 GB memory) ⚠️ **Wajib untuk free tier**
+
+**Boot Disk:**
+- **Operating System**: Ubuntu
+- **Version**: Ubuntu 20.04 LTS
+- **Boot disk type**: Standard persistent disk
+- **Size**: 30 GB (maksimal untuk free tier)
+
+**Firewall:**
+- ✅ Allow HTTP traffic
+- ✅ Allow HTTPS traffic
+
+### 2.2 Advanced Options
+
+**Networking → Network interfaces:**
+- **External IPv4 address**: Ephemeral (kita akan upgrade ke static nanti)
+
+**Security → SSH Keys:**
+- Tambahkan SSH public key jika punya
+- Atau bisa pakai SSH browser nanti
+
+### 2.3 Create Instance
+Klik "Create" dan tunggu ~2-3 menit sampai instance running.
+
+## Step 3: Setup Static IP (Optional tapi Recommended)
+
+### 3.1 Reserve Static External IP
+```bash
+gcloud compute addresses create n8n-static-ip --region=us-central1
+```
+
+**Via Console:**
+1. VPC network → External IP addresses
+2. Klik "Reserve Static Address"
+3. Name: `n8n-static-ip`
+4. Region: `us-central1`
+5. Attach to: pilih instance `n8n-server`
+
+**💰 Cost Note**: Static IP gratis selama attached ke running instance. Kena charge $0.01/jam jika instance di-stop.
+
+## Step 4: Initial Server Setup
+
+### 4.1 Connect via SSH
+```bash
+# Via gcloud CLI
+gcloud compute ssh n8n-server --zone=us-central1-a
+
+# Via browser: klik "SSH" di console VM instances
+```
+
+### 4.2 Update System
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+### 4.3 Install Docker & Docker Compose
+```bash
+# Install Docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+# Add user to docker group
+sudo usermod -aG docker $USER
+
+# Install Docker Compose
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+# Restart session untuk apply group changes
+exit
+```
+
+Reconnect SSH setelah exit.
+
+### 4.4 Verify Installation
+```bash
+docker --version
+docker-compose --version
+```
+
+## Step 5: Deploy n8n dengan Docker Compose
+
+### 5.1 Create Project Directory
+```bash
+mkdir ~/n8n-docker
+cd ~/n8n-docker
+```
+
+### 5.2 Create Docker Compose File
+```bash
+nano docker-compose.yml
+```
+
+**docker-compose.yml content:**
+```yaml
+version: '3.8'
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+    ports:
+      - "80:5678"
+    environment:
+      - N8N_HOST=YOUR_DOMAIN_OR_IP
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://YOUR_DOMAIN_OR_IP
+      - GENERIC_TIMEZONE=Asia/Jakarta
+      - N8N_LOG_LEVEL=info
+      - N8N_USER_FOLDER=/home/node/.n8n
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=ChangeThisPassword123!
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+volumes:
+  n8n_data:
+    driver: local
+```
+
+**Replace values:**
+- `YOUR_DOMAIN_OR_IP`: Static IP atau domain Anda
+- `N8N_BASIC_AUTH_PASSWORD`: Password yang kuat
+
+### 5.3 Start n8n
+```bash
+docker-compose up -d
+```
+
+### 5.4 Check Status
+```bash
+docker-compose ps
+docker-compose logs n8n
+```
+
+## Step 6: Configure Firewall Rules
+
+### 6.1 Create Firewall Rule for n8n
+```bash
+gcloud compute firewall-rules create allow-n8n \
+    --allow tcp:80,tcp:443 \
+    --source-ranges 0.0.0.0/0 \
+    --description "Allow HTTP and HTTPS for n8n"
+```
+
+**Via Console:**
+1. VPC network → Firewall
+2. Create Firewall Rule:
+   - Name: `allow-n8n`
+   - Direction: Ingress
+   - Targets: All instances in the network
+   - Source IP ranges: `0.0.0.0/0`
+   - Protocols and ports: TCP, ports 80, 443
+
+## Step 7: Setup SSL dengan Let's Encrypt (Optional)
+
+### 7.1 Install Certbot
+```bash
+sudo apt install certbot python3-certbot-nginx -y
+```
+
+### 7.2 Install Nginx
+```bash
+sudo apt install nginx -y
+```
+
+### 7.3 Configure Nginx
+```bash
+sudo nano /etc/nginx/sites-available/n8n
+```
+
+**Nginx config:**
+```nginx
+server {
+    listen 80;
+    server_name your-domain.com;
+
+    location / {
+        proxy_pass http://localhost:5678;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+```
+
+### 7.4 Enable Site & Get SSL
+```bash
+sudo ln -s /etc/nginx/sites-available/n8n /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+
+# Get SSL certificate
+sudo certbot --nginx -d your-domain.com
+```
+
+## Step 8: Monitoring Resource Usage
+
+### 8.1 Setup Monitoring Script
+```bash
+nano ~/monitor-resources.sh
+```
+
+**monitor-resources.sh:**
+```bash
+#!/bin/bash
+echo "=== System Resources ==="
+echo "CPU Usage:"
+top -bn1 | grep "Cpu(s)" | awk '{print $2 + $4"%"}'
+
+echo "Memory Usage:"
+free -h | awk '/^Mem:/ {print $3 "/" $2 " (" int($3/$2 * 100) "%)"}'
+
+echo "Disk Usage:"
+df -h / | awk 'NR==2 {print $3 "/" $2 " (" $5 ")"}'
+
+echo "Docker Containers:"
+docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+
+echo "n8n Logs (last 10 lines):"
+docker-compose -f ~/n8n-docker/docker-compose.yml logs --tail=10 n8n
+```
+
+```bash
+chmod +x ~/monitor-resources.sh
+```
+
+### 8.2 Create Cron Job untuk Auto-monitoring
+```bash
+crontab -e
+```
+
+**Add line:**
+```bash
+# Monitor resources every hour
+0 * * * * ~/monitor-resources.sh >> ~/resource-monitor.log 2>&1
+```
+
+## Step 9: Optimization untuk Free Tier
+
+### 9.1 Reduce Memory Usage
+**Update docker-compose.yml dengan memory limits:**
+```yaml
+services:
+  n8n:
+    # ... existing config
+    deploy:
+      resources:
+        limits:
+          memory: 800M
+        reservations:
+          memory: 400M
+```
+
+### 9.2 Setup Swap (Recommended untuk 1GB RAM)
+```bash
+sudo fallocate -l 1G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+# Make permanent
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
+
+### 9.3 Cleanup Script
+```bash
+nano ~/cleanup.sh
+```
+
+**cleanup.sh:**
+```bash
+#!/bin/bash
+# Docker cleanup
+docker system prune -f
+docker volume prune -f
+
+# System cleanup
+sudo apt autoremove -y
+sudo apt autoclean
+
+# Clear logs older than 7 days
+sudo journalctl --vacuum-time=7d
+
+echo "Cleanup completed!"
+```
+
+```bash
+chmod +x ~/cleanup.sh
+```
+
+**Schedule weekly cleanup:**
+```bash
+crontab -e
+# Add:
+0 2 * * 0 ~/cleanup.sh >> ~/cleanup.log 2>&1
+```
+
+## Step 10: Backup Strategy
+
+### 10.1 Backup n8n Data
+```bash
+nano ~/backup-n8n.sh
+```
+
+**backup-n8n.sh:**
+```bash
+#!/bin/bash
+BACKUP_DIR="$HOME/n8n-backups"
+DATE=$(date +%Y%m%d_%H%M%S)
+
+mkdir -p $BACKUP_DIR
+
+# Stop n8n
+cd ~/n8n-docker
+docker-compose stop n8n
+
+# Create backup
+sudo tar -czf $BACKUP_DIR/n8n-backup-$DATE.tar.gz -C /var/lib/docker/volumes n8n-docker_n8n_data
+
+# Start n8n
+docker-compose start n8n
+
+# Keep only last 5 backups
+cd $BACKUP_DIR
+ls -t n8n-backup-*.tar.gz | tail -n +6 | xargs -r rm
+
+echo "Backup completed: n8n-backup-$DATE.tar.gz"
+```
+
+```bash
+chmod +x ~/backup-n8n.sh
+```
+
+**Schedule daily backup:**
+```bash
+crontab -e
+# Add:
+0 3 * * * ~/backup-n8n.sh >> ~/backup.log 2>&1
+```
+
+## Step 11: Access n8n
+
+1. Buka browser ke `http://YOUR_STATIC_IP` atau `https://your-domain.com`
+2. Login dengan:
+   - Username: `admin`
+   - Password: yang Anda set di docker-compose.yml
+3. Mulai buat workflow pertama!
+
+## Troubleshooting
+
+### Common Issues:
+
+**1. Out of Memory:**
+```bash
+# Check memory usage
+free -h
+# Add more swap or optimize workflows
+
+# Restart n8n if needed
+cd ~/n8n-docker
+docker-compose restart n8n
+```
+
+**2. Disk Space Full:**
+```bash
+# Check disk usage
+df -h
+# Run cleanup script
+~/cleanup.sh
+```
+
+**3. Instance Stopped Unexpectedly:**
+```bash
+# Check instance status
+gcloud compute instances list
+# Start instance
+gcloud compute instances start n8n-server --zone=us-central1-a
+```
+
+**4. n8n Container Keeps Restarting:**
+```bash
+# Check logs
+docker-compose logs n8n
+# Common fix: reduce memory limit or add swap
+```
+
+## Tips Agar Tetap Gratis
+
+1. **Monitor Usage**: Set billing alerts di GCP console
+2. **Single Instance**: Hanya jalankan 1 e2-micro instance
+3. **Regional Limit**: Gunakan hanya US regions
+4. **Network Usage**: Monitor egress ke luar US (limit 1GB/bulan)
+5. **Stop When Not Needed**: Stop instance jika tidak dipakai lama
+6. **Regular Cleanup**: Jalankan cleanup script mingguan
+
+## Performance Expectations
+
+Dengan spek e2-micro (1 vCPU, 1GB RAM):
+- **Workflow concurrent**: 2-3 workflows ringan
+- **Response time**: 2-5 detik untuk workflow sederhana
+- **Uptime**: 99%+ dengan monitoring yang baik
+- **Suitable for**: Personal automation, small team workflows
+
+## Kesimpulan
+
+Setup ini memberikan Anda n8n automation server yang berjalan **gratis selamanya** di GCP Always Free Tier. Dengan monitoring dan optimization yang tepat, server ini bisa handle automation tasks personal atau small team dengan baik.
+
+Total biaya bulanan: **$0** (selama tetap dalam free tier limits)
+
+## Next Steps
+
+1. Explore n8n workflows di [n8n.io/workflows](https://n8n.io/workflows)
+2. Setup webhook integrations
+3. Connect dengan services yang sering Anda gunakan
+4. Otomatisasi repetitive tasks sehari-hari
+
+---
+
+*Tutorial ini berdasarkan pengalaman real deployment dan testing di GCP Always Free Tier. Update terakhir: Juni 2025*17:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
+
+- Nerima teks/foto struk/screenshot via bot Telegram  
+- AI ekstrak info penting (jumlah, kategori, dll)  
+- Data langsung masuk ke database Notion  
+- Bisa rekap pengeluaran otomatis  
+
+Bayangin, kita cuma perlu kirim pesan "Beli kopi 25rb" atau foto struk belanja, dan semua data langsung tercatat rapi! ✨
+
+## Apa Itu n8n dan kenapa powerful banget? 🚀
+
+Cerita dikit tentang n8n. Ini tuh platform otomatisasi workflow yang powerful banget! Kita bisa menghubungkan berbagai aplikasi dan layanan tanpa perlu jago coding. 💻
+
+Kelebihan n8n: 😍
+- **Open Source dan Gratis** ✅: Bisa di-deploy sendiri, gak perlu bayar subscription
+- **No-Code/Low-Code** 🧩: Cukup paham logika input-proses-output, drag and drop aja
+- **Integrasi Banyak Platform** 🔄: Dari Notion, Google Sheets, Telegram, sampai AI tools, 500+ integrasi aplikasi
+- **Fleksibel Banget** 🛠️: Bisa bikin workflow sesimple atau sekompleks yang kita mau
+
+Yang penting paham flow datanya: input → proses → output. Gak perlu jago coding sama sekali! 🙌 (minimal paham logic dan parsing data)
+
+Semua bisa kita buat tanpa coding rumit. Cuma drag-and-drop di n8n dan paham alur data aja. Simpel, fleksibel, powerful.
+
+## Cara Bikinnya 🛠️
+Kalau tertarik bikin juga, ini yang dibutuhkan:
+
+1. **Internal Integration Secret Notion** 🔑 - Didapatkan dari [https://www.notion.so/profile/integrations](https://www.notion.so/profile/integrations)
+2. **API Google Gemini AI** 🤖 - Didapatkan dari [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+3. **API Bot Telegram** 💬 - Dibuat melalui BotFather di Telegram
+4. **Template Notion** 📋 - Duplikat dari [template ini](https://battle-option-f5f.notion.site/200241ec407a80b4818ad5a1052d2b3d?v=200241ec407a81358320000cf264c9ae)
+
+## Template n8n 👇
+Awalnya pakai template yang cuma bisa kirim image, tapi kemudian diimprove supaya bisa nerima berbagai jenis input termasuk teks biasa 🔄
+
+- Template base (thanks to Rizqi Pratama Ramadhani): [Finance Tracker Template](https://n8n.io/workflows/3960-automated-financial-tracker-telegram-invoices-to-notion-with-gemini-ai-reports/)
+- Template yang saya improve: [Finance Tracker Template-improved](
+https://drive.google.com/file/d/1tXEibyZChlPpIT8cK2rTpw3sY8D9msgq/view?usp=sharing
+)
+
+![Template n8n](/portfolio/images/template-n8n.png)
+
+## Tutorial singkat 📝
+- Siapin server n8n (deploy bisa pake docker atau langsung di server pake npm) bisa liat [di sini](https://twnb.nbtrisna.my.id/n8n-docker-install/) atau dokumentasi officialnya [di sini](https://docs.n8n.io/hosting/)
+
+
+- Buat credential Notion, Google Gemini AI, dan Telegram Bot di n8n
+![buat cred](/portfolio/images/buat-cred1.png)
+
+- Isi API Notion, Google Gemini AI, dan Telegram Bot
+- Import template bisa drag and drop atau import dari file JSON
+- Duplikat template Notion di Notion ([template ini](https://battle-option-f5f.notion.site/200241ec407a80b4818ad5a1052d2b3d?v=200241ec407a81358320000cf264c9ae))
+
+- Sesuaikan tiap node dengan meng-konekkan Credential Notion, Google Gemini AI, dan Telegram Bot yang sudah dibuat
+![node detail](/portfolio/images/node-detail.png)
+
+- Set active workflow
+
+## Hasilnya 👀
+![hasil tele 1](/portfolio/images/hasil1.png)
+![hasil tele 2](/portfolio/images/hasil2.png)
+![hasil notion](/portfolio/images/hasil-notion.png)
+
+## Next yang bisa diimprove🚀
+- Bikin inputan voice message
+- Bikin report yang lebih detail
+- Bikin fitur untuk update, delete atau nyari data
+- Insights dari AI
+
+## Kesimpulan 🎯
+
+Buat kita yang gak pengen capek sama manual, automation ini bisa jadi game-changer! 🎮 Yang keren, gak perlu jago coding buat bikin ini. Cukup paham logika dasar aja.
+
+Dengan n8n, dan AI, tracking keuangan jadi semudah kirim chat. Gak ada lagi alasan buat gak ngatur keuangan dengan baik! 💪
+18:T3906,
+# Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀
+
+> **Prerequisites**: Pastikan sudah setup KVM di WSL2 dari [tutorial sebelumnya](https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/). Kita bakal build on top of that setup!
+
+Setelah punya homelab KVM yang solid, saatnya naik level ke container orchestration! Di tutorial ini, kita bakal setup **production-ready Kubernetes cluster** dengan:
+
+- **1 Master Node** (Control Plane)
+- **2 Worker Nodes** 
+- **Calico CNI** untuk networking
+- **Containerd** sebagai container runtime
+
+Let's dive in! 💪
+
+---
+
+## 🎯 Architecture Overview
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   k8s-master    │    │  k8s-worker-1   │    │  k8s-worker-2   │
+│  192.168.122.11 │    │ 192.168.122.21  │    │ 192.168.122.22  │
+│                 │    │                 │    │                 │
+│ • API Server    │    │ • Kubelet       │    │ • Kubelet       │
+│ • etcd          │    │ • Kube-proxy    │    │ • Kube-proxy    │
+│ • Scheduler     │    │ • Containerd    │    │ • Containerd    │
+│ • Controller    │    │                 │    │                 │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+```
+
+**Specs per VM:**
+- **Master**: 1 vCPU, 2GB RAM, 20GB Storage
+- **Workers**: 1 vCPU, 2GB RAM, 20GB Storage
+
+---
+
+## 🏗️ Step 1: Create VMs dengan Terraform
+
+Mari kita automate VM creation pakai Terraform! Create file `k8s-cluster.tf`:
+
+```hcl
+terraform {
+  required_providers {
+    libvirt = {
+      source = "dmacvicar/libvirt"
+    }
+  }
+}
+
+provider "libvirt" {
+  uri = "qemu:///system"
+}
+
+# Ubuntu 22.04 Base Image
+resource "libvirt_volume" "ubuntu_base" {
+  name   = "ubuntu-22.04-server-cloudimg-amd64.img"
+  pool   = "isos"
+  source = "https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-22.04-server-cloudimg-amd64.img"
+  format = "qcow2"
+}
+
+# Master Node
+resource "libvirt_volume" "k8s_master" {
+  name           = "k8s-master.qcow2"
+  pool           = "vms"
+  base_volume_id = libvirt_volume.ubuntu_base.id
+  size           = 21474836480 # 20GB
+}
+
+resource "libvirt_domain" "k8s_master" {
+  name   = "k8s-master"
+  memory = "2048"
+  vcpu   = 1
+
+  network_interface {
+    network_name   = "net-lab"
+    addresses      = ["192.168.100.11"]
+    hostname       = "k8s-master"
+  }
+
+  disk {
+    volume_id = libvirt_volume.k8s_master.id
+  }
+
+  console {
+    type        = "pty"
+    target_port = "0"
+    target_type = "serial"
+  }
+
+  graphics {
+    type        = "spice"
+    listen_type = "address"
+    autoport    = true
+  }
+}
+
+# Worker Nodes
+resource "libvirt_volume" "k8s_worker" {
+  count          = 2
+  name           = "k8s-worker-${count.index + 1}.qcow2"
+  pool           = "vms"
+  base_volume_id = libvirt_volume.ubuntu_base.id
+  size           = 21474836480 # 20GB
+}
+
+resource "libvirt_domain" "k8s_worker" {
+  count  = 2
+  name   = "k8s-worker-${count.index + 1}"
+  memory = "2048"
+  vcpu   = 1
+
+  network_interface {
+    network_name   = "net-lab"
+    addresses      = ["192.168.100.${21 + count.index}"]
+    hostname       = "k8s-worker-${count.index + 1}"
+  }
+
+  disk {
+    volume_id = libvirt_volume.k8s_worker[count.index].id
+  }
+
+  console {
+    type        = "pty"
+    target_port = "0"
+    target_type = "serial"
+  }
+
+  graphics {
+    type        = "spice"
+    listen_type = "address"
+    autoport    = true
+  }
+}
+```
+
+Deploy VMs:
+```bash
+terraform init
+terraform plan
+terraform apply -auto-approve
+```
+
+---
+
+## 🔧 Step 2: Initial VM Setup (Semua Node)
+
+Login ke setiap VM dan jalankan commands berikut. Bisa pakai script atau manual satu-satu:
+
+### Update System & Install Prerequisites
+```bash
+# Update system
+sudo apt-get update -y && sudo apt upgrade -y --with-new-pkgs
+
+# Install required packages
+sudo apt-get install -y \
+  apt-transport-https \
+  ca-certificates \
+  curl \
+  gpg \
+  software-properties-common \
+  nano \
+  htop \
+  net-tools
+```
+
+### Configure Hosts File
+```bash
+# Edit hosts file untuk semua nodes
+sudo nano /etc/hosts
+
+# Tambahkan entries berikut:
+192.168.100.11 k8s-master
+192.168.100.21 k8s-worker-1  
+192.168.100.22 k8s-worker-2
+```
+
+### Set Timezone
+```bash
+sudo timedatectl set-timezone Asia/Jakarta
+```
+
+### Disable Swap (Critical!)
+```bash
+# Disable swap immediately
+sudo swapoff -a
+
+# Disable swap permanently
+sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+
+# Verify swap is disabled
+free -h
+```
+
+---
+
+## 🌐 Step 3: Configure Kernel Modules & Networking
+
+### Load Required Kernel Modules
+```bash
+# Load modules immediately
+sudo modprobe overlay
+sudo modprobe br_netfilter
+
+# Make modules persistent across reboots
+cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
+overlay
+br_netfilter
+EOF
+```
+
+### Configure Kernel Parameters
+```bash
+# Setup networking parameters for Kubernetes
+cat <<EOF | sudo tee /etc/sysctl.d/99-k8s-sysctl.conf
+net.ipv4.ip_forward                 = 1
+net.bridge.bridge-nf-call-arptables = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables  = 1
+net.ipv4.conf.all.rp_filter         = 1
+EOF
+
+# Apply settings
+sudo sysctl --system
+
+# Verify settings
+sudo sysctl net.bridge.bridge-nf-call-iptables
+```
+
+---
+
+## 📦 Step 4: Install Container Runtime (Containerd)
+
+### Add Docker Repository
+```bash
+# Create keyrings directory (for Ubuntu < 22.04)
+sudo install -m 0755 -d /etc/apt/keyrings
+
+# Add Docker GPG key
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add Docker repository
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+
+### Install & Configure Containerd
+```bash
+# Update package list and install containerd
+sudo apt-get update
+sudo apt-get install -y containerd.io
+
+# Generate default configuration
+sudo containerd config default | sudo tee /etc/containerd/config.toml
+
+# Configure systemd cgroup driver (IMPORTANT!)
+sudo sed -i 's/SystemdCgroup = false/SystemdCgroup = true/' /etc/containerd/config.toml
+
+# Restart and enable containerd
+sudo systemctl restart containerd
+sudo systemctl enable containerd
+
+# Verify containerd is running
+sudo systemctl status containerd
+```
+
+**Pro tip**: Kalau mau manual edit config, cari section `[plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]` dan set `SystemdCgroup = true`.
+
+---
+
+## ☸️ Step 5: Install Kubernetes Components
+
+### Add Kubernetes Repository
+```bash
+# Create keyrings directory (if not exists)
+sudo mkdir -p -m 755 /etc/apt/keyrings
+
+# Add Kubernetes GPG key
+curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.32/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
+
+# Add Kubernetes repository
+echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.32/deb/ /' | sudo tee /etc/apt/sources.list.d/kubernetes.list
+```
+
+### Install Kubernetes Tools
+```bash
+# Update package list
+sudo apt-get update
+
+# Install kubelet, kubeadm, kubectl
+sudo apt-get install -y kubelet kubeadm kubectl
+
+# Hold packages to prevent automatic updates
+sudo apt-mark hold kubelet kubeadm kubectl
+
+# Enable kubelet service
+sudo systemctl enable kubelet
+
+# Verify installation
+kubeadm version
+kubectl version --client
+```
+
+---
+
+## 🎛️ Step 6: Initialize Master Node
+
+**⚠️ HANYA di Master Node (k8s-master):**
+
+### Initialize Cluster
+```bash
+# Initialize Kubernetes cluster
+sudo kubeadm init \
+  --apiserver-advertise-address=192.168.100.11 \
+  --pod-network-cidr=192.168.0.0/16 \
+  --node-name=k8s-master
+
+# Setup kubectl for regular user
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+# Verify cluster status
+kubectl cluster-info
+kubectl get nodes
+```
+
+**Important**: Save the `kubeadm join` command yang muncul setelah init! Format:
+```bash
+kubeadm join 192.168.100.11:6443 --token <token> --discovery-token-ca-cert-hash sha256:<hash>
+```
+
+---
+
+## 🕸️ Step 7: Install CNI Plugin (Calico)
+
+**Masih di Master Node:**
+
+### Install Calico
+```bash
+# Download and apply Calico manifest
+kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.29.2/manifests/tigera-operator.yaml
+
+# Download custom resources
+curl -L https://raw.githubusercontent.com/projectcalico/calico/v3.29.2/manifests/custom-resources.yaml -o calico-custom-resources.yaml
+
+# Apply custom resources
+kubectl create -f calico-custom-resources.yaml
+
+# Verify Calico installation
+kubectl get pods -n calico-system
+```
+
+### Install Calicoctl (Optional tapi Recommended)
+```bash
+# Download calicoctl binary
+curl -L https://github.com/projectcalico/calico/releases/download/v3.29.2/calicoctl-linux-amd64 -o calicoctl
+
+# Make executable and move to PATH
+chmod +x calicoctl
+sudo mv calicoctl /usr/local/bin/
+
+# Verify installation
+calicoctl version
+```
+
+---
+
+## 👷 Step 8: Join Worker Nodes
+
+**Di setiap Worker Node (k8s-worker-1 dan k8s-worker-2):**
+
+### Join Cluster
+Jalankan command join yang didapat dari master node initialization:
+
+```bash
+# Example command (ganti dengan token actual)
+sudo kubeadm join 192.168.100.11:6443 \
+  --token <your-token> \
+  --discovery-token-ca-cert-hash sha256:<your-hash>
+```
+
+### Verify di Master Node
+```bash
+# Cek semua nodes sudah Ready
+kubectl get nodes
+
+# Expected output:
+# NAME           STATUS   ROLES           AGE   VERSION
+# k8s-master     Ready    control-plane   10m   v1.32.0
+# k8s-worker-1   Ready    <none>          5m    v1.32.0
+# k8s-worker-2   Ready    <none>          5m    v1.32.0
+
+# Cek pod system berjalan normal
+kubectl get pods --all-namespaces
+```
+
+---
+
+## 🎯 Step 9: Test Deployment
+
+Mari test cluster dengan deploy aplikasi sederhana:
+
+### Deploy Nginx
+```bash
+# Create deployment
+kubectl create deployment nginx-test --image=nginx:latest --replicas=3
+
+# Expose deployment
+kubectl expose deployment nginx-test --port=80 --type=NodePort
+
+# Check deployment status
+kubectl get deployments
+kubectl get pods -o wide
+kubectl get services
+```
+
+### Test Connectivity
+```bash
+# Get NodePort
+kubectl get svc nginx-test
+
+# Test dari dalam cluster
+kubectl run test-pod --image=busybox --rm -it --restart=Never -- wget -qO- nginx-test:80
+
+# Test dari luar cluster (ganti dengan NodePort actual)
+curl http://192.168.100.21:<NodePort>
+```
+
+---
+
+## 🔧 Advanced Configuration
+
+### Install Metrics Server
+```bash
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+
+# Verify
+kubectl top nodes
+kubectl top pods
+```
+
+### Setup Ingress Controller (Nginx)
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.10.0/deploy/static/provider/baremetal/deploy.yaml
+
+# Wait for ingress controller to be ready
+kubectl wait --namespace ingress-nginx \
+  --for=condition=ready pod \
+  --selector=app.kubernetes.io/component=controller \
+  --timeout=120s
+```
+
+---
+
+## 🚨 Troubleshooting Common Issues
+
+### Node Not Ready
+```bash
+# Check kubelet status
+sudo systemctl status kubelet
+
+# Check kubelet logs
+sudo journalctl -u kubelet -f
+
+# Common fixes:
+sudo systemctl restart kubelet
+sudo systemctl restart containerd
+```
+
+### Pod Stuck in Pending
+```bash
+# Check node resources
+kubectl describe nodes
+
+# Check pod events
+kubectl describe pod <pod-name>
+
+# Common causes: insufficient resources, node not ready
+```
+
+### CNI Issues
+```bash
+# Restart Calico pods
+kubectl rollout restart daemonset/calico-node -n calico-system
+
+# Check Calico status
+kubectl get pods -n calico-system
+calicoctl node status
+```
+
+### Join Token Expired
+```bash
+# Generate new token (di master node)
+kubeadm token create --print-join-command
+```
+
+---
+
+## 📊 Monitoring & Maintenance
+
+### Useful Commands
+```bash
+# Check cluster health
+kubectl cluster-info dump
+
+# Check resource usage
+kubectl top nodes
+kubectl top pods --all-namespaces
+
+# View cluster events
+kubectl get events --sort-by=.metadata.creationTimestamp
+
+# Check service accounts
+kubectl get serviceaccounts --all-namespaces
+```
+
+### Regular Maintenance
+```bash
+# Update Kubernetes components
+sudo apt update
+sudo apt upgrade kubeadm kubelet kubectl
+
+# Backup etcd (important!)
+sudo ETCDCTL_API=3 etcdctl snapshot save backup.db \
+  --endpoints=https://127.0.0.1:2379 \
+  --cacert=/etc/kubernetes/pki/etcd/ca.crt \
+  --cert=/etc/kubernetes/pki/etcd/server.crt \
+  --key=/etc/kubernetes/pki/etcd/server.key
+```
+
+---
+
+## 🎯 What's Next?
+
+Congrats! Sekarang sudah punya **production-ready Kubernetes cluster** yang berjalan di homelab. Selanjutnya bisa explore:
+
+🚀 **Deploy complex applications** dengan Helm charts  
+🚀 **Setup persistent storage** dengan Longhorn atau Ceph  
+🚀 **Implement GitOps** dengan ArgoCD atau Flux  
+🚀 **Add monitoring stack** dengan Prometheus + Grafana  
+🚀 **Practice disaster recovery** dengan backup/restore procedures  
+
+### Recommended Next Steps:
+1. **Install Helm** - Package manager untuk Kubernetes
+2. **Setup Persistent Volumes** - Untuk stateful applications
+3. **Deploy sample microservices** - Practice real-world scenarios
+4. **Learn YAML manifests** - Deep dive into Kubernetes resources
+5. **Explore security** - RBAC, Network Policies, Pod Security
+
+---
+
+## 💭 Final Thoughts
+
+Setting up Kubernetes dari scratch might seem overwhelming, tapi ini adalah **fundamental skill** yang invaluable buat modern infrastructure. Dengan homelab cluster ini, bisa:
+
+- **Understand Kubernetes internals** secara mendalam
+- **Practice deployment strategies** tanpa fear of breaking production
+- **Learn troubleshooting** dalam controlled environment  
+- **Build confidence** dengan container orchestration
+
+Remember: **Kubernetes is a journey, not a destination**. Keep experimenting, breaking things (safely), dan learning from mistakes. That's how expertise develops! 🚀
+
+---
+
+*Questions atau stuck di step manapun? Reach out ke febryanramadhan@gmail.com mari troubleshoot together! Building strong Kubernetes community starts with helping each other 💪*
+
+**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀19:T229c,
+
+> **TL;DR**: Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀
+
+## Kenapa Harus Repot-repot? 🤔
+
+Sebelum kita dive in, mungkin ada yang bertanya: "Ngapain sih ribet-ribet setup KVM di laptop kalau bisa sewa VPS?"
+
+**Simple answer**: Skills > Money 💪
+
+- **VPS costs money** yang mungkin belum ada sebagai fresh graduate
+- **Learning by doing** jauh lebih powerful daripada cuma baca-baca teori
+- **Portfolio builder** - recruiter bakal impressed sama yang punya pengalaman hands-on
+- **Flexibility** - bisa eksperimen sebanyak yang diinginkan tanpa takut tagihan membengkak
+
+---
+
+## 🔧 Pre-requisites: Yang Dibutuhin
+
+Before we start, pastikan sudah punya:
+
+✅ **Windows 10/11** dengan WSL2 enabled  
+✅ **Minimal 8GB RAM** (16GB recommended kalau mau nyaman)  
+✅ **CPU yang support virtualization** (Intel VT-x atau AMD-V)  
+✅ **Space kosong minimal 50GB** buat VM-VM nanti  
+✅ **Mental yang kuat** buat debugging (this is important! 😅)
+
+---
+
+## 🚀 Step 1: Setup Foundation - Enable Nested Virtualization
+
+First things first, kita perlu mastiin nested virtualization aktif. Ini basically virtualization di dalam virtualization - mind blown right? 🤯
+
+### Cek Status Current
+```bash
+cat /sys/module/kvm_intel/parameters/nested
+```
+
+**Expected output**: `Y` (kalau Intel) atau cek `/sys/module/kvm_amd/parameters/nested` kalau AMD.
+
+### Kalau Belum Aktif...
+Buka **PowerShell as Administrator** di Windows, terus jalanin:
+
+```powershell
+# Cek nama WSL distro
+wsl --list --verbose
+
+# Replace 'Ubuntu' dengan nama distro
+wsl --shutdown Ubuntu
+Get-VMProcessor -VMName "Ubuntu" | Set-VMProcessor -ExposeVirtualizationExtensions $true
+wsl -d Ubuntu
+```
+
+**Pro tip**: Kalau command di atas error, coba restart Windows dulu. Sometimes Windows just needs a good ol' reboot 🔄
+
+---
+
+## 🛠️ Step 2: Install KVM Stack - The Real Deal
+
+Sekarang saatnya install semua tools yang dibutuhin. Copy-paste is your friend here:
+
+```bash
+# Update system dulu biar gak ada drama
+sudo apt update && sudo apt upgrade -y
+
+# Install KVM dan kawan-kawannya
+sudo apt install -y \
+  qemu-system \
+  qemu-utils \
+  libvirt-clients \
+  libvirt-daemon-system \
+  bridge-utils \
+  virt-manager \
+  cpu-checker \
+  libguestfs-tools \
+  libosinfo-bin
+
+# Bonus tools yang bakal berguna nanti
+sudo apt install -y \
+  python3 \
+  python3-pip \
+  genisoimage \
+  wget \
+  curl \
+  unzip
+```
+
+### Add User ke Libvirt Group
+```bash
+sudo usermod -aG libvirt $USER
+sudo usermod -aG kvm $USER
+
+# Logout terus login lagi biar changes take effect
+exit
+# Buka WSL lagi
+```
+
+---
+
+## ⚡ Step 3: Fire Up the Services
+
+```bash
+# Enable dan start libvirt services
+sudo systemctl enable --now libvirtd
+sudo systemctl enable --now virtlogd
+
+# Cek status - harus running semua
+sudo systemctl status libvirtd
+sudo systemctl status virtlogd
+```
+
+### Validation Time! 🎯
+```bash
+# Command ini bakal ngecek semua requirements
+sudo virt-host-validate
+
+# Kalau ada yang FAIL, jangan panik dulu
+# Beberapa warnings itu normal di environment WSL2
+```
+
+**What to expect**: Beberapa checks mungkin WARN atau FAIL, especially yang berkaitan dengan hardware security. That's totally fine untuk learning environment!
+
+---
+
+## 🏗️ Step 4: Setup Terraform + Libvirt Provider
+
+Sekarang kita bakal install Terraform buat Infrastructure as Code experience yang lebih pro:
+
+### Install Terraform
+```bash
+# Add HashiCorp GPG key
+wget -O- https://apt.releases.hashicorp.com/gpg | \
+  sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+
+# Add repository
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
+sudo tee /etc/apt/sources.list.d/hashicorp.list
+
+# Install Terraform
+sudo apt update && sudo apt install terraform -y
+
+# Verify installation
+terraform --version
+```
+
+### Setup Libvirt Provider
+```bash
+# Create directory structure
+mkdir -p ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64
+
+# Download libvirt provider (adjust version as needed)
+cd /tmp
+wget https://github.com/dmacvicar/terraform-provider-libvirt/releases/download/v0.7.1/terraform-provider-libvirt-0.7.1+git.1f9b302.Ubuntu.amd64.tar.gz
+
+# Extract dan install
+tar -xvf terraform-provider-libvirt-*.tar.gz
+mv terraform-provider-libvirt ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64/
+chmod +x ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64/terraform-provider-libvirt
+```
+
+---
+
+## 💾 Step 5: Storage Management yang Rapi
+
+Kita perlu setup storage pools buat organize ISO files dan VM disks. Think of it as creating folders, but fancier:
+
+```bash
+# Create directories
+sudo mkdir -p /data/isos
+sudo mkdir -p /data/vms
+sudo chown -R $USER:$USER /data/
+
+# Define storage pools
+virsh pool-define-as vms dir - - - - "/data/vms"
+virsh pool-define-as isos dir - - - - "/data/isos"
+
+# Set autostart (biar otomatis start pas boot)
+virsh pool-autostart vms
+virsh pool-autostart isos
+
+# Start the pools
+virsh pool-start vms
+virsh pool-start isos
+
+# Verify
+virsh pool-list --all
+```
+
+**Expected output**: Both pools should show as **active** dan **autostart yes**.
+
+---
+
+## 🌐 Step 6: Virtual Networking Setup
+
+Time to create isolated networks buat VM-VM. Ini penting banget buat simulate real-world scenarios:
+
+### Create Network Definition
+```bash
+# Create network config file
+cat > /tmp/net-lab.xml << 'EOF'
+<network>
+  <name>net-lab</name>
+  <forward mode='nat'>
+    <nat>
+      <port start='1024' end='65535'/>
+    </nat>
+  </forward>
+  <bridge name='virbr-lab' stp='on' delay='0'/>
+  <domain name='lab.local'/>
+  <ip address='192.168.100.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.100.10' end='192.168.100.100'/>
+    </dhcp>
+  </ip>
+</network>
+EOF
+
+# Define and start the network
+virsh net-define /tmp/net-lab.xml
+virsh net-autostart net-lab
+virsh net-start net-lab
+
+# Verify
+virsh net-list --all
+```
+
+---
+
+## 🎯 Step 7: Quick Test - Download dan Test ISO
+
+Mari kita test setup dengan download ISO dan create VM pertama:
+
+```bash
+# Download Ubuntu Server ISO (lightweight option)
+cd /data/isos
+wget https://releases.ubuntu.com/22.04/ubuntu-22.04.3-live-server-amd64.iso
+
+# Create your first VM via command line
+virt-install \
+  --name test-vm \
+  --ram 1024 \
+  --disk path=/data/vms/test-vm.qcow2,size=10 \
+  --vcpus 1 \
+  --os-variant ubuntu22.04 \
+  --network network=net-lab \
+  --graphics none \
+  --console pty,target_type=serial \
+  --location /data/isos/ubuntu-22.04.3-live-server-amd64.iso \
+  --extra-args 'console=ttyS0,115200n8 serial'
+```
+
+---
+
+## 🚨 Common Issues & Troubleshooting
+
+### "Permission denied" errors
+```bash
+# Fix libvirt permissions
+sudo chmod 666 /var/run/libvirt/libvirt-sock
+# Or add to group (better solution)
+sudo usermod -aG libvirt $USER
+```
+
+### "Nested virtualization not supported"
+- Restart Windows completely
+- Check BIOS settings - enable Intel VT-x atau AMD-V
+- Verify WSL2 VM settings dalam Hyper-V
+
+### VMs super slow
+- Allocate more RAM ke WSL2 di `.wslconfig`
+- Enable CPU extensions di VM creation
+
+---
+
+## 🎉 What's Next? Level Up Your Game!
+
+Congrats! Sekarang sudah punya homelab KVM yang functional. Selanjutnya bisa:
+
+🔥 **Create multi-VM clusters** buat simulate production environments  
+🔥 **Experiment dengan Kubernetes** tanpa takut break production  
+🔥 **Practice Infrastructure as Code** dengan Terraform  
+🔥 **Build CI/CD pipelines** yang deploy ke VM clusters  
+🔥 **Learn container orchestration** dengan setup sendiri  
+
+### Pro Tips buat Next Steps:
+1. **Automate everything** - Write Terraform configs buat VM provisioning
+2. **Monitor your lab** - Install Prometheus + Grafana
+3. **Practice disaster recovery** - Backup dan restore VMs
+4. **Document everything** - Future self will thank present self
+
+---
+
+## 💭 Closing Thoughts
+
+Setup KVM di WSL2 might seem overwhelming di awal, tapi trust me - ini investment terbaik yang bisa dilakukan buat career development. Dengan homelab sendiri, bisa:
+
+- **Experiment freely** tanpa takut biaya cloud
+- **Build real-world experience** yang recruiters appreciate  
+- **Stay updated** dengan latest infrastructure trends
+- **Debug skills** yang invaluable di production environments
+
+Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn from mistakes, dan keep iterating. Good luck, dan happy learning! 🚀
+
+---
+
+*Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
+
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀1a:T15d4,
+**Artikel Test. Artikel ini dihasilkan oleh ChatGPT.**
+
+# Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!
+
+Tahukah kamu bahwa salah memilih cara deklarasi variabel bisa membuat kode kamu menjadi *buggy* dan sulit dipahami? Di dunia JavaScript, ada tiga cara utama untuk mendeklarasikan variabel: `var`, `let`, dan `const`. Ketiganya sering disalahgunakan oleh banyak developer, bahkan yang sudah berpengalaman sekalipun! Artikel ini akan membongkar perbedaan mendasar ketiga deklarasi ini dengan penjelasan lengkap dan contoh studi kasus.
+
+---
+
+## Apa Itu Var, Let, dan Const?
+
+Sebelum masuk ke perbedaan, mari kita kenali satu per satu:
+
+- **`var`**: Cara lama untuk mendeklarasikan variabel. Digunakan sebelum ES6 (2015).
+- **`let`**: Alternatif modern untuk `var`, dirancang untuk memperbaiki kekurangan `var`.
+- **`const`**: Mirip dengan `let`, tetapi digunakan untuk nilai yang tidak berubah.
+
+---
+
+## Perbedaan Utama (TL;DR)
+
+| **Aspek**           | **var**                           | **let**                          | **const**                          |
+|---------------------|-----------------------------------|-----------------------------------|------------------------------------|
+| **Scope**           | Function scope                   | Block scope                      | Block scope                       |
+| **Redeclaration**   | Bisa                             | Tidak bisa                       | Tidak bisa                        |
+| **Reassignment**    | Bisa                             | Bisa                             | Tidak bisa                        |
+| **Hoisting**        | Diangkat dengan nilai `undefined` | Diangkat tetapi tidak bisa digunakan sebelum deklarasi | Diangkat tetapi tidak bisa digunakan sebelum deklarasi |
+| **Nilai Harus Diisi?** | Tidak                           | Tidak                            | Ya                                |
+
+---
+
+## Perbedaan Detail dengan Contoh
+
+### 1. Scope (Ruang Lingkup)
+
+- **`var`** hanya berlaku di dalam fungsi tempat ia dideklarasikan (function scope).
+- **`let`** dan **`const`** hanya berlaku di dalam blok tempat mereka dideklarasikan (block scope).
+
+**Contoh:**
+```javascript showLineNumbers
+if (true) {
+    var x = 10;
+    let y = 20;
+    const z = 30;
+}
+console.log(x); // 10 (bisa diakses di luar blok if)
+console.log(y); // Error! y tidak dikenal di luar blok if
+console.log(z); // Error! z tidak dikenal di luar blok if
+```
+
+---
+
+### 2. Redeclaration (Deklarasi Ulang)
+
+- **`var`**: Bisa dideklarasikan ulang tanpa masalah (potensi konflik).
+- **`let`** dan **`const`**: Tidak bisa dideklarasikan ulang di tempat yang sama (lebih aman).
+
+**Contoh:**
+```javascript
+var a = 1;
+var a = 2; // Tidak masalah (tetapi bisa membingungkan).
+
+let b = 1;
+// let b = 2; // Error! Tidak bisa dideklarasikan ulang.
+
+const c = 1;
+// const c = 2; // Error! Tidak bisa dideklarasikan ulang.
+```
+
+---
+
+### 3. Reassignment (Mengubah Nilai)
+
+- **`var` dan `let`**: Nilainya bisa diubah setelah dideklarasikan.
+- **`const`**: Nilainya tidak bisa diubah.
+
+**Contoh:**
+```javascript
+let name = "Ryan";
+name = "Febryan"; // Oke, nilai diubah.
+
+const age = 25;
+// age = 26; // Error! Nilai tidak bisa diubah.
+```
+
+> **Catatan Penting**: Untuk objek dan array, `const` mengunci referensi, tetapi isi dalamnya tetap bisa diubah.
+
+**Contoh:**
+```javascript
+const user = { name: "Ryan", age: 25 };
+user.name = "Febryan"; // Oke, mengubah properti.
+
+// Tapi:
+// user = { name: "Uwi", age: 23 }; // Error! Tidak bisa mengganti objek.
+```
+
+---
+
+### 4. Hoisting (Pengangkatan)
+
+- **`var`**: Diangkat ke atas (hoisted) dengan nilai awal `undefined`.
+- **`let` dan `const`**: Diangkat tetapi tidak bisa digunakan sebelum dideklarasikan (temporal dead zone).
+
+**Contoh:**
+```javascript
+console.log(a); // undefined (var diangkat ke atas tetapi belum diisi nilai)
+var a = 5;
+
+// console.log(b); // Error! b tidak bisa digunakan sebelum deklarasi.
+let b = 10;
+```
+
+---
+
+## Kapan Harus Menggunakan Let atau Const?
+
+1. **Gunakan `const` Sebisa Mungkin**
+   - Jika nilai variabel tidak akan berubah, selalu gunakan `const`.
+
+2. **Gunakan `let` Jika Nilai Akan Berubah**
+   - Misalnya untuk nilai yang diperbarui dalam perulangan atau kondisi tertentu.
+
+3. **Hindari `var`**
+   - `var` hanya digunakan jika kamu bekerja dengan kode lama atau benar-benar perlu akses global dalam fungsi.
+
+---
+
+## Studi Kasus untuk Memperjelas
+
+### Studi Kasus 1: Perulangan
+Gunakan `let` agar setiap iterasi memiliki "kotak" sendiri.
+
+**Contoh:**
+```javascript
+for (let i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 100);
+}
+// Output: 0, 1, 2
+
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 100);
+}
+// Output: 3, 3, 3 (semua iterasi berbagi "kotak" yang sama)
+```
+
+### Studi Kasus 2: Konfigurasi Aplikasi
+Gunakan `const` untuk nilai yang tidak akan berubah.
+
+**Contoh:**
+```javascript
+const APP_NAME = "CoolApp";
+const MAX_USERS = 100;
+console.log(`${APP_NAME} allows up to ${MAX_USERS} users.`);
+```
+
+---
+
+## Kesimpulan
+
+- **`const`**: Gunakan untuk nilai yang tidak berubah. Aman dan mudah dimengerti.
+- **`let`**: Gunakan untuk nilai yang bisa berubah. Ideal untuk perulangan atau kondisi.
+- **`var`**: Hindari jika memungkinkan. Gunakan hanya untuk kompatibilitas kode lama.
+
+> **Tips Penting**: Jika ragu, mulai dengan `const`. Jika ternyata nilai perlu berubah, ubah ke `let`. Dengan begitu, kamu akan terhindar dari bug yang sulit dilacak.
+
+Sudah paham perbedaannya? Mulai sekarang, buat kode JavaScript-mu lebih aman dan mudah dibaca dengan memilih deklarasi variabel yang tepat!
+
+1b:T5d9,
+# Useful Bash Scripts for DevOps
+
+Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
+
+## 1. System Resource Monitor
+
+This script monitors CPU, Memory, and Disk usage: 
+
+```bash
+#!/bin/bash
+echo System Resource Monitor
+echo "CPU Usage:"
+top -bn1 | grep "Cpu(s)" | sed "s/.,[0−9.]∗[0−9.]∗% id./\1/" | awk '{print 100 - $1}'%
+echo "Memory Usage:"
+free | grep Mem | awk '{print $3/$2 100.0}'%
+echo "Disk Usage:"
+df -h | awk '$NF=="/"{print $5}'
+```
+
+## 2. Backup Script
+
+This script creates a backup of a specified directory:
+
+```bash
+#!/bin/bash
+# Backup Script
+SOURCE="/path/to/source"
+DESTINATION="/path/to/backup"
+TIMESTAMP=$(date +"%Y%m%d%H%M")
+BACKUP_FILE="$DESTINATION/backup-$TIMESTAMP.tar.gz"
+
+tar -czf $BACKUP_FILE $SOURCE
+echo "Backup created at $BACKUP_FILE"
+```
+
+## 3. Log Cleanup
+
+This script cleans up old log files:
+
+```bash
+#!/bin/bash
+# Log Cleanup Script
+find /var/log -type f -name "*.log" -mtime +30 -exec rm {} \;
+echo "Old log files deleted."
+```
+
+## 4. User Management
+
+This script adds a new user and sets a password:
+
+```bash
+#!/bin/bash
+# User Management Script
+read -p "Enter username: " USERNAME
+sudo adduser $USERNAME
+echo "User $USERNAME added."
+```
+
+## 5. Network Status Check
+
+This script checks the network status:
+
+```bash
+#!/bin/bash
+# Network Status Check Script
+ping -c 4 google.com
+```
+
+## Conclusion
+
+These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!1c:T93e,
+# Markdown and MDX Guide
+
+This guide demonstrates the various features available in Markdown and MDX.
+
+## Code Blocks
+
+### Basic Code Block (3 backticks)
+
+```javascript
+const greeting = "Hello World";
+console.log(greeting);
+
+// Object example
+const user = {
+  name: "John Doe",
+  age: 30,
+  isAdmin: true
+};
+```
+
+### Code Block with Title and Line Numbers
+
+```bash title="install dependencies" showLineNumbers
+# Install dependencies
+npm install next@latest
+npm install @tailwindcss/typography
+npm install gray-matter
+```
+
+### Code Block with Line Highlighting
+
+```python {1,3-4}
+def example():
+    # This line won't be highlighted
+    # These lines will be highlighted
+    print("Hello World")
+```
+
+## Word highlighted Example
+
+```json word="name" word="project" /version/
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest"
+  }
+}
+``` 
+
+## Tables
+
+| Feature | Description | Status |
+|---------|------------|--------|
+| Tables | Basic table support | ✅ |
+| Lists | Ordered and unordered lists | ✅ |
+| Code Blocks | Syntax highlighting | ✅ |
+| Images | Image embedding | ✅ |
+
+## Text Formatting
+
+### Basic Formatting
+
+This is **bold text**, and this is *italic text*.
+You can also use ***bold and italic*** together.
+
+### Blockquotes
+
+> This is a blockquote. You can use it to emphasize important information or quotes.
+>
+> You can have multiple paragraphs in a blockquote.
+
+### Lists
+
+#### Unordered List
+- First item
+  - Nested item
+  - Another nested item
+- Second item
+- Third item
+
+#### Ordered List
+1. First step
+   1. Sub-step one
+   2. Sub-step two
+2. Second step
+3. Third step
+
+## Links and Images
+
+### Links
+[Visit OpenAI](https://openai.com)
+[Internal Link to Blog](/blog)
+
+### Images
+![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)
+
+## Advanced Features
+
+### Task Lists
+
+- [x] Write the introduction
+- [x] Add code examples
+- [ ] Review content
+- [ ] Publish post
+
+### Custom Components
+
+```json
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest"
+  }
+}
+```
+
+### One backtick
+`this text is use one bactick`
+
+## Conclusion
+
+This post demonstrates the main features available in Markdown and MDX. You can use these elements to create rich, well-formatted content for your blog.
+
+---
+
+*Last updated: March 25, 2024*6:["$","$L14",null,{"content":{"compiledSource":"$15","frontmatter":{},"scope":{}},"frontmatter":{"slug":"example-post","content":"\n# Menggunakan Gambar di MDX\n\n## Cara Pertama: Menggunakan Markdown Standard\n\nBerikut adalah contoh penggunaan gambar menggunakan syntax markdown standard:\n\n![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)\n\n\n  ","title":"Using Images in MDX","date":"2024-01-20","updated":"2024-01-20","tags":["mdx","images","tutorial"],"category":"Tutorial","summary":"Panduan menggunakan gambar dalam blog post menggunakan MDX","author":"Febryan Ramadhan","readingTime":1,"difficulty":"Beginner","keywords":["mdx","images","tutorial","blog","markdown"],"openGraph":{"title":"Using Images in MDX","description":"Panduan lengkap menggunakan gambar dalam blog post dengan MDX.","type":"article"},"twitter":{"card":"summary_large_image","title":"Using Images in MDX","description":"Panduan lengkap menggunakan gambar dalam blog post dengan MDX."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":21,"rawContent":"\n# Menggunakan Gambar di MDX\n\n## Cara Pertama: Menggunakan Markdown Standard\n\nBerikut adalah contoh penggunaan gambar menggunakan syntax markdown standard:\n\n![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)\n\n\n  "},"allPosts":[{"slug":"deploy-n8n-gratis-di-google-cloud","content":"$16","title":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","date":"2025-06-01","updated":"2025-06-01","tags":["n8n","automation","gcp","google-cloud","free-tier","deployment","tutorial","workflow","nocode","devops"],"draft":false,"summary":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier. Setup permanent tanpa biaya dengan resource gratis selamanya.","author":"Febryan","category":"Tutorial","readingTime":8,"difficulty":"Intermediate","keywords":["n8n deployment","google cloud free tier","automation platform","workflow automation","free hosting","gcp tutorial","n8n tutorial","cloud deployment"],"openGraph":{"title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Pelajari cara deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Panduan step-by-step dengan resource gratis selamanya.","image":"/portfolio/images/n8n-gcp-deployment.png","url":"https://pepryan.github.io/portfolio/blog/deploy-n8n-gratis-di-google-cloud"},"twitter":{"card":"summary_large_image","title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Setup permanent tanpa biaya!"},"schema":{"type":"TechArticle","headline":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier dengan resource gratis selamanya.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-06-01","dateModified":"2025-06-01","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":1574},{"slug":"automated-finance-tracker-with-ai","content":"$17","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","author":"Febryan","category":"Tutorial","readingTime":3,"difficulty":"Intermediate","keywords":["finance tracker","automation","telegram bot","n8n workflow","notion database","ai integration","gemini ai","expense tracking","personal finance"],"openGraph":{"title":"Finance Tracker Otomatis dengan AI - Tutorial Lengkap","description":"Buat sistem finance tracker otomatis menggunakan Telegram Bot, n8n, Notion, dan Google Gemini AI. Catat pengeluaran jadi super mudah!","image":"/portfolio/images/template-n8n.png","url":"https://pepryan.github.io/portfolio/blog/automated-finance-tracker-with-ai"},"twitter":{"card":"summary_large_image","title":"Finance Tracker Otomatis dengan AI 🤖💰","description":"Tutorial bikin finance tracker otomatis pakai Telegram, n8n, Notion & AI. Tinggal chat, data langsung tercatat rapi!","image":"/portfolio/images/template-n8n.png"},"schema":{"type":"HowTo","headline":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget!","description":"Panduan lengkap membuat sistem finance tracker otomatis menggunakan Telegram Bot, n8n workflow automation, Notion database, dan Google Gemini AI untuk tracking pengeluaran yang efisien.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-05-27","dateModified":"2025-05-28","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":486},{"slug":"install-kubernetes-kvm2-wsl2","content":"$18","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","date":"2024-12-11","updated":"2024-12-11","tags":["kubernetes","kvm","wsl2","homelab"],"category":"DevOps","summary":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","author":"Febryan Ramadhan","readingTime":9,"difficulty":"Advanced","keywords":["kubernetes","kvm","wsl2","homelab","cluster","devops"],"openGraph":{"title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1735},{"slug":"install-kvm-wsl2-virtualization","content":"$19","title":"Install KVM di WSL2: Homelab Virtualization Setup","date":"2024-12-10","updated":"2024-12-10","tags":["kvm","wsl2","virtualization","homelab"],"category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","readingTime":6,"difficulty":"Intermediate","keywords":["kvm","wsl2","virtualization","homelab","linux","windows"],"openGraph":{"title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1171},{"slug":"hidden-post","content":"\nThis post will not appear in the blog listing. ","title":"Hidden Post Example","date":"2024-03-26","tags":["test"],"hidden":true,"wordCount":9,"readingTime":1},{"slug":"example-post","content":"\n# Menggunakan Gambar di MDX\n\n## Cara Pertama: Menggunakan Markdown Standard\n\nBerikut adalah contoh penggunaan gambar menggunakan syntax markdown standard:\n\n![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)\n\n\n  ","title":"Using Images in MDX","date":"2024-01-20","updated":"2024-01-20","tags":"$6:props:frontmatter:tags","category":"Tutorial","summary":"Panduan menggunakan gambar dalam blog post menggunakan MDX","author":"Febryan Ramadhan","readingTime":1,"difficulty":"Beginner","keywords":"$6:props:frontmatter:keywords","openGraph":"$6:props:frontmatter:openGraph","twitter":"$6:props:frontmatter:twitter","schema":"$6:props:frontmatter:schema","wordCount":21},{"slug":"javascript-variables","content":"$1a","title":"JavaScript Variables: var, let, dan const","date":"2024-01-15","updated":"2024-01-15","tags":["javascript","programming","variables"],"category":"Programming","summary":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan let dan const untuk kode yang lebih aman dan modern!","author":"Febryan Ramadhan","readingTime":4,"difficulty":"Beginner","keywords":["javascript","variables","var","let","const","programming"],"openGraph":{"title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern.","type":"article"},"twitter":{"card":"summary_large_image","title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":779},{"slug":"useful-bash-scripts","content":"$1b","title":"Useful Bash Scripts for DevOps","date":"2024-01-10","updated":"2024-01-10","tags":["bash","devops","automation"],"category":"DevOps","summary":"A Small Collection of Bash scripts for daily DevOps tasks","author":"Febryan Ramadhan","readingTime":2,"difficulty":"Intermediate","keywords":["bash","devops","automation","scripts","linux"],"openGraph":{"title":"Useful Bash Scripts for DevOps","description":"A collection of useful Bash scripts for daily DevOps automation tasks.","type":"article"},"twitter":{"card":"summary_large_image","title":"Useful Bash Scripts for DevOps","description":"A collection of useful Bash scripts for daily DevOps automation tasks."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":227},{"slug":"markdown-guide","content":"$1c","title":"Markdown and MDX Guide","date":"2024-01-05","updated":"2024-01-05","tags":["markdown","mdx","guide"],"category":"Tutorial","summary":"A comprehensive guide to using Markdown and MDX features including code blocks, tables, and more","author":"Febryan Ramadhan","readingTime":2,"difficulty":"Beginner","keywords":["markdown","mdx","guide","documentation","writing"],"openGraph":{"title":"Markdown and MDX Guide","description":"A comprehensive guide to using Markdown and MDX features for better documentation.","type":"article"},"twitter":{"card":"summary_large_image","title":"Markdown and MDX Guide","description":"A comprehensive guide to using Markdown and MDX features for better documentation."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":355},{"slug":"_template","content":"\n# Your Blog Post Title Here\n\nYour blog post content starts here...\n\n## Section 1\n\nContent for section 1...\n\n## Section 2\n\nContent for section 2...\n\n---\n\n*Last updated: [Date] - [Brief note about updates if any]*","title":"Your Blog Post Title Here","date":"2024-01-01","updated":"2024-01-01","tags":["tag1","tag2","tag3"],"category":"Technology","summary":"A compelling summary of your blog post that will appear in search results and social media previews. Keep it under 160 characters for best SEO results.","thumbnail":"/images/blog/your-post-thumbnail.jpg","author":"Febryan Ramadhan","readingTime":1,"difficulty":"Beginner","keywords":["keyword1","keyword2","keyword3"],"openGraph":{"title":"Your Blog Post Title Here","description":"A description optimized for social media sharing. Can be different from summary.","image":"/images/blog/your-post-thumbnail.jpg","type":"article"},"twitter":{"card":"summary_large_image","title":"Your Blog Post Title Here","description":"A description optimized for Twitter sharing.","image":"/images/blog/your-post-thumbnail.jpg"},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io","sameAs":["https://twitter.com/pepryan","https://instagram.com/nayrbef","https://linkedin.com/in/febryanramadhan"]},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":37},{"slug":"example","content":"\n# Contoh Penggunaan Code\n\nIni adalah inline code: `const example = \"hello\"` \n\nDan ini adalah code block:\n\n```javascript\nconst greeting = \"Hello World\";\nconsole.log(greeting);\n```\n\nAtau untuk bash:\n\n```bash\necho \"Hello World\"\nnpm install package-name\n``` ","title":"Example Post","tags":["bash","devops","linux","automation"],"hidden":true,"wordCount":36,"readingTime":1}]}]
+f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:null
+13:{"metadata":[["$","title","0",{"children":"Using Images in MDX | Febryan Portfolio"}],["$","meta","1",{"name":"description","content":"Panduan menggunakan gambar dalam blog post menggunakan MDX"}],["$","link","2",{"rel":"author","href":"https://pepryan.github.io/portfolio"}],["$","meta","3",{"name":"author","content":"Febryan Ramadhan"}],["$","meta","4",{"name":"keywords","content":"mdx,images,tutorial,mdx,images,tutorial,blog,markdown,blog,tutorial,febryan portfolio"}],["$","meta","5",{"name":"creator","content":"Febryan Ramadhan"}],["$","meta","6",{"name":"publisher","content":"Febryan Portfolio"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"Tutorial"}],["$","meta","10",{"name":"article:author","content":"Febryan Ramadhan"}],["$","meta","11",{"name":"article:published_time","content":"2024-01-20"}],["$","meta","12",{"name":"article:modified_time","content":"2024-01-20"}],["$","meta","13",{"name":"article:section","content":"Tutorial"}],["$","meta","14",{"name":"article:tag","content":"mdx, images, tutorial"}],["$","meta","15",{"name":"difficulty","content":"Beginner"}],["$","meta","16",{"name":"reading-time","content":"1 minutes"}],["$","link","17",{"rel":"canonical","href":"https://pepryan.github.io/portfolio/blog/example-post/"}],["$","meta","18",{"property":"og:title","content":"Using Images in MDX"}],["$","meta","19",{"property":"og:description","content":"Panduan lengkap menggunakan gambar dalam blog post dengan MDX."}],["$","meta","20",{"property":"og:url","content":"https://pepryan.github.io/portfolio/blog/example-post/"}],["$","meta","21",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","22",{"property":"og:locale","content":"id_ID"}],["$","meta","23",{"property":"og:image","content":"https://pepryan.github.io/portfolio/portfolio/images/preview.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:image:alt","content":"Using Images in MDX"}],["$","meta","27",{"property":"og:type","content":"article"}],["$","meta","28",{"property":"article:published_time","content":"2024-01-20"}],["$","meta","29",{"property":"article:modified_time","content":"2024-01-20"}],["$","meta","30",{"property":"article:author","content":"Febryan Ramadhan"}],["$","meta","31",{"property":"article:tag","content":"mdx"}],["$","meta","32",{"property":"article:tag","content":"images"}],["$","meta","33",{"property":"article:tag","content":"tutorial"}],["$","meta","34",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","35",{"name":"twitter:site","content":"@pepryan"}],["$","meta","36",{"name":"twitter:creator","content":"@pepryan"}],["$","meta","37",{"name":"twitter:title","content":"Using Images in MDX"}],["$","meta","38",{"name":"twitter:description","content":"Panduan lengkap menggunakan gambar dalam blog post dengan MDX."}],["$","meta","39",{"name":"twitter:image","content":"https://pepryan.github.io/portfolio/portfolio/images/preview.png"}],["$","link","40",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+d:{"metadata":"$13:metadata","error":null,"digest":"$undefined"}
