@@ -11,7 +11,7 @@ import ShareButtons from '../../components/ShareButtons';
 import BlogPostContent from './BlogPostContent';
 import RelatedPosts from '../../components/RelatedPosts';
 import ReadingProgress from '../../components/ReadingProgress';
-// import DisqusComments from '../../components/DisqusComments';
+import GiscusComments from '../../components/GiscusComments';
 
 export default function BlogPostClient({ content, frontmatter, allPosts }) {
   const { darkMode } = useTheme();
@@ -103,6 +103,14 @@ export default function BlogPostClient({ content, frontmatter, allPosts }) {
           />
         </div>
 
+        {/* Disqus Comments */}
+        <div className="mt-16 mb-16">
+          <GiscusComments 
+            slug={frontmatter.slug}
+            title={frontmatter.title}
+          />
+        </div>
+
         {/* Post Navigation */}
         <nav className="border-t border-neutral-200 dark:border-neutral-800">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-8">
@@ -147,4 +155,4 @@ export default function BlogPostClient({ content, frontmatter, allPosts }) {
       </main>
     </div>
   );
-} 
+}
