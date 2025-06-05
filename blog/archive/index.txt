@@ -4,13 +4,180 @@
 4:I[7555,[],""]
 5:I[1295,[],""]
 6:I[3244,["844","static/chunks/ee560e2c-464c506caba219a9.js","995","static/chunks/995-13f8338a587aba69.js","718","static/chunks/app/blog/archive/page-5624d6d70fe5ea0b.js"],"default"]
-e:I[9665,[],"MetadataBoundary"]
-10:I[9665,[],"OutletBoundary"]
-13:I[4911,[],"AsyncMetadataOutlet"]
-15:I[9665,[],"ViewportBoundary"]
-17:I[6614,[],""]
+c:I[9665,[],"MetadataBoundary"]
+e:I[9665,[],"OutletBoundary"]
+11:I[4911,[],"AsyncMetadataOutlet"]
+13:I[9665,[],"ViewportBoundary"]
+15:I[6614,[],""]
 :HL["/portfolio/_next/static/css/7d0079240ba2f425.css","style"]
-7:T3906,
+7:T15d4,
+**Artikel Test. Artikel ini dihasilkan oleh ChatGPT.**
+
+# Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!
+
+Tahukah kamu bahwa salah memilih cara deklarasi variabel bisa membuat kode kamu menjadi *buggy* dan sulit dipahami? Di dunia JavaScript, ada tiga cara utama untuk mendeklarasikan variabel: `var`, `let`, dan `const`. Ketiganya sering disalahgunakan oleh banyak developer, bahkan yang sudah berpengalaman sekalipun! Artikel ini akan membongkar perbedaan mendasar ketiga deklarasi ini dengan penjelasan lengkap dan contoh studi kasus.
+
+---
+
+## Apa Itu Var, Let, dan Const?
+
+Sebelum masuk ke perbedaan, mari kita kenali satu per satu:
+
+- **`var`**: Cara lama untuk mendeklarasikan variabel. Digunakan sebelum ES6 (2015).
+- **`let`**: Alternatif modern untuk `var`, dirancang untuk memperbaiki kekurangan `var`.
+- **`const`**: Mirip dengan `let`, tetapi digunakan untuk nilai yang tidak berubah.
+
+---
+
+## Perbedaan Utama (TL;DR)
+
+| **Aspek**           | **var**                           | **let**                          | **const**                          |
+|---------------------|-----------------------------------|-----------------------------------|------------------------------------|
+| **Scope**           | Function scope                   | Block scope                      | Block scope                       |
+| **Redeclaration**   | Bisa                             | Tidak bisa                       | Tidak bisa                        |
+| **Reassignment**    | Bisa                             | Bisa                             | Tidak bisa                        |
+| **Hoisting**        | Diangkat dengan nilai `undefined` | Diangkat tetapi tidak bisa digunakan sebelum deklarasi | Diangkat tetapi tidak bisa digunakan sebelum deklarasi |
+| **Nilai Harus Diisi?** | Tidak                           | Tidak                            | Ya                                |
+
+---
+
+## Perbedaan Detail dengan Contoh
+
+### 1. Scope (Ruang Lingkup)
+
+- **`var`** hanya berlaku di dalam fungsi tempat ia dideklarasikan (function scope).
+- **`let`** dan **`const`** hanya berlaku di dalam blok tempat mereka dideklarasikan (block scope).
+
+**Contoh:**
+```javascript showLineNumbers
+if (true) {
+    var x = 10;
+    let y = 20;
+    const z = 30;
+}
+console.log(x); // 10 (bisa diakses di luar blok if)
+console.log(y); // Error! y tidak dikenal di luar blok if
+console.log(z); // Error! z tidak dikenal di luar blok if
+```
+
+---
+
+### 2. Redeclaration (Deklarasi Ulang)
+
+- **`var`**: Bisa dideklarasikan ulang tanpa masalah (potensi konflik).
+- **`let`** dan **`const`**: Tidak bisa dideklarasikan ulang di tempat yang sama (lebih aman).
+
+**Contoh:**
+```javascript
+var a = 1;
+var a = 2; // Tidak masalah (tetapi bisa membingungkan).
+
+let b = 1;
+// let b = 2; // Error! Tidak bisa dideklarasikan ulang.
+
+const c = 1;
+// const c = 2; // Error! Tidak bisa dideklarasikan ulang.
+```
+
+---
+
+### 3. Reassignment (Mengubah Nilai)
+
+- **`var` dan `let`**: Nilainya bisa diubah setelah dideklarasikan.
+- **`const`**: Nilainya tidak bisa diubah.
+
+**Contoh:**
+```javascript
+let name = "Ryan";
+name = "Febryan"; // Oke, nilai diubah.
+
+const age = 25;
+// age = 26; // Error! Nilai tidak bisa diubah.
+```
+
+> **Catatan Penting**: Untuk objek dan array, `const` mengunci referensi, tetapi isi dalamnya tetap bisa diubah.
+
+**Contoh:**
+```javascript
+const user = { name: "Ryan", age: 25 };
+user.name = "Febryan"; // Oke, mengubah properti.
+
+// Tapi:
+// user = { name: "Uwi", age: 23 }; // Error! Tidak bisa mengganti objek.
+```
+
+---
+
+### 4. Hoisting (Pengangkatan)
+
+- **`var`**: Diangkat ke atas (hoisted) dengan nilai awal `undefined`.
+- **`let` dan `const`**: Diangkat tetapi tidak bisa digunakan sebelum dideklarasikan (temporal dead zone).
+
+**Contoh:**
+```javascript
+console.log(a); // undefined (var diangkat ke atas tetapi belum diisi nilai)
+var a = 5;
+
+// console.log(b); // Error! b tidak bisa digunakan sebelum deklarasi.
+let b = 10;
+```
+
+---
+
+## Kapan Harus Menggunakan Let atau Const?
+
+1. **Gunakan `const` Sebisa Mungkin**
+   - Jika nilai variabel tidak akan berubah, selalu gunakan `const`.
+
+2. **Gunakan `let` Jika Nilai Akan Berubah**
+   - Misalnya untuk nilai yang diperbarui dalam perulangan atau kondisi tertentu.
+
+3. **Hindari `var`**
+   - `var` hanya digunakan jika kamu bekerja dengan kode lama atau benar-benar perlu akses global dalam fungsi.
+
+---
+
+## Studi Kasus untuk Memperjelas
+
+### Studi Kasus 1: Perulangan
+Gunakan `let` agar setiap iterasi memiliki "kotak" sendiri.
+
+**Contoh:**
+```javascript
+for (let i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 100);
+}
+// Output: 0, 1, 2
+
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 100);
+}
+// Output: 3, 3, 3 (semua iterasi berbagi "kotak" yang sama)
+```
+
+### Studi Kasus 2: Konfigurasi Aplikasi
+Gunakan `const` untuk nilai yang tidak akan berubah.
+
+**Contoh:**
+```javascript
+const APP_NAME = "CoolApp";
+const MAX_USERS = 100;
+console.log(`${APP_NAME} allows up to ${MAX_USERS} users.`);
+```
+
+---
+
+## Kesimpulan
+
+- **`const`**: Gunakan untuk nilai yang tidak berubah. Aman dan mudah dimengerti.
+- **`let`**: Gunakan untuk nilai yang bisa berubah. Ideal untuk perulangan atau kondisi.
+- **`var`**: Hindari jika memungkinkan. Gunakan hanya untuk kompatibilitas kode lama.
+
+> **Tips Penting**: Jika ragu, mulai dengan `const`. Jika ternyata nilai perlu berubah, ubah ke `let`. Dengan begitu, kamu akan terhindar dari bug yang sulit dilacak.
+
+Sudah paham perbedaannya? Mulai sekarang, buat kode JavaScript-mu lebih aman dan mudah dibaca dengan memilih deklarasi variabel yang tepat!
+
+8:T3906,
 # Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀
 
 > **Prerequisites**: Pastikan sudah setup KVM di WSL2 dari [tutorial sebelumnya](https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/). Kita bakal build on top of that setup!
@@ -580,7 +747,7 @@ Remember: **Kubernetes is a journey, not a destination**. Keep experimenting, br
 
 *Questions atau stuck di step manapun? Reach out ke febryanramadhan@gmail.com mari troubleshoot together! Building strong Kubernetes community starts with helping each other 💪*
 
-**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀8:T229c,
+**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀9:T229c,
 
 > **TL;DR**: Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀
 
@@ -888,375 +1055,7 @@ Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn
 
 *Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
 
-**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀9:T15d4,
-**Artikel Test. Artikel ini dihasilkan oleh ChatGPT.**
-
-# Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!
-
-Tahukah kamu bahwa salah memilih cara deklarasi variabel bisa membuat kode kamu menjadi *buggy* dan sulit dipahami? Di dunia JavaScript, ada tiga cara utama untuk mendeklarasikan variabel: `var`, `let`, dan `const`. Ketiganya sering disalahgunakan oleh banyak developer, bahkan yang sudah berpengalaman sekalipun! Artikel ini akan membongkar perbedaan mendasar ketiga deklarasi ini dengan penjelasan lengkap dan contoh studi kasus.
-
----
-
-## Apa Itu Var, Let, dan Const?
-
-Sebelum masuk ke perbedaan, mari kita kenali satu per satu:
-
-- **`var`**: Cara lama untuk mendeklarasikan variabel. Digunakan sebelum ES6 (2015).
-- **`let`**: Alternatif modern untuk `var`, dirancang untuk memperbaiki kekurangan `var`.
-- **`const`**: Mirip dengan `let`, tetapi digunakan untuk nilai yang tidak berubah.
-
----
-
-## Perbedaan Utama (TL;DR)
-
-| **Aspek**           | **var**                           | **let**                          | **const**                          |
-|---------------------|-----------------------------------|-----------------------------------|------------------------------------|
-| **Scope**           | Function scope                   | Block scope                      | Block scope                       |
-| **Redeclaration**   | Bisa                             | Tidak bisa                       | Tidak bisa                        |
-| **Reassignment**    | Bisa                             | Bisa                             | Tidak bisa                        |
-| **Hoisting**        | Diangkat dengan nilai `undefined` | Diangkat tetapi tidak bisa digunakan sebelum deklarasi | Diangkat tetapi tidak bisa digunakan sebelum deklarasi |
-| **Nilai Harus Diisi?** | Tidak                           | Tidak                            | Ya                                |
-
----
-
-## Perbedaan Detail dengan Contoh
-
-### 1. Scope (Ruang Lingkup)
-
-- **`var`** hanya berlaku di dalam fungsi tempat ia dideklarasikan (function scope).
-- **`let`** dan **`const`** hanya berlaku di dalam blok tempat mereka dideklarasikan (block scope).
-
-**Contoh:**
-```javascript showLineNumbers
-if (true) {
-    var x = 10;
-    let y = 20;
-    const z = 30;
-}
-console.log(x); // 10 (bisa diakses di luar blok if)
-console.log(y); // Error! y tidak dikenal di luar blok if
-console.log(z); // Error! z tidak dikenal di luar blok if
-```
-
----
-
-### 2. Redeclaration (Deklarasi Ulang)
-
-- **`var`**: Bisa dideklarasikan ulang tanpa masalah (potensi konflik).
-- **`let`** dan **`const`**: Tidak bisa dideklarasikan ulang di tempat yang sama (lebih aman).
-
-**Contoh:**
-```javascript
-var a = 1;
-var a = 2; // Tidak masalah (tetapi bisa membingungkan).
-
-let b = 1;
-// let b = 2; // Error! Tidak bisa dideklarasikan ulang.
-
-const c = 1;
-// const c = 2; // Error! Tidak bisa dideklarasikan ulang.
-```
-
----
-
-### 3. Reassignment (Mengubah Nilai)
-
-- **`var` dan `let`**: Nilainya bisa diubah setelah dideklarasikan.
-- **`const`**: Nilainya tidak bisa diubah.
-
-**Contoh:**
-```javascript
-let name = "Ryan";
-name = "Febryan"; // Oke, nilai diubah.
-
-const age = 25;
-// age = 26; // Error! Nilai tidak bisa diubah.
-```
-
-> **Catatan Penting**: Untuk objek dan array, `const` mengunci referensi, tetapi isi dalamnya tetap bisa diubah.
-
-**Contoh:**
-```javascript
-const user = { name: "Ryan", age: 25 };
-user.name = "Febryan"; // Oke, mengubah properti.
-
-// Tapi:
-// user = { name: "Uwi", age: 23 }; // Error! Tidak bisa mengganti objek.
-```
-
----
-
-### 4. Hoisting (Pengangkatan)
-
-- **`var`**: Diangkat ke atas (hoisted) dengan nilai awal `undefined`.
-- **`let` dan `const`**: Diangkat tetapi tidak bisa digunakan sebelum dideklarasikan (temporal dead zone).
-
-**Contoh:**
-```javascript
-console.log(a); // undefined (var diangkat ke atas tetapi belum diisi nilai)
-var a = 5;
-
-// console.log(b); // Error! b tidak bisa digunakan sebelum deklarasi.
-let b = 10;
-```
-
----
-
-## Kapan Harus Menggunakan Let atau Const?
-
-1. **Gunakan `const` Sebisa Mungkin**
-   - Jika nilai variabel tidak akan berubah, selalu gunakan `const`.
-
-2. **Gunakan `let` Jika Nilai Akan Berubah**
-   - Misalnya untuk nilai yang diperbarui dalam perulangan atau kondisi tertentu.
-
-3. **Hindari `var`**
-   - `var` hanya digunakan jika kamu bekerja dengan kode lama atau benar-benar perlu akses global dalam fungsi.
-
----
-
-## Studi Kasus untuk Memperjelas
-
-### Studi Kasus 1: Perulangan
-Gunakan `let` agar setiap iterasi memiliki "kotak" sendiri.
-
-**Contoh:**
-```javascript
-for (let i = 0; i < 3; i++) {
-    setTimeout(() => console.log(i), 100);
-}
-// Output: 0, 1, 2
-
-for (var i = 0; i < 3; i++) {
-    setTimeout(() => console.log(i), 100);
-}
-// Output: 3, 3, 3 (semua iterasi berbagi "kotak" yang sama)
-```
-
-### Studi Kasus 2: Konfigurasi Aplikasi
-Gunakan `const` untuk nilai yang tidak akan berubah.
-
-**Contoh:**
-```javascript
-const APP_NAME = "CoolApp";
-const MAX_USERS = 100;
-console.log(`${APP_NAME} allows up to ${MAX_USERS} users.`);
-```
-
----
-
-## Kesimpulan
-
-- **`const`**: Gunakan untuk nilai yang tidak berubah. Aman dan mudah dimengerti.
-- **`let`**: Gunakan untuk nilai yang bisa berubah. Ideal untuk perulangan atau kondisi.
-- **`var`**: Hindari jika memungkinkan. Gunakan hanya untuk kompatibilitas kode lama.
-
-> **Tips Penting**: Jika ragu, mulai dengan `const`. Jika ternyata nilai perlu berubah, ubah ke `let`. Dengan begitu, kamu akan terhindar dari bug yang sulit dilacak.
-
-Sudah paham perbedaannya? Mulai sekarang, buat kode JavaScript-mu lebih aman dan mudah dibaca dengan memilih deklarasi variabel yang tepat!
-
-a:T5d9,
-# Useful Bash Scripts for DevOps
-
-Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
-
-## 1. System Resource Monitor
-
-This script monitors CPU, Memory, and Disk usage: 
-
-```bash
-#!/bin/bash
-echo System Resource Monitor
-echo "CPU Usage:"
-top -bn1 | grep "Cpu(s)" | sed "s/.,[0−9.]∗[0−9.]∗% id./\1/" | awk '{print 100 - $1}'%
-echo "Memory Usage:"
-free | grep Mem | awk '{print $3/$2 100.0}'%
-echo "Disk Usage:"
-df -h | awk '$NF=="/"{print $5}'
-```
-
-## 2. Backup Script
-
-This script creates a backup of a specified directory:
-
-```bash
-#!/bin/bash
-# Backup Script
-SOURCE="/path/to/source"
-DESTINATION="/path/to/backup"
-TIMESTAMP=$(date +"%Y%m%d%H%M")
-BACKUP_FILE="$DESTINATION/backup-$TIMESTAMP.tar.gz"
-
-tar -czf $BACKUP_FILE $SOURCE
-echo "Backup created at $BACKUP_FILE"
-```
-
-## 3. Log Cleanup
-
-This script cleans up old log files:
-
-```bash
-#!/bin/bash
-# Log Cleanup Script
-find /var/log -type f -name "*.log" -mtime +30 -exec rm {} \;
-echo "Old log files deleted."
-```
-
-## 4. User Management
-
-This script adds a new user and sets a password:
-
-```bash
-#!/bin/bash
-# User Management Script
-read -p "Enter username: " USERNAME
-sudo adduser $USERNAME
-echo "User $USERNAME added."
-```
-
-## 5. Network Status Check
-
-This script checks the network status:
-
-```bash
-#!/bin/bash
-# Network Status Check Script
-ping -c 4 google.com
-```
-
-## Conclusion
-
-These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!b:T93e,
-# Markdown and MDX Guide
-
-This guide demonstrates the various features available in Markdown and MDX.
-
-## Code Blocks
-
-### Basic Code Block (3 backticks)
-
-```javascript
-const greeting = "Hello World";
-console.log(greeting);
-
-// Object example
-const user = {
-  name: "John Doe",
-  age: 30,
-  isAdmin: true
-};
-```
-
-### Code Block with Title and Line Numbers
-
-```bash title="install dependencies" showLineNumbers
-# Install dependencies
-npm install next@latest
-npm install @tailwindcss/typography
-npm install gray-matter
-```
-
-### Code Block with Line Highlighting
-
-```python {1,3-4}
-def example():
-    # This line won't be highlighted
-    # These lines will be highlighted
-    print("Hello World")
-```
-
-## Word highlighted Example
-
-```json word="name" word="project" /version/
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "dependencies": {
-    "next": "latest",
-    "react": "latest"
-  }
-}
-``` 
-
-## Tables
-
-| Feature | Description | Status |
-|---------|------------|--------|
-| Tables | Basic table support | ✅ |
-| Lists | Ordered and unordered lists | ✅ |
-| Code Blocks | Syntax highlighting | ✅ |
-| Images | Image embedding | ✅ |
-
-## Text Formatting
-
-### Basic Formatting
-
-This is **bold text**, and this is *italic text*.
-You can also use ***bold and italic*** together.
-
-### Blockquotes
-
-> This is a blockquote. You can use it to emphasize important information or quotes.
->
-> You can have multiple paragraphs in a blockquote.
-
-### Lists
-
-#### Unordered List
-- First item
-  - Nested item
-  - Another nested item
-- Second item
-- Third item
-
-#### Ordered List
-1. First step
-   1. Sub-step one
-   2. Sub-step two
-2. Second step
-3. Third step
-
-## Links and Images
-
-### Links
-[Visit OpenAI](https://openai.com)
-[Internal Link to Blog](/blog)
-
-### Images
-![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)
-
-## Advanced Features
-
-### Task Lists
-
-- [x] Write the introduction
-- [x] Add code examples
-- [ ] Review content
-- [ ] Publish post
-
-### Custom Components
-
-```json
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "dependencies": {
-    "next": "latest",
-    "react": "latest"
-  }
-}
-```
-
-### One backtick
-`this text is use one bactick`
-
-## Conclusion
-
-This post demonstrates the main features available in Markdown and MDX. You can use these elements to create rich, well-formatted content for your blog.
-
----
-
-*Last updated: March 25, 2024*c:T2d67,
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀a:T2d67,
 # Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)
 
 ## Pendahuluan
@@ -1758,7 +1557,7 @@ Total biaya bulanan: **$0** (selama tetap dalam free tier limits)
 
 ---
 
-*Tutorial ini berdasarkan pengalaman real deployment dan testing di GCP Always Free Tier. Update terakhir: Juni 2025*d:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
+*Tutorial ini berdasarkan pengalaman real deployment dan testing di GCP Always Free Tier. Update terakhir: Juni 2025*b:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
 
 - Nerima teks/foto struk/screenshot via bot Telegram  
 - AI ekstrak info penting (jumlah, kategori, dll)  
@@ -1831,12 +1630,12 @@ https://drive.google.com/file/d/1tXEibyZChlPpIT8cK2rTpw3sY8D9msgq/view?usp=shari
 Buat kita yang gak pengen capek sama manual, automation ini bisa jadi game-changer! 🎮 Yang keren, gak perlu jago coding buat bikin ini. Cukup paham logika dasar aja.
 
 Dengan n8n, dan AI, tracking keuangan jadi semudah kirim chat. Gak ada lagi alasan buat gak ngatur keuangan dengan baik! 💪
-0:{"P":null,"b":"5PWdhhx-29crMTsTBeL1S","p":"/portfolio","c":["","blog","archive",""],"i":false,"f":[[["",{"children":["blog",{"children":["archive",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/7d0079240ba2f425.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["archive",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"groupedPosts":{"2024":{"December":[{"slug":"install-kubernetes-kvm2-wsl2","content":"$7","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","date":"2024-12-11","updated":"2024-12-11","tags":["kubernetes","kvm","wsl2","homelab"],"category":"DevOps","summary":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","author":"Febryan Ramadhan","readingTime":9,"difficulty":"Advanced","keywords":["kubernetes","kvm","wsl2","homelab","cluster","devops"],"openGraph":{"title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1735},{"slug":"install-kvm-wsl2-virtualization","content":"$8","title":"Install KVM di WSL2: Homelab Virtualization Setup","date":"2024-12-10","updated":"2024-12-10","tags":["kvm","wsl2","virtualization","homelab"],"category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","readingTime":6,"difficulty":"Intermediate","keywords":["kvm","wsl2","virtualization","homelab","linux","windows"],"openGraph":{"title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1171}],"March":[{"slug":"hidden-post","content":"\nThis post will not appear in the blog listing. ","title":"Hidden Post Example","date":"2024-03-26","tags":["test"],"hidden":true,"wordCount":9,"readingTime":1}],"January":[{"slug":"example-post","content":"\n# Menggunakan Gambar di MDX\n\n## Cara Pertama: Menggunakan Markdown Standard\n\nBerikut adalah contoh penggunaan gambar menggunakan syntax markdown standard:\n\n![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)\n\n\n  ","title":"Using Images in MDX","date":"2024-01-20","updated":"2024-01-20","tags":["mdx","images","tutorial"],"category":"Tutorial","summary":"Panduan menggunakan gambar dalam blog post menggunakan MDX","author":"Febryan Ramadhan","readingTime":1,"difficulty":"Beginner","keywords":["mdx","images","tutorial","blog","markdown"],"openGraph":{"title":"Using Images in MDX","description":"Panduan lengkap menggunakan gambar dalam blog post dengan MDX.","type":"article"},"twitter":{"card":"summary_large_image","title":"Using Images in MDX","description":"Panduan lengkap menggunakan gambar dalam blog post dengan MDX."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":21},{"slug":"javascript-variables","content":"$9","title":"JavaScript Variables: var, let, dan const","date":"2024-01-15","updated":"2024-01-15","tags":["javascript","programming","variables"],"category":"Programming","summary":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan let dan const untuk kode yang lebih aman dan modern!","author":"Febryan Ramadhan","readingTime":4,"difficulty":"Beginner","keywords":["javascript","variables","var","let","const","programming"],"openGraph":{"title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern.","type":"article"},"twitter":{"card":"summary_large_image","title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":779},{"slug":"useful-bash-scripts","content":"$a","title":"Useful Bash Scripts for DevOps","date":"2024-01-10","updated":"2024-01-10","tags":["bash","devops","automation"],"category":"DevOps","summary":"A Small Collection of Bash scripts for daily DevOps tasks","author":"Febryan Ramadhan","readingTime":2,"difficulty":"Intermediate","keywords":["bash","devops","automation","scripts","linux"],"openGraph":{"title":"Useful Bash Scripts for DevOps","description":"A collection of useful Bash scripts for daily DevOps automation tasks.","type":"article"},"twitter":{"card":"summary_large_image","title":"Useful Bash Scripts for DevOps","description":"A collection of useful Bash scripts for daily DevOps automation tasks."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":227},{"slug":"markdown-guide","content":"$b","title":"Markdown and MDX Guide","date":"2024-01-05","updated":"2024-01-05","tags":["markdown","mdx","guide"],"category":"Tutorial","summary":"A comprehensive guide to using Markdown and MDX features including code blocks, tables, and more","author":"Febryan Ramadhan","readingTime":2,"difficulty":"Beginner","keywords":["markdown","mdx","guide","documentation","writing"],"openGraph":{"title":"Markdown and MDX Guide","description":"A comprehensive guide to using Markdown and MDX features for better documentation.","type":"article"},"twitter":{"card":"summary_large_image","title":"Markdown and MDX Guide","description":"A comprehensive guide to using Markdown and MDX features for better documentation."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":355},{"slug":"_template","content":"\n# Your Blog Post Title Here\n\nYour blog post content starts here...\n\n## Section 1\n\nContent for section 1...\n\n## Section 2\n\nContent for section 2...\n\n---\n\n*Last updated: [Date] - [Brief note about updates if any]*","title":"Your Blog Post Title Here","date":"2024-01-01","updated":"2024-01-01","tags":["tag1","tag2","tag3"],"category":"Technology","summary":"A compelling summary of your blog post that will appear in search results and social media previews. Keep it under 160 characters for best SEO results.","thumbnail":"/images/blog/your-post-thumbnail.jpg","author":"Febryan Ramadhan","readingTime":1,"difficulty":"Beginner","keywords":["keyword1","keyword2","keyword3"],"openGraph":{"title":"Your Blog Post Title Here","description":"A description optimized for social media sharing. Can be different from summary.","image":"/images/blog/your-post-thumbnail.jpg","type":"article"},"twitter":{"card":"summary_large_image","title":"Your Blog Post Title Here","description":"A description optimized for Twitter sharing.","image":"/images/blog/your-post-thumbnail.jpg"},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io","sameAs":["https://twitter.com/pepryan","https://instagram.com/nayrbef","https://linkedin.com/in/febryanramadhan"]},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":37}]},"2025":{"June":[{"slug":"deploy-n8n-gratis-di-google-cloud","content":"$c","title":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","date":"2025-06-01","updated":"2025-06-01","tags":["n8n","automation","gcp","google-cloud","free-tier","deployment","tutorial","workflow","nocode","devops"],"draft":false,"summary":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier. Setup permanent tanpa biaya dengan resource gratis selamanya.","author":"Febryan","category":"Tutorial","readingTime":8,"difficulty":"Intermediate","keywords":["n8n deployment","google cloud free tier","automation platform","workflow automation","free hosting","gcp tutorial","n8n tutorial","cloud deployment"],"openGraph":{"title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Pelajari cara deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Panduan step-by-step dengan resource gratis selamanya.","image":"/portfolio/images/n8n-gcp-deployment.png","url":"https://pepryan.github.io/portfolio/blog/deploy-n8n-gratis-di-google-cloud"},"twitter":{"card":"summary_large_image","title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Setup permanent tanpa biaya!"},"schema":{"type":"TechArticle","headline":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier dengan resource gratis selamanya.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-06-01","dateModified":"2025-06-01","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":1574}],"May":[{"slug":"automated-finance-tracker-with-ai","content":"$d","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","author":"Febryan","category":"Tutorial","readingTime":3,"difficulty":"Intermediate","keywords":["finance tracker","automation","telegram bot","n8n workflow","notion database","ai integration","gemini ai","expense tracking","personal finance"],"openGraph":{"title":"Finance Tracker Otomatis dengan AI - Tutorial Lengkap","description":"Buat sistem finance tracker otomatis menggunakan Telegram Bot, n8n, Notion, dan Google Gemini AI. Catat pengeluaran jadi super mudah!","image":"/portfolio/images/template-n8n.png","url":"https://pepryan.github.io/portfolio/blog/automated-finance-tracker-with-ai"},"twitter":{"card":"summary_large_image","title":"Finance Tracker Otomatis dengan AI 🤖💰","description":"Tutorial bikin finance tracker otomatis pakai Telegram, n8n, Notion & AI. Tinggal chat, data langsung tercatat rapi!","image":"/portfolio/images/template-n8n.png"},"schema":{"type":"HowTo","headline":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget!","description":"Panduan lengkap membuat sistem finance tracker otomatis menggunakan Telegram Bot, n8n workflow automation, Notion database, dan Google Gemini AI untuk tracking pengeluaran yang efisien.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-05-27","dateModified":"2025-05-28","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":486}]},"NaN":{"Invalid Date":[{"slug":"example","content":"\n# Contoh Penggunaan Code\n\nIni adalah inline code: `const example = \"hello\"` \n\nDan ini adalah code block:\n\n```javascript\nconst greeting = \"Hello World\";\nconsole.log(greeting);\n```\n\nAtau untuk bash:\n\n```bash\necho \"Hello World\"\nnpm install package-name\n``` ","title":"Example Post","tags":["bash","devops","linux","automation"],"hidden":true,"wordCount":36,"readingTime":1}]}}}],["$","$Le",null,{"children":"$Lf"}],null,["$","$L10",null,{"children":["$L11","$L12",["$","$L13",null,{"promise":"$@14"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","q10txHDvoV5NnWlntP4u8",{"children":[["$","$L15",null,{"children":"$L16"}],null]}],null]}],false]],"m":"$undefined","G":["$17","$undefined"],"s":false,"S":true}
-18:"$Sreact.suspense"
-19:I[4911,[],"AsyncMetadata"]
-f:["$","$18",null,{"fallback":null,"children":["$","$L19",null,{"promise":"$@1a"}]}]
-12:null
-16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-11:null
-1a:{"metadata":[["$","title","0",{"children":"Febryan Portfolio"}],["$","meta","1",{"name":"description","content":"Personal portfolio and blog by Febryan"}],["$","meta","2",{"name":"author","content":"Febryan"}],["$","meta","3",{"name":"keywords","content":"portfolio,blog,web development,javascript,react,next.js"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"property":"og:title","content":"Febryan Portfolio"}],["$","meta","6",{"property":"og:description","content":"Personal portfolio and blog by Febryan"}],["$","meta","7",{"property":"og:url","content":"https://pepryan.github.io/portfolio/"}],["$","meta","8",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Febryan Portfolio"}],["$","meta","13",{"name":"twitter:description","content":"Personal portfolio and blog by Febryan"}],["$","link","14",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
-14:{"metadata":"$1a:metadata","error":null,"digest":"$undefined"}
+0:{"P":null,"b":"6PC7OY_DLAYjTM1Vi9Kz9","p":"/portfolio","c":["","blog","archive",""],"i":false,"f":[[["",{"children":["blog",{"children":["archive",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/7d0079240ba2f425.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["archive",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"groupedPosts":{"2024":{"December":[{"slug":"javascript-variables","content":"$7","title":"Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!","date":"2024-12-13","tags":["javascript","programming","coding-tips"],"category":"Programming","summary":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan let dan const untuk kode yang lebih aman dan modern!","author":"Febryan Ramadhan","difficulty":"Beginner","keywords":["javascript","variables","var","let","const","programming"],"openGraph":{"title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern.","type":"article"},"twitter":{"card":"summary_large_image","title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":779,"readingTime":4}]},"2025":{"June":[{"slug":"install-kubernetes-kvm2-wsl2","content":"$8","title":"Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀","date":"2025-06-04","tags":["kubernetes","k8s","kvm","homelab","container-orchestration","kubeadm","calico"],"summary":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","category":"DevOps","author":"Febryan Ramadhan","difficulty":"Advanced","keywords":["kubernetes","kvm","wsl2","homelab","cluster","devops"],"openGraph":{"title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1735,"readingTime":9},{"slug":"install-kvm-wsl2-virtualization","content":"$9","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":["kvm","wsl2","virtualization","homelab","infrastructure","terraform","libvirt"],"category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","difficulty":"Intermediate","keywords":["kvm","wsl2","virtualization","homelab","linux","windows"],"openGraph":{"title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1171,"readingTime":6},{"slug":"deploy-n8n-gratis-di-google-cloud","content":"$a","title":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","date":"2025-06-01","updated":"2025-06-01","tags":["n8n","automation","gcp","google-cloud","free-tier","deployment","tutorial","workflow","nocode","devops"],"draft":false,"summary":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier. Setup permanent tanpa biaya dengan resource gratis selamanya.","author":"Febryan","category":"Tutorial","difficulty":"Intermediate","keywords":["n8n deployment","google cloud free tier","automation platform","workflow automation","free hosting","gcp tutorial","n8n tutorial","cloud deployment"],"openGraph":{"title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Pelajari cara deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Panduan step-by-step dengan resource gratis selamanya.","image":"/portfolio/images/n8n-gcp-deployment.png","url":"https://pepryan.github.io/portfolio/blog/deploy-n8n-gratis-di-google-cloud"},"twitter":{"card":"summary_large_image","title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Setup permanent tanpa biaya!"},"schema":{"type":"TechArticle","headline":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier dengan resource gratis selamanya.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-06-01","dateModified":"2025-06-01","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":1574,"readingTime":8}],"May":[{"slug":"automated-finance-tracker-with-ai","content":"$b","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","author":"Febryan","category":"Tutorial","difficulty":"Intermediate","keywords":["finance tracker","automation","telegram bot","n8n workflow","notion database","ai integration","gemini ai","expense tracking","personal finance"],"openGraph":{"title":"Finance Tracker Otomatis dengan AI - Tutorial Lengkap","description":"Buat sistem finance tracker otomatis menggunakan Telegram Bot, n8n, Notion, dan Google Gemini AI. Catat pengeluaran jadi super mudah!","image":"/portfolio/images/template-n8n.png","url":"https://pepryan.github.io/portfolio/blog/automated-finance-tracker-with-ai"},"twitter":{"card":"summary_large_image","title":"Finance Tracker Otomatis dengan AI 🤖💰","description":"Tutorial bikin finance tracker otomatis pakai Telegram, n8n, Notion & AI. Tinggal chat, data langsung tercatat rapi!","image":"/portfolio/images/template-n8n.png"},"schema":{"type":"HowTo","headline":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget!","description":"Panduan lengkap membuat sistem finance tracker otomatis menggunakan Telegram Bot, n8n workflow automation, Notion database, dan Google Gemini AI untuk tracking pengeluaran yang efisien.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-05-27","dateModified":"2025-05-28","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":486,"readingTime":3}]}}}],["$","$Lc",null,{"children":"$Ld"}],null,["$","$Le",null,{"children":["$Lf","$L10",["$","$L11",null,{"promise":"$@12"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","dWy0sz9RDx6xtDAk9XjsW",{"children":[["$","$L13",null,{"children":"$L14"}],null]}],null]}],false]],"m":"$undefined","G":["$15","$undefined"],"s":false,"S":true}
+16:"$Sreact.suspense"
+17:I[4911,[],"AsyncMetadata"]
+d:["$","$16",null,{"fallback":null,"children":["$","$L17",null,{"promise":"$@18"}]}]
+10:null
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+18:{"metadata":[["$","title","0",{"children":"Febryan Portfolio"}],["$","meta","1",{"name":"description","content":"Personal portfolio and blog by Febryan"}],["$","meta","2",{"name":"author","content":"Febryan"}],["$","meta","3",{"name":"keywords","content":"portfolio,blog,web development,javascript,react,next.js"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"property":"og:title","content":"Febryan Portfolio"}],["$","meta","6",{"property":"og:description","content":"Personal portfolio and blog by Febryan"}],["$","meta","7",{"property":"og:url","content":"https://pepryan.github.io/portfolio/"}],["$","meta","8",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Febryan Portfolio"}],["$","meta","13",{"name":"twitter:description","content":"Personal portfolio and blog by Febryan"}],["$","link","14",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+12:{"metadata":"$18:metadata","error":null,"digest":"$undefined"}

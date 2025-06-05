@@ -9,14 +9,14 @@ c:I[4911,[],"AsyncMetadataOutlet"]
 e:I[9665,[],"ViewportBoundary"]
 10:I[6614,[],""]
 :HL["/portfolio/_next/static/css/7d0079240ba2f425.css","style"]
-0:{"P":null,"b":"5PWdhhx-29crMTsTBeL1S","p":"/portfolio","c":["","blog","install-kvm-wsl2-virtualization",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","install-kvm-wsl2-virtualization","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/7d0079240ba2f425.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","install-kvm-wsl2-virtualization","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",["$","$L7",null,{"children":"$L8"}],null,["$","$L9",null,{"children":["$La","$Lb",["$","$Lc",null,{"promise":"$@d"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","AwPIsywTyJKSDXt0X7xpj",{"children":[["$","$Le",null,{"children":"$Lf"}],null]}],null]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"6PC7OY_DLAYjTM1Vi9Kz9","p":"/portfolio","c":["","blog","install-kvm-wsl2-virtualization",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","install-kvm-wsl2-virtualization","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/7d0079240ba2f425.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","install-kvm-wsl2-virtualization","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",["$","$L7",null,{"children":"$L8"}],null,["$","$L9",null,{"children":["$La","$Lb",["$","$Lc",null,{"promise":"$@d"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ijiWrMs-tGXHVENkvWUFh",{"children":[["$","$Le",null,{"children":"$Lf"}],null]}],null]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
 11:"$Sreact.suspense"
 12:I[4911,[],"AsyncMetadata"]
 8:["$","$11",null,{"fallback":null,"children":["$","$L12",null,{"promise":"$@13"}]}]
 b:null
 f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:null
-13:{"metadata":[["$","title","0",{"children":"Install KVM di WSL2: Homelab Virtualization Setup | Febryan Portfolio"}],["$","meta","1",{"name":"description","content":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!"}],["$","link","2",{"rel":"author","href":"https://pepryan.github.io/portfolio"}],["$","meta","3",{"name":"author","content":"Febryan Ramadhan"}],["$","meta","4",{"name":"keywords","content":"kvm,wsl2,virtualization,homelab,kvm,wsl2,virtualization,homelab,linux,windows,blog,tutorial,febryan portfolio"}],["$","meta","5",{"name":"creator","content":"Febryan Ramadhan"}],["$","meta","6",{"name":"publisher","content":"Febryan Portfolio"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"DevOps"}],["$","meta","10",{"name":"article:author","content":"Febryan Ramadhan"}],["$","meta","11",{"name":"article:published_time","content":"2024-12-10"}],["$","meta","12",{"name":"article:modified_time","content":"2024-12-10"}],["$","meta","13",{"name":"article:section","content":"DevOps"}],["$","meta","14",{"name":"article:tag","content":"kvm, wsl2, virtualization, homelab"}],["$","meta","15",{"name":"difficulty","content":"Intermediate"}],["$","meta","16",{"name":"reading-time","content":"6 minutes"}],["$","link","17",{"rel":"canonical","href":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/"}],["$","meta","18",{"property":"og:title","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","19",{"property":"og:description","content":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."}],["$","meta","20",{"property":"og:url","content":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/"}],["$","meta","21",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","22",{"property":"og:locale","content":"id_ID"}],["$","meta","23",{"property":"og:image","content":"https://pepryan.github.io/portfolio/portfolio/images/preview.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:image:alt","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","27",{"property":"og:type","content":"article"}],["$","meta","28",{"property":"article:published_time","content":"2024-12-10"}],["$","meta","29",{"property":"article:modified_time","content":"2024-12-10"}],["$","meta","30",{"property":"article:author","content":"Febryan Ramadhan"}],["$","meta","31",{"property":"article:tag","content":"kvm"}],["$","meta","32",{"property":"article:tag","content":"wsl2"}],["$","meta","33",{"property":"article:tag","content":"virtualization"}],["$","meta","34",{"property":"article:tag","content":"homelab"}],["$","meta","35",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","36",{"name":"twitter:site","content":"@pepryan"}],["$","meta","37",{"name":"twitter:creator","content":"@pepryan"}],["$","meta","38",{"name":"twitter:title","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","39",{"name":"twitter:description","content":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."}],["$","meta","40",{"name":"twitter:image","content":"https://pepryan.github.io/portfolio/portfolio/images/preview.png"}],["$","link","41",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+13:{"metadata":[["$","title","0",{"children":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup | Febryan Portfolio"}],["$","meta","1",{"name":"description","content":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!"}],["$","link","2",{"rel":"author","href":"https://pepryan.github.io/portfolio"}],["$","meta","3",{"name":"author","content":"Febryan Ramadhan"}],["$","meta","4",{"name":"keywords","content":"kvm,wsl2,virtualization,homelab,infrastructure,terraform,libvirt,kvm,wsl2,virtualization,homelab,linux,windows,blog,tutorial,febryan portfolio"}],["$","meta","5",{"name":"creator","content":"Febryan Ramadhan"}],["$","meta","6",{"name":"publisher","content":"Febryan Portfolio"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"DevOps"}],["$","meta","10",{"name":"article:author","content":"Febryan Ramadhan"}],["$","meta","11",{"name":"article:published_time","content":"2025-06-04"}],["$","meta","12",{"name":"article:modified_time","content":"2025-06-04"}],["$","meta","13",{"name":"article:section","content":"DevOps"}],["$","meta","14",{"name":"article:tag","content":"kvm, wsl2, virtualization, homelab, infrastructure, terraform, libvirt"}],["$","meta","15",{"name":"difficulty","content":"Intermediate"}],["$","meta","16",{"name":"reading-time","content":"6 minutes"}],["$","link","17",{"rel":"canonical","href":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/"}],["$","meta","18",{"property":"og:title","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","19",{"property":"og:description","content":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."}],["$","meta","20",{"property":"og:url","content":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/"}],["$","meta","21",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","22",{"property":"og:locale","content":"id_ID"}],["$","meta","23",{"property":"og:image","content":"https://pepryan.github.io/portfolio/portfolio/images/preview.png"}],["$","meta","24",{"property":"og:image:width","content":"1200"}],["$","meta","25",{"property":"og:image:height","content":"630"}],["$","meta","26",{"property":"og:image:alt","content":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup"}],["$","meta","27",{"property":"og:type","content":"article"}],["$","meta","28",{"property":"article:published_time","content":"2025-06-04"}],["$","meta","29",{"property":"article:modified_time","content":"2025-06-04"}],["$","meta","30",{"property":"article:author","content":"Febryan Ramadhan"}],["$","meta","31",{"property":"article:tag","content":"kvm"}],["$","meta","32",{"property":"article:tag","content":"wsl2"}],["$","meta","33",{"property":"article:tag","content":"virtualization"}],["$","meta","34",{"property":"article:tag","content":"homelab"}],["$","meta","35",{"property":"article:tag","content":"infrastructure"}],["$","meta","36",{"property":"article:tag","content":"terraform"}],["$","meta","37",{"property":"article:tag","content":"libvirt"}],["$","meta","38",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","39",{"name":"twitter:site","content":"@pepryan"}],["$","meta","40",{"name":"twitter:creator","content":"@pepryan"}],["$","meta","41",{"name":"twitter:title","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","42",{"name":"twitter:description","content":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."}],["$","meta","43",{"name":"twitter:image","content":"https://pepryan.github.io/portfolio/portfolio/images/preview.png"}],["$","link","44",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
 d:{"metadata":"$13:metadata","error":null,"digest":"$undefined"}
 14:I[926,["844","static/chunks/ee560e2c-464c506caba219a9.js","446","static/chunks/53c13509-a7b9549d354fe68a.js","995","static/chunks/995-13f8338a587aba69.js","249","static/chunks/249-176d17846ce088ea.js","766","static/chunks/766-20746dcd73957b95.js","953","static/chunks/app/blog/%5Bslug%5D/page-2773381f5cb7e839.js"],"default",1]
 15:T14ae6,"use strict";
@@ -3241,582 +3241,7 @@ Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn
 
 *Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
 
-**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀18:T2d67,
-# Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)
-
-## Pendahuluan
-
-Setelah menggunakan GCP selama 12 bulan dengan $300 credit, sekarang saatnya memanfaatkan **Always Free Tier** untuk menjalankan n8n secara permanen tanpa biaya. Tutorial ini akan memandu Anda step-by-step untuk setup n8n menggunakan resource yang tersedia gratis selamanya di GCP.
-
-## GCP Always Free Tier Specifications
-
-### Compute Engine Always Free
-- **Instance Type**: e2-micro 
-- **vCPU**: 1 shared core
-- **Memory**: 1 GB RAM
-- **Storage**: 30 GB HDD persistent disk
-- **Network**: 1 GB egress per bulan (ke luar region US)
-- **Region**: Terbatas di US regions (us-west1, us-central1, us-east1)
-- **Limitation**: Maksimal 1 instance per akun
-
-### Additional Always Free Resources
-- **Cloud Storage**: 5 GB regional storage
-- **Cloud Functions**: 2 juta invocations per bulan
-- **BigQuery**: 1 TB query per bulan
-- **Cloud Build**: 120 build-minutes per hari
-
-## Prerequisites
-
-1. Akun Google Cloud yang sudah terverifikasi
-2. Credit card untuk verifikasi (tidak akan dicharge untuk free tier)
-3. Akses SSH (bisa pakai browser atau terminal)
-4. Domain atau siap pakai IP public langsung
-
-## Step 1: Setup Project dan Enable APIs
-
-### 1.1 Create New Project
-```bash
-# Via gcloud CLI (optional)
-gcloud projects create n8n-automation-project --name="n8n Automation"
-gcloud config set project n8n-automation-project
-```
-
-**Via Console:**
-1. Masuk ke [Google Cloud Console](https://console.cloud.google.com)
-2. Klik dropdown project → "New Project"
-3. Nama project: `n8n-automation`
-4. Klik "Create"
-
-### 1.2 Enable Required APIs
-```bash
-gcloud services enable compute.googleapis.com
-gcloud services enable cloudbuild.googleapis.com
-```
-
-**Via Console:**
-1. Navigation menu → APIs & Services → Library
-2. Search dan enable:
-   - Compute Engine API
-   - Cloud Resource Manager API
-
-## Step 2: Create VM Instance (Always Free)
-
-### 2.1 Instance Configuration
-
-**Via Console (Recommended):**
-1. Navigation menu → Compute Engine → VM instances
-2. Klik "Create Instance"
-
-**Instance Details:**
-- **Name**: `n8n-server`
-- **Region**: `us-central1` (Iowa) - Always Free eligible
-- **Zone**: `us-central1-a`
-
-**Machine Configuration:**
-- **Machine family**: General-purpose
-- **Series**: E2
-- **Machine type**: `e2-micro` (1 vCPU, 1 GB memory) ⚠️ **Wajib untuk free tier**
-
-**Boot Disk:**
-- **Operating System**: Ubuntu
-- **Version**: Ubuntu 20.04 LTS
-- **Boot disk type**: Standard persistent disk
-- **Size**: 30 GB (maksimal untuk free tier)
-
-**Firewall:**
-- ✅ Allow HTTP traffic
-- ✅ Allow HTTPS traffic
-
-### 2.2 Advanced Options
-
-**Networking → Network interfaces:**
-- **External IPv4 address**: Ephemeral (kita akan upgrade ke static nanti)
-
-**Security → SSH Keys:**
-- Tambahkan SSH public key jika punya
-- Atau bisa pakai SSH browser nanti
-
-### 2.3 Create Instance
-Klik "Create" dan tunggu ~2-3 menit sampai instance running.
-
-## Step 3: Setup Static IP (Optional tapi Recommended)
-
-### 3.1 Reserve Static External IP
-```bash
-gcloud compute addresses create n8n-static-ip --region=us-central1
-```
-
-**Via Console:**
-1. VPC network → External IP addresses
-2. Klik "Reserve Static Address"
-3. Name: `n8n-static-ip`
-4. Region: `us-central1`
-5. Attach to: pilih instance `n8n-server`
-
-**💰 Cost Note**: Static IP gratis selama attached ke running instance. Kena charge $0.01/jam jika instance di-stop.
-
-## Step 4: Initial Server Setup
-
-### 4.1 Connect via SSH
-```bash
-# Via gcloud CLI
-gcloud compute ssh n8n-server --zone=us-central1-a
-
-# Via browser: klik "SSH" di console VM instances
-```
-
-### 4.2 Update System
-```bash
-sudo apt update && sudo apt upgrade -y
-```
-
-### 4.3 Install Docker & Docker Compose
-```bash
-# Install Docker
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-
-# Add user to docker group
-sudo usermod -aG docker $USER
-
-# Install Docker Compose
-sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-
-# Restart session untuk apply group changes
-exit
-```
-
-Reconnect SSH setelah exit.
-
-### 4.4 Verify Installation
-```bash
-docker --version
-docker-compose --version
-```
-
-## Step 5: Deploy n8n dengan Docker Compose
-
-### 5.1 Create Project Directory
-```bash
-mkdir ~/n8n-docker
-cd ~/n8n-docker
-```
-
-### 5.2 Create Docker Compose File
-```bash
-nano docker-compose.yml
-```
-
-**docker-compose.yml content:**
-```yaml
-version: '3.8'
-
-services:
-  n8n:
-    image: n8nio/n8n:latest
-    container_name: n8n
-    restart: unless-stopped
-    ports:
-      - "80:5678"
-    environment:
-      - N8N_HOST=YOUR_DOMAIN_OR_IP
-      - N8N_PORT=5678
-      - N8N_PROTOCOL=http
-      - WEBHOOK_URL=http://YOUR_DOMAIN_OR_IP
-      - GENERIC_TIMEZONE=Asia/Jakarta
-      - N8N_LOG_LEVEL=info
-      - N8N_USER_FOLDER=/home/node/.n8n
-      - N8N_BASIC_AUTH_ACTIVE=true
-      - N8N_BASIC_AUTH_USER=admin
-      - N8N_BASIC_AUTH_PASSWORD=ChangeThisPassword123!
-    volumes:
-      - n8n_data:/home/node/.n8n
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-
-volumes:
-  n8n_data:
-    driver: local
-```
-
-**Replace values:**
-- `YOUR_DOMAIN_OR_IP`: Static IP atau domain Anda
-- `N8N_BASIC_AUTH_PASSWORD`: Password yang kuat
-
-### 5.3 Start n8n
-```bash
-docker-compose up -d
-```
-
-### 5.4 Check Status
-```bash
-docker-compose ps
-docker-compose logs n8n
-```
-
-## Step 6: Configure Firewall Rules
-
-### 6.1 Create Firewall Rule for n8n
-```bash
-gcloud compute firewall-rules create allow-n8n \
-    --allow tcp:80,tcp:443 \
-    --source-ranges 0.0.0.0/0 \
-    --description "Allow HTTP and HTTPS for n8n"
-```
-
-**Via Console:**
-1. VPC network → Firewall
-2. Create Firewall Rule:
-   - Name: `allow-n8n`
-   - Direction: Ingress
-   - Targets: All instances in the network
-   - Source IP ranges: `0.0.0.0/0`
-   - Protocols and ports: TCP, ports 80, 443
-
-## Step 7: Setup SSL dengan Let's Encrypt (Optional)
-
-### 7.1 Install Certbot
-```bash
-sudo apt install certbot python3-certbot-nginx -y
-```
-
-### 7.2 Install Nginx
-```bash
-sudo apt install nginx -y
-```
-
-### 7.3 Configure Nginx
-```bash
-sudo nano /etc/nginx/sites-available/n8n
-```
-
-**Nginx config:**
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-
-    location / {
-        proxy_pass http://localhost:5678;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_cache_bypass $http_upgrade;
-    }
-}
-```
-
-### 7.4 Enable Site & Get SSL
-```bash
-sudo ln -s /etc/nginx/sites-available/n8n /etc/nginx/sites-enabled/
-sudo nginx -t
-sudo systemctl reload nginx
-
-# Get SSL certificate
-sudo certbot --nginx -d your-domain.com
-```
-
-## Step 8: Monitoring Resource Usage
-
-### 8.1 Setup Monitoring Script
-```bash
-nano ~/monitor-resources.sh
-```
-
-**monitor-resources.sh:**
-```bash
-#!/bin/bash
-echo "=== System Resources ==="
-echo "CPU Usage:"
-top -bn1 | grep "Cpu(s)" | awk '{print $2 + $4"%"}'
-
-echo "Memory Usage:"
-free -h | awk '/^Mem:/ {print $3 "/" $2 " (" int($3/$2 * 100) "%)"}'
-
-echo "Disk Usage:"
-df -h / | awk 'NR==2 {print $3 "/" $2 " (" $5 ")"}'
-
-echo "Docker Containers:"
-docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
-
-echo "n8n Logs (last 10 lines):"
-docker-compose -f ~/n8n-docker/docker-compose.yml logs --tail=10 n8n
-```
-
-```bash
-chmod +x ~/monitor-resources.sh
-```
-
-### 8.2 Create Cron Job untuk Auto-monitoring
-```bash
-crontab -e
-```
-
-**Add line:**
-```bash
-# Monitor resources every hour
-0 * * * * ~/monitor-resources.sh >> ~/resource-monitor.log 2>&1
-```
-
-## Step 9: Optimization untuk Free Tier
-
-### 9.1 Reduce Memory Usage
-**Update docker-compose.yml dengan memory limits:**
-```yaml
-services:
-  n8n:
-    # ... existing config
-    deploy:
-      resources:
-        limits:
-          memory: 800M
-        reservations:
-          memory: 400M
-```
-
-### 9.2 Setup Swap (Recommended untuk 1GB RAM)
-```bash
-sudo fallocate -l 1G /swapfile
-sudo chmod 600 /swapfile
-sudo mkswap /swapfile
-sudo swapon /swapfile
-
-# Make permanent
-echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-```
-
-### 9.3 Cleanup Script
-```bash
-nano ~/cleanup.sh
-```
-
-**cleanup.sh:**
-```bash
-#!/bin/bash
-# Docker cleanup
-docker system prune -f
-docker volume prune -f
-
-# System cleanup
-sudo apt autoremove -y
-sudo apt autoclean
-
-# Clear logs older than 7 days
-sudo journalctl --vacuum-time=7d
-
-echo "Cleanup completed!"
-```
-
-```bash
-chmod +x ~/cleanup.sh
-```
-
-**Schedule weekly cleanup:**
-```bash
-crontab -e
-# Add:
-0 2 * * 0 ~/cleanup.sh >> ~/cleanup.log 2>&1
-```
-
-## Step 10: Backup Strategy
-
-### 10.1 Backup n8n Data
-```bash
-nano ~/backup-n8n.sh
-```
-
-**backup-n8n.sh:**
-```bash
-#!/bin/bash
-BACKUP_DIR="$HOME/n8n-backups"
-DATE=$(date +%Y%m%d_%H%M%S)
-
-mkdir -p $BACKUP_DIR
-
-# Stop n8n
-cd ~/n8n-docker
-docker-compose stop n8n
-
-# Create backup
-sudo tar -czf $BACKUP_DIR/n8n-backup-$DATE.tar.gz -C /var/lib/docker/volumes n8n-docker_n8n_data
-
-# Start n8n
-docker-compose start n8n
-
-# Keep only last 5 backups
-cd $BACKUP_DIR
-ls -t n8n-backup-*.tar.gz | tail -n +6 | xargs -r rm
-
-echo "Backup completed: n8n-backup-$DATE.tar.gz"
-```
-
-```bash
-chmod +x ~/backup-n8n.sh
-```
-
-**Schedule daily backup:**
-```bash
-crontab -e
-# Add:
-0 3 * * * ~/backup-n8n.sh >> ~/backup.log 2>&1
-```
-
-## Step 11: Access n8n
-
-1. Buka browser ke `http://YOUR_STATIC_IP` atau `https://your-domain.com`
-2. Login dengan:
-   - Username: `admin`
-   - Password: yang Anda set di docker-compose.yml
-3. Mulai buat workflow pertama!
-
-## Troubleshooting
-
-### Common Issues:
-
-**1. Out of Memory:**
-```bash
-# Check memory usage
-free -h
-# Add more swap or optimize workflows
-
-# Restart n8n if needed
-cd ~/n8n-docker
-docker-compose restart n8n
-```
-
-**2. Disk Space Full:**
-```bash
-# Check disk usage
-df -h
-# Run cleanup script
-~/cleanup.sh
-```
-
-**3. Instance Stopped Unexpectedly:**
-```bash
-# Check instance status
-gcloud compute instances list
-# Start instance
-gcloud compute instances start n8n-server --zone=us-central1-a
-```
-
-**4. n8n Container Keeps Restarting:**
-```bash
-# Check logs
-docker-compose logs n8n
-# Common fix: reduce memory limit or add swap
-```
-
-## Tips Agar Tetap Gratis
-
-1. **Monitor Usage**: Set billing alerts di GCP console
-2. **Single Instance**: Hanya jalankan 1 e2-micro instance
-3. **Regional Limit**: Gunakan hanya US regions
-4. **Network Usage**: Monitor egress ke luar US (limit 1GB/bulan)
-5. **Stop When Not Needed**: Stop instance jika tidak dipakai lama
-6. **Regular Cleanup**: Jalankan cleanup script mingguan
-
-## Performance Expectations
-
-Dengan spek e2-micro (1 vCPU, 1GB RAM):
-- **Workflow concurrent**: 2-3 workflows ringan
-- **Response time**: 2-5 detik untuk workflow sederhana
-- **Uptime**: 99%+ dengan monitoring yang baik
-- **Suitable for**: Personal automation, small team workflows
-
-## Kesimpulan
-
-Setup ini memberikan Anda n8n automation server yang berjalan **gratis selamanya** di GCP Always Free Tier. Dengan monitoring dan optimization yang tepat, server ini bisa handle automation tasks personal atau small team dengan baik.
-
-Total biaya bulanan: **$0** (selama tetap dalam free tier limits)
-
-## Next Steps
-
-1. Explore n8n workflows di [n8n.io/workflows](https://n8n.io/workflows)
-2. Setup webhook integrations
-3. Connect dengan services yang sering Anda gunakan
-4. Otomatisasi repetitive tasks sehari-hari
-
----
-
-*Tutorial ini berdasarkan pengalaman real deployment dan testing di GCP Always Free Tier. Update terakhir: Juni 2025*19:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
-
-- Nerima teks/foto struk/screenshot via bot Telegram  
-- AI ekstrak info penting (jumlah, kategori, dll)  
-- Data langsung masuk ke database Notion  
-- Bisa rekap pengeluaran otomatis  
-
-Bayangin, kita cuma perlu kirim pesan "Beli kopi 25rb" atau foto struk belanja, dan semua data langsung tercatat rapi! ✨
-
-## Apa Itu n8n dan kenapa powerful banget? 🚀
-
-Cerita dikit tentang n8n. Ini tuh platform otomatisasi workflow yang powerful banget! Kita bisa menghubungkan berbagai aplikasi dan layanan tanpa perlu jago coding. 💻
-
-Kelebihan n8n: 😍
-- **Open Source dan Gratis** ✅: Bisa di-deploy sendiri, gak perlu bayar subscription
-- **No-Code/Low-Code** 🧩: Cukup paham logika input-proses-output, drag and drop aja
-- **Integrasi Banyak Platform** 🔄: Dari Notion, Google Sheets, Telegram, sampai AI tools, 500+ integrasi aplikasi
-- **Fleksibel Banget** 🛠️: Bisa bikin workflow sesimple atau sekompleks yang kita mau
-
-Yang penting paham flow datanya: input → proses → output. Gak perlu jago coding sama sekali! 🙌 (minimal paham logic dan parsing data)
-
-Semua bisa kita buat tanpa coding rumit. Cuma drag-and-drop di n8n dan paham alur data aja. Simpel, fleksibel, powerful.
-
-## Cara Bikinnya 🛠️
-Kalau tertarik bikin juga, ini yang dibutuhkan:
-
-1. **Internal Integration Secret Notion** 🔑 - Didapatkan dari [https://www.notion.so/profile/integrations](https://www.notion.so/profile/integrations)
-2. **API Google Gemini AI** 🤖 - Didapatkan dari [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-3. **API Bot Telegram** 💬 - Dibuat melalui BotFather di Telegram
-4. **Template Notion** 📋 - Duplikat dari [template ini](https://battle-option-f5f.notion.site/200241ec407a80b4818ad5a1052d2b3d?v=200241ec407a81358320000cf264c9ae)
-
-## Template n8n 👇
-Awalnya pakai template yang cuma bisa kirim image, tapi kemudian diimprove supaya bisa nerima berbagai jenis input termasuk teks biasa 🔄
-
-- Template base (thanks to Rizqi Pratama Ramadhani): [Finance Tracker Template](https://n8n.io/workflows/3960-automated-financial-tracker-telegram-invoices-to-notion-with-gemini-ai-reports/)
-- Template yang saya improve: [Finance Tracker Template-improved](
-https://drive.google.com/file/d/1tXEibyZChlPpIT8cK2rTpw3sY8D9msgq/view?usp=sharing
-)
-
-![Template n8n](/portfolio/images/template-n8n.png)
-
-## Tutorial singkat 📝
-- Siapin server n8n (deploy bisa pake docker atau langsung di server pake npm) bisa liat [di sini](https://twnb.nbtrisna.my.id/n8n-docker-install/) atau dokumentasi officialnya [di sini](https://docs.n8n.io/hosting/)
-
-
-- Buat credential Notion, Google Gemini AI, dan Telegram Bot di n8n
-![buat cred](/portfolio/images/buat-cred1.png)
-
-- Isi API Notion, Google Gemini AI, dan Telegram Bot
-- Import template bisa drag and drop atau import dari file JSON
-- Duplikat template Notion di Notion ([template ini](https://battle-option-f5f.notion.site/200241ec407a80b4818ad5a1052d2b3d?v=200241ec407a81358320000cf264c9ae))
-
-- Sesuaikan tiap node dengan meng-konekkan Credential Notion, Google Gemini AI, dan Telegram Bot yang sudah dibuat
-![node detail](/portfolio/images/node-detail.png)
-
-- Set active workflow
-
-## Hasilnya 👀
-![hasil tele 1](/portfolio/images/hasil1.png)
-![hasil tele 2](/portfolio/images/hasil2.png)
-![hasil notion](/portfolio/images/hasil-notion.png)
-
-## Next yang bisa diimprove🚀
-- Bikin inputan voice message
-- Bikin report yang lebih detail
-- Bikin fitur untuk update, delete atau nyari data
-- Insights dari AI
-
-## Kesimpulan 🎯
-
-Buat kita yang gak pengen capek sama manual, automation ini bisa jadi game-changer! 🎮 Yang keren, gak perlu jago coding buat bikin ini. Cukup paham logika dasar aja.
-
-Dengan n8n, dan AI, tracking keuangan jadi semudah kirim chat. Gak ada lagi alasan buat gak ngatur keuangan dengan baik! 💪
-1a:T3906,
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀18:T3906,
 # Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀
 
 > **Prerequisites**: Pastikan sudah setup KVM di WSL2 dari [tutorial sebelumnya](https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/). Kita bakal build on top of that setup!
@@ -4386,7 +3811,7 @@ Remember: **Kubernetes is a journey, not a destination**. Keep experimenting, br
 
 *Questions atau stuck di step manapun? Reach out ke febryanramadhan@gmail.com mari troubleshoot together! Building strong Kubernetes community starts with helping each other 💪*
 
-**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀1b:T229c,
+**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀19:T229c,
 
 > **TL;DR**: Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀
 
@@ -4694,7 +4119,582 @@ Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn
 
 *Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
 
-**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀1c:T15d4,
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀1a:T2d67,
+# Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)
+
+## Pendahuluan
+
+Setelah menggunakan GCP selama 12 bulan dengan $300 credit, sekarang saatnya memanfaatkan **Always Free Tier** untuk menjalankan n8n secara permanen tanpa biaya. Tutorial ini akan memandu Anda step-by-step untuk setup n8n menggunakan resource yang tersedia gratis selamanya di GCP.
+
+## GCP Always Free Tier Specifications
+
+### Compute Engine Always Free
+- **Instance Type**: e2-micro 
+- **vCPU**: 1 shared core
+- **Memory**: 1 GB RAM
+- **Storage**: 30 GB HDD persistent disk
+- **Network**: 1 GB egress per bulan (ke luar region US)
+- **Region**: Terbatas di US regions (us-west1, us-central1, us-east1)
+- **Limitation**: Maksimal 1 instance per akun
+
+### Additional Always Free Resources
+- **Cloud Storage**: 5 GB regional storage
+- **Cloud Functions**: 2 juta invocations per bulan
+- **BigQuery**: 1 TB query per bulan
+- **Cloud Build**: 120 build-minutes per hari
+
+## Prerequisites
+
+1. Akun Google Cloud yang sudah terverifikasi
+2. Credit card untuk verifikasi (tidak akan dicharge untuk free tier)
+3. Akses SSH (bisa pakai browser atau terminal)
+4. Domain atau siap pakai IP public langsung
+
+## Step 1: Setup Project dan Enable APIs
+
+### 1.1 Create New Project
+```bash
+# Via gcloud CLI (optional)
+gcloud projects create n8n-automation-project --name="n8n Automation"
+gcloud config set project n8n-automation-project
+```
+
+**Via Console:**
+1. Masuk ke [Google Cloud Console](https://console.cloud.google.com)
+2. Klik dropdown project → "New Project"
+3. Nama project: `n8n-automation`
+4. Klik "Create"
+
+### 1.2 Enable Required APIs
+```bash
+gcloud services enable compute.googleapis.com
+gcloud services enable cloudbuild.googleapis.com
+```
+
+**Via Console:**
+1. Navigation menu → APIs & Services → Library
+2. Search dan enable:
+   - Compute Engine API
+   - Cloud Resource Manager API
+
+## Step 2: Create VM Instance (Always Free)
+
+### 2.1 Instance Configuration
+
+**Via Console (Recommended):**
+1. Navigation menu → Compute Engine → VM instances
+2. Klik "Create Instance"
+
+**Instance Details:**
+- **Name**: `n8n-server`
+- **Region**: `us-central1` (Iowa) - Always Free eligible
+- **Zone**: `us-central1-a`
+
+**Machine Configuration:**
+- **Machine family**: General-purpose
+- **Series**: E2
+- **Machine type**: `e2-micro` (1 vCPU, 1 GB memory) ⚠️ **Wajib untuk free tier**
+
+**Boot Disk:**
+- **Operating System**: Ubuntu
+- **Version**: Ubuntu 20.04 LTS
+- **Boot disk type**: Standard persistent disk
+- **Size**: 30 GB (maksimal untuk free tier)
+
+**Firewall:**
+- ✅ Allow HTTP traffic
+- ✅ Allow HTTPS traffic
+
+### 2.2 Advanced Options
+
+**Networking → Network interfaces:**
+- **External IPv4 address**: Ephemeral (kita akan upgrade ke static nanti)
+
+**Security → SSH Keys:**
+- Tambahkan SSH public key jika punya
+- Atau bisa pakai SSH browser nanti
+
+### 2.3 Create Instance
+Klik "Create" dan tunggu ~2-3 menit sampai instance running.
+
+## Step 3: Setup Static IP (Optional tapi Recommended)
+
+### 3.1 Reserve Static External IP
+```bash
+gcloud compute addresses create n8n-static-ip --region=us-central1
+```
+
+**Via Console:**
+1. VPC network → External IP addresses
+2. Klik "Reserve Static Address"
+3. Name: `n8n-static-ip`
+4. Region: `us-central1`
+5. Attach to: pilih instance `n8n-server`
+
+**💰 Cost Note**: Static IP gratis selama attached ke running instance. Kena charge $0.01/jam jika instance di-stop.
+
+## Step 4: Initial Server Setup
+
+### 4.1 Connect via SSH
+```bash
+# Via gcloud CLI
+gcloud compute ssh n8n-server --zone=us-central1-a
+
+# Via browser: klik "SSH" di console VM instances
+```
+
+### 4.2 Update System
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+### 4.3 Install Docker & Docker Compose
+```bash
+# Install Docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+# Add user to docker group
+sudo usermod -aG docker $USER
+
+# Install Docker Compose
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+# Restart session untuk apply group changes
+exit
+```
+
+Reconnect SSH setelah exit.
+
+### 4.4 Verify Installation
+```bash
+docker --version
+docker-compose --version
+```
+
+## Step 5: Deploy n8n dengan Docker Compose
+
+### 5.1 Create Project Directory
+```bash
+mkdir ~/n8n-docker
+cd ~/n8n-docker
+```
+
+### 5.2 Create Docker Compose File
+```bash
+nano docker-compose.yml
+```
+
+**docker-compose.yml content:**
+```yaml
+version: '3.8'
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+    ports:
+      - "80:5678"
+    environment:
+      - N8N_HOST=YOUR_DOMAIN_OR_IP
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://YOUR_DOMAIN_OR_IP
+      - GENERIC_TIMEZONE=Asia/Jakarta
+      - N8N_LOG_LEVEL=info
+      - N8N_USER_FOLDER=/home/node/.n8n
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=ChangeThisPassword123!
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+volumes:
+  n8n_data:
+    driver: local
+```
+
+**Replace values:**
+- `YOUR_DOMAIN_OR_IP`: Static IP atau domain Anda
+- `N8N_BASIC_AUTH_PASSWORD`: Password yang kuat
+
+### 5.3 Start n8n
+```bash
+docker-compose up -d
+```
+
+### 5.4 Check Status
+```bash
+docker-compose ps
+docker-compose logs n8n
+```
+
+## Step 6: Configure Firewall Rules
+
+### 6.1 Create Firewall Rule for n8n
+```bash
+gcloud compute firewall-rules create allow-n8n \
+    --allow tcp:80,tcp:443 \
+    --source-ranges 0.0.0.0/0 \
+    --description "Allow HTTP and HTTPS for n8n"
+```
+
+**Via Console:**
+1. VPC network → Firewall
+2. Create Firewall Rule:
+   - Name: `allow-n8n`
+   - Direction: Ingress
+   - Targets: All instances in the network
+   - Source IP ranges: `0.0.0.0/0`
+   - Protocols and ports: TCP, ports 80, 443
+
+## Step 7: Setup SSL dengan Let's Encrypt (Optional)
+
+### 7.1 Install Certbot
+```bash
+sudo apt install certbot python3-certbot-nginx -y
+```
+
+### 7.2 Install Nginx
+```bash
+sudo apt install nginx -y
+```
+
+### 7.3 Configure Nginx
+```bash
+sudo nano /etc/nginx/sites-available/n8n
+```
+
+**Nginx config:**
+```nginx
+server {
+    listen 80;
+    server_name your-domain.com;
+
+    location / {
+        proxy_pass http://localhost:5678;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+```
+
+### 7.4 Enable Site & Get SSL
+```bash
+sudo ln -s /etc/nginx/sites-available/n8n /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+
+# Get SSL certificate
+sudo certbot --nginx -d your-domain.com
+```
+
+## Step 8: Monitoring Resource Usage
+
+### 8.1 Setup Monitoring Script
+```bash
+nano ~/monitor-resources.sh
+```
+
+**monitor-resources.sh:**
+```bash
+#!/bin/bash
+echo "=== System Resources ==="
+echo "CPU Usage:"
+top -bn1 | grep "Cpu(s)" | awk '{print $2 + $4"%"}'
+
+echo "Memory Usage:"
+free -h | awk '/^Mem:/ {print $3 "/" $2 " (" int($3/$2 * 100) "%)"}'
+
+echo "Disk Usage:"
+df -h / | awk 'NR==2 {print $3 "/" $2 " (" $5 ")"}'
+
+echo "Docker Containers:"
+docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+
+echo "n8n Logs (last 10 lines):"
+docker-compose -f ~/n8n-docker/docker-compose.yml logs --tail=10 n8n
+```
+
+```bash
+chmod +x ~/monitor-resources.sh
+```
+
+### 8.2 Create Cron Job untuk Auto-monitoring
+```bash
+crontab -e
+```
+
+**Add line:**
+```bash
+# Monitor resources every hour
+0 * * * * ~/monitor-resources.sh >> ~/resource-monitor.log 2>&1
+```
+
+## Step 9: Optimization untuk Free Tier
+
+### 9.1 Reduce Memory Usage
+**Update docker-compose.yml dengan memory limits:**
+```yaml
+services:
+  n8n:
+    # ... existing config
+    deploy:
+      resources:
+        limits:
+          memory: 800M
+        reservations:
+          memory: 400M
+```
+
+### 9.2 Setup Swap (Recommended untuk 1GB RAM)
+```bash
+sudo fallocate -l 1G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+# Make permanent
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
+
+### 9.3 Cleanup Script
+```bash
+nano ~/cleanup.sh
+```
+
+**cleanup.sh:**
+```bash
+#!/bin/bash
+# Docker cleanup
+docker system prune -f
+docker volume prune -f
+
+# System cleanup
+sudo apt autoremove -y
+sudo apt autoclean
+
+# Clear logs older than 7 days
+sudo journalctl --vacuum-time=7d
+
+echo "Cleanup completed!"
+```
+
+```bash
+chmod +x ~/cleanup.sh
+```
+
+**Schedule weekly cleanup:**
+```bash
+crontab -e
+# Add:
+0 2 * * 0 ~/cleanup.sh >> ~/cleanup.log 2>&1
+```
+
+## Step 10: Backup Strategy
+
+### 10.1 Backup n8n Data
+```bash
+nano ~/backup-n8n.sh
+```
+
+**backup-n8n.sh:**
+```bash
+#!/bin/bash
+BACKUP_DIR="$HOME/n8n-backups"
+DATE=$(date +%Y%m%d_%H%M%S)
+
+mkdir -p $BACKUP_DIR
+
+# Stop n8n
+cd ~/n8n-docker
+docker-compose stop n8n
+
+# Create backup
+sudo tar -czf $BACKUP_DIR/n8n-backup-$DATE.tar.gz -C /var/lib/docker/volumes n8n-docker_n8n_data
+
+# Start n8n
+docker-compose start n8n
+
+# Keep only last 5 backups
+cd $BACKUP_DIR
+ls -t n8n-backup-*.tar.gz | tail -n +6 | xargs -r rm
+
+echo "Backup completed: n8n-backup-$DATE.tar.gz"
+```
+
+```bash
+chmod +x ~/backup-n8n.sh
+```
+
+**Schedule daily backup:**
+```bash
+crontab -e
+# Add:
+0 3 * * * ~/backup-n8n.sh >> ~/backup.log 2>&1
+```
+
+## Step 11: Access n8n
+
+1. Buka browser ke `http://YOUR_STATIC_IP` atau `https://your-domain.com`
+2. Login dengan:
+   - Username: `admin`
+   - Password: yang Anda set di docker-compose.yml
+3. Mulai buat workflow pertama!
+
+## Troubleshooting
+
+### Common Issues:
+
+**1. Out of Memory:**
+```bash
+# Check memory usage
+free -h
+# Add more swap or optimize workflows
+
+# Restart n8n if needed
+cd ~/n8n-docker
+docker-compose restart n8n
+```
+
+**2. Disk Space Full:**
+```bash
+# Check disk usage
+df -h
+# Run cleanup script
+~/cleanup.sh
+```
+
+**3. Instance Stopped Unexpectedly:**
+```bash
+# Check instance status
+gcloud compute instances list
+# Start instance
+gcloud compute instances start n8n-server --zone=us-central1-a
+```
+
+**4. n8n Container Keeps Restarting:**
+```bash
+# Check logs
+docker-compose logs n8n
+# Common fix: reduce memory limit or add swap
+```
+
+## Tips Agar Tetap Gratis
+
+1. **Monitor Usage**: Set billing alerts di GCP console
+2. **Single Instance**: Hanya jalankan 1 e2-micro instance
+3. **Regional Limit**: Gunakan hanya US regions
+4. **Network Usage**: Monitor egress ke luar US (limit 1GB/bulan)
+5. **Stop When Not Needed**: Stop instance jika tidak dipakai lama
+6. **Regular Cleanup**: Jalankan cleanup script mingguan
+
+## Performance Expectations
+
+Dengan spek e2-micro (1 vCPU, 1GB RAM):
+- **Workflow concurrent**: 2-3 workflows ringan
+- **Response time**: 2-5 detik untuk workflow sederhana
+- **Uptime**: 99%+ dengan monitoring yang baik
+- **Suitable for**: Personal automation, small team workflows
+
+## Kesimpulan
+
+Setup ini memberikan Anda n8n automation server yang berjalan **gratis selamanya** di GCP Always Free Tier. Dengan monitoring dan optimization yang tepat, server ini bisa handle automation tasks personal atau small team dengan baik.
+
+Total biaya bulanan: **$0** (selama tetap dalam free tier limits)
+
+## Next Steps
+
+1. Explore n8n workflows di [n8n.io/workflows](https://n8n.io/workflows)
+2. Setup webhook integrations
+3. Connect dengan services yang sering Anda gunakan
+4. Otomatisasi repetitive tasks sehari-hari
+
+---
+
+*Tutorial ini berdasarkan pengalaman real deployment dan testing di GCP Always Free Tier. Update terakhir: Juni 2025*1b:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
+
+- Nerima teks/foto struk/screenshot via bot Telegram  
+- AI ekstrak info penting (jumlah, kategori, dll)  
+- Data langsung masuk ke database Notion  
+- Bisa rekap pengeluaran otomatis  
+
+Bayangin, kita cuma perlu kirim pesan "Beli kopi 25rb" atau foto struk belanja, dan semua data langsung tercatat rapi! ✨
+
+## Apa Itu n8n dan kenapa powerful banget? 🚀
+
+Cerita dikit tentang n8n. Ini tuh platform otomatisasi workflow yang powerful banget! Kita bisa menghubungkan berbagai aplikasi dan layanan tanpa perlu jago coding. 💻
+
+Kelebihan n8n: 😍
+- **Open Source dan Gratis** ✅: Bisa di-deploy sendiri, gak perlu bayar subscription
+- **No-Code/Low-Code** 🧩: Cukup paham logika input-proses-output, drag and drop aja
+- **Integrasi Banyak Platform** 🔄: Dari Notion, Google Sheets, Telegram, sampai AI tools, 500+ integrasi aplikasi
+- **Fleksibel Banget** 🛠️: Bisa bikin workflow sesimple atau sekompleks yang kita mau
+
+Yang penting paham flow datanya: input → proses → output. Gak perlu jago coding sama sekali! 🙌 (minimal paham logic dan parsing data)
+
+Semua bisa kita buat tanpa coding rumit. Cuma drag-and-drop di n8n dan paham alur data aja. Simpel, fleksibel, powerful.
+
+## Cara Bikinnya 🛠️
+Kalau tertarik bikin juga, ini yang dibutuhkan:
+
+1. **Internal Integration Secret Notion** 🔑 - Didapatkan dari [https://www.notion.so/profile/integrations](https://www.notion.so/profile/integrations)
+2. **API Google Gemini AI** 🤖 - Didapatkan dari [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+3. **API Bot Telegram** 💬 - Dibuat melalui BotFather di Telegram
+4. **Template Notion** 📋 - Duplikat dari [template ini](https://battle-option-f5f.notion.site/200241ec407a80b4818ad5a1052d2b3d?v=200241ec407a81358320000cf264c9ae)
+
+## Template n8n 👇
+Awalnya pakai template yang cuma bisa kirim image, tapi kemudian diimprove supaya bisa nerima berbagai jenis input termasuk teks biasa 🔄
+
+- Template base (thanks to Rizqi Pratama Ramadhani): [Finance Tracker Template](https://n8n.io/workflows/3960-automated-financial-tracker-telegram-invoices-to-notion-with-gemini-ai-reports/)
+- Template yang saya improve: [Finance Tracker Template-improved](
+https://drive.google.com/file/d/1tXEibyZChlPpIT8cK2rTpw3sY8D9msgq/view?usp=sharing
+)
+
+![Template n8n](/portfolio/images/template-n8n.png)
+
+## Tutorial singkat 📝
+- Siapin server n8n (deploy bisa pake docker atau langsung di server pake npm) bisa liat [di sini](https://twnb.nbtrisna.my.id/n8n-docker-install/) atau dokumentasi officialnya [di sini](https://docs.n8n.io/hosting/)
+
+
+- Buat credential Notion, Google Gemini AI, dan Telegram Bot di n8n
+![buat cred](/portfolio/images/buat-cred1.png)
+
+- Isi API Notion, Google Gemini AI, dan Telegram Bot
+- Import template bisa drag and drop atau import dari file JSON
+- Duplikat template Notion di Notion ([template ini](https://battle-option-f5f.notion.site/200241ec407a80b4818ad5a1052d2b3d?v=200241ec407a81358320000cf264c9ae))
+
+- Sesuaikan tiap node dengan meng-konekkan Credential Notion, Google Gemini AI, dan Telegram Bot yang sudah dibuat
+![node detail](/portfolio/images/node-detail.png)
+
+- Set active workflow
+
+## Hasilnya 👀
+![hasil tele 1](/portfolio/images/hasil1.png)
+![hasil tele 2](/portfolio/images/hasil2.png)
+![hasil notion](/portfolio/images/hasil-notion.png)
+
+## Next yang bisa diimprove🚀
+- Bikin inputan voice message
+- Bikin report yang lebih detail
+- Bikin fitur untuk update, delete atau nyari data
+- Insights dari AI
+
+## Kesimpulan 🎯
+
+Buat kita yang gak pengen capek sama manual, automation ini bisa jadi game-changer! 🎮 Yang keren, gak perlu jago coding buat bikin ini. Cukup paham logika dasar aja.
+
+Dengan n8n, dan AI, tracking keuangan jadi semudah kirim chat. Gak ada lagi alasan buat gak ngatur keuangan dengan baik! 💪
+1c:T15d4,
 **Artikel Test. Artikel ini dihasilkan oleh ChatGPT.**
 
 # Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!
@@ -4861,205 +4861,4 @@ console.log(`${APP_NAME} allows up to ${MAX_USERS} users.`);
 
 Sudah paham perbedaannya? Mulai sekarang, buat kode JavaScript-mu lebih aman dan mudah dibaca dengan memilih deklarasi variabel yang tepat!
 
-1d:T5d9,
-# Useful Bash Scripts for DevOps
-
-Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
-
-## 1. System Resource Monitor
-
-This script monitors CPU, Memory, and Disk usage: 
-
-```bash
-#!/bin/bash
-echo System Resource Monitor
-echo "CPU Usage:"
-top -bn1 | grep "Cpu(s)" | sed "s/.,[0−9.]∗[0−9.]∗% id./\1/" | awk '{print 100 - $1}'%
-echo "Memory Usage:"
-free | grep Mem | awk '{print $3/$2 100.0}'%
-echo "Disk Usage:"
-df -h | awk '$NF=="/"{print $5}'
-```
-
-## 2. Backup Script
-
-This script creates a backup of a specified directory:
-
-```bash
-#!/bin/bash
-# Backup Script
-SOURCE="/path/to/source"
-DESTINATION="/path/to/backup"
-TIMESTAMP=$(date +"%Y%m%d%H%M")
-BACKUP_FILE="$DESTINATION/backup-$TIMESTAMP.tar.gz"
-
-tar -czf $BACKUP_FILE $SOURCE
-echo "Backup created at $BACKUP_FILE"
-```
-
-## 3. Log Cleanup
-
-This script cleans up old log files:
-
-```bash
-#!/bin/bash
-# Log Cleanup Script
-find /var/log -type f -name "*.log" -mtime +30 -exec rm {} \;
-echo "Old log files deleted."
-```
-
-## 4. User Management
-
-This script adds a new user and sets a password:
-
-```bash
-#!/bin/bash
-# User Management Script
-read -p "Enter username: " USERNAME
-sudo adduser $USERNAME
-echo "User $USERNAME added."
-```
-
-## 5. Network Status Check
-
-This script checks the network status:
-
-```bash
-#!/bin/bash
-# Network Status Check Script
-ping -c 4 google.com
-```
-
-## Conclusion
-
-These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!1e:T93e,
-# Markdown and MDX Guide
-
-This guide demonstrates the various features available in Markdown and MDX.
-
-## Code Blocks
-
-### Basic Code Block (3 backticks)
-
-```javascript
-const greeting = "Hello World";
-console.log(greeting);
-
-// Object example
-const user = {
-  name: "John Doe",
-  age: 30,
-  isAdmin: true
-};
-```
-
-### Code Block with Title and Line Numbers
-
-```bash title="install dependencies" showLineNumbers
-# Install dependencies
-npm install next@latest
-npm install @tailwindcss/typography
-npm install gray-matter
-```
-
-### Code Block with Line Highlighting
-
-```python {1,3-4}
-def example():
-    # This line won't be highlighted
-    # These lines will be highlighted
-    print("Hello World")
-```
-
-## Word highlighted Example
-
-```json word="name" word="project" /version/
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "dependencies": {
-    "next": "latest",
-    "react": "latest"
-  }
-}
-``` 
-
-## Tables
-
-| Feature | Description | Status |
-|---------|------------|--------|
-| Tables | Basic table support | ✅ |
-| Lists | Ordered and unordered lists | ✅ |
-| Code Blocks | Syntax highlighting | ✅ |
-| Images | Image embedding | ✅ |
-
-## Text Formatting
-
-### Basic Formatting
-
-This is **bold text**, and this is *italic text*.
-You can also use ***bold and italic*** together.
-
-### Blockquotes
-
-> This is a blockquote. You can use it to emphasize important information or quotes.
->
-> You can have multiple paragraphs in a blockquote.
-
-### Lists
-
-#### Unordered List
-- First item
-  - Nested item
-  - Another nested item
-- Second item
-- Third item
-
-#### Ordered List
-1. First step
-   1. Sub-step one
-   2. Sub-step two
-2. Second step
-3. Third step
-
-## Links and Images
-
-### Links
-[Visit OpenAI](https://openai.com)
-[Internal Link to Blog](/blog)
-
-### Images
-![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)
-
-## Advanced Features
-
-### Task Lists
-
-- [x] Write the introduction
-- [x] Add code examples
-- [ ] Review content
-- [ ] Publish post
-
-### Custom Components
-
-```json
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "dependencies": {
-    "next": "latest",
-    "react": "latest"
-  }
-}
-```
-
-### One backtick
-`this text is use one bactick`
-
-## Conclusion
-
-This post demonstrates the main features available in Markdown and MDX. You can use these elements to create rich, well-formatted content for your blog.
-
----
-
-*Last updated: March 25, 2024*6:["$","$L14",null,{"content":{"compiledSource":"$15","frontmatter":{},"scope":{}},"frontmatter":{"slug":"install-kvm-wsl2-virtualization","content":"$16","title":"Install KVM di WSL2: Homelab Virtualization Setup","date":"2024-12-10","updated":"2024-12-10","tags":["kvm","wsl2","virtualization","homelab"],"category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","readingTime":6,"difficulty":"Intermediate","keywords":["kvm","wsl2","virtualization","homelab","linux","windows"],"openGraph":{"title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1171,"rawContent":"$17"},"allPosts":[{"slug":"deploy-n8n-gratis-di-google-cloud","content":"$18","title":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","date":"2025-06-01","updated":"2025-06-01","tags":["n8n","automation","gcp","google-cloud","free-tier","deployment","tutorial","workflow","nocode","devops"],"draft":false,"summary":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier. Setup permanent tanpa biaya dengan resource gratis selamanya.","author":"Febryan","category":"Tutorial","readingTime":8,"difficulty":"Intermediate","keywords":["n8n deployment","google cloud free tier","automation platform","workflow automation","free hosting","gcp tutorial","n8n tutorial","cloud deployment"],"openGraph":{"title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Pelajari cara deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Panduan step-by-step dengan resource gratis selamanya.","image":"/portfolio/images/n8n-gcp-deployment.png","url":"https://pepryan.github.io/portfolio/blog/deploy-n8n-gratis-di-google-cloud"},"twitter":{"card":"summary_large_image","title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Setup permanent tanpa biaya!"},"schema":{"type":"TechArticle","headline":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier dengan resource gratis selamanya.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-06-01","dateModified":"2025-06-01","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":1574},{"slug":"automated-finance-tracker-with-ai","content":"$19","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","author":"Febryan","category":"Tutorial","readingTime":3,"difficulty":"Intermediate","keywords":["finance tracker","automation","telegram bot","n8n workflow","notion database","ai integration","gemini ai","expense tracking","personal finance"],"openGraph":{"title":"Finance Tracker Otomatis dengan AI - Tutorial Lengkap","description":"Buat sistem finance tracker otomatis menggunakan Telegram Bot, n8n, Notion, dan Google Gemini AI. Catat pengeluaran jadi super mudah!","image":"/portfolio/images/template-n8n.png","url":"https://pepryan.github.io/portfolio/blog/automated-finance-tracker-with-ai"},"twitter":{"card":"summary_large_image","title":"Finance Tracker Otomatis dengan AI 🤖💰","description":"Tutorial bikin finance tracker otomatis pakai Telegram, n8n, Notion & AI. Tinggal chat, data langsung tercatat rapi!","image":"/portfolio/images/template-n8n.png"},"schema":{"type":"HowTo","headline":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget!","description":"Panduan lengkap membuat sistem finance tracker otomatis menggunakan Telegram Bot, n8n workflow automation, Notion database, dan Google Gemini AI untuk tracking pengeluaran yang efisien.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-05-27","dateModified":"2025-05-28","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":486},{"slug":"install-kubernetes-kvm2-wsl2","content":"$1a","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","date":"2024-12-11","updated":"2024-12-11","tags":["kubernetes","kvm","wsl2","homelab"],"category":"DevOps","summary":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","author":"Febryan Ramadhan","readingTime":9,"difficulty":"Advanced","keywords":["kubernetes","kvm","wsl2","homelab","cluster","devops"],"openGraph":{"title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1735},{"slug":"install-kvm-wsl2-virtualization","content":"$1b","title":"Install KVM di WSL2: Homelab Virtualization Setup","date":"2024-12-10","updated":"2024-12-10","tags":"$6:props:frontmatter:tags","category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","readingTime":6,"difficulty":"Intermediate","keywords":"$6:props:frontmatter:keywords","openGraph":"$6:props:frontmatter:openGraph","twitter":"$6:props:frontmatter:twitter","schema":"$6:props:frontmatter:schema","wordCount":1171},{"slug":"hidden-post","content":"\nThis post will not appear in the blog listing. ","title":"Hidden Post Example","date":"2024-03-26","tags":["test"],"hidden":true,"wordCount":9,"readingTime":1},{"slug":"example-post","content":"\n# Menggunakan Gambar di MDX\n\n## Cara Pertama: Menggunakan Markdown Standard\n\nBerikut adalah contoh penggunaan gambar menggunakan syntax markdown standard:\n\n![Screenshot](/portfolio/images/image_2024-11-18_15-10-17.png)\n\n\n  ","title":"Using Images in MDX","date":"2024-01-20","updated":"2024-01-20","tags":["mdx","images","tutorial"],"category":"Tutorial","summary":"Panduan menggunakan gambar dalam blog post menggunakan MDX","author":"Febryan Ramadhan","readingTime":1,"difficulty":"Beginner","keywords":["mdx","images","tutorial","blog","markdown"],"openGraph":{"title":"Using Images in MDX","description":"Panduan lengkap menggunakan gambar dalam blog post dengan MDX.","type":"article"},"twitter":{"card":"summary_large_image","title":"Using Images in MDX","description":"Panduan lengkap menggunakan gambar dalam blog post dengan MDX."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":21},{"slug":"javascript-variables","content":"$1c","title":"JavaScript Variables: var, let, dan const","date":"2024-01-15","updated":"2024-01-15","tags":["javascript","programming","variables"],"category":"Programming","summary":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan let dan const untuk kode yang lebih aman dan modern!","author":"Febryan Ramadhan","readingTime":4,"difficulty":"Beginner","keywords":["javascript","variables","var","let","const","programming"],"openGraph":{"title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern.","type":"article"},"twitter":{"card":"summary_large_image","title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":779},{"slug":"useful-bash-scripts","content":"$1d","title":"Useful Bash Scripts for DevOps","date":"2024-01-10","updated":"2024-01-10","tags":["bash","devops","automation"],"category":"DevOps","summary":"A Small Collection of Bash scripts for daily DevOps tasks","author":"Febryan Ramadhan","readingTime":2,"difficulty":"Intermediate","keywords":["bash","devops","automation","scripts","linux"],"openGraph":{"title":"Useful Bash Scripts for DevOps","description":"A collection of useful Bash scripts for daily DevOps automation tasks.","type":"article"},"twitter":{"card":"summary_large_image","title":"Useful Bash Scripts for DevOps","description":"A collection of useful Bash scripts for daily DevOps automation tasks."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":227},{"slug":"markdown-guide","content":"$1e","title":"Markdown and MDX Guide","date":"2024-01-05","updated":"2024-01-05","tags":["markdown","mdx","guide"],"category":"Tutorial","summary":"A comprehensive guide to using Markdown and MDX features including code blocks, tables, and more","author":"Febryan Ramadhan","readingTime":2,"difficulty":"Beginner","keywords":["markdown","mdx","guide","documentation","writing"],"openGraph":{"title":"Markdown and MDX Guide","description":"A comprehensive guide to using Markdown and MDX features for better documentation.","type":"article"},"twitter":{"card":"summary_large_image","title":"Markdown and MDX Guide","description":"A comprehensive guide to using Markdown and MDX features for better documentation."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":355},{"slug":"_template","content":"\n# Your Blog Post Title Here\n\nYour blog post content starts here...\n\n## Section 1\n\nContent for section 1...\n\n## Section 2\n\nContent for section 2...\n\n---\n\n*Last updated: [Date] - [Brief note about updates if any]*","title":"Your Blog Post Title Here","date":"2024-01-01","updated":"2024-01-01","tags":["tag1","tag2","tag3"],"category":"Technology","summary":"A compelling summary of your blog post that will appear in search results and social media previews. Keep it under 160 characters for best SEO results.","thumbnail":"/images/blog/your-post-thumbnail.jpg","author":"Febryan Ramadhan","readingTime":1,"difficulty":"Beginner","keywords":["keyword1","keyword2","keyword3"],"openGraph":{"title":"Your Blog Post Title Here","description":"A description optimized for social media sharing. Can be different from summary.","image":"/images/blog/your-post-thumbnail.jpg","type":"article"},"twitter":{"card":"summary_large_image","title":"Your Blog Post Title Here","description":"A description optimized for Twitter sharing.","image":"/images/blog/your-post-thumbnail.jpg"},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io","sameAs":["https://twitter.com/pepryan","https://instagram.com/nayrbef","https://linkedin.com/in/febryanramadhan"]},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":37},{"slug":"example","content":"\n# Contoh Penggunaan Code\n\nIni adalah inline code: `const example = \"hello\"` \n\nDan ini adalah code block:\n\n```javascript\nconst greeting = \"Hello World\";\nconsole.log(greeting);\n```\n\nAtau untuk bash:\n\n```bash\necho \"Hello World\"\nnpm install package-name\n``` ","title":"Example Post","tags":["bash","devops","linux","automation"],"hidden":true,"wordCount":36,"readingTime":1}]}]
+6:["$","$L14",null,{"content":{"compiledSource":"$15","frontmatter":{},"scope":{}},"frontmatter":{"slug":"install-kvm-wsl2-virtualization","content":"$16","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":["kvm","wsl2","virtualization","homelab","infrastructure","terraform","libvirt"],"category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","difficulty":"Intermediate","keywords":["kvm","wsl2","virtualization","homelab","linux","windows"],"openGraph":{"title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1171,"readingTime":6,"rawContent":"$17"},"allPosts":[{"slug":"install-kubernetes-kvm2-wsl2","content":"$18","title":"Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀","date":"2025-06-04","tags":["kubernetes","k8s","kvm","homelab","container-orchestration","kubeadm","calico"],"summary":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","category":"DevOps","author":"Febryan Ramadhan","difficulty":"Advanced","keywords":["kubernetes","kvm","wsl2","homelab","cluster","devops"],"openGraph":{"title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1735,"readingTime":9},{"slug":"install-kvm-wsl2-virtualization","content":"$19","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":"$6:props:frontmatter:tags","category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","difficulty":"Intermediate","keywords":"$6:props:frontmatter:keywords","openGraph":"$6:props:frontmatter:openGraph","twitter":"$6:props:frontmatter:twitter","schema":"$6:props:frontmatter:schema","wordCount":1171,"readingTime":6},{"slug":"deploy-n8n-gratis-di-google-cloud","content":"$1a","title":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","date":"2025-06-01","updated":"2025-06-01","tags":["n8n","automation","gcp","google-cloud","free-tier","deployment","tutorial","workflow","nocode","devops"],"draft":false,"summary":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier. Setup permanent tanpa biaya dengan resource gratis selamanya.","author":"Febryan","category":"Tutorial","difficulty":"Intermediate","keywords":["n8n deployment","google cloud free tier","automation platform","workflow automation","free hosting","gcp tutorial","n8n tutorial","cloud deployment"],"openGraph":{"title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Pelajari cara deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Panduan step-by-step dengan resource gratis selamanya.","image":"/portfolio/images/n8n-gcp-deployment.png","url":"https://pepryan.github.io/portfolio/blog/deploy-n8n-gratis-di-google-cloud"},"twitter":{"card":"summary_large_image","title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Setup permanent tanpa biaya!"},"schema":{"type":"TechArticle","headline":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier dengan resource gratis selamanya.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-06-01","dateModified":"2025-06-01","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":1574,"readingTime":8},{"slug":"automated-finance-tracker-with-ai","content":"$1b","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","author":"Febryan","category":"Tutorial","difficulty":"Intermediate","keywords":["finance tracker","automation","telegram bot","n8n workflow","notion database","ai integration","gemini ai","expense tracking","personal finance"],"openGraph":{"title":"Finance Tracker Otomatis dengan AI - Tutorial Lengkap","description":"Buat sistem finance tracker otomatis menggunakan Telegram Bot, n8n, Notion, dan Google Gemini AI. Catat pengeluaran jadi super mudah!","image":"/portfolio/images/template-n8n.png","url":"https://pepryan.github.io/portfolio/blog/automated-finance-tracker-with-ai"},"twitter":{"card":"summary_large_image","title":"Finance Tracker Otomatis dengan AI 🤖💰","description":"Tutorial bikin finance tracker otomatis pakai Telegram, n8n, Notion & AI. Tinggal chat, data langsung tercatat rapi!","image":"/portfolio/images/template-n8n.png"},"schema":{"type":"HowTo","headline":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget!","description":"Panduan lengkap membuat sistem finance tracker otomatis menggunakan Telegram Bot, n8n workflow automation, Notion database, dan Google Gemini AI untuk tracking pengeluaran yang efisien.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-05-27","dateModified":"2025-05-28","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":486,"readingTime":3},{"slug":"javascript-variables","content":"$1c","title":"Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!","date":"2024-12-13","tags":["javascript","programming","coding-tips"],"category":"Programming","summary":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan let dan const untuk kode yang lebih aman dan modern!","author":"Febryan Ramadhan","difficulty":"Beginner","keywords":["javascript","variables","var","let","const","programming"],"openGraph":{"title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern.","type":"article"},"twitter":{"card":"summary_large_image","title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":779,"readingTime":4}]}]
