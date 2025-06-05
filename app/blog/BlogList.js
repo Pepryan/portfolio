@@ -2,7 +2,7 @@
 import { useState, useMemo } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import Link from 'next/link';
-import { FiCalendar, FiClock, FiTag, FiArrowLeft } from 'react-icons/fi';
+import { FiCalendar, FiClock, FiTag, FiArrowLeft, FiChevronDown, FiX } from 'react-icons/fi';
 import Header from '../components/Header';
 import Image from 'next/image';
 
@@ -36,19 +36,33 @@ const PaginationButton = ({ onClick, disabled, children, active }) => {
 export default function BlogList({ posts }) {
   const { darkMode } = useTheme();
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedTag, setSelectedTag] = useState('');
+  const [isTagDropdownOpen, setIsTagDropdownOpen] = useState(false);
   // Add pagination state
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 5;
 
   const filteredPosts = useMemo(() => {
-    if (!searchQuery.trim()) return posts;
+    let filtered = posts;
     
-    const query = searchQuery.toLowerCase();
-    return posts.filter(post => 
-      post.title.toLowerCase().includes(query) ||
-      post.tags.some(tag => tag.toLowerCase().includes(query))
-    );
-  }, [posts, searchQuery]);
+    // Filter by selected tag first
+    if (selectedTag) {
+      filtered = filtered.filter(post => 
+        Array.isArray(post.tags) && post.tags.includes(selectedTag)
+      );
+    }
+    
+    // Then filter by search query
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter(post => 
+        post.title.toLowerCase().includes(query) ||
+        (Array.isArray(post.tags) && post.tags.some(tag => tag.toLowerCase().includes(query)))
+      );
+    }
+    
+    return filtered;
+  }, [posts, searchQuery, selectedTag]);
 
   // Add pagination logic
   const paginatedPosts = useMemo(() => {
@@ -85,22 +99,95 @@ export default function BlogList({ posts }) {
           Back to home
         </Link>
 
-        {/* Tags filter */}
-        <div className="mb-8 flex flex-wrap gap-2">
-          {allTags.map(tag => (
-            <Link
-              key={tag}
-              href={`/blog/tags/${tag}`}
-              className="flex items-center gap-1 px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 
-                text-neutral-700 dark:text-neutral-300 rounded-full hover:bg-neutral-200 
-                dark:hover:bg-neutral-700 transition-colors"
-            >
-              <FiTag className="w-3 h-3" />
-              {tag}
-            </Link>
-          ))}
+        {/* Enhanced Tags Filter */}
+        <div className="mb-8 flex justify-center">
+          {/* Unified Dropdown Design for Mobile and Desktop */}
+          <div className="w-full max-w-md">
+            <div className="relative">
+              <button
+                onClick={() => setIsTagDropdownOpen(!isTagDropdownOpen)}
+                className="w-full flex items-center justify-between px-4 py-3 bg-white dark:bg-neutral-800 
+                  border-2 border-neutral-200 dark:border-neutral-700 rounded-lg shadow-sm 
+                  hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-200 
+                  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              >
+                <div className="flex items-center gap-2">
+                  <FiTag className="w-4 h-4 text-neutral-500 dark:text-neutral-400" />
+                  <span className="text-neutral-700 dark:text-neutral-300 font-medium">
+                    {selectedTag ? `Selected: ${selectedTag}` : 'Filter by tags'}
+                  </span>
+                </div>
+                <FiChevronDown className={`w-4 h-4 text-neutral-500 dark:text-neutral-400 transition-transform duration-200 ${
+                  isTagDropdownOpen ? 'rotate-180' : ''
+                }`} />
+              </button>
+              
+              {/* Dropdown */}
+              {isTagDropdownOpen && (
+                <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-neutral-800 rounded-lg 
+                  shadow-xl border border-neutral-200 dark:border-neutral-700 z-50 max-h-64 overflow-y-auto">
+                  <div className="p-3">
+                    {/* Clear filter option */}
+                    {selectedTag && (
+                      <button
+                        onClick={() => {
+                          setSelectedTag('');
+                          setIsTagDropdownOpen(false);
+                          setCurrentPage(1);
+                        }}
+                        className="w-full flex items-center gap-2 px-3 py-2 mb-2 text-red-600 dark:text-red-400 
+                          bg-red-50 dark:bg-red-900/20 rounded-md hover:bg-red-100 dark:hover:bg-red-900/30 
+                          transition-colors text-left"
+                      >
+                        <FiX className="w-4 h-4" />
+                        Clear filter
+                      </button>
+                    )}
+                    
+                    {/* Tags Grid - 2 columns for mobile, 3 for desktop */}
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                      {allTags.map(tag => (
+                        <button
+                          key={tag}
+                          onClick={() => {
+                            setSelectedTag(tag);
+                            setIsTagDropdownOpen(false);
+                            setCurrentPage(1);
+                          }}
+                          className={`flex items-center gap-1 px-3 py-2 text-sm rounded-md transition-all duration-200 
+                            text-left hover:scale-[1.02] ${
+                            selectedTag === tag
+                              ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border border-blue-300 dark:border-blue-600'
+                              : 'bg-neutral-50 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-600'
+                          }`}
+                        >
+                          <FiTag className="w-3 h-3 flex-shrink-0" />
+                          <span className="truncate text-xs">{tag}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
         </div>
-
+        
+        {/* Selected Tag Banner */}
+        {selectedTag && (
+          <div className="mb-8 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
+            <div className="flex items-center gap-2 mb-1">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+              <span className="text-blue-700 dark:text-blue-300 font-medium">
+                Showing posts tagged with "{selectedTag}"
+              </span>
+            </div>
+            <span className="text-blue-600 dark:text-blue-400 text-sm">
+              {filteredPosts.length} post{filteredPosts.length !== 1 ? 's' : ''}
+            </span>
+          </div>
+        )}
+        
         {/* Search results count */}
         {searchQuery && (
           <p className="mb-4 text-neutral-600 dark:text-neutral-400">
