@@ -22,7 +22,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://pepryan.github.io/portfolio/images/default-og-image.svg',
+        url: 'https://pepryan.github.io/portfolio/images/default-og-image.png',
         width: 1200,
         height: 630,
         alt: 'Febryan Portfolio - Cloud Engineer & DevOps Specialist',
@@ -35,7 +35,11 @@ export const metadata = {
     description: 'Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation.',
     creator: '@pepryan',
     site: '@pepryan',
-    images: ['https://pepryan.github.io/portfolio/images/default-og-image.svg'],
+    images: ['https://pepryan.github.io/portfolio/images/default-og-image.png'],
+  },
+  other: {
+    'twitter:domain': 'pepryan.github.io',
+    'twitter:url': 'https://pepryan.github.io/portfolio',
   },
   robots: {
     index: true,

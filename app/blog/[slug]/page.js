@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
 
   const baseUrl = 'https://pepryan.github.io/portfolio';
   const postUrl = `${baseUrl}/blog/${slug}`;
-  const defaultImage = `${baseUrl}/images/default-og-image.svg`;
+  const defaultImage = `${baseUrl}/images/default-og-image.png`;
   
   // Extract metadata from frontmatter
   const {
@@ -101,8 +101,10 @@ export async function generateMetadata({ params }) {
       site: '@pepryan',
     },
     
-    // Additional meta tags
+    // Additional meta tags for social sharing
     other: {
+      'twitter:domain': 'pepryan.github.io',
+      'twitter:url': postUrl,
       'article:author': author,
       'article:published_time': date,
       'article:modified_time': updated || date,
