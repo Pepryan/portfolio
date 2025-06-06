@@ -5,8 +5,6 @@ import { useTheme } from '../../context/ThemeContext';
 import TableOfContents from '../../components/TableOfContents';
 import { memo, useEffect, useState } from 'react';
 import Header from '../../components/Header';
-import Head from 'next/head';
-
 // Memoize the entire component
 export default memo(function BlogPostLayout({ children, data, readingTime, wordCount, content }) {
   const { darkMode, toggleDarkMode } = useTheme();
@@ -30,23 +28,6 @@ export default memo(function BlogPostLayout({ children, data, readingTime, wordC
 
   return (
     <>
-      <Head>
-        <title>{`${data.title} | Febryan Portfolio`}</title>
-        <meta name="description" content={data.summary || data.title} />
-        <meta name="keywords" content={data.tags.join(', ')} />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content={data.title} />
-        <meta property="og:description" content={data.summary || data.title} />
-        <meta property="og:type" content="article" />
-        <meta property="article:published_time" content={data.date} />
-        {data.updated && (
-          <meta property="article:modified_time" content={data.updated} />
-        )}
-        {data.tags.map((tag) => (
-          <meta key={tag} property="article:tag" content={tag} />
-        ))}
-      </Head>
       <div className={`min-h-screen ${darkMode ? 'dark bg-neutral-900' : 'bg-white'}`}>
         <Header showSearch={false} isPost={true} />
 

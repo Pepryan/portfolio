@@ -12,34 +12,35 @@ export async function generateMetadata({ params }) {
   
   // Ambil post terbaru untuk gambar preview
   const latestPost = filteredPosts.sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+  const baseUrl = 'https://pepryan.github.io/portfolio';
   const metaImage = latestPost?.thumbnail 
-    ? `/images/${latestPost.thumbnail}`
-    : '/images/default-og-image.png';
+    ? (latestPost.thumbnail.startsWith('http') ? latestPost.thumbnail : `${baseUrl}${latestPost.thumbnail.replace('/portfolio', '')}`)
+    : `${baseUrl}/images/default-og-image.png`;
   
-  const title = `Posts tagged "${tag}" | Ryan's Blog`;
-  const description = `Explore ${postCount} ${postCount === 1 ? 'post' : 'posts'} about ${tag}. Discover insights, tutorials, and thoughts on ${tag} topics.`;
+  const title = `Posts tagged "${tag}" | Febryan Portfolio`;
+  const description = `Explore ${postCount} ${postCount === 1 ? 'post' : 'posts'} about ${tag}. Discover insights, tutorials, and thoughts on ${tag} topics by Febryan Ramadhan.`;
   
   return {
     title,
     description,
-    keywords: [tag, 'blog', 'posts', 'tutorial', 'programming', 'technology'],
-    authors: [{ name: 'Ryan' }],
-    creator: 'Ryan',
-    publisher: 'Ryan\'s Blog',
+    keywords: [tag, 'blog', 'posts', 'tutorial', 'programming', 'technology', 'febryan portfolio'],
+    authors: [{ name: 'Febryan Ramadhan', url: baseUrl }],
+    creator: 'Febryan Ramadhan',
+    publisher: 'Febryan Portfolio',
     category: 'Technology',
-    metadataBase: new URL('https://ryanpratama.my.id'),
+    metadataBase: new URL(baseUrl),
     openGraph: {
       title,
       description,
-      url: `/blog/tags/${tag}`,
-      siteName: 'Ryan\'s Blog',
+      url: `${baseUrl}/blog/tags/${tag}`,
+      siteName: 'Febryan Portfolio',
       images: [{
         url: metaImage,
         width: 1200,
         height: 630,
-        alt: `Posts tagged with ${tag}`,
+        alt: `Posts tagged with ${tag} - Febryan Portfolio`,
       }],
-      locale: 'en_US',
+      locale: 'id_ID',
       type: 'website',
     },
     twitter: {
@@ -47,7 +48,17 @@ export async function generateMetadata({ params }) {
       title,
       description,
       images: [metaImage],
-      creator: '@ryanpratama',
+      creator: '@pepryan',
+      site: '@pepryan',
+    },
+    alternates: {
+      canonical: `${baseUrl}/blog/tags/${tag}`,
+    },
+    other: {
+      'twitter:domain': 'pepryan.github.io',
+      'twitter:url': `${baseUrl}/blog/tags/${tag}`,
+      'article:section': 'Technology',
+      'tag:post_count': postCount.toString(),
     },
     robots: {
       index: true,
@@ -59,9 +70,6 @@ export async function generateMetadata({ params }) {
         'max-image-preview': 'large',
         'max-snippet': -1,
       },
-    },
-    alternates: {
-      canonical: `/blog/tags/${tag}`,
     },
   };
 }
