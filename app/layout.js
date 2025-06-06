@@ -37,9 +37,17 @@ export const metadata = {
     site: '@pepryan',
     images: ['https://pepryan.github.io/portfolio/images/default-og-image.png'],
   },
+  alternates: {
+    canonical: 'https://pepryan.github.io/portfolio',
+  },
   other: {
     'twitter:domain': 'pepryan.github.io',
     'twitter:url': 'https://pepryan.github.io/portfolio',
+    'theme-color': '#000000',
+    'msapplication-TileColor': '#000000',
+    'apple-mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-status-bar-style': 'default',
+    'format-detection': 'telephone=no',
   },
   robots: {
     index: true,
@@ -55,11 +63,51 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://pepryan.github.io/portfolio/#person",
+    "name": "Febryan Ramadhan",
+    "url": "https://pepryan.github.io/portfolio",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://pepryan.github.io/portfolio/images/default-og-image.png",
+      "width": 1200,
+      "height": 630
+    },
+    "description": "Cloud Engineer specializing in DevOps, Infrastructure, and Automation",
+    "jobTitle": "Cloud Engineer & DevOps Specialist",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Technology Industry"
+    },
+    "knowsAbout": [
+      "Cloud Computing",
+      "DevOps",
+      "Infrastructure as Code",
+      "Automation",
+      "Web Development",
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "sameAs": [
+      "https://github.com/pepryan",
+      "https://twitter.com/pepryan"
+    ]
+  };
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
       </head>
       <body suppressHydrationWarning className="bg-white dark:bg-neutral-900">
         <ThemeProvider>

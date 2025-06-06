@@ -10,6 +10,9 @@ import Contact from './components/Contact';
 import CareerSection from './components/CareerSection';
 import Footer from './components/Footer';
 import PortfolioSection from './components/PortfolioSection';
+import { Metadata } from 'next';
+
+// Since this is a client component, metadata is handled in layout.js
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);

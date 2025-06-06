@@ -68,6 +68,7 @@ export async function generateMetadata({ params }) {
     creator: author,
     publisher: 'Febryan Portfolio',
     category: category || 'Blog',
+    metadataBase: new URL(baseUrl),
     
     // Open Graph
     openGraph: {
@@ -112,6 +113,9 @@ export async function generateMetadata({ params }) {
       'article:tag': tags.join(', '),
       'difficulty': difficulty,
       'reading-time': `${Math.ceil((post.content?.split(' ').length || 0) / 200)} minutes`,
+      'og:image:width': '1200',
+      'og:image:height': '630',
+      'og:image:type': 'image/png',
     },
     
     // Robots
@@ -214,12 +218,67 @@ export default async function BlogPost({ params }) {
       slug,
     };
 
+    // Generate structured data for the blog post
+    const baseUrl = 'https://pepryan.github.io/portfolio';
+    const postUrl = `${baseUrl}/blog/${slug}`;
+    const cleanThumbnail = post.thumbnail ? post.thumbnail.replace('/portfolio', '') : null;
+    const metaImage = cleanThumbnail ? `${baseUrl}${cleanThumbnail}` : `${baseUrl}/images/default-og-image.png`;
+    
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": `${postUrl}#article`,
+      "headline": post.title,
+      "description": post.summary || post.excerpt || post.description || `Read ${post.title} by ${post.author || 'Febryan Ramadhan'}`,
+      "image": {
+        "@type": "ImageObject",
+        "url": metaImage,
+        "width": 1200,
+        "height": 630
+      },
+      "author": {
+        "@type": "Person",
+        "name": post.author || "Febryan Ramadhan",
+        "url": baseUrl
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Febryan Portfolio",
+        "logo": {
+          "@type": "ImageObject",
+          "url": `${baseUrl}/images/default-og-image.png`,
+          "width": 1200,
+          "height": 630
+        }
+      },
+      "datePublished": post.date,
+      "dateModified": post.updated || post.date,
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": postUrl
+      },
+      "url": postUrl,
+      "keywords": [...(post.tags || []), ...(post.keywords || [])].join(', '),
+      "articleSection": post.category || "Technology",
+      "wordCount": post.content?.split(' ').length || 0,
+      "timeRequired": `PT${Math.ceil((post.content?.split(' ').length || 0) / 200)}M`,
+      "inLanguage": "id-ID"
+    };
+
     return (
-      <BlogPostClient 
-        content={mdxSource} 
-        frontmatter={enhancedFrontmatter}
-        allPosts={allPosts}
-      />
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
+        <BlogPostClient 
+          content={mdxSource} 
+          frontmatter={enhancedFrontmatter}
+          allPosts={allPosts}
+        />
+      </>
     );
   } catch (error) {
     console.error('Error in BlogPost:', error);
