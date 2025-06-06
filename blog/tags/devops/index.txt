@@ -1,0 +1,93 @@
+1:"$Sreact.fragment"
+2:I[3932,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-0d0a563897e93ac4.js"],"ThemeProvider"]
+3:I[4662,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-0d0a563897e93ac4.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+7:I[9665,[],"MetadataBoundary"]
+9:I[9665,[],"OutletBoundary"]
+c:I[4911,[],"AsyncMetadataOutlet"]
+e:I[9665,[],"ViewportBoundary"]
+10:I[6614,[],""]
+:HL["/portfolio/_next/static/css/7d0079240ba2f425.css","style"]
+0:{"P":null,"b":"1uSUgyu5zKGRL5mT3__pR","p":"/portfolio","c":["","blog","tags","devops",""],"i":false,"f":[[["",{"children":["blog",{"children":["tags",{"children":[["tag","devops","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/7d0079240ba2f425.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tags",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["tag","devops","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",["$","$L7",null,{"children":"$L8"}],null,["$","$L9",null,{"children":["$La","$Lb",["$","$Lc",null,{"promise":"$@d"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","s1esFtjlVH55qd15QFP3t",{"children":[["$","$Le",null,{"children":"$Lf"}],null]}],null]}],false]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+11:"$Sreact.suspense"
+12:I[4911,[],"AsyncMetadata"]
+14:I[1242,["844","static/chunks/ee560e2c-464c506caba219a9.js","995","static/chunks/995-13f8338a587aba69.js","792","static/chunks/app/blog/tags/%5Btag%5D/page-b13245da5e584e15.js"],"default"]
+8:["$","$11",null,{"fallback":null,"children":["$","$L12",null,{"promise":"$@13"}]}]
+15:T5d9,
+# Useful Bash Scripts for DevOps
+
+Here are some useful Bash scripts that I frequently use in my daily DevOps tasks.
+
+## 1. System Resource Monitor
+
+This script monitors CPU, Memory, and Disk usage: 
+
+```bash
+#!/bin/bash
+echo System Resource Monitor
+echo "CPU Usage:"
+top -bn1 | grep "Cpu(s)" | sed "s/.,[0−9.]∗[0−9.]∗% id./\1/" | awk '{print 100 - $1}'%
+echo "Memory Usage:"
+free | grep Mem | awk '{print $3/$2 100.0}'%
+echo "Disk Usage:"
+df -h | awk '$NF=="/"{print $5}'
+```
+
+## 2. Backup Script
+
+This script creates a backup of a specified directory:
+
+```bash
+#!/bin/bash
+# Backup Script
+SOURCE="/path/to/source"
+DESTINATION="/path/to/backup"
+TIMESTAMP=$(date +"%Y%m%d%H%M")
+BACKUP_FILE="$DESTINATION/backup-$TIMESTAMP.tar.gz"
+
+tar -czf $BACKUP_FILE $SOURCE
+echo "Backup created at $BACKUP_FILE"
+```
+
+## 3. Log Cleanup
+
+This script cleans up old log files:
+
+```bash
+#!/bin/bash
+# Log Cleanup Script
+find /var/log -type f -name "*.log" -mtime +30 -exec rm {} \;
+echo "Old log files deleted."
+```
+
+## 4. User Management
+
+This script adds a new user and sets a password:
+
+```bash
+#!/bin/bash
+# User Management Script
+read -p "Enter username: " USERNAME
+sudo adduser $USERNAME
+echo "User $USERNAME added."
+```
+
+## 5. Network Status Check
+
+This script checks the network status:
+
+```bash
+#!/bin/bash
+# Network Status Check Script
+ping -c 4 google.com
+```
+
+## Conclusion
+
+These scripts can help automate various tasks in your DevOps workflow. Feel free to modify them according to your needs!6:["$","$L14",null,{"tag":"devops","posts":[{"slug":"useful-bash-scripts","content":"$15","title":"Another Bash Scripts for DevOps","date":"2024-03-20","updated":"2024-03-21","tags":["bash","devops","linux","automation"],"excerpt":"A Small Collection of Bash scripts for daily DevOps tasks","wordCount":227,"readingTime":2}]}]
+b:null
+f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:null
+13:{"metadata":[["$","title","0",{"children":"Febryan Portfolio"}],["$","meta","1",{"name":"description","content":"Personal portfolio and blog by Febryan"}],["$","meta","2",{"name":"author","content":"Febryan"}],["$","meta","3",{"name":"keywords","content":"portfolio,blog,web development,javascript,react,next.js"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"property":"og:title","content":"Febryan Portfolio"}],["$","meta","6",{"property":"og:description","content":"Personal portfolio and blog by Febryan"}],["$","meta","7",{"property":"og:url","content":"https://pepryan.github.io/portfolio/"}],["$","meta","8",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Febryan Portfolio"}],["$","meta","13",{"name":"twitter:description","content":"Personal portfolio and blog by Febryan"}],["$","link","14",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+d:{"metadata":"$13:metadata","error":null,"digest":"$undefined"}
