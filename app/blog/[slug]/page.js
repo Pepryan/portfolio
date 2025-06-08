@@ -61,7 +61,7 @@ export async function generateMetadata({ params }) {
   const metaKeywords = [...tags, ...keywords, 'blog', 'tutorial', 'febryan portfolio'];
 
   return {
-    title,
+    title: `${title} | Febryan Blog`,
     description: metaDescription,
     keywords: metaKeywords,
     authors: [{ name: author, url: baseUrl }],

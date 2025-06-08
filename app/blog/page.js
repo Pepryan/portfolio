@@ -19,7 +19,7 @@ export async function generateMetadata() {
   const dynamicDescription = `Explore ${postCount} technical blog posts about cloud engineering, DevOps, infrastructure, automation, and modern web development by Febryan Ramadhan.${latestPost ? ` Latest: ${latestPost.title}` : ''}`;
   
   return {
-    title: 'Blog | Febryan Portfolio',
+    title: 'Blog | Febryan Blog',
     description: dynamicDescription,
     keywords: dynamicKeywords,
     authors: [{ name: 'Febryan Ramadhan', url: 'https://pepryan.github.io/portfolio' }],
@@ -27,7 +27,7 @@ export async function generateMetadata() {
     publisher: 'Febryan Portfolio',
     metadataBase: new URL('https://pepryan.github.io/portfolio'),
     openGraph: {
-      title: 'Blog | Febryan Portfolio',
+      title: 'Blog | Febryan Blog',
       description: dynamicDescription,
       url: 'https://pepryan.github.io/portfolio/blog',
       siteName: 'Febryan Portfolio',
@@ -46,7 +46,7 @@ export async function generateMetadata() {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Blog | Febryan Portfolio',
+      title: 'Blog | Febryan Blog',
       description: dynamicDescription,
       images: [latestPost?.thumbnail ? 
         (latestPost.thumbnail.startsWith('http') ? latestPost.thumbnail : `https://pepryan.github.io/portfolio${latestPost.thumbnail.replace('/portfolio', '')}`) : 

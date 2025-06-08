@@ -70,6 +70,13 @@ function createMetaTags(metadata) {
   if (metadata.canonical) {
     tags.push(`<link rel="canonical" href="${escapeHtml(metadata.canonical)}" />`);
   }
+
+  // Favicon with cache-busting
+  const faviconTimestamp = Date.now();
+  tags.push(`<link rel="icon" href="/portfolio/favicon.ico?v=${faviconTimestamp}" type="image/x-icon" sizes="16x16" />`);
+  tags.push(`<link rel="icon" href="/portfolio/favicon.ico?v=${faviconTimestamp}" type="image/vnd.microsoft.icon" sizes="16x16 32x32 48x48" />`);
+  tags.push(`<link rel="shortcut icon" href="/portfolio/favicon.ico?v=${faviconTimestamp}" type="image/x-icon" />`);
+  tags.push(`<link rel="apple-touch-icon" href="/portfolio/favicon.ico?v=${faviconTimestamp}" sizes="180x180" />`);
   
   // Open Graph tags
   if (metadata.openGraph) {
@@ -174,7 +181,7 @@ function getBlogPostMetadata(post) {
     : `${BASE_URL}/images/default-og-image.png`;
   
   return {
-    title,
+    title: title.includes('| Febryan Blog') ? title : `${title} | Febryan Blog`,
     description: metaDescription,
     keywords: metaKeywords,
     author,
@@ -182,7 +189,7 @@ function getBlogPostMetadata(post) {
     publisher: 'Febryan Portfolio',
     canonical: postUrl,
     openGraph: {
-      title,
+      title: title.includes('| Febryan Blog') ? title : `${title} | Febryan Blog`,
       description: metaDescription,
       image: metaImage,
       url: postUrl,
@@ -197,7 +204,7 @@ function getBlogPostMetadata(post) {
     },
     twitter: {
       card: 'summary_large_image',
-      title,
+      title: title.includes('| Febryan Blog') ? title : `${title} | Febryan Blog`,
       description: metaDescription,
       image: metaImage,
       creator: '@pepryan',

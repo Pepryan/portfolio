@@ -31,6 +31,13 @@ A modern, responsive personal portfolio and blog built with Next.js, TailwindCSS
 - ✅ **Open Graph & Twitter Cards**: Complete implementation
 - 🔗 Social media integration with proper previews
 
+### 📊 **Analytics & Tracking**
+- ✅ **Google Analytics 4**: Comprehensive user behavior tracking
+- ✅ **Event Tracking**: Blog reads, project views, social clicks
+- ✅ **Privacy-Focused**: IP anonymization and GDPR considerations
+- ✅ **Real-time Monitoring**: Live user activity and engagement metrics
+- ✅ **Performance Insights**: Content optimization and user journey analysis
+
 ## 🛠️ Tech Stack
 
 ### **Core Technologies**
@@ -48,6 +55,7 @@ A modern, responsive personal portfolio and blog built with Next.js, TailwindCSS
 - **Custom SEO System** - Meta tag injection for static export
 - **Structured Data** - JSON-LD schema implementation
 - **Social Media Optimization** - Open Graph & Twitter Cards
+- **Google Analytics 4** - Comprehensive tracking and insights
 - [Next Sitemap](https://github.com/iamvishnusankar/next-sitemap) - Automatic sitemap generation
 
 ### **UI & Icons**
@@ -144,6 +152,7 @@ draft: false
 npm run build          # Build with SEO optimization
 npm run validate-seo    # Check SEO compliance
 npm run test-social     # Test social media previews
+npm run test-analytics  # Test Google Analytics implementation
 ```
 
 ## 🔍 SEO System Overview
@@ -231,6 +240,7 @@ npm run lint            # Run ESLint
 ```bash
 npm run validate-seo    # Comprehensive SEO validation
 npm run test-social     # Test social media previews
+npm run test-analytics  # Test Google Analytics implementation
 npm run check-seo       # Non-failing SEO check for CI/CD
 npm run inject-meta     # Manual meta tag injection
 ```
@@ -278,5 +288,6 @@ This project is licensed under the Personal License - see the [LICENSE](LICENSE)
 - 📖 [SEO Best Practices](docs/SEO_BEST_PRACTICES.md)
 - 👤 [Personal Data Guide](docs/PERSONAL_DATA_GUIDE.md)
 - 🔧 [SEO Fix Documentation](docs/SEO_FIX_DOCUMENTATION.md)
+- 📊 [Analytics Implementation Guide](docs/ANALYTICS_IMPLEMENTATION_GUIDE.md)
 
 **Status**: ✅ **SEO OPTIMIZED** - Social media previews working perfectly!

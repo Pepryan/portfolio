@@ -1,5 +1,5 @@
 "use client";
-import { useMemo } from 'react';
+import { useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { useTheme } from '../../context/ThemeContext';
 import { FiCalendar, FiClock, FiTag, FiArrowLeft, FiArrowRight } from 'react-icons/fi';
@@ -15,15 +15,24 @@ import GiscusComments from '../../components/GiscusComments';
 import StructuredData from '../../components/StructuredData';
 import CustomHead from '../../components/CustomHead';
 import { useBlogPostMetadata } from '../../hooks/useMetadata';
+import { useAnalytics } from '../../components/GoogleAnalytics';
 
 export default function BlogPostClient({ content, frontmatter, allPosts }) {
   const { darkMode } = useTheme();
+  const { trackBlogRead } = useAnalytics();
 
   const { readingTime, wordCount } = frontmatter;
   const baseUrl = 'https://pepryan.github.io/portfolio';
 
   // Generate metadata for CustomHead
   const blogMetadata = useBlogPostMetadata(frontmatter, baseUrl);
+
+  // Track blog post view
+  useEffect(() => {
+    if (frontmatter?.title && frontmatter?.category) {
+      trackBlogRead(frontmatter.title, frontmatter.category, readingTime);
+    }
+  }, [frontmatter?.title, frontmatter?.category, readingTime, trackBlogRead]);
 
   // Get current post index and adjacent posts
   const currentIndex = allPosts.findIndex(post => post.slug === frontmatter.slug);

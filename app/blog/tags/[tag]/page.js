@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
     ? (latestPost.thumbnail.startsWith('http') ? latestPost.thumbnail : `${baseUrl}${latestPost.thumbnail.replace('/portfolio', '')}`)
     : `${baseUrl}/images/default-og-image.png`;
   
-  const title = `Posts tagged "${tag}" | Febryan Portfolio`;
+  const title = `Posts tagged "${tag}" | Febryan Blog`;
   const description = `Explore ${postCount} ${postCount === 1 ? 'post' : 'posts'} about ${tag}. Discover insights, tutorials, and thoughts on ${tag} topics by Febryan Ramadhan.`;
   
   return {

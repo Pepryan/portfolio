@@ -2,14 +2,14 @@ import { getPosts } from '../../lib/getPosts';
 import ArchivePageClient from './ArchivePageClient';
 
 export const metadata = {
-  title: 'Blog Archive | Febryan Portfolio',
+  title: 'Blog Archive | Febryan Blog',
   description: 'Browse all blog posts organized by date. Find technical articles about cloud engineering, DevOps, infrastructure, and automation.',
   keywords: ['blog archive', 'cloud engineering', 'devops', 'infrastructure', 'automation', 'tutorials', 'technical articles'],
   authors: [{ name: 'Febryan Ramadhan', url: 'https://pepryan.github.io/portfolio' }],
   creator: 'Febryan Ramadhan',
   publisher: 'Febryan Portfolio',
   openGraph: {
-    title: 'Blog Archive | Febryan Portfolio',
+    title: 'Blog Archive | Febryan Blog',
     description: 'Browse all blog posts organized by date. Find technical articles about cloud engineering, DevOps, infrastructure, and automation.',
     url: 'https://pepryan.github.io/portfolio/blog/archive',
     siteName: 'Febryan Portfolio',
@@ -26,7 +26,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blog Archive | Febryan Portfolio',
+    title: 'Blog Archive | Febryan Blog',
     description: 'Browse all blog posts organized by date. Find technical articles about cloud engineering, DevOps, infrastructure, and automation.',
     images: ['https://pepryan.github.io/portfolio/images/default-og-image.png'],
     creator: '@pepryan',

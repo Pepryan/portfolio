@@ -1,6 +1,7 @@
 import './globals.css';
 import { ThemeProvider } from './context/ThemeContext';
 import LayoutWrapper from './components/LayoutWrapper';
+import GoogleAnalytics from './components/GoogleAnalytics';
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -98,11 +99,18 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  // Add cache-busting timestamp for favicon
+  const faviconTimestamp = Date.now();
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        {/* Favicon with cache-busting and multiple formats */}
+        <link rel="icon" href={`/portfolio/favicon.ico?v=${faviconTimestamp}`} type="image/x-icon" sizes="16x16" />
+        <link rel="icon" href={`/portfolio/favicon.ico?v=${faviconTimestamp}`} type="image/vnd.microsoft.icon" sizes="16x16 32x32 48x48" />
+        <link rel="shortcut icon" href={`/portfolio/favicon.ico?v=${faviconTimestamp}`} type="image/x-icon" />
+        <link rel="apple-touch-icon" href={`/portfolio/favicon.ico?v=${faviconTimestamp}`} sizes="180x180" />
 
         {/* Default SEO Meta Tags - These will be overridden by page-specific metadata */}
         <title>Febryan Portfolio - Cloud Engineer & DevOps Specialist</title>
@@ -156,6 +164,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body suppressHydrationWarning className="bg-white dark:bg-neutral-900">
+        <GoogleAnalytics />
         <ThemeProvider>
           <LayoutWrapper>
             {children}

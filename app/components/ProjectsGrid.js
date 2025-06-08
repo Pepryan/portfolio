@@ -2,6 +2,7 @@
 import { useRef, useEffect, useState } from 'react';
 import { motion, useInView, useAnimation, AnimatePresence } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiArrowRight, FiFilter } from 'react-icons/fi';
+import { useAnalytics } from './GoogleAnalytics';
 
 // Projects data
 const projects = [
@@ -60,12 +61,17 @@ const ProjectCard = ({ project, index }) => {
   const controls = useAnimation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
-  
+  const { trackProjectView } = useAnalytics();
+
   useEffect(() => {
     if (isInView) {
       controls.start("visible");
     }
   }, [controls, isInView]);
+
+  const handleProjectClick = () => {
+    trackProjectView(project.title, project.category || 'general');
+  };
   
   return (
     <motion.div
@@ -120,6 +126,7 @@ const ProjectCard = ({ project, index }) => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={handleProjectClick}
               className="inline-flex items-center text-base font-medium
                 text-blue-500 dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300
                 transition-colors"
