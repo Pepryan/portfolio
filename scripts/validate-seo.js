@@ -2,186 +2,260 @@
 
 const fs = require('fs');
 const path = require('path');
-const matter = require('gray-matter');
-const chalk = require('chalk');
+const { JSDOM } = require('jsdom');
 
-const POSTS_DIR = path.join(process.cwd(), 'content/posts');
-const REQUIRED_FIELDS = [
+/**
+ * SEO Validation Script for Next.js Portfolio
+ * Validates meta tags, Open Graph, Twitter Cards, and structured data
+ */
+
+const BASE_URL = 'https://pepryan.github.io/portfolio';
+const OUT_DIR = path.join(process.cwd(), 'out');
+
+// Required meta tags for SEO
+const REQUIRED_META_TAGS = [
   'title',
-  'date',
-  'tags',
-  'summary', // Use summary instead of excerpt for consistency
-  'author',
-  'category'
+  'description',
+  'og:title',
+  'og:description', 
+  'og:image',
+  'og:url',
+  'og:type',
+  'twitter:card',
+  'twitter:title',
+  'twitter:description',
+  'twitter:image'
 ];
 
-const RECOMMENDED_FIELDS = [
-  'thumbnail',
-  'keywords',
-  'readingTime',
-  'difficulty',
-  'openGraph',
-  'twitter',
-  'schema'
-];
+// Image dimensions for social media
+const SOCIAL_IMAGE_REQUIREMENTS = {
+  'og:image': { minWidth: 1200, minHeight: 630 },
+  'twitter:image': { minWidth: 1200, minHeight: 630 }
+};
 
-function validatePost(filePath) {
-  const fileName = path.basename(filePath, '.mdx');
-  
-  // Skip template and draft files
-  if (fileName.startsWith('_') || fileName.startsWith('.') || frontmatter.draft) {
-    return null;
-  }
-
-  const fileContent = fs.readFileSync(filePath, 'utf8');
-  const { data: frontmatter } = matter(fileContent);
-  
-  const issues = [];
+function validateMetaTags(dom, filePath) {
+  const document = dom.window.document;
+  const errors = [];
   const warnings = [];
-  
-  // Check required fields
-  REQUIRED_FIELDS.forEach(field => {
-    if (!frontmatter[field]) {
-      issues.push(`Missing required field: ${field}`);
-    }
-  });
-  
-  // Check for deprecated excerpt field (should use summary instead)
-  if (frontmatter.excerpt && !frontmatter.summary) {
-    warnings.push('Using deprecated "excerpt" field. Please use "summary" instead for consistency.');
+  const info = [];
+
+  // Check title
+  const title = document.querySelector('title');
+  if (!title || !title.textContent.trim()) {
+    errors.push('Missing or empty <title> tag');
+  } else if (title.textContent.length > 60) {
+    warnings.push(`Title too long (${title.textContent.length} chars, recommended: <60)`);
   }
 
-  // Validate author information
-  if (frontmatter.author && frontmatter.author !== 'Febryan Ramadhan') {
-    warnings.push(`Author should be "Febryan Ramadhan", found: "${frontmatter.author}"`);
+  // Check meta description
+  const description = document.querySelector('meta[name="description"]');
+  if (!description || !description.getAttribute('content')) {
+    errors.push('Missing meta description');
+  } else {
+    const descLength = description.getAttribute('content').length;
+    if (descLength > 160) {
+      warnings.push(`Meta description too long (${descLength} chars, recommended: <160)`);
+    }
   }
-  
-  // Check recommended fields
-  RECOMMENDED_FIELDS.forEach(field => {
-    if (!frontmatter[field]) {
-      warnings.push(`Missing recommended field: ${field}`);
+
+  // Check Open Graph tags
+  const ogTags = {
+    'og:title': document.querySelector('meta[property="og:title"]'),
+    'og:description': document.querySelector('meta[property="og:description"]'),
+    'og:image': document.querySelector('meta[property="og:image"]'),
+    'og:url': document.querySelector('meta[property="og:url"]'),
+    'og:type': document.querySelector('meta[property="og:type"]'),
+    'og:site_name': document.querySelector('meta[property="og:site_name"]')
+  };
+
+  Object.entries(ogTags).forEach(([tag, element]) => {
+    if (!element || !element.getAttribute('content')) {
+      errors.push(`Missing ${tag} meta tag`);
+    } else {
+      const content = element.getAttribute('content');
+      if (tag === 'og:image' && !content.startsWith('http')) {
+        warnings.push(`${tag} should be absolute URL: ${content}`);
+      }
+      if (tag === 'og:url' && !content.startsWith(BASE_URL)) {
+        warnings.push(`${tag} should match base URL: ${content}`);
+      }
     }
   });
-  
-  // Validate specific fields
-  if (frontmatter.title) {
-    if (frontmatter.title.length > 60) {
-      warnings.push(`Title too long (${frontmatter.title.length} chars, max 60)`);
-    }
-    if (frontmatter.title.length < 10) {
-      warnings.push(`Title too short (${frontmatter.title.length} chars, min 10)`);
-    }
-  }
-  
-  if (frontmatter.summary) {
-    if (frontmatter.summary.length > 160) {
-      warnings.push(`Summary too long (${frontmatter.summary.length} chars, max 160)`);
-    }
-    if (frontmatter.summary.length < 120) {
-      warnings.push(`Summary too short (${frontmatter.summary.length} chars, min 120)`);
-    }
-  }
-  
-  if (frontmatter.tags) {
-    if (frontmatter.tags.length < 3) {
-      warnings.push(`Too few tags (${frontmatter.tags.length}, recommended 3-8)`);
-    }
-    if (frontmatter.tags.length > 8) {
-      warnings.push(`Too many tags (${frontmatter.tags.length}, recommended 3-8)`);
-    }
-  }
-  
-  // Validate Open Graph
-  if (frontmatter.openGraph) {
-    const og = frontmatter.openGraph;
-    if (!og.title) warnings.push('Missing openGraph.title');
-    if (!og.description) warnings.push('Missing openGraph.description');
-    if (!og.image) warnings.push('Missing openGraph.image');
-    if (!og.url) warnings.push('Missing openGraph.url');
-  }
-  
-  // Validate Twitter
-  if (frontmatter.twitter) {
-    const tw = frontmatter.twitter;
-    if (!tw.title) warnings.push('Missing twitter.title');
-    if (!tw.description) warnings.push('Missing twitter.description');
-    if (!tw.image) warnings.push('Missing twitter.image');
-    if (tw.description && tw.description.length > 200) {
-      warnings.push(`Twitter description too long (${tw.description.length} chars, max 200)`);
-    }
-  }
-  
-  // Validate Schema
-  if (frontmatter.schema) {
-    const schema = frontmatter.schema;
-    if (!schema.type) warnings.push('Missing schema.type');
-    if (!schema.headline) warnings.push('Missing schema.headline');
-    if (!schema.description) warnings.push('Missing schema.description');
-  }
-  
-  return {
-    fileName,
-    issues,
-    warnings,
-    frontmatter
+
+  // Check Twitter Card tags
+  const twitterTags = {
+    'twitter:card': document.querySelector('meta[name="twitter:card"]'),
+    'twitter:title': document.querySelector('meta[name="twitter:title"]'),
+    'twitter:description': document.querySelector('meta[name="twitter:description"]'),
+    'twitter:image': document.querySelector('meta[name="twitter:image"]'),
+    'twitter:creator': document.querySelector('meta[name="twitter:creator"]'),
+    'twitter:site': document.querySelector('meta[name="twitter:site"]')
   };
+
+  Object.entries(twitterTags).forEach(([tag, element]) => {
+    if (!element || !element.getAttribute('content')) {
+      if (['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image'].includes(tag)) {
+        errors.push(`Missing ${tag} meta tag`);
+      }
+    } else {
+      const content = element.getAttribute('content');
+      if (tag === 'twitter:image' && !content.startsWith('http')) {
+        warnings.push(`${tag} should be absolute URL: ${content}`);
+      }
+    }
+  });
+
+  // Check canonical URL
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    warnings.push('Missing canonical URL');
+  } else {
+    const href = canonical.getAttribute('href');
+    if (!href.startsWith(BASE_URL)) {
+      warnings.push(`Canonical URL should match base URL: ${href}`);
+    }
+  }
+
+  // Check structured data
+  const structuredData = document.querySelectorAll('script[type="application/ld+json"]');
+  if (structuredData.length === 0) {
+    warnings.push('No structured data (JSON-LD) found');
+  } else {
+    structuredData.forEach((script, index) => {
+      try {
+        JSON.parse(script.textContent);
+        info.push(`Valid JSON-LD schema found (${index + 1})`);
+      } catch (e) {
+        errors.push(`Invalid JSON-LD schema (${index + 1}): ${e.message}`);
+      }
+    });
+  }
+
+  // Check robots meta
+  const robots = document.querySelector('meta[name="robots"]');
+  if (!robots) {
+    warnings.push('Missing robots meta tag');
+  }
+
+  return { errors, warnings, info };
+}
+
+function validateFile(filePath) {
+  try {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const dom = new JSDOM(content);
+    const relativePath = path.relative(OUT_DIR, filePath);
+    
+    console.log(`\n📄 Validating: ${relativePath}`);
+    console.log('─'.repeat(50));
+    
+    const results = validateMetaTags(dom, filePath);
+    
+    if (results.errors.length > 0) {
+      console.log('❌ ERRORS:');
+      results.errors.forEach(error => console.log(`   • ${error}`));
+    }
+    
+    if (results.warnings.length > 0) {
+      console.log('⚠️  WARNINGS:');
+      results.warnings.forEach(warning => console.log(`   • ${warning}`));
+    }
+    
+    if (results.info.length > 0) {
+      console.log('ℹ️  INFO:');
+      results.info.forEach(info => console.log(`   • ${info}`));
+    }
+    
+    if (results.errors.length === 0 && results.warnings.length === 0) {
+      console.log('✅ All SEO checks passed!');
+    }
+    
+    return results;
+  } catch (error) {
+    console.error(`Error validating ${filePath}:`, error.message);
+    return { errors: [error.message], warnings: [], info: [] };
+  }
+}
+
+function findHtmlFiles(dir) {
+  const files = [];
+  
+  function traverse(currentDir) {
+    const items = fs.readdirSync(currentDir);
+    
+    for (const item of items) {
+      const fullPath = path.join(currentDir, item);
+      const stat = fs.statSync(fullPath);
+      
+      if (stat.isDirectory()) {
+        traverse(fullPath);
+      } else if (item === 'index.html') {
+        files.push(fullPath);
+      }
+    }
+  }
+  
+  traverse(dir);
+  return files;
 }
 
 function main() {
-  console.log(chalk.blue.bold('🔍 SEO Metadata Validation\n'));
+  console.log('🔍 SEO Validation Report');
+  console.log('='.repeat(50));
   
-  const files = fs.readdirSync(POSTS_DIR)
-    .filter(file => file.endsWith('.mdx'))
-    .map(file => path.join(POSTS_DIR, file));
+  if (!fs.existsSync(OUT_DIR)) {
+    console.error('❌ Build output directory not found. Run "npm run build" first.');
+    process.exit(1);
+  }
   
-  let totalIssues = 0;
+  const htmlFiles = findHtmlFiles(OUT_DIR);
+  
+  if (htmlFiles.length === 0) {
+    console.error('❌ No HTML files found in build output.');
+    process.exit(1);
+  }
+  
+  let totalErrors = 0;
   let totalWarnings = 0;
   
-  files.forEach(filePath => {
-    const result = validatePost(filePath);
-    
-    if (!result) return;
-    
-    const { fileName, issues, warnings } = result;
-    
-    console.log(chalk.cyan.bold(`📄 ${fileName}`));
-    
-    if (issues.length === 0 && warnings.length === 0) {
-      console.log(chalk.green('  ✅ All checks passed!'));
-    } else {
-      if (issues.length > 0) {
-        console.log(chalk.red.bold('  ❌ Issues:'));
-        issues.forEach(issue => {
-          console.log(chalk.red(`    • ${issue}`));
-        });
-        totalIssues += issues.length;
-      }
-      
-      if (warnings.length > 0) {
-        console.log(chalk.yellow.bold('  ⚠️  Warnings:'));
-        warnings.forEach(warning => {
-          console.log(chalk.yellow(`    • ${warning}`));
-        });
-        totalWarnings += warnings.length;
-      }
-    }
-    
-    console.log('');
-  });
+  // Validate key pages
+  const keyPages = [
+    'index.html', // Homepage
+    'blog/index.html', // Blog listing
+  ];
   
-  // Summary
-  console.log(chalk.blue.bold('📊 Summary:'));
-  console.log(`  Files checked: ${files.length}`);
-  console.log(`  Total issues: ${chalk.red.bold(totalIssues)}`);
-  console.log(`  Total warnings: ${chalk.yellow.bold(totalWarnings)}`);
+  // Find and validate blog posts
+  const blogPosts = htmlFiles.filter(file => 
+    file.includes('/blog/') && 
+    !file.includes('/tags/') && 
+    !file.includes('/archive/') &&
+    file !== path.join(OUT_DIR, 'blog/index.html')
+  ).slice(0, 3); // Validate first 3 blog posts
   
-  if (totalIssues === 0 && totalWarnings === 0) {
-    console.log(chalk.green.bold('\n🎉 All posts have optimal SEO metadata!'));
-  } else if (totalIssues === 0) {
-    console.log(chalk.yellow.bold('\n✨ No critical issues found, but consider addressing warnings for better SEO.'));
-  } else {
-    console.log(chalk.red.bold('\n🚨 Please fix the issues above for optimal SEO performance.'));
+  const filesToValidate = [
+    ...keyPages.map(page => path.join(OUT_DIR, page)).filter(fs.existsSync),
+    ...blogPosts
+  ];
+  
+  for (const file of filesToValidate) {
+    const results = validateFile(file);
+    totalErrors += results.errors.length;
+    totalWarnings += results.warnings.length;
+  }
+  
+  console.log('\n📊 SUMMARY');
+  console.log('='.repeat(50));
+  console.log(`Files validated: ${filesToValidate.length}`);
+  console.log(`Total errors: ${totalErrors}`);
+  console.log(`Total warnings: ${totalWarnings}`);
+  
+  if (totalErrors > 0) {
+    console.log('\n❌ SEO validation failed. Please fix the errors above.');
     process.exit(1);
+  } else if (totalWarnings > 0) {
+    console.log('\n⚠️  SEO validation passed with warnings. Consider addressing them.');
+  } else {
+    console.log('\n✅ All SEO validations passed!');
   }
 }
 
@@ -189,4 +263,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { validatePost };
+module.exports = { validateMetaTags, validateFile };

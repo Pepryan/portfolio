@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { FiCalendar, FiClock, FiTag, FiArrowLeft, FiChevronDown, FiX } from 'react-icons/fi';
 import Header from '../components/Header';
 import Image from 'next/image';
+import CustomHead from '../components/CustomHead';
 
 // Add PaginationButton component
 const PaginationButton = ({ onClick, disabled, children, active }) => {
@@ -41,6 +42,59 @@ export default function BlogList({ posts }) {
   // Add pagination state
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 5;
+
+  // Generate metadata for blog listing page
+  const blogMetadata = useMemo(() => {
+    const publishedPosts = posts.filter(post => !post.draft && !post.hidden);
+    const postCount = publishedPosts.length;
+    const latestPost = publishedPosts[0];
+
+    // Get all unique tags for keywords
+    const allTags = new Set();
+    publishedPosts.forEach(post => {
+      if (post.tags) {
+        post.tags.forEach(tag => allTags.add(tag.toLowerCase()));
+      }
+    });
+    const dynamicKeywords = ['blog', 'cloud engineering', 'devops', 'infrastructure', 'automation', ...Array.from(allTags)];
+
+    const dynamicDescription = `Explore ${postCount} technical blog posts about cloud engineering, DevOps, infrastructure, automation, and modern web development by Febryan Ramadhan.${latestPost ? ` Latest: ${latestPost.title}` : ''}`;
+
+    const metaImage = latestPost?.thumbnail ?
+      (latestPost.thumbnail.startsWith('http') ? latestPost.thumbnail : `https://pepryan.github.io/portfolio${latestPost.thumbnail.replace('/portfolio', '')}`) :
+      'https://pepryan.github.io/portfolio/images/default-og-image.png';
+
+    return {
+      title: 'Blog | Febryan Portfolio',
+      description: dynamicDescription,
+      keywords: dynamicKeywords,
+      canonical: 'https://pepryan.github.io/portfolio/blog',
+      openGraph: {
+        title: 'Blog | Febryan Portfolio',
+        description: dynamicDescription,
+        url: 'https://pepryan.github.io/portfolio/blog',
+        type: 'website',
+        siteName: 'Febryan Portfolio',
+        locale: 'id_ID',
+        image: metaImage
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: 'Blog | Febryan Portfolio',
+        description: dynamicDescription,
+        image: metaImage,
+        creator: '@pepryan',
+        site: '@pepryan'
+      },
+      other: {
+        'twitter:domain': 'pepryan.github.io',
+        'twitter:url': 'https://pepryan.github.io/portfolio/blog',
+        'article:author': 'Febryan Ramadhan',
+        'article:section': 'Technology',
+        'blog:post_count': postCount.toString()
+      }
+    };
+  }, [posts]);
 
   const filteredPosts = useMemo(() => {
     let filtered = posts;
@@ -86,6 +140,7 @@ export default function BlogList({ posts }) {
 
   return (
     <div className={`min-h-screen ${darkMode ? 'dark bg-neutral-900' : 'bg-white'}`}>
+      <CustomHead {...blogMetadata} />
       <Header showSearch onSearch={setSearchQuery} />
       
       <main className="max-w-4xl mx-auto px-4 pt-24 pb-16">

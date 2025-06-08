@@ -10,9 +10,65 @@ import Contact from './components/Contact';
 import CareerSection from './components/CareerSection';
 import Footer from './components/Footer';
 import PortfolioSection from './components/PortfolioSection';
-import { Metadata } from 'next';
+import CustomHead from './components/CustomHead';
 
-// Since this is a client component, metadata is handled in layout.js
+// Homepage metadata for SEO
+const homeMetadata = {
+  title: 'Febryan Portfolio - Cloud Engineer & DevOps Specialist',
+  description: 'Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation. Sharing tutorials and insights about modern technology.',
+  keywords: ['portfolio', 'blog', 'web development', 'javascript', 'react', 'next.js', 'cloud engineer', 'devops', 'infrastructure', 'automation'],
+  canonical: 'https://pepryan.github.io/portfolio',
+  openGraph: {
+    title: 'Febryan Portfolio - Cloud Engineer & DevOps Specialist',
+    description: 'Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation.',
+    url: 'https://pepryan.github.io/portfolio',
+    type: 'website',
+    siteName: 'Febryan Portfolio',
+    locale: 'id_ID',
+    image: 'https://pepryan.github.io/portfolio/images/default-og-image.png'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Febryan Portfolio - Cloud Engineer & DevOps Specialist',
+    description: 'Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation.',
+    image: 'https://pepryan.github.io/portfolio/images/default-og-image.png',
+    creator: '@pepryan',
+    site: '@pepryan'
+  },
+  structuredData: {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://pepryan.github.io/portfolio/#person",
+    "name": "Febryan Ramadhan",
+    "url": "https://pepryan.github.io/portfolio",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://pepryan.github.io/portfolio/images/default-og-image.png",
+      "width": 1200,
+      "height": 630
+    },
+    "description": "Cloud Engineer specializing in DevOps, Infrastructure, and Automation",
+    "jobTitle": "Cloud Engineer & DevOps Specialist",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Technology Industry"
+    },
+    "knowsAbout": [
+      "Cloud Computing",
+      "DevOps",
+      "Infrastructure as Code",
+      "Automation",
+      "Web Development",
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "sameAs": [
+      "https://github.com/pepryan",
+      "https://twitter.com/pepryan"
+    ]
+  }
+};
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -61,6 +117,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-neutral-900">
+      <CustomHead {...homeMetadata} />
       <Header />
 
       <main className="max-w-7xl mx-auto px-4 py-4 mb-10">

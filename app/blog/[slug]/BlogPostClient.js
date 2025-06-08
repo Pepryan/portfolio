@@ -13,12 +13,17 @@ import RelatedPosts from '../../components/RelatedPosts';
 import ReadingProgress from '../../components/ReadingProgress';
 import GiscusComments from '../../components/GiscusComments';
 import StructuredData from '../../components/StructuredData';
+import CustomHead from '../../components/CustomHead';
+import { useBlogPostMetadata } from '../../hooks/useMetadata';
 
 export default function BlogPostClient({ content, frontmatter, allPosts }) {
   const { darkMode } = useTheme();
-  
+
   const { readingTime, wordCount } = frontmatter;
   const baseUrl = 'https://pepryan.github.io/portfolio';
+
+  // Generate metadata for CustomHead
+  const blogMetadata = useBlogPostMetadata(frontmatter, baseUrl);
 
   // Get current post index and adjacent posts
   const currentIndex = allPosts.findIndex(post => post.slug === frontmatter.slug);
@@ -27,6 +32,7 @@ export default function BlogPostClient({ content, frontmatter, allPosts }) {
 
   return (
     <>
+      <CustomHead {...blogMetadata} />
       <StructuredData post={frontmatter} baseUrl={baseUrl} />
       <div className={`min-h-screen ${darkMode ? 'dark bg-neutral-900' : 'bg-white'}`}>
       <Header />
