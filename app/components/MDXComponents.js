@@ -8,12 +8,19 @@ import { createPortal } from 'react-dom';
 // Create a proper React component for pre
 const PreBlock = ({ children, ...props }) => {
   const [copied, setCopied] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const preRef = useRef(null);
 
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const handleCopy = async () => {
+    if (!isMounted) return;
+
     const codeElement = preRef.current?.querySelector('code');
     const textToCopy = codeElement?.textContent || '';
-    
+
     try {
       await navigator.clipboard.writeText(textToCopy);
       setCopied(true);
@@ -23,13 +30,18 @@ const PreBlock = ({ children, ...props }) => {
     }
   };
 
+  // Return simple pre element during SSR
+  if (!isMounted) {
+    return <pre {...props}>{children}</pre>;
+  }
+
   return (
     <div className="relative group">
       <pre ref={preRef} {...props}>{children}</pre>
       <button
         onClick={handleCopy}
-        className="absolute right-2 top-2 p-2 rounded-md 
-          bg-neutral-100 dark:bg-neutral-800 
+        className="absolute right-2 top-2 p-2 rounded-md
+          bg-neutral-100 dark:bg-neutral-800
           text-neutral-600 dark:text-neutral-400
           opacity-0 group-hover:opacity-100 transition-opacity"
         aria-label="Copy code"
@@ -53,9 +65,24 @@ const ImageWithLightbox = (props) => {
     setIsMounted(true);
   }, []);
 
+  // Return simple image during SSR
+  if (!isMounted) {
+    return (
+      <Image
+        {...props}
+        width={800}
+        height={400}
+        style={{ height: 'auto' }}
+        priority={true}
+        className="my-8 rounded-lg"
+        alt={props.alt || ''}
+      />
+    );
+  }
+
   return (
     <>
-      <span 
+      <span
         role="button"
         tabIndex={0}
         className="inline-block"
@@ -76,13 +103,13 @@ const ImageWithLightbox = (props) => {
       </span>
 
       {isOpen && isMounted && createPortal(
-        <div 
+        <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
           onClick={() => setIsOpen(false)}
           role="dialog"
           aria-modal="true"
         >
-          <button 
+          <button
             className="absolute top-4 right-4 p-2 text-white hover:text-gray-300 transition-colors"
             onClick={(e) => {
               e.stopPropagation();
@@ -92,7 +119,7 @@ const ImageWithLightbox = (props) => {
           >
             <FiX className="w-6 h-6" />
           </button>
-          
+
           <Image
             {...props}
             width={1200}
@@ -109,6 +136,23 @@ const ImageWithLightbox = (props) => {
     </>
   );
 };
+
+// Simple fallback components for SSR
+const SimpleImage = (props) => (
+  <Image
+    {...props}
+    width={800}
+    height={400}
+    style={{ height: 'auto' }}
+    priority={true}
+    className="my-8 rounded-lg"
+    alt={props.alt || ''}
+  />
+);
+
+const SimplePre = ({ children, ...props }) => (
+  <pre {...props}>{children}</pre>
+);
 
 const MDXComponents = {
   // Basic elements
@@ -133,6 +177,17 @@ const MDXComponents = {
   //     </code>
   //   );
   // }
+};
+
+// Export simple components for SSR
+export const SSRComponents = {
+  img: SimpleImage,
+  a: ({ href, children }) => (
+    <Link href={href} className="text-blue-500 hover:text-blue-600">
+      {children}
+    </Link>
+  ),
+  pre: SimplePre,
 };
 
 export default MDXComponents; 

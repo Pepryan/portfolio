@@ -205,11 +205,7 @@ export default async function BlogPost({ params }) {
     const words = post.content ? post.content.trim().split(/\s+/).length : 0;
     const readingTime = Math.ceil(words / 200);
 
-    const mdxSource = await serialize(post.content, {
-      mdxOptions,
-      parseFrontmatter: true,
-    });
-    
+    // Pass raw content instead of serialized to avoid SSR issues
     const enhancedFrontmatter = {
       ...post,
       readingTime,
@@ -273,8 +269,8 @@ export default async function BlogPost({ params }) {
             __html: JSON.stringify(structuredData),
           }}
         />
-        <BlogPostClient 
-          content={mdxSource} 
+        <BlogPostClient
+          content={post.content}
           frontmatter={enhancedFrontmatter}
           allPosts={allPosts}
         />

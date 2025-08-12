@@ -59,6 +59,12 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState(20);
   const [mounted, setMounted] = useState(false);
   const timerRef = useRef(null);
+  const timeLeftRef = useRef(20);
+
+  // Update ref when timeLeft changes
+  useEffect(() => {
+    timeLeftRef.current = timeLeft;
+  }, [timeLeft]);
 
   useEffect(() => {
     setMounted(true);
@@ -77,7 +83,7 @@ export default function Home() {
 
     // Block navigation
     const handleBeforeUnload = (e) => {
-      if (timeLeft > 0) {
+      if (timeLeftRef.current > 0) {
         e.preventDefault();
         e.returnValue = '';
       }
