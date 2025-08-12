@@ -1,2633 +1,19 @@
 1:"$Sreact.fragment"
-2:I[5798,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-6dbc5343b110f9a9.js"],"default"]
-3:I[3932,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-6dbc5343b110f9a9.js"],"ThemeProvider"]
-4:I[843,["844","static/chunks/ee560e2c-464c506caba219a9.js","177","static/chunks/app/layout-6dbc5343b110f9a9.js"],"default"]
-5:I[7555,[],""]
-6:I[1295,[],""]
-7:I[4584,["844","static/chunks/ee560e2c-464c506caba219a9.js","995","static/chunks/995-3c65e67e129e1284.js","386","static/chunks/386-4fa6d2fd7019e374.js","345","static/chunks/app/not-found-d5400e1cd07885a4.js"],"default"]
-9:I[9665,[],"MetadataBoundary"]
-b:I[9665,[],"OutletBoundary"]
-e:I[4911,[],"AsyncMetadataOutlet"]
-10:I[9665,[],"ViewportBoundary"]
-12:I[6614,[],""]
-:HL["/portfolio/_next/static/css/8eb7c403cc6c328e.css","style"]
-0:{"P":null,"b":"8i_UlS8HrG4e2zAZRwcHI","p":"/portfolio","c":["","blog","install-kvm-wsl2-virtualization",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","install-kvm-wsl2-virtualization","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/8eb7c403cc6c328e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"icon","href":"/portfolio/favicon.ico?v=1749364652357","type":"image/x-icon","sizes":"16x16"}],["$","link",null,{"rel":"icon","href":"/portfolio/favicon.ico?v=1749364652357","type":"image/vnd.microsoft.icon","sizes":"16x16 32x32 48x48"}],["$","link",null,{"rel":"shortcut icon","href":"/portfolio/favicon.ico?v=1749364652357","type":"image/x-icon"}],["$","link",null,{"rel":"apple-touch-icon","href":"/portfolio/favicon.ico?v=1749364652357","sizes":"180x180"}],["$","title",null,{"children":"Febryan Portfolio - Cloud Engineer & DevOps Specialist"}],["$","meta",null,{"name":"description","content":"Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation. Sharing tutorials and insights about modern technology."}],["$","meta",null,{"name":"keywords","content":"portfolio,blog,web development,javascript,react,next.js,cloud engineer,devops,infrastructure,automation"}],["$","meta",null,{"name":"author","content":"Febryan Ramadhan"}],["$","meta",null,{"name":"creator","content":"Febryan Ramadhan"}],["$","meta",null,{"name":"publisher","content":"Febryan Portfolio"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","link",null,{"rel":"canonical","href":"https://pepryan.github.io/portfolio"}],["$","meta",null,{"property":"og:title","content":"Febryan Portfolio - Cloud Engineer & DevOps Specialist"}],["$","meta",null,{"property":"og:description","content":"Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation."}],["$","meta",null,{"property":"og:image","content":"https://pepryan.github.io/portfolio/images/default-og-image.png"}],["$","meta",null,{"property":"og:url","content":"https://pepryan.github.io/portfolio"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta",null,{"property":"og:locale","content":"id_ID"}],["$","meta",null,{"property":"og:image:width","content":"1200"}],["$","meta",null,{"property":"og:image:height","content":"630"}],["$","meta",null,{"property":"og:image:type","content":"image/png"}],["$","meta",null,{"property":"og:image:alt","content":"Febryan Portfolio - Cloud Engineer & DevOps Specialist"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Febryan Portfolio - Cloud Engineer & DevOps Specialist"}],["$","meta",null,{"name":"twitter:description","content":"Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation."}],["$","meta",null,{"name":"twitter:image","content":"https://pepryan.github.io/portfolio/images/default-og-image.png"}],["$","meta",null,{"name":"twitter:creator","content":"@pepryan"}],["$","meta",null,{"name":"twitter:site","content":"@pepryan"}],["$","meta",null,{"name":"twitter:domain","content":"pepryan.github.io"}],["$","meta",null,{"name":"twitter:url","content":"https://pepryan.github.io/portfolio"}],["$","meta",null,{"name":"theme-color","content":"#000000"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"apple-mobile-web-app-capable","content":"yes"}],["$","meta",null,{"name":"apple-mobile-web-app-status-bar-style","content":"default"}],["$","meta",null,{"name":"format-detection","content":"telephone=no"}],["$","meta",null,{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://pepryan.github.io/portfolio/#person\",\"name\":\"Febryan Ramadhan\",\"url\":\"https://pepryan.github.io/portfolio\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://pepryan.github.io/portfolio/images/default-og-image.png\",\"width\":1200,\"height\":630},\"description\":\"Cloud Engineer specializing in DevOps, Infrastructure, and Automation\",\"jobTitle\":\"Cloud Engineer & DevOps Specialist\",\"worksFor\":{\"@type\":\"Organization\",\"name\":\"Technology Industry\"},\"knowsAbout\":[\"Cloud Computing\",\"DevOps\",\"Infrastructure as Code\",\"Automation\",\"Web Development\",\"JavaScript\",\"React\",\"Next.js\"],\"sameAs\":[\"https://github.com/pepryan\",\"https://twitter.com/pepryan\"]}"}}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-white dark:bg-neutral-900","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L7",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","install-kvm-wsl2-virtualization","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","fGgNMM7eRl3qqdm39IMv1",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
-13:"$Sreact.suspense"
-14:I[4911,[],"AsyncMetadata"]
-a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]
-d:null
-11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-c:null
-15:{"metadata":[["$","title","0",{"children":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup | Febryan Blog | Febryan Portfolio"}],["$","meta","1",{"name":"description","content":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!"}],["$","link","2",{"rel":"author","href":"https://pepryan.github.io/portfolio"}],["$","meta","3",{"name":"author","content":"Febryan Ramadhan"}],["$","meta","4",{"name":"keywords","content":"kvm,wsl2,virtualization,homelab,infrastructure,terraform,libvirt,kvm,wsl2,virtualization,homelab,linux,windows,blog,tutorial,febryan portfolio"}],["$","meta","5",{"name":"creator","content":"Febryan Ramadhan"}],["$","meta","6",{"name":"publisher","content":"Febryan Portfolio"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"DevOps"}],["$","meta","10",{"name":"twitter:domain","content":"pepryan.github.io"}],["$","meta","11",{"name":"twitter:url","content":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization"}],["$","meta","12",{"name":"theme-color","content":"#000000"}],["$","meta","13",{"name":"msapplication-TileColor","content":"#000000"}],["$","meta","14",{"name":"apple-mobile-web-app-capable","content":"yes"}],["$","meta","15",{"name":"apple-mobile-web-app-status-bar-style","content":"default"}],["$","meta","16",{"name":"format-detection","content":"telephone=no"}],["$","meta","17",{"name":"application/ld+json","content":"{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"@id\":\"https://pepryan.github.io/portfolio/#person\",\"name\":\"Febryan Ramadhan\",\"url\":\"https://pepryan.github.io/portfolio\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://pepryan.github.io/portfolio/images/default-og-image.png\",\"width\":1200,\"height\":630},\"description\":\"Cloud Engineer specializing in DevOps, Infrastructure, and Automation\",\"jobTitle\":\"Cloud Engineer & DevOps Specialist\",\"worksFor\":{\"@type\":\"Organization\",\"name\":\"Technology Industry\"},\"knowsAbout\":[\"Cloud Computing\",\"DevOps\",\"Infrastructure as Code\",\"Automation\",\"Web Development\",\"JavaScript\",\"React\",\"Next.js\"],\"sameAs\":[\"https://github.com/pepryan\",\"https://twitter.com/pepryan\"]}"}],["$","meta","18",{"name":"article:author","content":"Febryan Ramadhan"}],["$","meta","19",{"name":"article:published_time","content":"2025-06-04"}],["$","meta","20",{"name":"article:modified_time","content":"2025-06-04"}],["$","meta","21",{"name":"article:section","content":"DevOps"}],["$","meta","22",{"name":"article:tag","content":"kvm, wsl2, virtualization, homelab, infrastructure, terraform, libvirt"}],["$","meta","23",{"name":"difficulty","content":"Intermediate"}],["$","meta","24",{"name":"reading-time","content":"6 minutes"}],["$","meta","25",{"name":"og:image:width","content":"1200"}],["$","meta","26",{"name":"og:image:height","content":"630"}],["$","meta","27",{"name":"og:image:type","content":"image/png"}],["$","link","28",{"rel":"canonical","href":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/"}],["$","meta","29",{"property":"og:title","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","30",{"property":"og:description","content":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."}],["$","meta","31",{"property":"og:url","content":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/"}],["$","meta","32",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","33",{"property":"og:locale","content":"id_ID"}],["$","meta","34",{"property":"og:image","content":"https://pepryan.github.io/portfolio/images/default-og-image.png"}],["$","meta","35",{"property":"og:image:width","content":"1200"}],["$","meta","36",{"property":"og:image:height","content":"630"}],["$","meta","37",{"property":"og:image:alt","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","38",{"property":"og:type","content":"article"}],["$","meta","39",{"property":"article:published_time","content":"2025-06-04"}],["$","meta","40",{"property":"article:modified_time","content":"2025-06-04"}],["$","meta","41",{"property":"article:author","content":"Febryan Ramadhan"}],["$","meta","42",{"property":"article:tag","content":"kvm"}],["$","meta","43",{"property":"article:tag","content":"wsl2"}],["$","meta","44",{"property":"article:tag","content":"virtualization"}],["$","meta","45",{"property":"article:tag","content":"homelab"}],["$","meta","46",{"property":"article:tag","content":"infrastructure"}],["$","meta","47",{"property":"article:tag","content":"terraform"}],["$","meta","48",{"property":"article:tag","content":"libvirt"}],["$","meta","49",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","50",{"name":"twitter:site","content":"@pepryan"}],["$","meta","51",{"name":"twitter:creator","content":"@pepryan"}],["$","meta","52",{"name":"twitter:title","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","53",{"name":"twitter:description","content":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."}],["$","meta","54",{"name":"twitter:image","content":"https://pepryan.github.io/portfolio/images/default-og-image.png"}]],"error":null,"digest":"$undefined"}
-f:{"metadata":"$15:metadata","error":null,"digest":"$undefined"}
-17:I[9546,["844","static/chunks/ee560e2c-464c506caba219a9.js","446","static/chunks/53c13509-a7b9549d354fe68a.js","995","static/chunks/995-3c65e67e129e1284.js","386","static/chunks/386-4fa6d2fd7019e374.js","199","static/chunks/199-d093a063259025e5.js","597","static/chunks/597-53a3d37dc4ea2b64.js","953","static/chunks/app/blog/%5Bslug%5D/page-2ed24fd58b8b207c.js"],"default",1]
-16:T4f4,{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization#article","headline":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","description":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","image":{"@type":"ImageObject","url":"https://pepryan.github.io/portfolio/images/default-og-image.png","width":1200,"height":630},"author":{"@type":"Person","name":"Febryan Ramadhan","url":"https://pepryan.github.io/portfolio"},"publisher":{"@type":"Organization","name":"Febryan Portfolio","logo":{"@type":"ImageObject","url":"https://pepryan.github.io/portfolio/images/default-og-image.png","width":1200,"height":630}},"datePublished":"2025-06-04","dateModified":"2025-06-04","mainEntityOfPage":{"@type":"WebPage","@id":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization"},"url":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization","keywords":"kvm, wsl2, virtualization, homelab, infrastructure, terraform, libvirt, kvm, wsl2, virtualization, homelab, linux, windows","articleSection":"DevOps","wordCount":1059,"timeRequired":"PT6M","inLanguage":"id-ID"}18:T14ae6,"use strict";
-const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
-const {useMDXComponents: _provideComponents} = arguments[0];
-function _createMdxContent(props) {
-  const _components = {
-    a: "a",
-    blockquote: "blockquote",
-    br: "br",
-    code: "code",
-    em: "em",
-    figure: "figure",
-    h2: "h2",
-    h3: "h3",
-    hr: "hr",
-    li: "li",
-    ol: "ol",
-    p: "p",
-    pre: "pre",
-    span: "span",
-    strong: "strong",
-    ul: "ul",
-    ..._provideComponents(),
-    ...props.components
-  };
-  return _jsxs(_Fragment, {
-    children: [_jsxs(_components.blockquote, {
-      children: ["\n", _jsxs(_components.p, {
-        children: [_jsx(_components.strong, {
-          children: "TL;DR"
-        }), ": Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀"]
-      }), "\n"]
-    }), "\n", _jsx(_components.h2, {
-      children: "Kenapa Harus Repot-repot? 🤔"
-    }), "\n", _jsx(_components.p, {
-      children: "Sebelum kita dive in, mungkin ada yang bertanya: \"Ngapain sih ribet-ribet setup KVM di laptop kalau bisa sewa VPS?\""
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.strong, {
-        children: "Simple answer"
-      }), ": Skills > Money 💪"]
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "VPS costs money"
-        }), " yang mungkin belum ada sebagai fresh graduate"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Learning by doing"
-        }), " jauh lebih powerful daripada cuma baca-baca teori"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Portfolio builder"
-        }), " - recruiter bakal impressed sama yang punya pengalaman hands-on"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Flexibility"
-        }), " - bisa eksperimen sebanyak yang diinginkan tanpa takut tagihan membengkak"]
-      }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "🔧 Pre-requisites: Yang Dibutuhin"
-    }), "\n", _jsx(_components.p, {
-      children: "Before we start, pastikan sudah punya:"
-    }), "\n", _jsxs(_components.p, {
-      children: ["✅ ", _jsx(_components.strong, {
-        children: "Windows 10/11"
-      }), " dengan WSL2 enabled", _jsx(_components.br, {}), "\n", "✅ ", _jsx(_components.strong, {
-        children: "Minimal 8GB RAM"
-      }), " (16GB recommended kalau mau nyaman)", _jsx(_components.br, {}), "\n", "✅ ", _jsx(_components.strong, {
-        children: "CPU yang support virtualization"
-      }), " (Intel VT-x atau AMD-V)", _jsx(_components.br, {}), "\n", "✅ ", _jsx(_components.strong, {
-        children: "Space kosong minimal 50GB"
-      }), " buat VM-VM nanti", _jsx(_components.br, {}), "\n", "✅ ", _jsx(_components.strong, {
-        children: "Mental yang kuat"
-      }), " buat debugging (this is important! 😅)"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "🚀 Step 1: Setup Foundation - Enable Nested Virtualization"
-    }), "\n", _jsx(_components.p, {
-      children: "First things first, kita perlu mastiin nested virtualization aktif. Ini basically virtualization di dalam virtualization - mind blown right? 🤯"
-    }), "\n", _jsx(_components.h3, {
-      children: "Cek Status Current"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsx(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "cat"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /sys/module/kvm_intel/parameters/nested"
-            })]
-          })
-        })
-      })
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.strong, {
-        children: "Expected output"
-      }), ": ", _jsx(_components.span, {
-        "data-rehype-pretty-code-figure": "",
-        children: _jsx(_components.code, {
-          "data-language": "plaintext",
-          "data-theme": "night-owl",
-          style: {
-            backgroundColor: "#011627",
-            color: "#d6deeb"
-          },
-          children: _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              children: "Y"
-            })
-          })
-        })
-      }), " (kalau Intel) atau cek ", _jsx(_components.span, {
-        "data-rehype-pretty-code-figure": "",
-        children: _jsx(_components.code, {
-          "data-language": "plaintext",
-          "data-theme": "night-owl",
-          style: {
-            backgroundColor: "#011627",
-            color: "#d6deeb"
-          },
-          children: _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              children: "/sys/module/kvm_amd/parameters/nested"
-            })
-          })
-        })
-      }), " kalau AMD."]
-    }), "\n", _jsx(_components.h3, {
-      children: "Kalau Belum Aktif..."
-    }), "\n", _jsxs(_components.p, {
-      children: ["Buka ", _jsx(_components.strong, {
-        children: "PowerShell as Administrator"
-      }), " di Windows, terus jalanin:"]
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "powershell",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "powershell",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Cek nama WSL distro"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "wsl "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C792EA"
-              },
-              children: "--"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "list "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C792EA"
-              },
-              children: "--"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "verbose"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Replace 'Ubuntu' dengan nama distro"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "wsl "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C792EA"
-              },
-              children: "--"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "shutdown Ubuntu"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#7FDBCAFF"
-              },
-              children: "Get-VMProcessor"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C792EA"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "VMName "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: "\""
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "Ubuntu"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: "\""
-            }), _jsx(_components.span, {
-              style: {
-                color: "#7FDBCA"
-              },
-              children: " |"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#7FDBCAFF"
-              },
-              children: " Set-VMProcessor"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C792EA"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "ExposeVirtualizationExtensions "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "$true"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "wsl "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C792EA"
-              },
-              children: "-"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: "d Ubuntu"
-            })]
-          })]
-        })
-      })
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.strong, {
-        children: "Pro tip"
-      }), ": Kalau command di atas error, coba restart Windows dulu. Sometimes Windows just needs a good ol' reboot 🔄"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "🛠️ Step 2: Install KVM Stack - The Real Deal"
-    }), "\n", _jsx(_components.p, {
-      children: "Sekarang saatnya install semua tools yang dibutuhin. Copy-paste is your friend here:"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Update system dulu biar gak ada drama"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " apt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " update"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: " && "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " apt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " upgrade"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -y"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Install KVM dan kawan-kawannya"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " apt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " install"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -y"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  qemu-system"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  qemu-utils"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  libvirt-clients"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  libvirt-daemon-system"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  bridge-utils"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  virt-manager"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  cpu-checker"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  libguestfs-tools"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  libosinfo-bin"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Bonus tools yang bakal berguna nanti"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " apt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " install"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -y"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  python3"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  python3-pip"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  genisoimage"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  wget"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  curl"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  unzip"
-            })
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.h3, {
-      children: "Add User ke Libvirt Group"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " usermod"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -aG"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " libvirt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C5E478"
-              },
-              children: " $USER"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " usermod"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -aG"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " kvm"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C5E478"
-              },
-              children: " $USER"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Logout terus login lagi biar changes take effect"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#C5E478",
-                fontStyle: "italic"
-              },
-              children: "exit"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Buka WSL lagi"
-            })
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "⚡ Step 3: Fire Up the Services"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Enable dan start libvirt services"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " systemctl"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " enable"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " --now"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " libvirtd"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " systemctl"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " enable"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " --now"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " virtlogd"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Cek status - harus running semua"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " systemctl"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " status"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " libvirtd"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " systemctl"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " status"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " virtlogd"
-            })]
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.h3, {
-      children: "Validation Time! 🎯"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Command ini bakal ngecek semua requirements"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " virt-host-validate"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Kalau ada yang FAIL, jangan panik dulu"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Beberapa warnings itu normal di environment WSL2"
-            })
-          })]
-        })
-      })
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.strong, {
-        children: "What to expect"
-      }), ": Beberapa checks mungkin WARN atau FAIL, especially yang berkaitan dengan hardware security. That's totally fine untuk learning environment!"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "🏗️ Step 4: Setup Terraform + Libvirt Provider"
-    }), "\n", _jsx(_components.p, {
-      children: "Sekarang kita bakal install Terraform buat Infrastructure as Code experience yang lebih pro:"
-    }), "\n", _jsx(_components.h3, {
-      children: "Install Terraform"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Add HashiCorp GPG key"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "wget"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -O-"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " https://apt.releases.hashicorp.com/gpg"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#7FDBCA"
-              },
-              children: " |"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "  sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " gpg"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " --dearmor"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -o"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /usr/share/keyrings/hashicorp-archive-keyring.gpg"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Add repository"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#C5E478",
-                fontStyle: "italic"
-              },
-              children: "echo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: " \""
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: "\\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "https://apt.releases.hashicorp.com $("
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "lsb_release"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -cs"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: ") main"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: "\""
-            }), _jsx(_components.span, {
-              style: {
-                color: "#7FDBCA"
-              },
-              children: " |"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " tee"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /etc/apt/sources.list.d/hashicorp.list"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Install Terraform"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " apt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " update"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D6DEEB"
-              },
-              children: " && "
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " apt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " install"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " terraform"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -y"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Verify installation"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "terraform"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " --version"
-            })]
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.h3, {
-      children: "Setup Libvirt Provider"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Create directory structure"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "mkdir"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -p"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Download libvirt provider (adjust version as needed)"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#C5E478",
-                fontStyle: "italic"
-              },
-              children: "cd"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /tmp"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "wget"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " https://github.com/dmacvicar/terraform-provider-libvirt/releases/download/v0.7.1/terraform-provider-libvirt-0.7.1+git.1f9b302.Ubuntu.amd64.tar.gz"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Extract dan install"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "tar"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -xvf"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " terraform-provider-libvirt-"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#7FDBCA"
-              },
-              children: "*"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: ".tar.gz"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "mv"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " terraform-provider-libvirt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64/"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "chmod"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " +x"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64/terraform-provider-libvirt"
-            })]
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "💾 Step 5: Storage Management yang Rapi"
-    }), "\n", _jsx(_components.p, {
-      children: "Kita perlu setup storage pools buat organize ISO files dan VM disks. Think of it as creating folders, but fancier:"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Create directories"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " mkdir"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -p"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /data/isos"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " mkdir"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -p"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /data/vms"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " chown"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -R"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C5E478"
-              },
-              children: " $USER"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: ":"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C5E478"
-              },
-              children: "$USER"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /data/"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Define storage pools"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " pool-define-as"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " vms"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " dir"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: " \""
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "/data/vms"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: "\""
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " pool-define-as"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " isos"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " dir"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " -"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: " \""
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "/data/isos"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: "\""
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Set autostart (biar otomatis start pas boot)"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " pool-autostart"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " vms"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " pool-autostart"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " isos"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Start the pools"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " pool-start"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " vms"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " pool-start"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " isos"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Verify"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " pool-list"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " --all"
-            })]
-          })]
-        })
-      })
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.strong, {
-        children: "Expected output"
-      }), ": Both pools should show as ", _jsx(_components.strong, {
-        children: "active"
-      }), " dan ", _jsx(_components.strong, {
-        children: "autostart yes"
-      }), "."]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "🌐 Step 6: Virtual Networking Setup"
-    }), "\n", _jsx(_components.p, {
-      children: "Time to create isolated networks buat VM-VM. Ini penting banget buat simulate real-world scenarios:"
-    }), "\n", _jsx(_components.h3, {
-      children: "Create Network Definition"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Create network config file"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "cat"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#7FDBCA"
-              },
-              children: " >"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /tmp/net-lab.xml"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#7FDBCA"
-              },
-              children: " <<"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: " 'EOF'"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "<network>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  <name>net-lab</name>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  <forward mode='nat'>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "    <nat>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "      <port start='1024' end='65535'/>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "    </nat>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  </forward>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  <bridge name='virbr-lab' stp='on' delay='0'/>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  <domain name='lab.local'/>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  <ip address='192.168.100.1' netmask='255.255.255.0'>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "    <dhcp>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "      <range start='192.168.100.10' end='192.168.100.100'/>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "    </dhcp>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "  </ip>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "</network>"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: "EOF"
-            })
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Define and start the network"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " net-define"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /tmp/net-lab.xml"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " net-autostart"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " net-lab"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " net-start"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " net-lab"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Verify"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virsh"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " net-list"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " --all"
-            })]
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "🎯 Step 7: Quick Test - Download dan Test ISO"
-    }), "\n", _jsx(_components.p, {
-      children: "Mari kita test setup dengan download ISO dan create VM pertama:"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Download Ubuntu Server ISO (lightweight option)"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#C5E478",
-                fontStyle: "italic"
-              },
-              children: "cd"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /data/isos"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "wget"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " https://releases.ubuntu.com/22.04/ubuntu-22.04.3-live-server-amd64.iso"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: " "
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Create your first VM via command line"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "virt-install"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --name"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " test-vm"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --ram"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " 1024"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --disk"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " path=/data/vms/test-vm.qcow2,size="
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: "10"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --vcpus"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " 1"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --os-variant"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " ubuntu22.04"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --network"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " network=net-lab"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --graphics"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " none"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --console"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " pty,target_type=serial"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --location"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /data/isos/ubuntu-22.04.3-live-server-amd64.iso"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " \\"
-            })]
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: "  --extra-args"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: " '"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: "console=ttyS0,115200n8 serial"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#D9F5DD"
-              },
-              children: "'"
-            })]
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "🚨 Common Issues & Troubleshooting"
-    }), "\n", _jsx(_components.h3, {
-      children: "\"Permission denied\" errors"
-    }), "\n", _jsx(_components.figure, {
-      "data-rehype-pretty-code-figure": "",
-      children: _jsx(_components.pre, {
-        style: {
-          backgroundColor: "#011627",
-          color: "#d6deeb"
-        },
-        tabIndex: "0",
-        "data-language": "bash",
-        "data-theme": "night-owl",
-        children: _jsxs(_components.code, {
-          "data-language": "bash",
-          "data-theme": "night-owl",
-          style: {
-            display: "grid"
-          },
-          children: [_jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Fix libvirt permissions"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " chmod"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#F78C6C"
-              },
-              children: " 666"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " /var/run/libvirt/libvirt-sock"
-            })]
-          }), "\n", _jsx(_components.span, {
-            "data-line": "",
-            children: _jsx(_components.span, {
-              style: {
-                color: "#637777",
-                fontStyle: "italic"
-              },
-              children: "# Or add to group (better solution)"
-            })
-          }), "\n", _jsxs(_components.span, {
-            "data-line": "",
-            children: [_jsx(_components.span, {
-              style: {
-                color: "#82AAFF",
-                fontStyle: "italic"
-              },
-              children: "sudo"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " usermod"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#82AAFF"
-              },
-              children: " -aG"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#ECC48D"
-              },
-              children: " libvirt"
-            }), _jsx(_components.span, {
-              style: {
-                color: "#C5E478"
-              },
-              children: " $USER"
-            })]
-          })]
-        })
-      })
-    }), "\n", _jsx(_components.h3, {
-      children: "\"Nested virtualization not supported\""
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsx(_components.li, {
-        children: "Restart Windows completely"
-      }), "\n", _jsx(_components.li, {
-        children: "Check BIOS settings - enable Intel VT-x atau AMD-V"
-      }), "\n", _jsx(_components.li, {
-        children: "Verify WSL2 VM settings dalam Hyper-V"
-      }), "\n"]
-    }), "\n", _jsx(_components.h3, {
-      children: "VMs super slow"
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsxs(_components.li, {
-        children: ["Allocate more RAM ke WSL2 di ", _jsx(_components.span, {
-          "data-rehype-pretty-code-figure": "",
-          children: _jsx(_components.code, {
-            "data-language": "plaintext",
-            "data-theme": "night-owl",
-            style: {
-              backgroundColor: "#011627",
-              color: "#d6deeb"
-            },
-            children: _jsx(_components.span, {
-              "data-line": "",
-              children: _jsx(_components.span, {
-                children: ".wslconfig"
-              })
-            })
-          })
-        })]
-      }), "\n", _jsx(_components.li, {
-        children: "Enable CPU extensions di VM creation"
-      }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "🎉 What's Next? Level Up Your Game!"
-    }), "\n", _jsx(_components.p, {
-      children: "Congrats! Sekarang sudah punya homelab KVM yang functional. Selanjutnya bisa:"
-    }), "\n", _jsxs(_components.p, {
-      children: ["🔥 ", _jsx(_components.strong, {
-        children: "Create multi-VM clusters"
-      }), " buat simulate production environments", _jsx(_components.br, {}), "\n", "🔥 ", _jsx(_components.strong, {
-        children: "Experiment dengan Kubernetes"
-      }), " tanpa takut break production", _jsx(_components.br, {}), "\n", "🔥 ", _jsx(_components.strong, {
-        children: "Practice Infrastructure as Code"
-      }), " dengan Terraform", _jsx(_components.br, {}), "\n", "🔥 ", _jsx(_components.strong, {
-        children: "Build CI/CD pipelines"
-      }), " yang deploy ke VM clusters", _jsx(_components.br, {}), "\n", "🔥 ", _jsx(_components.strong, {
-        children: "Learn container orchestration"
-      }), " dengan setup sendiri"]
-    }), "\n", _jsx(_components.h3, {
-      children: "Pro Tips buat Next Steps:"
-    }), "\n", _jsxs(_components.ol, {
-      children: ["\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Automate everything"
-        }), " - Write Terraform configs buat VM provisioning"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Monitor your lab"
-        }), " - Install Prometheus + Grafana"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Practice disaster recovery"
-        }), " - Backup dan restore VMs"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Document everything"
-        }), " - Future self will thank present self"]
-      }), "\n"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.h2, {
-      children: "💭 Closing Thoughts"
-    }), "\n", _jsx(_components.p, {
-      children: "Setup KVM di WSL2 might seem overwhelming di awal, tapi trust me - ini investment terbaik yang bisa dilakukan buat career development. Dengan homelab sendiri, bisa:"
-    }), "\n", _jsxs(_components.ul, {
-      children: ["\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Experiment freely"
-        }), " tanpa takut biaya cloud"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Build real-world experience"
-        }), " yang recruiters appreciate"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Stay updated"
-        }), " dengan latest infrastructure trends"]
-      }), "\n", _jsxs(_components.li, {
-        children: [_jsx(_components.strong, {
-          children: "Debug skills"
-        }), " yang invaluable di production environments"]
-      }), "\n"]
-    }), "\n", _jsxs(_components.p, {
-      children: ["Remember: ", _jsx(_components.strong, {
-        children: "Every senior engineer started somewhere"
-      }), ". Yang penting mulai, learn from mistakes, dan keep iterating. Good luck, dan happy learning! 🚀"]
-    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
-      children: _jsxs(_components.em, {
-        children: ["Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email ", _jsx(_components.a, {
-          href: "mailto:febryanramadhan@gmail.com",
-          children: "febryanramadhan@gmail.com"
-        }), "! Let's build this infrastructure community together 💪"]
-      })
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.strong, {
-        children: "Next post"
-      }), ": \"Bikin Kubernetes Cluster di KVM - From Zero to Hero\" - Stay tuned! 👀"]
-    })]
-  });
-}
-function MDXContent(props = {}) {
-  const {wrapper: MDXLayout} = {
-    ..._provideComponents(),
-    ...props.components
-  };
-  return MDXLayout ? _jsx(MDXLayout, {
-    ...props,
-    children: _jsx(_createMdxContent, {
-      ...props
-    })
-  }) : _createMdxContent(props);
-}
-return {
-  default: MDXContent
-};
-19:T229c,
+2:I[87555,[],""]
+3:I[31295,[],""]
+4:I[34584,["4345","static/chunks/app/not-found-8de2fa3959fb2621.js"],"default"]
+6:I[59665,[],"MetadataBoundary"]
+8:I[59665,[],"OutletBoundary"]
+b:I[74911,[],"AsyncMetadataOutlet"]
+d:I[59665,[],"ViewportBoundary"]
+f:I[26614,[],""]
+:HL["/portfolio/_next/static/css/4cbe397bac217cc6.css","style"]
+0:{"P":null,"b":"m7OOawSu9-vIPxYJXy0dn","p":"/portfolio","c":["","blog","install-kvm-wsl2-virtualization",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","install-kvm-wsl2-virtualization","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/4cbe397bac217cc6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"id","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta",null,{"httpEquiv":"refresh","content":"20;url=https://febryan.web.id"}],["$","link",null,{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon"}]]}],["$","body",null,{"suppressHydrationWarning":true,"className":"bg-gray-900","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","install-kvm-wsl2-virtualization","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],null,["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","41eeWjGVyUWolXTX5ir8z",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[74911,[],"AsyncMetadata"]
+14:I[50602,["844","static/chunks/ee560e2c-51bc697233b5ba3a.js","6446","static/chunks/53c13509-b61a82a2e3079998.js","9323","static/chunks/25b8c134-ce7d82b1e2635416.js","8897","static/chunks/71d5b6fe-f5aa0f2756d170a9.js","2995","static/chunks/2995-5c403de0dab796a9.js","3199","static/chunks/3199-be416f12c9495b96.js","3097","static/chunks/3097-9d8bc9634196dd82.js","6597","static/chunks/6597-c4b165a854d02e88.js","5953","static/chunks/app/blog/%5Bslug%5D/page-eb3b5ef6f9c76428.js"],"default",1]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+13:T4f4,{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization#article","headline":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","description":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","image":{"@type":"ImageObject","url":"https://pepryan.github.io/portfolio/images/default-og-image.png","width":1200,"height":630},"author":{"@type":"Person","name":"Febryan Ramadhan","url":"https://pepryan.github.io/portfolio"},"publisher":{"@type":"Organization","name":"Febryan Portfolio","logo":{"@type":"ImageObject","url":"https://pepryan.github.io/portfolio/images/default-og-image.png","width":1200,"height":630}},"datePublished":"2025-06-04","dateModified":"2025-06-04","mainEntityOfPage":{"@type":"WebPage","@id":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization"},"url":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization","keywords":"kvm, wsl2, virtualization, homelab, infrastructure, terraform, libvirt, kvm, wsl2, virtualization, homelab, linux, windows","articleSection":"DevOps","wordCount":1059,"timeRequired":"PT6M","inLanguage":"id-ID"}15:T229c,
 
 > **TL;DR**: Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀
 
@@ -2935,7 +321,7 @@ Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn
 
 *Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
 
-**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀1a:T229c,
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀16:T229c,
 
 > **TL;DR**: Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀
 
@@ -3243,7 +629,315 @@ Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn
 
 *Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
 
-**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀1b:T3906,
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀17:T229c,
+
+> **TL;DR**: Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀
+
+## Kenapa Harus Repot-repot? 🤔
+
+Sebelum kita dive in, mungkin ada yang bertanya: "Ngapain sih ribet-ribet setup KVM di laptop kalau bisa sewa VPS?"
+
+**Simple answer**: Skills > Money 💪
+
+- **VPS costs money** yang mungkin belum ada sebagai fresh graduate
+- **Learning by doing** jauh lebih powerful daripada cuma baca-baca teori
+- **Portfolio builder** - recruiter bakal impressed sama yang punya pengalaman hands-on
+- **Flexibility** - bisa eksperimen sebanyak yang diinginkan tanpa takut tagihan membengkak
+
+---
+
+## 🔧 Pre-requisites: Yang Dibutuhin
+
+Before we start, pastikan sudah punya:
+
+✅ **Windows 10/11** dengan WSL2 enabled  
+✅ **Minimal 8GB RAM** (16GB recommended kalau mau nyaman)  
+✅ **CPU yang support virtualization** (Intel VT-x atau AMD-V)  
+✅ **Space kosong minimal 50GB** buat VM-VM nanti  
+✅ **Mental yang kuat** buat debugging (this is important! 😅)
+
+---
+
+## 🚀 Step 1: Setup Foundation - Enable Nested Virtualization
+
+First things first, kita perlu mastiin nested virtualization aktif. Ini basically virtualization di dalam virtualization - mind blown right? 🤯
+
+### Cek Status Current
+```bash
+cat /sys/module/kvm_intel/parameters/nested
+```
+
+**Expected output**: `Y` (kalau Intel) atau cek `/sys/module/kvm_amd/parameters/nested` kalau AMD.
+
+### Kalau Belum Aktif...
+Buka **PowerShell as Administrator** di Windows, terus jalanin:
+
+```powershell
+# Cek nama WSL distro
+wsl --list --verbose
+
+# Replace 'Ubuntu' dengan nama distro
+wsl --shutdown Ubuntu
+Get-VMProcessor -VMName "Ubuntu" | Set-VMProcessor -ExposeVirtualizationExtensions $true
+wsl -d Ubuntu
+```
+
+**Pro tip**: Kalau command di atas error, coba restart Windows dulu. Sometimes Windows just needs a good ol' reboot 🔄
+
+---
+
+## 🛠️ Step 2: Install KVM Stack - The Real Deal
+
+Sekarang saatnya install semua tools yang dibutuhin. Copy-paste is your friend here:
+
+```bash
+# Update system dulu biar gak ada drama
+sudo apt update && sudo apt upgrade -y
+
+# Install KVM dan kawan-kawannya
+sudo apt install -y \
+  qemu-system \
+  qemu-utils \
+  libvirt-clients \
+  libvirt-daemon-system \
+  bridge-utils \
+  virt-manager \
+  cpu-checker \
+  libguestfs-tools \
+  libosinfo-bin
+
+# Bonus tools yang bakal berguna nanti
+sudo apt install -y \
+  python3 \
+  python3-pip \
+  genisoimage \
+  wget \
+  curl \
+  unzip
+```
+
+### Add User ke Libvirt Group
+```bash
+sudo usermod -aG libvirt $USER
+sudo usermod -aG kvm $USER
+
+# Logout terus login lagi biar changes take effect
+exit
+# Buka WSL lagi
+```
+
+---
+
+## ⚡ Step 3: Fire Up the Services
+
+```bash
+# Enable dan start libvirt services
+sudo systemctl enable --now libvirtd
+sudo systemctl enable --now virtlogd
+
+# Cek status - harus running semua
+sudo systemctl status libvirtd
+sudo systemctl status virtlogd
+```
+
+### Validation Time! 🎯
+```bash
+# Command ini bakal ngecek semua requirements
+sudo virt-host-validate
+
+# Kalau ada yang FAIL, jangan panik dulu
+# Beberapa warnings itu normal di environment WSL2
+```
+
+**What to expect**: Beberapa checks mungkin WARN atau FAIL, especially yang berkaitan dengan hardware security. That's totally fine untuk learning environment!
+
+---
+
+## 🏗️ Step 4: Setup Terraform + Libvirt Provider
+
+Sekarang kita bakal install Terraform buat Infrastructure as Code experience yang lebih pro:
+
+### Install Terraform
+```bash
+# Add HashiCorp GPG key
+wget -O- https://apt.releases.hashicorp.com/gpg | \
+  sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+
+# Add repository
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
+sudo tee /etc/apt/sources.list.d/hashicorp.list
+
+# Install Terraform
+sudo apt update && sudo apt install terraform -y
+
+# Verify installation
+terraform --version
+```
+
+### Setup Libvirt Provider
+```bash
+# Create directory structure
+mkdir -p ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64
+
+# Download libvirt provider (adjust version as needed)
+cd /tmp
+wget https://github.com/dmacvicar/terraform-provider-libvirt/releases/download/v0.7.1/terraform-provider-libvirt-0.7.1+git.1f9b302.Ubuntu.amd64.tar.gz
+
+# Extract dan install
+tar -xvf terraform-provider-libvirt-*.tar.gz
+mv terraform-provider-libvirt ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64/
+chmod +x ~/.local/share/terraform/plugins/registry.terraform.io/dmacvicar/libvirt/0.7.1/linux_amd64/terraform-provider-libvirt
+```
+
+---
+
+## 💾 Step 5: Storage Management yang Rapi
+
+Kita perlu setup storage pools buat organize ISO files dan VM disks. Think of it as creating folders, but fancier:
+
+```bash
+# Create directories
+sudo mkdir -p /data/isos
+sudo mkdir -p /data/vms
+sudo chown -R $USER:$USER /data/
+
+# Define storage pools
+virsh pool-define-as vms dir - - - - "/data/vms"
+virsh pool-define-as isos dir - - - - "/data/isos"
+
+# Set autostart (biar otomatis start pas boot)
+virsh pool-autostart vms
+virsh pool-autostart isos
+
+# Start the pools
+virsh pool-start vms
+virsh pool-start isos
+
+# Verify
+virsh pool-list --all
+```
+
+**Expected output**: Both pools should show as **active** dan **autostart yes**.
+
+---
+
+## 🌐 Step 6: Virtual Networking Setup
+
+Time to create isolated networks buat VM-VM. Ini penting banget buat simulate real-world scenarios:
+
+### Create Network Definition
+```bash
+# Create network config file
+cat > /tmp/net-lab.xml << 'EOF'
+<network>
+  <name>net-lab</name>
+  <forward mode='nat'>
+    <nat>
+      <port start='1024' end='65535'/>
+    </nat>
+  </forward>
+  <bridge name='virbr-lab' stp='on' delay='0'/>
+  <domain name='lab.local'/>
+  <ip address='192.168.100.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.100.10' end='192.168.100.100'/>
+    </dhcp>
+  </ip>
+</network>
+EOF
+
+# Define and start the network
+virsh net-define /tmp/net-lab.xml
+virsh net-autostart net-lab
+virsh net-start net-lab
+
+# Verify
+virsh net-list --all
+```
+
+---
+
+## 🎯 Step 7: Quick Test - Download dan Test ISO
+
+Mari kita test setup dengan download ISO dan create VM pertama:
+
+```bash
+# Download Ubuntu Server ISO (lightweight option)
+cd /data/isos
+wget https://releases.ubuntu.com/22.04/ubuntu-22.04.3-live-server-amd64.iso
+
+# Create your first VM via command line
+virt-install \
+  --name test-vm \
+  --ram 1024 \
+  --disk path=/data/vms/test-vm.qcow2,size=10 \
+  --vcpus 1 \
+  --os-variant ubuntu22.04 \
+  --network network=net-lab \
+  --graphics none \
+  --console pty,target_type=serial \
+  --location /data/isos/ubuntu-22.04.3-live-server-amd64.iso \
+  --extra-args 'console=ttyS0,115200n8 serial'
+```
+
+---
+
+## 🚨 Common Issues & Troubleshooting
+
+### "Permission denied" errors
+```bash
+# Fix libvirt permissions
+sudo chmod 666 /var/run/libvirt/libvirt-sock
+# Or add to group (better solution)
+sudo usermod -aG libvirt $USER
+```
+
+### "Nested virtualization not supported"
+- Restart Windows completely
+- Check BIOS settings - enable Intel VT-x atau AMD-V
+- Verify WSL2 VM settings dalam Hyper-V
+
+### VMs super slow
+- Allocate more RAM ke WSL2 di `.wslconfig`
+- Enable CPU extensions di VM creation
+
+---
+
+## 🎉 What's Next? Level Up Your Game!
+
+Congrats! Sekarang sudah punya homelab KVM yang functional. Selanjutnya bisa:
+
+🔥 **Create multi-VM clusters** buat simulate production environments  
+🔥 **Experiment dengan Kubernetes** tanpa takut break production  
+🔥 **Practice Infrastructure as Code** dengan Terraform  
+🔥 **Build CI/CD pipelines** yang deploy ke VM clusters  
+🔥 **Learn container orchestration** dengan setup sendiri  
+
+### Pro Tips buat Next Steps:
+1. **Automate everything** - Write Terraform configs buat VM provisioning
+2. **Monitor your lab** - Install Prometheus + Grafana
+3. **Practice disaster recovery** - Backup dan restore VMs
+4. **Document everything** - Future self will thank present self
+
+---
+
+## 💭 Closing Thoughts
+
+Setup KVM di WSL2 might seem overwhelming di awal, tapi trust me - ini investment terbaik yang bisa dilakukan buat career development. Dengan homelab sendiri, bisa:
+
+- **Experiment freely** tanpa takut biaya cloud
+- **Build real-world experience** yang recruiters appreciate  
+- **Stay updated** dengan latest infrastructure trends
+- **Debug skills** yang invaluable di production environments
+
+Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn from mistakes, dan keep iterating. Good luck, dan happy learning! 🚀
+
+---
+
+*Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
+
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀18:T3906,
 # Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀
 
 > **Prerequisites**: Pastikan sudah setup KVM di WSL2 dari [tutorial sebelumnya](https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/). Kita bakal build on top of that setup!
@@ -3813,7 +1507,7 @@ Remember: **Kubernetes is a journey, not a destination**. Keep experimenting, br
 
 *Questions atau stuck di step manapun? Reach out ke febryanramadhan@gmail.com mari troubleshoot together! Building strong Kubernetes community starts with helping each other 💪*
 
-**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀1c:T229c,
+**Coming up next**: "Deploy Production-Ready Applications di Kubernetes Homelab" - Stay tuned! 👀19:T229c,
 
 > **TL;DR**: Pengen belajar infrastruktur tapi budget pas-pasan? Tenang, kita bakal transform laptop biasa jadi homelab KVM yang powerful pakai WSL2. Siap-siap jadi infrastructure engineer tanpa keluar duit banyak! 🚀
 
@@ -4121,7 +1815,7 @@ Remember: **Every senior engineer started somewhere**. Yang penting mulai, learn
 
 *Punya pertanyaan atau stuck di salah satu step? Bisa reach out di email febryanramadhan@gmail.com! Let's build this infrastructure community together 💪*
 
-**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀1d:T2d67,
+**Next post**: "Bikin Kubernetes Cluster di KVM - From Zero to Hero" - Stay tuned! 👀1a:T2d67,
 # Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)
 
 ## Pendahuluan
@@ -4623,7 +2317,7 @@ Total biaya bulanan: **$0** (selama tetap dalam free tier limits)
 
 ---
 
-*Tutorial ini berdasarkan pengalaman real deployment dan testing di GCP Always Free Tier. Update terakhir: Juni 2025*1e:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
+*Tutorial ini berdasarkan pengalaman real deployment dan testing di GCP Always Free Tier. Update terakhir: Juni 2025*1b:Tf91,Capek nyatet pengeluaran manual? Sekarang bisa otomatis cuma lewat chat Telegram! Kombinasi **n8n**, **Notion**, dan **Google Gemini AI**, kita bisa bikin sistem yang:
 
 - Nerima teks/foto struk/screenshot via bot Telegram  
 - AI ekstrak info penting (jumlah, kategori, dll)  
@@ -4696,7 +2390,7 @@ https://drive.google.com/file/d/1tXEibyZChlPpIT8cK2rTpw3sY8D9msgq/view?usp=shari
 Buat kita yang gak pengen capek sama manual, automation ini bisa jadi game-changer! 🎮 Yang keren, gak perlu jago coding buat bikin ini. Cukup paham logika dasar aja.
 
 Dengan n8n, dan AI, tracking keuangan jadi semudah kirim chat. Gak ada lagi alasan buat gak ngatur keuangan dengan baik! 💪
-1f:T15d4,
+1c:T15d4,
 **Artikel Test. Artikel ini dihasilkan oleh ChatGPT.**
 
 # Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!
@@ -4863,4 +2557,9 @@ console.log(`${APP_NAME} allows up to ${MAX_USERS} users.`);
 
 Sudah paham perbedaannya? Mulai sekarang, buat kode JavaScript-mu lebih aman dan mudah dibaca dengan memilih deklarasi variabel yang tepat!
 
-8:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$16"}}],["$","$L17",null,{"content":{"compiledSource":"$18","frontmatter":{},"scope":{}},"frontmatter":{"slug":"install-kvm-wsl2-virtualization","content":"$19","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":["kvm","wsl2","virtualization","homelab","infrastructure","terraform","libvirt"],"category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","difficulty":"Intermediate","keywords":["kvm","wsl2","virtualization","homelab","linux","windows"],"openGraph":{"title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1171,"readingTime":6,"rawContent":"$1a"},"allPosts":[{"slug":"install-kubernetes-kvm2-wsl2","content":"$1b","title":"Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀","date":"2025-06-04","tags":["kubernetes","k8s","kvm","homelab","container-orchestration","kubeadm","calico"],"summary":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","category":"DevOps","author":"Febryan Ramadhan","difficulty":"Advanced","keywords":["kubernetes","kvm","wsl2","homelab","cluster","devops"],"openGraph":{"title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1735,"readingTime":9},{"slug":"install-kvm-wsl2-virtualization","content":"$1c","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":"$8:1:props:frontmatter:tags","category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","difficulty":"Intermediate","keywords":"$8:1:props:frontmatter:keywords","openGraph":"$8:1:props:frontmatter:openGraph","twitter":"$8:1:props:frontmatter:twitter","schema":"$8:1:props:frontmatter:schema","wordCount":1171,"readingTime":6},{"slug":"deploy-n8n-gratis-di-google-cloud","content":"$1d","title":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","date":"2025-06-01","updated":"2025-06-01","tags":["n8n","automation","gcp","google-cloud","free-tier","deployment","tutorial","workflow","nocode","devops"],"draft":false,"summary":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier. Setup permanent tanpa biaya dengan resource gratis selamanya.","author":"Febryan","category":"Tutorial","difficulty":"Intermediate","keywords":["n8n deployment","google cloud free tier","automation platform","workflow automation","free hosting","gcp tutorial","n8n tutorial","cloud deployment"],"openGraph":{"title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Pelajari cara deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Panduan step-by-step dengan resource gratis selamanya.","image":"/portfolio/images/n8n-gcp-deployment.png","url":"https://pepryan.github.io/portfolio/blog/deploy-n8n-gratis-di-google-cloud"},"twitter":{"card":"summary_large_image","title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Setup permanent tanpa biaya!"},"schema":{"type":"TechArticle","headline":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier dengan resource gratis selamanya.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-06-01","dateModified":"2025-06-01","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":1574,"readingTime":8},{"slug":"automated-finance-tracker-with-ai","content":"$1e","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","author":"Febryan","category":"Tutorial","difficulty":"Intermediate","keywords":["finance tracker","automation","telegram bot","n8n workflow","notion database","ai integration","gemini ai","expense tracking","personal finance"],"openGraph":{"title":"Finance Tracker Otomatis dengan AI - Tutorial Lengkap","description":"Buat sistem finance tracker otomatis menggunakan Telegram Bot, n8n, Notion, dan Google Gemini AI. Catat pengeluaran jadi super mudah!","image":"/portfolio/images/template-n8n.png","url":"https://pepryan.github.io/portfolio/blog/automated-finance-tracker-with-ai"},"twitter":{"card":"summary_large_image","title":"Finance Tracker Otomatis dengan AI 🤖💰","description":"Tutorial bikin finance tracker otomatis pakai Telegram, n8n, Notion & AI. Tinggal chat, data langsung tercatat rapi!","image":"/portfolio/images/template-n8n.png"},"schema":{"type":"HowTo","headline":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget!","description":"Panduan lengkap membuat sistem finance tracker otomatis menggunakan Telegram Bot, n8n workflow automation, Notion database, dan Google Gemini AI untuk tracking pengeluaran yang efisien.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-05-27","dateModified":"2025-05-28","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":486,"readingTime":3},{"slug":"javascript-variables","content":"$1f","title":"Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!","date":"2024-12-13","tags":["javascript","programming","coding-tips"],"category":"Programming","summary":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan let dan const untuk kode yang lebih aman dan modern!","author":"Febryan Ramadhan","difficulty":"Beginner","keywords":["javascript","variables","var","let","const","programming"],"openGraph":{"title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern.","type":"article"},"twitter":{"card":"summary_large_image","title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":779,"readingTime":4}]}]]
+5:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$13"}}],["$","$L14",null,{"content":"$15","frontmatter":{"slug":"install-kvm-wsl2-virtualization","content":"$16","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":["kvm","wsl2","virtualization","homelab","infrastructure","terraform","libvirt"],"category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","difficulty":"Intermediate","keywords":["kvm","wsl2","virtualization","homelab","linux","windows"],"openGraph":{"title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install KVM di WSL2: Homelab Virtualization Setup","description":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1171,"readingTime":6,"rawContent":"$17"},"allPosts":[{"slug":"install-kubernetes-kvm2-wsl2","content":"$18","title":"Bikin Kubernetes Cluster di KVM - From Zero to Hero! 🚀","date":"2025-06-04","tags":["kubernetes","k8s","kvm","homelab","container-orchestration","kubeadm","calico"],"summary":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM. Dari setup VM sampai deploy aplikasi pertama!","category":"DevOps","author":"Febryan Ramadhan","difficulty":"Advanced","keywords":["kubernetes","kvm","wsl2","homelab","cluster","devops"],"openGraph":{"title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM.","type":"article"},"twitter":{"card":"summary_large_image","title":"Install Kubernetes di KVM WSL2: Production-Ready Cluster","description":"Tutorial step-by-step deploy Kubernetes cluster production-ready di homelab KVM."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":1735,"readingTime":9},{"slug":"install-kvm-wsl2-virtualization","content":"$19","title":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup","date":"2025-06-04","tags":"$5:1:props:frontmatter:tags","category":"DevOps","summary":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!","author":"Febryan Ramadhan","difficulty":"Intermediate","keywords":"$5:1:props:frontmatter:keywords","openGraph":"$5:1:props:frontmatter:openGraph","twitter":"$5:1:props:frontmatter:twitter","schema":"$5:1:props:frontmatter:schema","wordCount":1171,"readingTime":6},{"slug":"deploy-n8n-gratis-di-google-cloud","content":"$1a","title":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","date":"2025-06-01","updated":"2025-06-01","tags":["n8n","automation","gcp","google-cloud","free-tier","deployment","tutorial","workflow","nocode","devops"],"draft":false,"summary":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier. Setup permanent tanpa biaya dengan resource gratis selamanya.","author":"Febryan","category":"Tutorial","difficulty":"Intermediate","keywords":["n8n deployment","google cloud free tier","automation platform","workflow automation","free hosting","gcp tutorial","n8n tutorial","cloud deployment"],"openGraph":{"title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Pelajari cara deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Panduan step-by-step dengan resource gratis selamanya.","image":"/portfolio/images/n8n-gcp-deployment.png","url":"https://pepryan.github.io/portfolio/blog/deploy-n8n-gratis-di-google-cloud"},"twitter":{"card":"summary_large_image","title":"Deploy n8n Gratis di Google Cloud Platform - Tutorial Lengkap","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan GCP Always Free Tier. Setup permanent tanpa biaya!"},"schema":{"type":"TechArticle","headline":"Tutorial: Deploy n8n Gratis di Google Cloud Platform (Always Free Tier)","description":"Panduan lengkap deploy n8n automation platform secara gratis menggunakan Google Cloud Platform Always Free Tier dengan resource gratis selamanya.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-06-01","dateModified":"2025-06-01","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":1574,"readingTime":8},{"slug":"automated-finance-tracker-with-ai","content":"$1b","title":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget! 🤖💰 Pakai Telegram, n8n, Gemini AI, Notion","date":"2025-05-27","updated":"2025-05-28","tags":["automation","finance","n8n","notion","ai","telegram","nocode","lowcode","gemini"],"draft":false,"summary":"Capek nyatet pengeluaran manual? Coba bikin finance tracker otomatis pakai n8n, Notion, dan AI. Tinggal chat ke bot Telegram, semua data dirangkum AI dan langsung tercatat rapi di Notion! ✨","thumbnail":"/portfolio/images/template-n8n.png","author":"Febryan","category":"Tutorial","difficulty":"Intermediate","keywords":["finance tracker","automation","telegram bot","n8n workflow","notion database","ai integration","gemini ai","expense tracking","personal finance"],"openGraph":{"title":"Finance Tracker Otomatis dengan AI - Tutorial Lengkap","description":"Buat sistem finance tracker otomatis menggunakan Telegram Bot, n8n, Notion, dan Google Gemini AI. Catat pengeluaran jadi super mudah!","image":"/portfolio/images/template-n8n.png","url":"https://pepryan.github.io/portfolio/blog/automated-finance-tracker-with-ai"},"twitter":{"card":"summary_large_image","title":"Finance Tracker Otomatis dengan AI 🤖💰","description":"Tutorial bikin finance tracker otomatis pakai Telegram, n8n, Notion & AI. Tinggal chat, data langsung tercatat rapi!","image":"/portfolio/images/template-n8n.png"},"schema":{"type":"HowTo","headline":"Bikin Finance Tracker Otomatis Pakai AI? Gampang Banget!","description":"Panduan lengkap membuat sistem finance tracker otomatis menggunakan Telegram Bot, n8n workflow automation, Notion database, dan Google Gemini AI untuk tracking pengeluaran yang efisien.","author":{"name":"Febryan","url":"https://pepryan.github.io/portfolio"},"datePublished":"2025-05-27","dateModified":"2025-05-28","publisher":{"name":"Febryan Portfolio","url":"https://pepryan.github.io/portfolio"}},"wordCount":486,"readingTime":3},{"slug":"javascript-variables","content":"$1c","title":"Var, Let, dan Const: Rahasia Penting yang Wajib Dipahami Developer!","date":"2024-12-13","tags":["javascript","programming","coding-tips"],"category":"Programming","summary":"Pelajari perbedaan antara var, let, dan const di JavaScript serta kenapa kamu harus mulai menggunakan let dan const untuk kode yang lebih aman dan modern!","author":"Febryan Ramadhan","difficulty":"Beginner","keywords":["javascript","variables","var","let","const","programming"],"openGraph":{"title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern.","type":"article"},"twitter":{"card":"summary_large_image","title":"JavaScript Variables: var, let, dan const","description":"Pelajari perbedaan antara var, let, dan const di JavaScript untuk kode yang lebih aman dan modern."},"schema":{"type":"BlogPosting","author":{"name":"Febryan Ramadhan","url":"https://pepryan.github.io"},"publisher":{"name":"Febryan Ramadhan Portfolio","url":"https://pepryan.github.io"}},"wordCount":779,"readingTime":4}]}]]
+a:null
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"Pengen Ngulik Infra? Setup KVM di WSL2 aja! Modal Laptop Biasa Cukup | Febryan Blog"}],["$","meta","1",{"name":"description","content":"Tutorial lengkap bikin homelab KVM di laptop biasa pakai WSL2. Gak perlu sewa cloud mahal-mahal, cukup modal laptop kentang!"}],["$","link","2",{"rel":"author","href":"https://pepryan.github.io/portfolio"}],["$","meta","3",{"name":"author","content":"Febryan Ramadhan"}],["$","meta","4",{"name":"keywords","content":"kvm,wsl2,virtualization,homelab,infrastructure,terraform,libvirt,kvm,wsl2,virtualization,homelab,linux,windows,blog,tutorial,febryan portfolio"}],["$","meta","5",{"name":"creator","content":"Febryan Ramadhan"}],["$","meta","6",{"name":"publisher","content":"Febryan Portfolio"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","meta","8",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","9",{"name":"category","content":"DevOps"}],["$","meta","10",{"name":"twitter:domain","content":"pepryan.github.io"}],["$","meta","11",{"name":"twitter:url","content":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization"}],["$","meta","12",{"name":"article:author","content":"Febryan Ramadhan"}],["$","meta","13",{"name":"article:published_time","content":"2025-06-04"}],["$","meta","14",{"name":"article:modified_time","content":"2025-06-04"}],["$","meta","15",{"name":"article:section","content":"DevOps"}],["$","meta","16",{"name":"article:tag","content":"kvm, wsl2, virtualization, homelab, infrastructure, terraform, libvirt"}],["$","meta","17",{"name":"difficulty","content":"Intermediate"}],["$","meta","18",{"name":"reading-time","content":"6 minutes"}],["$","meta","19",{"name":"og:image:width","content":"1200"}],["$","meta","20",{"name":"og:image:height","content":"630"}],["$","meta","21",{"name":"og:image:type","content":"image/png"}],["$","link","22",{"rel":"canonical","href":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/"}],["$","meta","23",{"property":"og:title","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","24",{"property":"og:description","content":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."}],["$","meta","25",{"property":"og:url","content":"https://pepryan.github.io/portfolio/blog/install-kvm-wsl2-virtualization/"}],["$","meta","26",{"property":"og:site_name","content":"Febryan Portfolio"}],["$","meta","27",{"property":"og:locale","content":"id_ID"}],["$","meta","28",{"property":"og:image","content":"https://pepryan.github.io/portfolio/images/default-og-image.png"}],["$","meta","29",{"property":"og:image:width","content":"1200"}],["$","meta","30",{"property":"og:image:height","content":"630"}],["$","meta","31",{"property":"og:image:alt","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","32",{"property":"og:type","content":"article"}],["$","meta","33",{"property":"article:published_time","content":"2025-06-04"}],["$","meta","34",{"property":"article:modified_time","content":"2025-06-04"}],["$","meta","35",{"property":"article:author","content":"Febryan Ramadhan"}],["$","meta","36",{"property":"article:tag","content":"kvm"}],["$","meta","37",{"property":"article:tag","content":"wsl2"}],["$","meta","38",{"property":"article:tag","content":"virtualization"}],["$","meta","39",{"property":"article:tag","content":"homelab"}],["$","meta","40",{"property":"article:tag","content":"infrastructure"}],["$","meta","41",{"property":"article:tag","content":"terraform"}],["$","meta","42",{"property":"article:tag","content":"libvirt"}],["$","meta","43",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","44",{"name":"twitter:site","content":"@pepryan"}],["$","meta","45",{"name":"twitter:creator","content":"@pepryan"}],["$","meta","46",{"name":"twitter:title","content":"Install KVM di WSL2: Homelab Virtualization Setup"}],["$","meta","47",{"name":"twitter:description","content":"Tutorial lengkap setup homelab KVM di WSL2 untuk virtualization di laptop biasa."}],["$","meta","48",{"name":"twitter:image","content":"https://pepryan.github.io/portfolio/images/default-og-image.png"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}
