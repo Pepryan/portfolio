@@ -1,0 +1,107 @@
+{
+  "rewrites": [
+    {
+      "source": "/app/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/pages/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/blog/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/_next/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/out/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/src/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/lib/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/content/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/scripts/(.*)",
+      "destination": "/"
+    },
+    {
+      "source": "/docs/(.*)",
+      "destination": "/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/app/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_next/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/out/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/src/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/lib/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/content/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/scripts/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/docs/(.*)",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}

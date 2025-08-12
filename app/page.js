@@ -1,226 +1,240 @@
-// src/app/page.js
 "use client";
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { FiHome, FiUser, FiBriefcase, FiAward } from 'react-icons/fi';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Contact from './components/Contact';
-import CareerSection from './components/CareerSection';
-import Footer from './components/Footer';
-import PortfolioSection from './components/PortfolioSection';
-import CustomHead from './components/CustomHead';
+import { useState, useEffect, useRef } from 'react';
+import Head from 'next/head';
 
-// Homepage metadata for SEO
-const homeMetadata = {
-  title: 'Febryan Portfolio - Cloud Engineer & DevOps Specialist',
-  description: 'Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation. Sharing tutorials and insights about modern technology.',
-  keywords: ['portfolio', 'blog', 'web development', 'javascript', 'react', 'next.js', 'cloud engineer', 'devops', 'infrastructure', 'automation'],
-  canonical: 'https://pepryan.github.io/portfolio',
-  openGraph: {
-    title: 'Febryan Portfolio - Cloud Engineer & DevOps Specialist',
-    description: 'Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation.',
-    url: 'https://pepryan.github.io/portfolio',
-    type: 'website',
-    siteName: 'Febryan Portfolio',
-    locale: 'id_ID',
-    image: 'https://pepryan.github.io/portfolio/images/default-og-image.png'
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Febryan Portfolio - Cloud Engineer & DevOps Specialist',
-    description: 'Personal portfolio and technical blog by Febryan Ramadhan. Cloud Engineer specializing in DevOps, Infrastructure, and Automation.',
-    image: 'https://pepryan.github.io/portfolio/images/default-og-image.png',
-    creator: '@pepryan',
-    site: '@pepryan'
-  },
-  structuredData: {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://pepryan.github.io/portfolio/#person",
-    "name": "Febryan Ramadhan",
-    "url": "https://pepryan.github.io/portfolio",
-    "image": {
-      "@type": "ImageObject",
-      "url": "https://pepryan.github.io/portfolio/images/default-og-image.png",
-      "width": 1200,
-      "height": 630
-    },
-    "description": "Cloud Engineer specializing in DevOps, Infrastructure, and Automation",
-    "jobTitle": "Cloud Engineer & DevOps Specialist",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Technology Industry"
-    },
-    "knowsAbout": [
-      "Cloud Computing",
-      "DevOps",
-      "Infrastructure as Code",
-      "Automation",
-      "Web Development",
-      "JavaScript",
-      "React",
-      "Next.js"
-    ],
-    "sameAs": [
-      "https://github.com/pepryan",
-      "https://twitter.com/pepryan"
-    ]
-  }
-};
+// Watermelon Seeds Component
+function WatermelonSeeds() {
+  const [seeds, setSeeds] = useState([]);
+
+  useEffect(() => {
+    const createSeed = () => {
+      const seed = {
+        id: Math.random(),
+        left: Math.random() * 100,
+        animationDuration: Math.random() * 3 + 2,
+        animationDelay: Math.random() * 2
+      };
+
+      setSeeds(prev => [...prev, seed]);
+
+      setTimeout(() => {
+        setSeeds(prev => prev.filter(s => s.id !== seed.id));
+      }, 5000);
+    };
+
+    const interval = setInterval(createSeed, 300);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="fixed inset-0 pointer-events-none z-0">
+      {seeds.map(seed => (
+        <div
+          key={seed.id}
+          className="absolute w-1 h-1.5 bg-gray-800 rounded-full"
+          style={{
+            left: `${seed.left}%`,
+            animation: `fall ${seed.animationDuration}s linear infinite`,
+            animationDelay: `${seed.animationDelay}s`
+          }}
+        />
+      ))}
+    </div>
+  );
+}
+
+// Palestine Flag Component
+function PalestineFlag() {
+  return (
+    <div className="inline-block w-15 h-10 mx-2 relative rounded border overflow-hidden shadow-lg">
+      <div className="absolute top-0 left-0 w-full h-1/3 bg-black"></div>
+      <div className="absolute top-1/3 left-0 w-full h-1/3 bg-white"></div>
+      <div className="absolute bottom-0 left-0 w-full h-1/3 bg-green-600"></div>
+      <div className="absolute left-0 top-0 w-0 h-0 border-t-[20px] border-b-[20px] border-l-[25px] border-t-transparent border-b-transparent border-l-red-600"></div>
+    </div>
+  );
+}
 
 export default function Home() {
+  const [timeLeft, setTimeLeft] = useState(20);
   const [mounted, setMounted] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
+  const timerRef = useRef(null);
 
   useEffect(() => {
     setMounted(true);
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const threshold = entry.target.id === 'home' ? 0.8 : 0.2;
-          if (entry.intersectionRatio > threshold) {
-            setActiveSection(entry.target.id);
-          }
+    // Countdown timer
+    timerRef.current = setInterval(() => {
+      setTimeLeft(prev => {
+        if (prev <= 1) {
+          clearInterval(timerRef.current);
+          window.location.href = 'https://febryan.web.id';
+          return 0;
         }
+        return prev - 1;
       });
-    }, {
-      threshold: [0.2, 0.8],
-      rootMargin: '-20% 0px -20% 0px'
-    });
+    }, 1000);
 
-    document.querySelectorAll('section[id]').forEach((section) => {
-      observer.observe(section);
-    });
+    // Block navigation
+    const handleBeforeUnload = (e) => {
+      if (timeLeft > 0) {
+        e.preventDefault();
+        e.returnValue = '';
+      }
+    };
 
-    return () => observer.disconnect();
+    const handlePopState = () => {
+      history.pushState(null, null, location.href);
+    };
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    window.addEventListener('popstate', handlePopState);
+    history.pushState(null, null, location.href);
+
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+      window.removeEventListener('popstate', handlePopState);
+    };
   }, []);
+
+  // Manual redirect
+  const redirectNow = () => {
+    window.location.href = 'https://febryan.web.id';
+  };
 
   if (!mounted) return null;
 
-  const navItems = [
-    { id: 'home', icon: FiHome, label: 'Home' },
-    { id: 'about', icon: FiUser, label: 'About' },
-    { id: 'experience', icon: FiBriefcase, label: 'Experience-Education' },
-    // { id: 'education', icon: FiBook, label: 'Education' },
-    { id: 'skills', icon: FiAward, label: 'Skills-Project-Cert' }
-  ];
-
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
-    <div className="min-h-screen bg-white dark:bg-neutral-900">
-      <CustomHead {...homeMetadata} />
-      <Header />
+    <>
+      <Head>
+        <title>Redirecting... | #FreePalestine</title>
+        <meta httpEquiv="refresh" content="10;url=https://febran.web.id" />
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
 
-      <main className="max-w-7xl mx-auto px-4 py-4 mb-10">
-        {/* Hero Section - full height */}
-        <section id="home" className="min-h-[90vh] sm:min-h-screen flex items-center justify-center -mt-16 px-4">
-          <div className="w-full max-w-4xl mx-auto">
-            <Hero />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white flex flex-col justify-center items-center overflow-hidden relative">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div
+            className="w-full h-full animate-pulse"
+            style={{
+              backgroundImage: `
+                radial-gradient(circle at 20% 30%, #ff6b6b 2px, transparent 2px),
+                radial-gradient(circle at 80% 70%, #ff6b6b 1px, transparent 1px),
+                radial-gradient(circle at 40% 80%, #ff6b6b 1.5px, transparent 1.5px)
+              `,
+              backgroundSize: '100px 100px, 150px 150px, 80px 80px',
+              animation: 'float 20s ease-in-out infinite'
+            }}
+          />
+        </div>
+
+        {/* Falling Seeds */}
+        <WatermelonSeeds />
+
+        <div className="text-center z-10 max-w-4xl px-4">
+          {/* Watermelon */}
+          <div className="text-8xl mb-8 animate-bounce filter drop-shadow-lg">
+            🍉
           </div>
-        </section>
 
-        {/* About Section */}
-        <section id="about" className="py-16 sm:py-24 mt-8 sm:mt-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true, amount: 0.1 }}
-          >
+          {/* Main Title */}
+          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-red-500 via-green-400 to-blue-500 bg-clip-text text-transparent animate-pulse">
+            #FreePalestine
+          </h1>
 
-            <About />
-          </motion.div>
-        </section>
+          {/* Palestine Flag */}
+          <PalestineFlag />
 
-        {/* Career Section - Experience & Education */}
-        <section id="experience" className="py-16 sm:py-24 mt-8 sm:mt-16 mb-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true, amount: 0.1 }}
-          >
+          {/* Subtitle */}
+          <p className="text-2xl mb-8 text-gray-300">
+            Solidaritas untuk Palestina yang Merdeka
+          </p>
 
-            <CareerSection />
-          </motion.div>
-        </section>
+          {/* Message */}
+          <div className="text-xl leading-relaxed mb-8 text-gray-200">
+            <p className="mb-4">Proyek Blog NextJS ini telah dihentikan sebagai bentuk solidaritas.</p>
+            <p className="mb-4">Kebebasan Palestina adalah hak asasi manusia yang tidak dapat ditawar.</p>
+            <p className="text-2xl">🕊️ From the river to the sea, Palestine will be free 🕊️</p>
+          </div>
 
-        {/* Portfolio Section - Skills, Projects & Certifications */}
-        <section id="skills" className="py-16 sm:py-24 mt-8 sm:mt-16 mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true, amount: 0.1 }}
-          >
+          {/* Redirect Info */}
+          <div className="text-lg text-blue-400 mb-4">
+            Anda akan dialihkan ke{' '}
+            <a href="https://febryan.web.id" className="text-blue-300 hover:text-red-400 font-bold transition-colors">
+              febryan.web.id
+            </a>
+            {' '}dalam:
+          </div>
 
-            <PortfolioSection />
-          </motion.div>
-        </section>
+          {/* Countdown */}
+          <div className="text-4xl font-bold text-red-400 mb-6">
+            {timeLeft} detik
+          </div>
 
-        {/* Contact Section */}
-        <section id="contact" className="py-16 sm:py-24 mt-8 sm:mt-16">
-            <Contact />
-        </section>
-      </main>
+          {/* Control Button */}
+          <div className="flex justify-center items-center mb-8">
+            {/* Redirect Now Button */}
+            <button
+              onClick={redirectNow}
+              className="group relative px-8 py-4 rounded-full font-bold text-white bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg shadow-red-500/30"
+            >
+              <span className="flex items-center gap-3">
+                <span className="text-2xl">🚀</span>
+                <span className="text-lg">Pergi Sekarang</span>
+              </span>
+              <div className="absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+            </button>
+          </div>
+        </div>
 
-      {/* Floating Navigation */}
-      <nav className="fixed bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 px-3 py-3 sm:px-4 sm:py-3
-        bg-white/70 dark:bg-neutral-800/70 backdrop-blur-md rounded-full
-        shadow-lg border border-neutral-200 dark:border-neutral-700 z-40">
-        <motion.div
-          className="flex items-center gap-3 sm:gap-4"
-          initial={{ scale: 0.8, opacity: 0, y: 20 }}
-          animate={{ scale: 1, opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, type: 'spring', stiffness: 200, damping: 20 }}
-        >
-          {navItems.map(({ id, icon: Icon, label }) => {
-            const isActive = activeSection === id;
-            return (
-              <motion.button
-                key={id}
-                onClick={() => scrollToSection(id)}
-                className={`relative p-2 sm:p-2.5 rounded-full transition-all duration-300 group
-                  ${isActive
-                    ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md'
-                    : 'text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-700/70'
-                  }`}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Icon className="w-5 h-5" />
+        {/* Easter Egg */}
+        <div className="fixed bottom-5 right-5 max-w-xs bg-black bg-opacity-80 p-4 rounded-lg text-sm text-gray-300 opacity-0 animate-fade-in-delayed border border-gray-600">
+          <div className="mb-2">💡 <strong className="text-yellow-400">Tahukah kamu?</strong></div>
+          <div className="mb-2 text-gray-200">
+            CEO Vercel (NextJS) mendukung zionis. Mari dukung alternatif yang lebih etis untuk masa depan web yang lebih baik.
+          </div>
+          <div className="text-xs text-green-400 mb-2">
+            🍉 Semangka = simbol solidaritas Palestina
+          </div>
+          <div className="text-xs text-blue-400">
+            Website baru: <span className="font-bold">febryan.web.id</span>
+          </div>
+        </div>
 
-                {/* Active indicator dot for mobile */}
-                {isActive && (
-                  <motion.span
-                    className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-white rounded-full sm:hidden"
-                    layoutId="activeIndicator"
-                  />
-                )}
+        {/* Custom Styles */}
+        <style jsx>{`
+          @keyframes fall {
+            0% {
+              transform: translateY(-100vh) rotate(0deg);
+              opacity: 1;
+            }
+            100% {
+              transform: translateY(100vh) rotate(360deg);
+              opacity: 0;
+            }
+          }
 
-                {/* Tooltip - Hidden on mobile */}
-                <span className="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1
-                  bg-neutral-800/90 dark:bg-neutral-700/90 text-white text-xs rounded
-                  opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap
-                  hidden sm:block">
-                  {label}
-                </span>
-              </motion.button>
-            );
-          })}
-        </motion.div>
-      </nav>
+          @keyframes float {
+            0%, 100% {
+              transform: translateY(0px) rotate(0deg);
+            }
+            50% {
+              transform: translateY(-20px) rotate(2deg);
+            }
+          }
 
-      <Footer />
-    </div>
+          @keyframes fade-in-delayed {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+          }
+
+          .animate-fade-in-delayed {
+            animation: fade-in-delayed 2s ease-in-out 5s forwards;
+          }
+        `}</style>
+      </div>
+    </>
   );
 }
